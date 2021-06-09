@@ -1,0 +1,2207 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 32692 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Firebugs/Documents/Work/Commercial Games Development (MSc)/Potion-Panic/Potion Panic
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62165
+Successfully changed project path to: C:/Users/Firebugs/Documents/Work/Commercial Games Development (MSc)/Potion-Panic/Potion Panic
+C:/Users/Firebugs/Documents/Work/Commercial Games Development (MSc)/Potion-Panic/Potion Panic
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 148.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Firebugs/Documents/Work/Commercial Games Development (MSc)/Potion-Panic/Potion Panic/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002458 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 139.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2688 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.9 MB.
+System memory in use after: 127.2 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3086.
+Total: 3.014300 ms (FindLiveObjects: 0.236800 ms CreateObjectMapping: 0.109800 ms MarkObjects: 1.523100 ms  DeleteObjects: 1.143500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom
+  artifactKey: Guid(89b2ab3188a44f440a953b5e5b28f11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom using Guid(89b2ab3188a44f440a953b5e5b28f11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9430c11e327b4249d035e2ef5dca22c') in 0.007697 seconds
+  Import took 0.012064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.629156 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms
+  artifactKey: Guid(5898b526de1210f46a166d8c19a0b2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms using Guid(5898b526de1210f46a166d8c19a0b2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d84a696db8cfc159fe53fb0d6457f7a') in 0.004458 seconds
+  Import took 0.009130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.361854 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs
+  artifactKey: Guid(357e0d23373bb984f811143003e8ec4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs using Guid(357e0d23373bb984f811143003e8ec4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8a682afabe51fe019ac74f93fc2088') in 0.003738 seconds
+  Import took 0.007957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.245691 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings
+  artifactKey: Guid(553917a645eb3284089933ef0c489ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings using Guid(553917a645eb3284089933ef0c489ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b567c0393812e921f35da317bd767743') in 0.004526 seconds
+  Import took 0.008550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070423 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_01.prefab
+  artifactKey: Guid(b1276df4b13575f4fbff0c3b46ce9a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_01.prefab using Guid(b1276df4b13575f4fbff0c3b46ce9a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad3bbb37dc36dc70f3110cafcf8ef05') in 0.265006 seconds
+  Import took 0.271302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_01.prefab
+  artifactKey: Guid(bb1a848436ca220479788278ca4cc29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_01.prefab using Guid(bb1a848436ca220479788278ca4cc29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb9f8a9f9364506befe85213083d0d6') in 0.048429 seconds
+  Import took 0.054745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_03.prefab
+  artifactKey: Guid(a933312fdfd50384f9d378c382bbe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_03.prefab using Guid(a933312fdfd50384f9d378c382bbe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b147052a0c16b4c65b0e9124904b8d78') in 0.039499 seconds
+  Import took 0.045684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_06.prefab
+  artifactKey: Guid(f6ee794669a8e4c458fa28ed253d68eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_06.prefab using Guid(f6ee794669a8e4c458fa28ed253d68eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5dc69f255e38f7ad0798294e930298') in 0.039997 seconds
+  Import took 0.046447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Broken_02.prefab
+  artifactKey: Guid(d7ccaae79052f5d48bbb3422bbc99914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Broken_02.prefab using Guid(d7ccaae79052f5d48bbb3422bbc99914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd063c8bf84bc8d03bab6d116159bb3e5') in 0.039361 seconds
+  Import took 0.045394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_Short_01.prefab
+  artifactKey: Guid(e103b1c966fcf13479527d947d425a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_Short_01.prefab using Guid(e103b1c966fcf13479527d947d425a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2715539f3ac8fdc5be0f0ce05f1877') in 0.037015 seconds
+  Import took 0.044489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_Pillar_Large_02.prefab
+  artifactKey: Guid(25cceb20e88579347ae1ddd279180883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_Pillar_Large_02.prefab using Guid(25cceb20e88579347ae1ddd279180883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b462fcb1986672b24dec3bc8d75131e4') in 0.038324 seconds
+  Import took 0.044880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_02.prefab
+  artifactKey: Guid(54b7043dc596c1e41bba68e799435b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_02.prefab using Guid(54b7043dc596c1e41bba68e799435b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6604d041ccb3dcb60d02ee4681497b7b') in 0.040021 seconds
+  Import took 0.046220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Arch_01.prefab
+  artifactKey: Guid(3d010dcd478f6204aa51cffcab9e9128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Arch_01.prefab using Guid(3d010dcd478f6204aa51cffcab9e9128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400976f14a2458e427cd3d26135948f8') in 0.037634 seconds
+  Import took 0.043740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_03.prefab
+  artifactKey: Guid(d13d177ce331c504f87dd9331b9ed5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_03.prefab using Guid(d13d177ce331c504f87dd9331b9ed5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8721ff760319a0617ff58a49778e965') in 0.036873 seconds
+  Import took 0.042963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Broken_01.prefab
+  artifactKey: Guid(1071a745eb798254983699e31242e26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Broken_01.prefab using Guid(1071a745eb798254983699e31242e26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d1bb31bdcdc24407ea29774315f950') in 0.036904 seconds
+  Import took 0.042905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_01.prefab
+  artifactKey: Guid(097c5a4d264cb6345a838634488be3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_01.prefab using Guid(097c5a4d264cb6345a838634488be3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45e25668ec22ae1dce0336bd388bb88') in 0.039144 seconds
+  Import took 0.045304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Dwarf_Building_03.prefab
+  artifactKey: Guid(2d54677e1110fd64c94f3e6fa80e540d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Dwarf_Building_03.prefab using Guid(2d54677e1110fd64c94f3e6fa80e540d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77567dd67a8385b04ecc6a8e686ba59') in 0.037192 seconds
+  Import took 0.043413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Arch_01.prefab
+  artifactKey: Guid(706d27dac08567441ab2fd6f963c0b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Arch_01.prefab using Guid(706d27dac08567441ab2fd6f963c0b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38e04df5f5966d353f73b984fa140de') in 0.037321 seconds
+  Import took 0.043315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Broken_03.prefab
+  artifactKey: Guid(6923961b37773a5438d1ed4dbcf426cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Broken_03.prefab using Guid(6923961b37773a5438d1ed4dbcf426cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d471a0d4c258f5da10c17e72e6d515') in 0.036494 seconds
+  Import took 0.042426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_Broken_01.prefab
+  artifactKey: Guid(f634f65ac7090b044852afe88193e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_Broken_01.prefab using Guid(f634f65ac7090b044852afe88193e876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7afc8f5e36312dd4f3806669781fc33') in 0.037658 seconds
+  Import took 0.043902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Wall_Cap_Broken_01.prefab
+  artifactKey: Guid(6afb7718d61e176459e0360fc948437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Wall_Cap_Broken_01.prefab using Guid(6afb7718d61e176459e0360fc948437d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007c8a13a43e91b2a899041215a6cbcc') in 0.037949 seconds
+  Import took 0.044253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_05.prefab
+  artifactKey: Guid(1d54ad49d4191614a86c308c14658f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_05.prefab using Guid(1d54ad49d4191614a86c308c14658f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add72e30ec447648b1f8fd6e73f07fa1') in 0.042229 seconds
+  Import took 0.048413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tiles_02.prefab
+  artifactKey: Guid(1fb6b376d3beafe409ad3c534b5570a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tiles_02.prefab using Guid(1fb6b376d3beafe409ad3c534b5570a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60899729f9d671dfdd1aa323c012e9fb') in 0.039038 seconds
+  Import took 0.045149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tiles_04.prefab
+  artifactKey: Guid(8f5850748121c8a41acba0144ba57d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tiles_04.prefab using Guid(8f5850748121c8a41acba0144ba57d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c559f71dbd1b0754c71769d41b0c838') in 0.038967 seconds
+  Import took 0.045035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Stairs_Straight_01.prefab
+  artifactKey: Guid(cfe4b155ffd0b0144817faa1cb56e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Stairs_Straight_01.prefab using Guid(cfe4b155ffd0b0144817faa1cb56e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212c15181de570679cf81e748a7f8c63') in 0.038592 seconds
+  Import took 0.044525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_04.prefab
+  artifactKey: Guid(57bc2faaaeaf13f48881827ab4ed277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_04.prefab using Guid(57bc2faaaeaf13f48881827ab4ed277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12933fb7b78143a2a95b5d1312afd7c') in 0.040742 seconds
+  Import took 0.046912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tiles_01.prefab
+  artifactKey: Guid(31e839c7937d3364aadb5721c5cb1a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tiles_01.prefab using Guid(31e839c7937d3364aadb5721c5cb1a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e3b605ec6dd6671496721773af915c') in 0.039261 seconds
+  Import took 0.045826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Dwarf_Building_02.prefab
+  artifactKey: Guid(256ad2e22fbe2c640a0a7b8fff4519d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Dwarf_Building_02.prefab using Guid(256ad2e22fbe2c640a0a7b8fff4519d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d657a6326bdc4895ad9797ae03ab8ab') in 0.046061 seconds
+  Import took 0.052889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Arch_Broken_01.prefab
+  artifactKey: Guid(1c16e1d984cabf046803d74c5d64f7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Arch_Broken_01.prefab using Guid(1c16e1d984cabf046803d74c5d64f7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3590ffb8820620e8347e9243060e27b') in 0.043418 seconds
+  Import took 0.052508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Arches_Round_01.prefab
+  artifactKey: Guid(0c92d4f5112c8a64a89b8e77e3631873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Arches_Round_01.prefab using Guid(0c92d4f5112c8a64a89b8e77e3631873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e4a1154cb373a4b6a1b6ac7de3ccca') in 0.037517 seconds
+  Import took 0.043806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_01.prefab
+  artifactKey: Guid(86619bca2d41e324c803a69fb072ce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_01.prefab using Guid(86619bca2d41e324c803a69fb072ce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ae872970ae7e22b6cd5739f217aa67') in 0.037887 seconds
+  Import took 0.044025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_04.prefab
+  artifactKey: Guid(cef7e711fc372514d9c6799a7dcb1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_04.prefab using Guid(cef7e711fc372514d9c6799a7dcb1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fa50dc5afbe68131ed222e66103e42') in 0.038979 seconds
+  Import took 0.045820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_02.prefab
+  artifactKey: Guid(aed5bdb2df3055c4d9664eafb0a3f8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_02.prefab using Guid(aed5bdb2df3055c4d9664eafb0a3f8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbea56dfd1606423325584e8bdc4960') in 0.040077 seconds
+  Import took 0.046612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_Pillar_Large_Base_01.prefab
+  artifactKey: Guid(caaa47547daabf744b5d14c66c0dcbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_Pillar_Large_Base_01.prefab using Guid(caaa47547daabf744b5d14c66c0dcbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f158de0114d83b11c6c475e253d5739') in 0.037271 seconds
+  Import took 0.043432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_01.prefab
+  artifactKey: Guid(cf4dc9248bb79264c8a7ef8f06eabfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_01.prefab using Guid(cf4dc9248bb79264c8a7ef8f06eabfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58d508d39e30af2721647aeaefef986') in 0.037106 seconds
+  Import took 0.043164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_01.prefab
+  artifactKey: Guid(01dda4e2349154e46b4aad0f51cb268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_01.prefab using Guid(01dda4e2349154e46b4aad0f51cb268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd508bb472b65334e007e3be84c51dcb5') in 0.042194 seconds
+  Import took 0.048710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_02.prefab
+  artifactKey: Guid(cc7481bf4a287524aab34ec273e3adb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Side_02.prefab using Guid(cc7481bf4a287524aab34ec273e3adb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7973c10a2fcbd3a04a2f50804357844c') in 0.039095 seconds
+  Import took 0.045357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_02.prefab
+  artifactKey: Guid(e48bd9e98c6c4844cb36607f3f9c9684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_02.prefab using Guid(e48bd9e98c6c4844cb36607f3f9c9684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5ee7e7cfabdfe360c9290fb7a44750') in 0.048130 seconds
+  Import took 0.054655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Dwarf_Building_01.prefab
+  artifactKey: Guid(4bfb3206d5c8e9549a7546f533ee1c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Dwarf_Building_01.prefab using Guid(4bfb3206d5c8e9549a7546f533ee1c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae314806a2577a8d62f405540882c1e') in 0.043798 seconds
+  Import took 0.050206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Round_01.prefab
+  artifactKey: Guid(70c36c4adc1ac9849998aac621053468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Round_01.prefab using Guid(70c36c4adc1ac9849998aac621053468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9088b09c253b3353e9f73fb7dfedd23d') in 0.040770 seconds
+  Import took 0.046870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_03.prefab
+  artifactKey: Guid(015c0287c0a6df247880c753fcfea649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_03.prefab using Guid(015c0287c0a6df247880c753fcfea649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e7c7cee11f15945142aec1004543da') in 0.039027 seconds
+  Import took 0.045405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_06.prefab
+  artifactKey: Guid(0c7d3da1ca7d36b4faf651f83b65c329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_06.prefab using Guid(0c7d3da1ca7d36b4faf651f83b65c329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358b61f442711e59c3a281a5e156260b') in 0.039008 seconds
+  Import took 0.045061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Small_01.prefab
+  artifactKey: Guid(a1b9f3bf03a5a174ab0131c6dae3172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Small_01.prefab using Guid(a1b9f3bf03a5a174ab0131c6dae3172f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc3d36136dac322030e18985241635b') in 0.038166 seconds
+  Import took 0.044207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_03.prefab
+  artifactKey: Guid(a88deff8776c23a448dbb44f658b8e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_03.prefab using Guid(a88deff8776c23a448dbb44f658b8e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79771c5797aed55ac59517dc0accbd89') in 0.041918 seconds
+  Import took 0.048252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_05.prefab
+  artifactKey: Guid(330562d8828d5c040b259c8137cf8c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_05.prefab using Guid(330562d8828d5c040b259c8137cf8c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc6edc6ada6c012568adfca4ed5772c') in 0.041809 seconds
+  Import took 0.048248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_01.prefab
+  artifactKey: Guid(7aa48502136811443beac29984d52221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_01.prefab using Guid(7aa48502136811443beac29984d52221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da811374ce8d83ded0fda196297cf322') in 0.042496 seconds
+  Import took 0.048963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_05.prefab
+  artifactKey: Guid(2324a2434195608489ca3b1ca9b7e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_05.prefab using Guid(2324a2434195608489ca3b1ca9b7e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dee90a6352283ed2feda8a34489bb8') in 0.043054 seconds
+  Import took 0.049393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_07.prefab
+  artifactKey: Guid(8d9f3d0bff74f4b48988054bc8c2d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_07.prefab using Guid(8d9f3d0bff74f4b48988054bc8c2d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b148d65b3ae10b3923b8722a4acb9eb4') in 0.049212 seconds
+  Import took 0.056493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_03.prefab
+  artifactKey: Guid(caad2e57ec095d043881b0b045887ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_03.prefab using Guid(caad2e57ec095d043881b0b045887ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10211f76039e30dcbabe7699cf87371e') in 0.048541 seconds
+  Import took 0.055732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Wall_Broken_01.prefab
+  artifactKey: Guid(2145236835c288b4485837e4eeca2ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Wall_Broken_01.prefab using Guid(2145236835c288b4485837e4eeca2ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910b636be63ede826fb459eda8cceb1c') in 0.042294 seconds
+  Import took 0.049043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Wall_01.prefab
+  artifactKey: Guid(907c5b82ea9e5224ab3eee6c8057fc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Wall_01.prefab using Guid(907c5b82ea9e5224ab3eee6c8057fc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6632c24c224350429c61387d53ed92c3') in 0.037680 seconds
+  Import took 0.043887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_Stairs_01.prefab
+  artifactKey: Guid(0ac931f5c36ea0a41bfbc8a01903aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_Stairs_01.prefab using Guid(0ac931f5c36ea0a41bfbc8a01903aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f6392d0fc41f013dcc127cf318c9bb') in 0.038044 seconds
+  Import took 0.044141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_04.prefab
+  artifactKey: Guid(1f863281fb1a1894ca4a458cf3abdfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_04.prefab using Guid(1f863281fb1a1894ca4a458cf3abdfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad4f501d03d676df741ddb4249912aa') in 0.041505 seconds
+  Import took 0.047684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_02.prefab
+  artifactKey: Guid(44be2fe6c652fe04a936c5d65f2573db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_02.prefab using Guid(44be2fe6c652fe04a936c5d65f2573db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf905b43f8c308c062bdafdcf21d6350') in 0.037390 seconds
+  Import took 0.043527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Arch_Broken_01.prefab
+  artifactKey: Guid(cef7598e62b8d7d4bb55a5030c48522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Arch_Broken_01.prefab using Guid(cef7598e62b8d7d4bb55a5030c48522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6def9c18a1770842f4659f58769ba59') in 0.037191 seconds
+  Import took 0.043256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_04.prefab
+  artifactKey: Guid(0056044e042c7584baba9f159034f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_04.prefab using Guid(0056044e042c7584baba9f159034f9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b43ebda22085e925c695dfea06b456') in 0.037724 seconds
+  Import took 0.044016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_04.prefab
+  artifactKey: Guid(7bd5d6a926e725044a6327a3302c96d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_04.prefab using Guid(7bd5d6a926e725044a6327a3302c96d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aaa96e915a87b81b24df4d568b2eaf') in 0.040090 seconds
+  Import took 0.046303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_Tall_01.prefab
+  artifactKey: Guid(b5bfebc88e4f8ff468baabf93fb122dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tower_Round_Tall_01.prefab using Guid(b5bfebc88e4f8ff468baabf93fb122dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0154d630266be5f0bbcf975788554a') in 0.039299 seconds
+  Import took 0.045779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Round_01.prefab
+  artifactKey: Guid(51b714caf6330624088a098a2bb19fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Round_01.prefab using Guid(51b714caf6330624088a098a2bb19fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ec332a7479c1a60dd2b4e45b0e0b49') in 0.040247 seconds
+  Import took 0.046671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tiles_03.prefab
+  artifactKey: Guid(e605c44adc74df84eb01e6ccdd67720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Tiles_03.prefab using Guid(e605c44adc74df84eb01e6ccdd67720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284e085939447cac12f7526e894e21a8') in 0.038069 seconds
+  Import took 0.044731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Round_02.prefab
+  artifactKey: Guid(553b78d8ae93c1d4684ce08da9c45a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Round_02.prefab using Guid(553b78d8ae93c1d4684ce08da9c45a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa507951559bd579968c0af17faec004') in 0.040460 seconds
+  Import took 0.046742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_Pillar_Large_01.prefab
+  artifactKey: Guid(562e0a8516ee91e44bdc7b94ab4c77c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Bridge_Pillar_Large_01.prefab using Guid(562e0a8516ee91e44bdc7b94ab4c77c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae31947ed12849d8f2c36a50e954d56') in 0.038824 seconds
+  Import took 0.045384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_05.prefab
+  artifactKey: Guid(a53cdbeefd0c94040915b744b5761fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Rough_05.prefab using Guid(a53cdbeefd0c94040915b744b5761fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dd2892485ec7d77435d91874877ccd') in 0.039717 seconds
+  Import took 0.046036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Wall_Cap_01.prefab
+  artifactKey: Guid(5fd56a2c7a6d3644eaffd3f91127cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Wall_Cap_01.prefab using Guid(5fd56a2c7a6d3644eaffd3f91127cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6463b307cb1483bd561ede8fb80041d0') in 0.037507 seconds
+  Import took 0.043619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_01.prefab
+  artifactKey: Guid(2bc9a376d74551e4ebfe34bba4fc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Camp_Tent_Cover_Top_01.prefab using Guid(2bc9a376d74551e4ebfe34bba4fc9e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655c1299d3a762cd9504430d7a807975') in 0.041186 seconds
+  Import took 0.047389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Broken_01.prefab
+  artifactKey: Guid(b970b66bdaf4b2d47bf4d18d8ab6b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Buildings/SM_Bld_Ruin_Pillar_Broken_01.prefab using Guid(b970b66bdaf4b2d47bf4d18d8ab6b5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d0d1d835cc85fbbf2180b043b06f81') in 0.039893 seconds
+  Import took 0.046264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.273234 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_01_A.mat
+  artifactKey: Guid(2a12d3fc0532ba64e972160db18dfd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_01_A.mat using Guid(2a12d3fc0532ba64e972160db18dfd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c46617cd9b6b5e21ec1673ddf34b37') in 0.048310 seconds
+  Import took 0.054655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_04_A.mat
+  artifactKey: Guid(cce2224c1b3f54141b86f146973cf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_04_A.mat using Guid(cce2224c1b3f54141b86f146973cf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b9ca2f2d4d52ea453ef0e965754a4f') in 0.036187 seconds
+  Import took 0.042284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_03_A.mat
+  artifactKey: Guid(899b963fc9982334da61b5d9484e82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_03_A.mat using Guid(899b963fc9982334da61b5d9484e82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9abafb4ffdbf378d75782dca1dfd5ca') in 0.035501 seconds
+  Import took 0.041577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_02_A.mat
+  artifactKey: Guid(4c7bd2f6e56d0fb4dae0817bdbf7a987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_02_A.mat using Guid(4c7bd2f6e56d0fb4dae0817bdbf7a987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93c73e275efea901b099736ed2d2617') in 0.037633 seconds
+  Import took 0.043998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.964609 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_01_B.mat
+  artifactKey: Guid(8d4c8eb36fda89c41b05fe6969ab8c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_01_B.mat using Guid(8d4c8eb36fda89c41b05fe6969ab8c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56da7e3d158faaa5a506222b7df71fbb') in 0.036022 seconds
+  Import took 0.042301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_03_C.mat
+  artifactKey: Guid(e360ec08a9d429b4b94efb5e005c71ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_03_C.mat using Guid(e360ec08a9d429b4b94efb5e005c71ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5948bf27b2e3e600425450117d034dd2') in 0.035799 seconds
+  Import took 0.042098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_03_B.mat
+  artifactKey: Guid(130ecdefde3e5d1498bba318575e4cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_03_B.mat using Guid(130ecdefde3e5d1498bba318575e4cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fa220c2d8bc12aec128782743fae14') in 0.037267 seconds
+  Import took 0.043502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_02_C.mat
+  artifactKey: Guid(e27333a9d51b0af48a994d957c47c6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_02_C.mat using Guid(e27333a9d51b0af48a994d957c47c6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c1aba763f70b91798235199c067405') in 0.036730 seconds
+  Import took 0.042804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_02_B.mat
+  artifactKey: Guid(dcd655d164d7895488cdedc35b0fc12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_02_B.mat using Guid(dcd655d164d7895488cdedc35b0fc12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbc4b9d76b29c47ecba12c42ea65c2b') in 0.036101 seconds
+  Import took 0.042258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_04_C.mat
+  artifactKey: Guid(6a1aa24b3a1119649993fb5aee44d302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_04_C.mat using Guid(6a1aa24b3a1119649993fb5aee44d302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d9806c38584c04b31919e02e95fc2') in 0.040828 seconds
+  Import took 0.047162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_01_C.mat
+  artifactKey: Guid(68351dedc52031c4aae93584fbf5c58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_01_C.mat using Guid(68351dedc52031c4aae93584fbf5c58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1f3e04ff1c92efb3dc1b9ffa100541') in 0.042000 seconds
+  Import took 0.048789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_04_B.mat
+  artifactKey: Guid(450750566cb15b043b697edce51683e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_04_B.mat using Guid(450750566cb15b043b697edce51683e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334f2cbd3f99057a8afc5aca88f84271') in 0.040399 seconds
+  Import took 0.046858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.238934 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Demon_01.prefab
+  artifactKey: Guid(13087e211b7388945b22bab7dd93cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Demon_01.prefab using Guid(13087e211b7388945b22bab7dd93cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741b2322573289d8225d179273f7f6eb') in 0.045571 seconds
+  Import took 0.052187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Miner_01.prefab
+  artifactKey: Guid(9738a54760a896d4fad41d7e94b87958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Miner_01.prefab using Guid(9738a54760a896d4fad41d7e94b87958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557dfae359968abf0f6242f69ee1c208') in 0.048802 seconds
+  Import took 0.055470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Skeleton_01.prefab
+  artifactKey: Guid(908987278249b014f91c9e63dd7174e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Skeleton_01.prefab using Guid(908987278249b014f91c9e63dd7174e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb369731c057d1c8571ca2dfa314ef6') in 0.052708 seconds
+  Import took 0.059239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_King_01.prefab
+  artifactKey: Guid(6483f7ec5894c384b9de01e9144a465a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_King_01.prefab using Guid(6483f7ec5894c384b9de01e9144a465a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2e227db7edcf7d1bb5eec11a5f480e') in 0.045972 seconds
+  Import took 0.053974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Male_01.prefab
+  artifactKey: Guid(5cc8937f65137dc49bb957920049ad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Male_01.prefab using Guid(5cc8937f65137dc49bb957920049ad14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa65d4071c53621a60d1b54b45880f53') in 0.048718 seconds
+  Import took 0.055369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Soldier_Female_01.prefab
+  artifactKey: Guid(9e880c5e179ee524bb8f0b639c5d34cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Soldier_Female_01.prefab using Guid(9e880c5e179ee524bb8f0b639c5d34cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e470d589ca90d7930bab4846b3dcd5a') in 0.046763 seconds
+  Import took 0.053420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Casual_Female_01.prefab
+  artifactKey: Guid(05ecb317a3ea6a147ac4b2eb6ced4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Casual_Female_01.prefab using Guid(05ecb317a3ea6a147ac4b2eb6ced4dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadd1acbcf66d777c0c2a3e84527a90a') in 0.060574 seconds
+  Import took 0.068486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Male_03.prefab
+  artifactKey: Guid(64eb1c3ceef25d4408786c061ce050ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Male_03.prefab using Guid(64eb1c3ceef25d4408786c061ce050ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cee7fe50f760b804453fa53c44b9ac') in 0.049718 seconds
+  Import took 0.056527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Skeleton_03.prefab
+  artifactKey: Guid(3e4cf0221a0e8db41bcb50be99ebe457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Skeleton_03.prefab using Guid(3e4cf0221a0e8db41bcb50be99ebe457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468bd9aa28ac39941045f78eb62fd435') in 0.048419 seconds
+  Import took 0.056893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Soldier_Male_01.prefab
+  artifactKey: Guid(5e0e2eede99162942be359c7281e338f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Soldier_Male_01.prefab using Guid(5e0e2eede99162942be359c7281e338f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89545bf9d2f199732ba4cb581c221e95') in 0.046199 seconds
+  Import took 0.053032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Male_02.prefab
+  artifactKey: Guid(30f2ee1f6338c464bbbd30981b3da3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Male_02.prefab using Guid(30f2ee1f6338c464bbbd30981b3da3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f91d0b76a0bad24ca7b78c287d5e24d') in 0.050329 seconds
+  Import took 0.057352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Casual_Male_01.prefab
+  artifactKey: Guid(a2de6afb577847a41b73cb3acf8e835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Casual_Male_01.prefab using Guid(a2de6afb577847a41b73cb3acf8e835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae7efaee77c710bec999e278316f5d5') in 0.064056 seconds
+  Import took 0.072300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Female_02.prefab
+  artifactKey: Guid(bf4a10fe2fa8b754f95c50c4d6edd531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Female_02.prefab using Guid(bf4a10fe2fa8b754f95c50c4d6edd531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02d22c2dd1b1a092e6e86f777700ba7') in 0.047190 seconds
+  Import took 0.054221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Skeleton_02.prefab
+  artifactKey: Guid(1e1312b383a084a42a9930f135c39ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Skeleton_02.prefab using Guid(1e1312b383a084a42a9930f135c39ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24784fb52d667db305d061c800314fd') in 0.046522 seconds
+  Import took 0.053320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Worker_01.prefab
+  artifactKey: Guid(ff19450fca7dc8047840a8947343e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_BR_Dwarf_Worker_01.prefab using Guid(ff19450fca7dc8047840a8947343e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee7f8c9962b18d7815d7320fcf03010') in 0.048265 seconds
+  Import took 0.055009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Hero_Male_01.prefab
+  artifactKey: Guid(d47d5ac7dfc19da419169847c76d638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Hero_Male_01.prefab using Guid(d47d5ac7dfc19da419169847c76d638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0161c4ab66bd493b45b660285c7093') in 0.049796 seconds
+  Import took 0.056735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Hero_Female_01.prefab
+  artifactKey: Guid(06a217c3ea84f3647bb83f3656e3832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Hero_Female_01.prefab using Guid(06a217c3ea84f3647bb83f3656e3832b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce328741200bde94d83e6f33b93f24ef') in 0.051093 seconds
+  Import took 0.057912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Female_01.prefab
+  artifactKey: Guid(10202ef1ef7802a4a8bafb709626e655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Nomad_Female_01.prefab using Guid(10202ef1ef7802a4a8bafb709626e655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba35926a15c1f5be95fbd21dd2b8198') in 0.049193 seconds
+  Import took 0.056623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Undead_Knight_01.prefab
+  artifactKey: Guid(cb4ff29f6f657bc4d94ed49c50a70be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Characters/Chr_Undead_Knight_01.prefab using Guid(cb4ff29f6f657bc4d94ed49c50a70be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee7e83679c635a3959f252714c263e') in 0.049727 seconds
+  Import took 0.056515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 658.208675 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_01_A.mat
+  artifactKey: Guid(2a12d3fc0532ba64e972160db18dfd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_01_A.mat using Guid(2a12d3fc0532ba64e972160db18dfd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38bb421a29826b618366b53f487dbb7') in 0.050626 seconds
+  Import took 0.058483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_04_A.mat
+  artifactKey: Guid(cce2224c1b3f54141b86f146973cf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_04_A.mat using Guid(cce2224c1b3f54141b86f146973cf83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1920c60547fa76aa938fb87f1280405d') in 0.043606 seconds
+  Import took 0.050278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_03_A.mat
+  artifactKey: Guid(899b963fc9982334da61b5d9484e82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_03_A.mat using Guid(899b963fc9982334da61b5d9484e82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161053e200686c58b2cba78166ec7e7d') in 0.047008 seconds
+  Import took 0.053506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_02_A.mat
+  artifactKey: Guid(4c7bd2f6e56d0fb4dae0817bdbf7a987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_02_A.mat using Guid(4c7bd2f6e56d0fb4dae0817bdbf7a987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ee1659b2923c057f7d3cf8d0abebf7') in 0.051031 seconds
+  Import took 0.058754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.456843 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Cloud.mat
+  artifactKey: Guid(cd5cd0e33e502ec4f896c632dcdfcabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Cloud.mat using Guid(cd5cd0e33e502ec4f896c632dcdfcabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d32396b7548bd139aa091dfccdca10') in 0.032762 seconds
+  Import took 0.037031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Dust.mat
+  artifactKey: Guid(64c73c6fe6d961949b00b00a1567ee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Dust.mat using Guid(64c73c6fe6d961949b00b00a1567ee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ceb6fbfa66fe7c800ed27d8cb96f32c') in 0.380212 seconds
+  Import took 0.383963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_01.mat
+  artifactKey: Guid(ff12f95fea14be547980dcb3befc07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_01.mat using Guid(ff12f95fea14be547980dcb3befc07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7f03acb77635035dd67be4c6d50fb5') in 0.245310 seconds
+  Import took 0.250924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Lava.mat
+  artifactKey: Guid(695590087dadf804aaaaa358b1238b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Lava.mat using Guid(695590087dadf804aaaaa358b1238b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a90cffbbb14fa5f3baa497414b1d6e') in 0.071802 seconds
+  Import took 0.075812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Circle_Soft_Mat.mat
+  artifactKey: Guid(46039b43339edf0479d93cf146b4c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Circle_Soft_Mat.mat using Guid(46039b43339edf0479d93cf146b4c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f926e5ab19b469060f01f8d5666787a0') in 0.069922 seconds
+  Import took 0.073644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Dark.mat
+  artifactKey: Guid(72d2a33fe53d19a4291867c41161e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Dark.mat using Guid(72d2a33fe53d19a4291867c41161e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ab588392359611a74267d4a24897bf') in 0.011387 seconds
+  Import took 0.015442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Standard_Soft.mat
+  artifactKey: Guid(0c361341e05282547b4b27a461b09071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Standard_Soft.mat using Guid(0c361341e05282547b4b27a461b09071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7025fc7023fe15a197c31a1609f1da') in 0.071269 seconds
+  Import took 0.075584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_02.mat
+  artifactKey: Guid(39c253ad104273b47881fa76d47d6f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_02.mat using Guid(39c253ad104273b47881fa76d47d6f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd014bad2f64b20feefe38472e7c5b7b3') in 0.026846 seconds
+  Import took 0.032672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_03.mat
+  artifactKey: Guid(a586f600eda05084292be140d4664544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_03.mat using Guid(a586f600eda05084292be140d4664544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0b07efb724124a032bc87d53724bd7') in 0.026950 seconds
+  Import took 0.032459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Mat.mat
+  artifactKey: Guid(c1320227eea283a4d948eb5f71156d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Mat.mat using Guid(c1320227eea283a4d948eb5f71156d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f27690c61137a19b13e6ce0fd6578a') in 0.011699 seconds
+  Import took 0.017685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Mat 1.mat
+  artifactKey: Guid(90a8f8199fc7dd04ca275961b8cb956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Mat 1.mat using Guid(90a8f8199fc7dd04ca275961b8cb956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a828629654550e29b23cdeedafd4c3bd') in 0.008890 seconds
+  Import took 0.013680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/SimpleSky_Mat.mat
+  artifactKey: Guid(2dfd8e9e494c2f74286f825fc0cd8112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/SimpleSky_Mat.mat using Guid(2dfd8e9e494c2f74286f825fc0cd8112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12e675b0f5483bedfb6fd9852327ec2') in 0.035279 seconds
+  Import took 0.040741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/SpiderWeb.mat
+  artifactKey: Guid(4776dae064b9f574ea7d2d25294d2a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/SpiderWeb.mat using Guid(4776dae064b9f574ea7d2d25294d2a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fffc27f765c4ce68b6ff89fc627106') in 0.264347 seconds
+  Import took 0.268312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_SunBeam.mat
+  artifactKey: Guid(f200606a797bfbe4bbb9bd5d8d755756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_SunBeam.mat using Guid(f200606a797bfbe4bbb9bd5d8d755756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898adb8df41a85cf1c8c245720bde483') in 0.012417 seconds
+  Import took 0.017242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/GOLD.mat
+  artifactKey: Guid(f161e0c08a3abcf4b901d18f4b9293ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/GOLD.mat using Guid(f161e0c08a3abcf4b901d18f4b9293ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4742900c47018e6240c499775c89f39') in 0.011199 seconds
+  Import took 0.016123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Gold_Sparkle_Mat.mat
+  artifactKey: Guid(685aabbe2631d66469ea6e4fe8d17124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Gold_Sparkle_Mat.mat using Guid(685aabbe2631d66469ea6e4fe8d17124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d448934f669c822085b0a64dcc38d11') in 0.012357 seconds
+  Import took 0.016670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Circle_Mat.mat
+  artifactKey: Guid(5a1ea726969f8784292b2da4647f0623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Circle_Mat.mat using Guid(5a1ea726969f8784292b2da4647f0623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb8037ef40de5604bba4baa2bc07b97') in 0.011084 seconds
+  Import took 0.015444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/GOLD_Coins.mat
+  artifactKey: Guid(0fd899188af938d41be0b7a8580905d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/GOLD_Coins.mat using Guid(0fd899188af938d41be0b7a8580905d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a01baaec0af3e3bb61d1922be5e243') in 0.238294 seconds
+  Import took 0.243752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Standard 1.mat
+  artifactKey: Guid(07a679004d280c24fac8d73ce8c63836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Standard 1.mat using Guid(07a679004d280c24fac8d73ce8c63836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d9d60438238432bc78212f347d5a8b') in 0.009233 seconds
+  Import took 0.013525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.038052 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_01.prefab
+  artifactKey: Guid(6ec86313fab27874095db0c3667c9b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_01.prefab using Guid(6ec86313fab27874095db0c3667c9b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c873542da9d4c4b77652d133f6908f38') in 0.038349 seconds
+  Import took 0.045061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_03_Broken_02.prefab
+  artifactKey: Guid(81279f7ce22637c4b8f259663c01b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_03_Broken_02.prefab using Guid(81279f7ce22637c4b8f259663c01b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f6439359f3bc71aeafaaad3d9cf564') in 0.040943 seconds
+  Import took 0.047341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_05.prefab
+  artifactKey: Guid(2cb1796f2b793b14399f2fd8ee80a4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_05.prefab using Guid(2cb1796f2b793b14399f2fd8ee80a4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd23bdb579a99c03bf9f3382790f71b') in 0.042678 seconds
+  Import took 0.049764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_03.prefab
+  artifactKey: Guid(10b4ae166246f0c4da518d1c10c5a426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_03.prefab using Guid(10b4ae166246f0c4da518d1c10c5a426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7907bac2a25536231defcc77eff3e0f6') in 0.041288 seconds
+  Import took 0.048202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_17.prefab
+  artifactKey: Guid(591ed289a69a46249878939be986d03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_17.prefab using Guid(591ed289a69a46249878939be986d03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ef6823779e8b5251d66290fb9301db') in 0.039890 seconds
+  Import took 0.047059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Beam_04.prefab
+  artifactKey: Guid(436c2f2ceb625c947ba403e021078009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Beam_04.prefab using Guid(436c2f2ceb625c947ba403e021078009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5c09918a25fdf6aa269fe620ac9e62') in 0.040418 seconds
+  Import took 0.047232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_25.prefab
+  artifactKey: Guid(db7860da268d96a4ebf844727e843bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_25.prefab using Guid(db7860da268d96a4ebf844727e843bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb709308d6dcb641545f6da301f8a4dc') in 0.041027 seconds
+  Import took 0.047751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_07.prefab
+  artifactKey: Guid(f0d682a3e68e8eb43834a002d9876282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_07.prefab using Guid(f0d682a3e68e8eb43834a002d9876282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f7bde57dd1b71e956da8395a97b486') in 0.043874 seconds
+  Import took 0.052955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_01_Broken_02.prefab
+  artifactKey: Guid(f95195954465d69488794d6f544dfa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_01_Broken_02.prefab using Guid(f95195954465d69488794d6f544dfa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bb04f359693fd71183186ddf3d5e7f') in 0.044071 seconds
+  Import took 0.052046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Beam_01.prefab
+  artifactKey: Guid(73898fd39e702704cab93d5c69076564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Beam_01.prefab using Guid(73898fd39e702704cab93d5c69076564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcc9e5a1b2f658b9c2938e8c1b12c58') in 0.041742 seconds
+  Import took 0.048639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_02_Broken_02.prefab
+  artifactKey: Guid(9d1fa0cf37cf33d4b9a0472545d3776a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_02_Broken_02.prefab using Guid(9d1fa0cf37cf33d4b9a0472545d3776a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c44f21e0ed9d0e5cd32340ab27b740a') in 0.041065 seconds
+  Import took 0.047428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Grate_Wall_01.prefab
+  artifactKey: Guid(7049867dd19668b4da63afaa1645ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Grate_Wall_01.prefab using Guid(7049867dd19668b4da63afaa1645ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b36ac5438b071cd5c2ff80e352696e7') in 0.043098 seconds
+  Import took 0.050072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_01.prefab
+  artifactKey: Guid(005b6dc7d2868f14abfe66e4d2c105f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_01.prefab using Guid(005b6dc7d2868f14abfe66e4d2c105f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4b34128b630413b5775e45d97fd829') in 0.043773 seconds
+  Import took 0.050684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_19.prefab
+  artifactKey: Guid(e32178ddfc66d3742bd478a7ebb4ba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_19.prefab using Guid(e32178ddfc66d3742bd478a7ebb4ba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc12e4569a486135cc82fa125dbab9b') in 0.042286 seconds
+  Import took 0.049485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Crystals_Cluster_Large_04.prefab
+  artifactKey: Guid(df5d4ad4b7209fb40ba251fabe3ed0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Crystals_Cluster_Large_04.prefab using Guid(df5d4ad4b7209fb40ba251fabe3ed0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd17924b3d18e04ee2d4bcc580347e3c') in 0.026055 seconds
+  Import took 0.031961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_22.prefab
+  artifactKey: Guid(8d045ad4a1230604497bf2845deabe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_22.prefab using Guid(8d045ad4a1230604497bf2845deabe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e120e23cd23c723dee07b10368f7ac2') in 0.043081 seconds
+  Import took 0.049805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_01_End_02.prefab
+  artifactKey: Guid(1326c2d12f20a614d8c527f42d7fffb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_01_End_02.prefab using Guid(1326c2d12f20a614d8c527f42d7fffb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371559f16b3814ad62ca93b25d70bad5') in 0.040819 seconds
+  Import took 0.047209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Wheel_01.prefab
+  artifactKey: Guid(0db82ac67fdae2f479df6eadfc496889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Wheel_01.prefab using Guid(0db82ac67fdae2f479df6eadfc496889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ea4c410668a03d6128a93b74652864') in 0.043760 seconds
+  Import took 0.050707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_12.prefab
+  artifactKey: Guid(c6479d4b086929a458259148ddd6e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_12.prefab using Guid(c6479d4b086929a458259148ddd6e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b82b34ae1c6a2a35848145a0a41f2a9') in 0.042695 seconds
+  Import took 0.049124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_14.prefab
+  artifactKey: Guid(577282b45b10c654a959e8c759f27ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_14.prefab using Guid(577282b45b10c654a959e8c759f27ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2530a4153aad6bbff71632b03a9c39eb') in 0.043877 seconds
+  Import took 0.050367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_01.prefab
+  artifactKey: Guid(1c14cfe642b35f6409fd0b6e3c3a1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_01.prefab using Guid(1c14cfe642b35f6409fd0b6e3c3a1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02991c07505865033199818d6ca3b407') in 0.044053 seconds
+  Import took 0.050872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_04.prefab
+  artifactKey: Guid(1daeafedc117e4a4783e3358742489eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_04.prefab using Guid(1daeafedc117e4a4783e3358742489eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3fcac20023a82ac94dea9bc9f5c86d') in 0.042634 seconds
+  Import took 0.049079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_18.prefab
+  artifactKey: Guid(0a855edcf1d9e034c80a03384107fa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_18.prefab using Guid(0a855edcf1d9e034c80a03384107fa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355dd97e901cf942ef944f3d9ed1208a') in 0.041936 seconds
+  Import took 0.048645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_15.prefab
+  artifactKey: Guid(1c11471e958bcd84ca19f5d1302b04f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_15.prefab using Guid(1c11471e958bcd84ca19f5d1302b04f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8066b0e58353e46b847c10a9ed57ad6b') in 0.042785 seconds
+  Import took 0.049523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_01_End_03.prefab
+  artifactKey: Guid(06f7e99f2497822458031deb670f1241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_01_End_03.prefab using Guid(06f7e99f2497822458031deb670f1241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e531bcfea0808e9502338173250cc0d1') in 0.042520 seconds
+  Import took 0.049110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_06.prefab
+  artifactKey: Guid(4cb4fba77acbf644fa71b262b56873ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_06.prefab using Guid(4cb4fba77acbf644fa71b262b56873ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d46950ee60901d36a7c0c535459ebb') in 0.042932 seconds
+  Import took 0.049764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_02.prefab
+  artifactKey: Guid(999def6a51f1be945813a601b83c8d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_02.prefab using Guid(999def6a51f1be945813a601b83c8d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce39eac81d323dd000b06376ff2086c') in 0.041691 seconds
+  Import took 0.048033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_02.prefab
+  artifactKey: Guid(81f3d2c6f6679ec4683f45f2ab65a5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_02.prefab using Guid(81f3d2c6f6679ec4683f45f2ab65a5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089bc8d8e515b7ca0a17ae3f9a0dab86') in 0.045597 seconds
+  Import took 0.052422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_Base_01.prefab
+  artifactKey: Guid(c35a1c744518d6b41864afbdbce77b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_Base_01.prefab using Guid(c35a1c744518d6b41864afbdbce77b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed245077ebe8213d4b0ca28f36ecc1a') in 0.042659 seconds
+  Import took 0.049068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Gate_01.prefab
+  artifactKey: Guid(5a3aa161ed1a3b7499369dddda62b284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Gate_01.prefab using Guid(5a3aa161ed1a3b7499369dddda62b284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a054b58847b3954ab3ae0e007151b01') in 0.043911 seconds
+  Import took 0.051482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_03.prefab
+  artifactKey: Guid(6b06299a5cc1ba3478befa4fb7aef602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_03.prefab using Guid(6b06299a5cc1ba3478befa4fb7aef602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2c623a686bd88dd6be45e2c1462389') in 0.046105 seconds
+  Import took 0.053021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Beam_03.prefab
+  artifactKey: Guid(5e7518ffb8a0aff47a18d57a84384f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Beam_03.prefab using Guid(5e7518ffb8a0aff47a18d57a84384f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a3c8896699bcbc94652c0e2517584a') in 0.043043 seconds
+  Import took 0.049706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_03.prefab
+  artifactKey: Guid(4043553866800234eb2dee27abd70d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_03.prefab using Guid(4043553866800234eb2dee27abd70d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e3f6a3b2def7678d0ffc1c5cd4ccf0') in 0.042711 seconds
+  Import took 0.049187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Gate_01_Bar.prefab
+  artifactKey: Guid(69173cb8ca0b03f4f97b465ac27da5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Gate_01_Bar.prefab using Guid(69173cb8ca0b03f4f97b465ac27da5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164b53ecedf7dbb933c2cc403d2d635e') in 0.042244 seconds
+  Import took 0.048670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_06.prefab
+  artifactKey: Guid(2e66546518310b94aad8f8c2df2ec11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_06.prefab using Guid(2e66546518310b94aad8f8c2df2ec11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2184e69ea3a4061fa6163b9868a33848') in 0.046698 seconds
+  Import took 0.054200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_24.prefab
+  artifactKey: Guid(f4cc5b289c05ba24a91e90c82bbbcdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_24.prefab using Guid(f4cc5b289c05ba24a91e90c82bbbcdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5138161745a309876cbafb28f23d533b') in 0.044893 seconds
+  Import took 0.053084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bramble_01.prefab
+  artifactKey: Guid(8b4f36b4159c2b54485db28da3403a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bramble_01.prefab using Guid(8b4f36b4159c2b54485db28da3403a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7afc1a15435f80654c20daaa56eb8d0') in 0.045331 seconds
+  Import took 0.052277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_Broken_01.prefab
+  artifactKey: Guid(2d06e53ce0c7f5c4b88fbb754ea41fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_Broken_01.prefab using Guid(2d06e53ce0c7f5c4b88fbb754ea41fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49bd2c42647e014c3fcdbcb1a8a6bb0') in 0.042122 seconds
+  Import took 0.048635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Gate_01.prefab
+  artifactKey: Guid(a2ee63b9a0474814688d916ca60e3c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Gate_01.prefab using Guid(a2ee63b9a0474814688d916ca60e3c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863d6d4bb136938d67a41b64f906d9e4') in 0.042823 seconds
+  Import took 0.049897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_04.prefab
+  artifactKey: Guid(2039c3cc01700934082ddbe111167cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_04.prefab using Guid(2039c3cc01700934082ddbe111167cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ed3556b5bf2e0fa96ab81425d9557a') in 0.043022 seconds
+  Import took 0.049456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_28.prefab
+  artifactKey: Guid(e0dcab75e6b40734bab436ee6a67815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_28.prefab using Guid(e0dcab75e6b40734bab436ee6a67815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5143a7164784e7e6d9b2d97aae903df') in 0.043930 seconds
+  Import took 0.051541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_Stairs_04.prefab
+  artifactKey: Guid(bb61670a4f107be43921703dea393ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_Stairs_04.prefab using Guid(bb61670a4f107be43921703dea393ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18ab5200870660fc9579d7ba6c00643') in 0.041318 seconds
+  Import took 0.047832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_02.prefab
+  artifactKey: Guid(719f872211fe4e041a3971b0713d554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_02.prefab using Guid(719f872211fe4e041a3971b0713d554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fd67101a3734b6b8075ed657624ced') in 0.041975 seconds
+  Import took 0.048671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_09.prefab
+  artifactKey: Guid(d5fcfd67b2387fd46ae3fc59f71d5719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_09.prefab using Guid(d5fcfd67b2387fd46ae3fc59f71d5719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2da1faafab7a2c9e6a888f92e2839d') in 0.041564 seconds
+  Import took 0.048099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_11.prefab
+  artifactKey: Guid(ae9b8d663b2bde645b965a423685bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_11.prefab using Guid(ae9b8d663b2bde645b965a423685bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786d5540f079efa41c7d25b0bc2a75df') in 0.040591 seconds
+  Import took 0.046782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_Broken_02.prefab
+  artifactKey: Guid(e34ccdccc81ee564e98292fb4f4aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_Broken_02.prefab using Guid(e34ccdccc81ee564e98292fb4f4aa2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aed81b332c32e1c89a723598c6b0c9') in 0.041745 seconds
+  Import took 0.048132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_01.prefab
+  artifactKey: Guid(25a9d8f6af20e1844b808a643d6ad9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_01.prefab using Guid(25a9d8f6af20e1844b808a643d6ad9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea5c432feaed11b00b20821018b1d34') in 0.040873 seconds
+  Import took 0.047204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Grate_Floor_01.prefab
+  artifactKey: Guid(d13665dd332c8094a9ae2b7b3c400851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Grate_Floor_01.prefab using Guid(d13665dd332c8094a9ae2b7b3c400851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c99710b327131fddee4c076cc5fa7c9') in 0.045393 seconds
+  Import took 0.051553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_29.prefab
+  artifactKey: Guid(092bcce7d289b2d4899b8926aeba069c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_29.prefab using Guid(092bcce7d289b2d4899b8926aeba069c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcda9b56a80e6f187d86c9f192279ef') in 0.042563 seconds
+  Import took 0.048791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Smelter_01.prefab
+  artifactKey: Guid(e38defb93c3160441af64e1c19cd5efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Smelter_01.prefab using Guid(e38defb93c3160441af64e1c19cd5efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b23518004582921911bb65e9e80c0c5') in 0.045036 seconds
+  Import took 0.051420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_07.prefab
+  artifactKey: Guid(2dd1476c78dfdb34395a3f0620f85fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_07.prefab using Guid(2dd1476c78dfdb34395a3f0620f85fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db24fa9a865eddd25972e91de1752b9') in 0.039136 seconds
+  Import took 0.045498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_02.prefab
+  artifactKey: Guid(0e538f88313dd9e439fd3e5a2379bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_02.prefab using Guid(0e538f88313dd9e439fd3e5a2379bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b752f298f0fc5a4f22bb362cbcbc64d') in 0.044501 seconds
+  Import took 0.050772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Camp_Well_01.prefab
+  artifactKey: Guid(cfc9573ae38fc79419a8512559402ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Camp_Well_01.prefab using Guid(cfc9573ae38fc79419a8512559402ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd042ad73787543e0e049ebf42664ff0b') in 0.041674 seconds
+  Import took 0.048290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_23.prefab
+  artifactKey: Guid(748c68c5dafc82b41a9d4c998986c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_23.prefab using Guid(748c68c5dafc82b41a9d4c998986c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba02c3742714418932d411d0b785e9d3') in 0.042453 seconds
+  Import took 0.050072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_01.prefab
+  artifactKey: Guid(bfb548e7b688dfb47bb8a53b918aa032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_01.prefab using Guid(bfb548e7b688dfb47bb8a53b918aa032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c77c09c7dd4a3c55640d9aacfc30c8b') in 0.040889 seconds
+  Import took 0.047354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Beam_02.prefab
+  artifactKey: Guid(9ac4913c244bc114480507b9706a37fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Beam_02.prefab using Guid(9ac4913c244bc114480507b9706a37fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b289dd7f86163d92944df48f02f3897') in 0.041549 seconds
+  Import took 0.048618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_01_Broken_01.prefab
+  artifactKey: Guid(618df069d1cb7ed478b4812e7f10d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_01_Broken_01.prefab using Guid(618df069d1cb7ed478b4812e7f10d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303e39c852880d5b791e8d7453618f2e') in 0.042056 seconds
+  Import took 0.048737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_01_Broken_01.prefab
+  artifactKey: Guid(ebef1d11c1cb5344296dc241d2f297b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_01_Broken_01.prefab using Guid(ebef1d11c1cb5344296dc241d2f297b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d095ddd5a1b23ea383f0c70c470def4') in 0.043079 seconds
+  Import took 0.050218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_08.prefab
+  artifactKey: Guid(d0b3252380d3c2e409b4766ce183458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_08.prefab using Guid(d0b3252380d3c2e409b4766ce183458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d8a352d7f977a8fbfffa35deae5f3c') in 0.042877 seconds
+  Import took 0.049160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_01.prefab
+  artifactKey: Guid(524ef96ddc5ba7b4ba0083132daeff3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_01.prefab using Guid(524ef96ddc5ba7b4ba0083132daeff3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9297fc070e04cf6aa3ae3a88414baa00') in 0.042678 seconds
+  Import took 0.049629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_05.prefab
+  artifactKey: Guid(2a4503883d5001b488590305c2e38787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_05.prefab using Guid(2a4503883d5001b488590305c2e38787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbb86ea35990ca0ac27d65f751ba9a5') in 0.041192 seconds
+  Import took 0.047392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bramble_03.prefab
+  artifactKey: Guid(315d0774aac09674a8f427ec9eae871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bramble_03.prefab using Guid(315d0774aac09674a8f427ec9eae871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6420f54596aae8f56f1465623cbda4ae') in 0.041363 seconds
+  Import took 0.047858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_Stairs_01.prefab
+  artifactKey: Guid(e395e54d52b68c74e89fd100a576cbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_Stairs_01.prefab using Guid(e395e54d52b68c74e89fd100a576cbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0116fb0d3f9dd3cdf732867b8f70e766') in 0.042692 seconds
+  Import took 0.049846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_Stairs_03.prefab
+  artifactKey: Guid(add309d2a91fc224c93d4f2e140c101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_Stairs_03.prefab using Guid(add309d2a91fc224c93d4f2e140c101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d85d7a728469e6f09ef975123ffc061') in 0.043362 seconds
+  Import took 0.049723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_02.prefab
+  artifactKey: Guid(dbaac0ab6fd098c45ad591e7260d8f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_02.prefab using Guid(dbaac0ab6fd098c45ad591e7260d8f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf6c760a1fc6304e05563c250ec0086') in 0.042429 seconds
+  Import took 0.049684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_01_End_01.prefab
+  artifactKey: Guid(121c2e93e98fb4e449411938bce04466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_01_End_01.prefab using Guid(121c2e93e98fb4e449411938bce04466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e3857863f88336029519e8916cde77') in 0.041735 seconds
+  Import took 0.048079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_Base_02.prefab
+  artifactKey: Guid(da0e67fbbae50ea4f9948bf10e599e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_Base_02.prefab using Guid(da0e67fbbae50ea4f9948bf10e599e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ca6602891fadbcdda518a97ec022eb') in 0.041371 seconds
+  Import took 0.047650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_03.prefab
+  artifactKey: Guid(f3451740738b9d44ead1c52ac873c44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_03.prefab using Guid(f3451740738b9d44ead1c52ac873c44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3bd6e73059280782bb4552295bbe0f') in 0.040459 seconds
+  Import took 0.049268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Smelter_02.prefab
+  artifactKey: Guid(1ea9cea7922ee764dac4fc80a4a535ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Smelter_02.prefab using Guid(1ea9cea7922ee764dac4fc80a4a535ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ffffaf83edf375090547a1ddf324e2') in 0.044251 seconds
+  Import took 0.050544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_05.prefab
+  artifactKey: Guid(2382f0e0b068676419ebadd8182a1abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_05.prefab using Guid(2382f0e0b068676419ebadd8182a1abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ba7475961f23b5cca69243226d4480') in 0.042327 seconds
+  Import took 0.049131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_04.prefab
+  artifactKey: Guid(e7a579807cf88aa4587da8f125b48974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dust_04.prefab using Guid(e7a579807cf88aa4587da8f125b48974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dbc03735eb94eddac61e6cdcb13f9f') in 0.042238 seconds
+  Import took 0.049095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Half_01.prefab
+  artifactKey: Guid(a2bae61e05d40544b8c5bde79ad2dc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Half_01.prefab using Guid(a2bae61e05d40544b8c5bde79ad2dc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbc00216e9f009a6dbc38d2b5564823') in 0.040257 seconds
+  Import took 0.046493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_01.prefab
+  artifactKey: Guid(e2d66b6f7dcb3fc4b80593cb1e21e723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_01.prefab using Guid(e2d66b6f7dcb3fc4b80593cb1e21e723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e671bae4a9b71e0ebd0cbd981bf619e4') in 0.044238 seconds
+  Import took 0.050426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_08.prefab
+  artifactKey: Guid(2d79fa579c8ce6840a824471cb4c57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_08.prefab using Guid(2d79fa579c8ce6840a824471cb4c57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7784511780cd3fab07216720bf2c71d6') in 0.045380 seconds
+  Import took 0.051596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_Base_03.prefab
+  artifactKey: Guid(7ec7c20731a8414459e426abb345cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_Base_03.prefab using Guid(7ec7c20731a8414459e426abb345cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b18ea83c128b3bd98248997a3fc1efc') in 0.042793 seconds
+  Import took 0.049170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_02_Broken_01.prefab
+  artifactKey: Guid(72c274cca27e6ae43bf23fa413aa65d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_02_Broken_01.prefab using Guid(72c274cca27e6ae43bf23fa413aa65d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4dc77a6b391a2b74d4d67826e7fec2') in 0.041298 seconds
+  Import took 0.047482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_02.prefab
+  artifactKey: Guid(8d68340971b692441bae7a612cf31c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Pillar_02.prefab using Guid(8d68340971b692441bae7a612cf31c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29c3f615d746e0446ad34f378340a53') in 0.041126 seconds
+  Import took 0.048107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_02_Broken_02.prefab
+  artifactKey: Guid(8e86ca75f5f3bd24e8e65df8d16de097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_02_Broken_02.prefab using Guid(8e86ca75f5f3bd24e8e65df8d16de097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978e256014c3b1af778011c85119c41e') in 0.043226 seconds
+  Import took 0.049730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_01.prefab
+  artifactKey: Guid(0e84c90dcfea17140b9d8fc61af5389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_01.prefab using Guid(0e84c90dcfea17140b9d8fc61af5389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9602bb93dab8562a53956ab6dcea465') in 0.041490 seconds
+  Import took 0.048090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Gutter_Straight_01.prefab
+  artifactKey: Guid(cdbf9080c61ca9146a2288c5b3f83a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Gutter_Straight_01.prefab using Guid(cdbf9080c61ca9146a2288c5b3f83a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9784780603dcb7234c8e7307ee7a88') in 0.042289 seconds
+  Import took 0.048810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bramble_02.prefab
+  artifactKey: Guid(8c73641373f39e842b21f84d113028e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bramble_02.prefab using Guid(8c73641373f39e842b21f84d113028e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e3acebe3df552a349e9180db6200be') in 0.042714 seconds
+  Import took 0.049491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Crystals_Cluster_Large_03.prefab
+  artifactKey: Guid(b2f83ac58e9a78c419d2418cd7162312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Crystals_Cluster_Large_03.prefab using Guid(b2f83ac58e9a78c419d2418cd7162312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4832684eefffd0e2a99ee302f2d2253') in 0.028755 seconds
+  Import took 0.036054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_21.prefab
+  artifactKey: Guid(08e2e8c1162b95d4e8cefd165a619eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_21.prefab using Guid(08e2e8c1162b95d4e8cefd165a619eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1ea7b9b24fa83d33e0f969fce71af3') in 0.044783 seconds
+  Import took 0.052180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_20.prefab
+  artifactKey: Guid(d9f2f474eb1965f4bb702d045bb9d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_20.prefab using Guid(d9f2f474eb1965f4bb702d045bb9d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75f05cdc40c9833c492fc9536822e7c') in 0.043917 seconds
+  Import took 0.050398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Crack_01.prefab
+  artifactKey: Guid(5c0060a4769a51a44890878c3bc24a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Crack_01.prefab using Guid(5c0060a4769a51a44890878c3bc24a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b45eeff2530e33fb53ad35c69d3859') in 0.041597 seconds
+  Import took 0.048155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_26.prefab
+  artifactKey: Guid(d67079981e29a6343a1a95e1725c5ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_26.prefab using Guid(d67079981e29a6343a1a95e1725c5ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0576fa9d09e67f28145db308038dfc') in 0.042892 seconds
+  Import took 0.049323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_Extension_01.prefab
+  artifactKey: Guid(868cf363127c7e64f99fdd8ef5857f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Bridge_Extension_01.prefab using Guid(868cf363127c7e64f99fdd8ef5857f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe0e0d299a721fe45e8fe3e306d1300') in 0.043330 seconds
+  Import took 0.049614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Gutter_Straight_Half_01 1.prefab
+  artifactKey: Guid(d9c4530f6a34a5f428f98c01b1347996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Gutter_Straight_Half_01 1.prefab using Guid(d9c4530f6a34a5f428f98c01b1347996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23730101d826c6e43985d6172e25c5be') in 0.041193 seconds
+  Import took 0.047655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_01.prefab
+  artifactKey: Guid(355126364ffea3e4ebe5826e6b2d19c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_01.prefab using Guid(355126364ffea3e4ebe5826e6b2d19c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b574fc2e7d72c9df73a3803f698c44') in 0.043763 seconds
+  Import took 0.052669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_27.prefab
+  artifactKey: Guid(2f3e28317728e924eb3b1410019d6bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_27.prefab using Guid(2f3e28317728e924eb3b1410019d6bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df995449f7a3f1cd8345e53abbafe990') in 0.043783 seconds
+  Import took 0.050439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_03.prefab
+  artifactKey: Guid(5a918ff39dacf9440b417568f0ffd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_03.prefab using Guid(5a918ff39dacf9440b417568f0ffd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be58e8b4420a295c2f7419c91ad37e9f') in 0.044589 seconds
+  Import took 0.050939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_03_Broken_01.prefab
+  artifactKey: Guid(f96089e9b7430ad4c8b8b7e04740d038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_03_Broken_01.prefab using Guid(f96089e9b7430ad4c8b8b7e04740d038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022824b031070435b9499e7d2a2820f1') in 0.040579 seconds
+  Import took 0.047995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_02_Broken_01.prefab
+  artifactKey: Guid(dbec6c9fdaccb5547a71a88abb1cba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_02_Broken_01.prefab using Guid(dbec6c9fdaccb5547a71a88abb1cba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5910e852285cea790acdf9818a2f52cb') in 0.042326 seconds
+  Import took 0.048632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Beam_01.prefab
+  artifactKey: Guid(66a745ff6a7efef42a71babd6004339d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Beam_01.prefab using Guid(66a745ff6a7efef42a71babd6004339d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3fe598e1fe02c19543d62b176d950a') in 0.042050 seconds
+  Import took 0.049468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Steam_01.prefab
+  artifactKey: Guid(e60f79d92eb08f742a87aaf1f2fba606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Steam_01.prefab using Guid(e60f79d92eb08f742a87aaf1f2fba606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345e1f06e83018b41cdf8220215140ce') in 0.012071 seconds
+  Import took 0.016709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Bubbles_01.prefab
+  artifactKey: Guid(384cba71a178c4c41bc6da9e6d69f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Bubbles_01.prefab using Guid(384cba71a178c4c41bc6da9e6d69f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebfec874062f8e2d310131d25a82f4d') in 0.008354 seconds
+  Import took 0.013674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sand_Waterfall_Large_01.prefab
+  artifactKey: Guid(2d782bfc9ed42c24596439612f009665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sand_Waterfall_Large_01.prefab using Guid(2d782bfc9ed42c24596439612f009665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca625b368e2f34603fc85c9744a82632') in 0.006993 seconds
+  Import took 0.013008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Fire_Wild_01.prefab
+  artifactKey: Guid(75a94bfbbdc2a294aa461d7df91ef417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Fire_Wild_01.prefab using Guid(75a94bfbbdc2a294aa461d7df91ef417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cd5e7f4403e57b5fb922882468d9e2') in 0.007158 seconds
+  Import took 0.012263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Fire_Chandelier_01.prefab
+  artifactKey: Guid(620b6367d70c2c04db6d354e6b19fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Fire_Chandelier_01.prefab using Guid(620b6367d70c2c04db6d354e6b19fb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e83b3013ee5ca587df3bc0c5567bed6') in 0.007651 seconds
+  Import took 0.012335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Cart_Rail_01.prefab
+  artifactKey: Guid(69ebcf6f565ca8d4db25575f67b5821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Cart_Rail_01.prefab using Guid(69ebcf6f565ca8d4db25575f67b5821f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297b706b0d54cb47d6f43d2b677b4025') in 0.008546 seconds
+  Import took 0.012865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Steam_01.prefab
+  artifactKey: Guid(02a68e019bcbb7844996050723602b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Steam_01.prefab using Guid(02a68e019bcbb7844996050723602b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dbfc48bf75c7efb0c0c06645ecb5cb') in 0.007070 seconds
+  Import took 0.011773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sand_Waterfall_Base_01.prefab
+  artifactKey: Guid(93633ef99828be24cb54e1b6a1ea4df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sand_Waterfall_Base_01.prefab using Guid(93633ef99828be24cb54e1b6a1ea4df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa30872da2c5a1ac620964d48b23226') in 0.007182 seconds
+  Import took 0.012217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Hell_Brazier_Fire_01.prefab
+  artifactKey: Guid(68b9ca83f6a52fd429c470306bce5916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Hell_Brazier_Fire_01.prefab using Guid(68b9ca83f6a52fd429c470306bce5916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9ae7354bca9f95af19b8e22535e0a2') in 0.006711 seconds
+  Import took 0.011515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/SunShaft.prefab
+  artifactKey: Guid(e091941bee533bf4d9a4b38c3f89b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/SunShaft.prefab using Guid(e091941bee533bf4d9a4b38c3f89b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df41f05c42299629a507c750a48fab0d') in 0.012190 seconds
+  Import took 0.016887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Big_Sparkle_01.prefab
+  artifactKey: Guid(9f21036c7c5308c4797dc95d8aba17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Big_Sparkle_01.prefab using Guid(9f21036c7c5308c4797dc95d8aba17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36191b3867b300b33b70db1f1e77fe01') in 0.006783 seconds
+  Import took 0.011179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Candle_Flame_01.prefab
+  artifactKey: Guid(d32281687553f8e47bafdbc91759c987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Candle_Flame_01.prefab using Guid(d32281687553f8e47bafdbc91759c987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da994bcec2df02729fabf08379e631e7') in 0.006777 seconds
+  Import took 0.011529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Fire_Small_01.prefab
+  artifactKey: Guid(8c6c293aa06b84544b042f2a8bbdd157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Fire_Small_01.prefab using Guid(8c6c293aa06b84544b042f2a8bbdd157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f369e85038c02be90e17b804b5fd31c') in 0.007634 seconds
+  Import took 0.012386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sand_Waterfall_Small_01.prefab
+  artifactKey: Guid(b169d051e8e7d154f811e6dfe9d0967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sand_Waterfall_Small_01.prefab using Guid(b169d051e8e7d154f811e6dfe9d0967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521fd23a4a0e76b660a72228b622e9dd') in 0.006824 seconds
+  Import took 0.011479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Electric_01.prefab
+  artifactKey: Guid(89170cefb4a33d5408fa646571f347c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Electric_01.prefab using Guid(89170cefb4a33d5408fa646571f347c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b80477ccee5eba773063b1be776a078') in 0.006579 seconds
+  Import took 0.011222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sparks_02.prefab
+  artifactKey: Guid(d0dfac6c48315d94bbd97f52e54dae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sparks_02.prefab using Guid(d0dfac6c48315d94bbd97f52e54dae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d2eec624e99ff08087a470026f64ef') in 0.006622 seconds
+  Import took 0.011810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Dust_Embers_Large_01.prefab
+  artifactKey: Guid(5214529d18de3114d82010f5c389cd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Dust_Embers_Large_01.prefab using Guid(5214529d18de3114d82010f5c389cd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3258665cacfb536882af48e74e502d') in 0.006331 seconds
+  Import took 0.010968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Hell_Rocks_Floating_01.prefab
+  artifactKey: Guid(99024be2f78226941bc3bb115e1bf2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Hell_Rocks_Floating_01.prefab using Guid(99024be2f78226941bc3bb115e1bf2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0a79d89bb2dd0767273556897a249b') in 0.008539 seconds
+  Import took 0.013671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Gold_Sparkle_01.prefab
+  artifactKey: Guid(fa93599052ce9a8479ff363d4f15cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Gold_Sparkle_01.prefab using Guid(fa93599052ce9a8479ff363d4f15cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a21c1465f71a87a5b42ef1358b08c5') in 0.007079 seconds
+  Import took 0.011302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Orb_01.prefab
+  artifactKey: Guid(afc3325e46a304048a72619540268458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Orb_01.prefab using Guid(afc3325e46a304048a72619540268458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddf89ac98fe772d577440a6567a4183') in 0.012785 seconds
+  Import took 0.017411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Steam_Ring_01.prefab
+  artifactKey: Guid(d02b95a3ff35c714cb966f6bedae1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Steam_Ring_01.prefab using Guid(d02b95a3ff35c714cb966f6bedae1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752081c16fb7724f84a0fa355c5d63e3') in 0.006616 seconds
+  Import took 0.011986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_FallingDust_Small_01.prefab
+  artifactKey: Guid(43bb90679d10ba248bcdc6a06967cdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_FallingDust_Small_01.prefab using Guid(43bb90679d10ba248bcdc6a06967cdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8623cf921dae107d8540539da976c778') in 0.006750 seconds
+  Import took 0.011128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Rocks_Still_Large_01.prefab
+  artifactKey: Guid(d2f61431ccee79e45bbf1d8657199ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Rocks_Still_Large_01.prefab using Guid(d2f61431ccee79e45bbf1d8657199ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928704456f36129648707c92688155f9') in 0.007911 seconds
+  Import took 0.012887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Steam_02.prefab
+  artifactKey: Guid(f4e6fa0e6ba13d346bf44d362caec7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Steam_02.prefab using Guid(f4e6fa0e6ba13d346bf44d362caec7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1464d24282a92bf1dd62ed4fe28032d') in 0.007161 seconds
+  Import took 0.012124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_FallingDust_01.prefab
+  artifactKey: Guid(a6bf65367cec1cb459c1a67614658e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_FallingDust_01.prefab using Guid(a6bf65367cec1cb459c1a67614658e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247894e6974eba84a8c832b47b80cdb2') in 0.006757 seconds
+  Import took 0.011345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sparks_01.prefab
+  artifactKey: Guid(d6a63cdd5eb9881498c30a6146931303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Sparks_01.prefab using Guid(d6a63cdd5eb9881498c30a6146931303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8139b5289701bc75557e0d39c102da1e') in 0.006994 seconds
+  Import took 0.011520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Rocks_Still_01.prefab
+  artifactKey: Guid(f9e7b57b787e04c458f5d932888b32e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Rocks_Still_01.prefab using Guid(f9e7b57b787e04c458f5d932888b32e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98860325cf81481da186f134791ec767') in 0.007857 seconds
+  Import took 0.012485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Fire_Large_01.prefab
+  artifactKey: Guid(d51c536b50623db44bd5a0085ac7e7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Fire_Large_01.prefab using Guid(d51c536b50623db44bd5a0085ac7e7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8757fd72c3b2379723c7462c0e25515') in 0.007624 seconds
+  Import took 0.011939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_04.prefab
+  artifactKey: Guid(3374ec66ff7ddc44fb0c6d239b29275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Bone_Rib_04.prefab using Guid(3374ec66ff7ddc44fb0c6d239b29275f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1651170c44c3aea64fa89991c3eddf08') in 0.043891 seconds
+  Import took 0.051338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Round_01.prefab
+  artifactKey: Guid(f5f94dd8b4d56f4458d4511cca4fafce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Round_01.prefab using Guid(f5f94dd8b4d56f4458d4511cca4fafce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5521b77dc017a3800e4cc4ba095db10') in 0.042646 seconds
+  Import took 0.049272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_Pillar_01.prefab
+  artifactKey: Guid(1bef469a80c36784b91cda10f9316eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_Pillar_01.prefab using Guid(1bef469a80c36784b91cda10f9316eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b183f9388c62542bb44da8c436b48fd') in 0.041471 seconds
+  Import took 0.048233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_Pillar_02.prefab
+  artifactKey: Guid(0f9922ca270b1b94caa0c8a87c377582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Duct_Pillar_02.prefab using Guid(0f9922ca270b1b94caa0c8a87c377582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca51f77a93a7cbf9f4a51a6ff5af9d75') in 0.040728 seconds
+  Import took 0.047106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Gutter_Corner_01.prefab
+  artifactKey: Guid(0bab8f8178442234fa42818bb563829b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Gutter_Corner_01.prefab using Guid(0bab8f8178442234fa42818bb563829b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621777130121d8352e23990f155eadcb') in 0.042213 seconds
+  Import took 0.048428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_16.prefab
+  artifactKey: Guid(b71f5012cb7de1448ae0c7f2636e6b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_16.prefab using Guid(b71f5012cb7de1448ae0c7f2636e6b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39f6f067792b6ee6c8017dc93a08a4a') in 0.041280 seconds
+  Import took 0.047547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_03.prefab
+  artifactKey: Guid(51bdebe41cd205a4ebfd300d42da95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_03.prefab using Guid(51bdebe41cd205a4ebfd300d42da95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56840c3270d2ff1927ea0e3afb67095d') in 0.043487 seconds
+  Import took 0.050642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Gutter_Straight_02.prefab
+  artifactKey: Guid(cf15a33d8e66d8d45b226d7ab8caac58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Gutter_Straight_02.prefab using Guid(cf15a33d8e66d8d45b226d7ab8caac58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c354c3da5cd03fc6f23dc77ad38238a') in 0.043069 seconds
+  Import took 0.049946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Dust_Large_01.prefab
+  artifactKey: Guid(ebb3626bfefa45a40bf1a3d5a33ae042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Dust_Large_01.prefab using Guid(ebb3626bfefa45a40bf1a3d5a33ae042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27b752661be5a4dfb5f672bb64dca2f') in 0.007323 seconds
+  Import took 0.011678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Wheel_Bracket_01.prefab
+  artifactKey: Guid(87b3d32583d1d194da3b3a6607dcd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Lava_Wheel_Bracket_01.prefab using Guid(87b3d32583d1d194da3b3a6607dcd719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53441ee484ae2cf1ee6ce3e5af76879c') in 0.042348 seconds
+  Import took 0.049600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_10.prefab
+  artifactKey: Guid(a835c1537854bd84eaf3b56ae2085359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_10.prefab using Guid(a835c1537854bd84eaf3b56ae2085359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b392cbd4ef085341e98de6eea55765e') in 0.039639 seconds
+  Import took 0.046684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Beam_Corner_01.prefab
+  artifactKey: Guid(7924d9a9a33b5644db4cec23fdb21069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Forge_Beam_Corner_01.prefab using Guid(7924d9a9a33b5644db4cec23fdb21069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b35edd46ff663c9ad8c873e32c16b2') in 0.041057 seconds
+  Import took 0.047381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Crystals_Cluster_Large_02.prefab
+  artifactKey: Guid(c20f45e06be0ebe43aa33b74913eba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Crystals_Cluster_Large_02.prefab using Guid(c20f45e06be0ebe43aa33b74913eba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9930af5ebcd90f3ab0f76252d1a5ae9c') in 0.027470 seconds
+  Import took 0.032599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_Stairs_02.prefab
+  artifactKey: Guid(9b0ef2e3b5252d44bb92d15bf0db57a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Balustrade_Stairs_02.prefab using Guid(9b0ef2e3b5252d44bb92d15bf0db57a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30562113e81c722a63da39469c3252d4') in 0.041955 seconds
+  Import took 0.048079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_02.prefab
+  artifactKey: Guid(67941eb6c1856a543afcd363c2fe8908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_02.prefab using Guid(67941eb6c1856a543afcd363c2fe8908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d084eda27c7ff3f23383ac8fdc478cc') in 0.044438 seconds
+  Import took 0.052994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_06.prefab
+  artifactKey: Guid(e67d5042c895ac94aa7ecf7aaa3311a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_06.prefab using Guid(e67d5042c895ac94aa7ecf7aaa3311a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f16dfd98d9d5cc4f9402b857080122') in 0.051873 seconds
+  Import took 0.059685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Corner_01.prefab
+  artifactKey: Guid(ebb6925b39bbb3f439aef80e19f9f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Corner_01.prefab using Guid(ebb6925b39bbb3f439aef80e19f9f79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f0c1b44fd93b5cb3472d2bd9bf310b') in 0.044091 seconds
+  Import took 0.050769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Rocks_Spread_01.prefab
+  artifactKey: Guid(275ce8159925c14489d0467d0e9ac9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Lava_Rocks_Spread_01.prefab using Guid(275ce8159925c14489d0467d0e9ac9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26047d5dd3688bce96f901fdf395e856') in 0.009389 seconds
+  Import took 0.015446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_05.prefab
+  artifactKey: Guid(3956f3c8eb44c5f4b89f85ea42fab1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_05.prefab using Guid(3956f3c8eb44c5f4b89f85ea42fab1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d15dffbd5d886906e2ba11b06898b2') in 0.044731 seconds
+  Import took 0.051203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Dust_Embers_Small_01.prefab
+  artifactKey: Guid(12cbaea427fa02d48bd63062e66a8a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Dust_Embers_Small_01.prefab using Guid(12cbaea427fa02d48bd63062e66a8a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc20382b2b531e9b1bd47f410177cfff') in 0.007199 seconds
+  Import took 0.011474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_01_Broken_02.prefab
+  artifactKey: Guid(62931f13e409362459358614d835435a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Obelisk_01_Broken_02.prefab using Guid(62931f13e409362459358614d835435a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13104d5bd1ba5460a4e1e7ab0bcdf18e') in 0.042716 seconds
+  Import took 0.049718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Dust_Large_Soft_01.prefab
+  artifactKey: Guid(e657ebb2c9e005d4f8b807b7af76a777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/FX/FX_Dust_Large_Soft_01.prefab using Guid(e657ebb2c9e005d4f8b807b7af76a777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878333defcac32f766b1937f1e9d130f') in 0.006753 seconds
+  Import took 0.012128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Crystals_Cluster_Large_01.prefab
+  artifactKey: Guid(dce3c8431d706094b8739de24005fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Crystals_Cluster_Large_01.prefab using Guid(dce3c8431d706094b8739de24005fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20906b9aa6a7a5c1e578b6b2a91a967c') in 0.026078 seconds
+  Import took 0.032163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Half_02.prefab
+  artifactKey: Guid(456203b9df9bd17428463eb5952c9a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_Half_02.prefab using Guid(456203b9df9bd17428463eb5952c9a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de92da8cda2a7deb448457543125c301') in 0.044310 seconds
+  Import took 0.051576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_13.prefab
+  artifactKey: Guid(a1cbce2bce973cc459a7dfaa9ab33015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Prefabs/Environments/SM_Env_Dwarf_Floor_13.prefab using Guid(a1cbce2bce973cc459a7dfaa9ab33015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426532d5a316cc1673680b0899ceecb3') in 0.042379 seconds
+  Import took 0.049398 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
