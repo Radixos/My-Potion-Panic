@@ -6,10 +6,8 @@ public class FountainBehaviour : MonoBehaviour
 {
     [SerializeField] private int delay = 2;
     [SerializeField] private float minRandomSpawnDelay = 1.5f, maxRandomSpawnDelay = 2f;
-    [SerializeField] private float minSpawnOff = 1f, maxSpawnOff = 2f;
+    [SerializeField] private float minSpawnOff = 1.25f, maxSpawnOff = 2.25f;
     [SerializeField] private List<GameObject> ingredients;
-
-    private Vector3 center;
 
     private void Start()
     {
@@ -30,13 +28,13 @@ public class FountainBehaviour : MonoBehaviour
             Vector3 center = transform.position;
             Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
             Quaternion rot = Quaternion.FromToRotation(Vector3.forward, center - pos);
-            Instantiate(ingredients[Random.Range(0, ingredients.Count)], pos, rot);
+            Instantiate(ingredients[(Random.Range(0, ingredients.Count))], pos, rot);
 
-            //float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
-            //Debug.Log(waitTime);
-            //yield return new WaitForSeconds(0);
+            float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
+            Debug.Log(waitTime);
+            yield return new WaitForSeconds(waitTime);
 
-            StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
+            //StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
         }
     }
 
