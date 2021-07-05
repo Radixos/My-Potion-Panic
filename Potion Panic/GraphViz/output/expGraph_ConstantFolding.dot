@@ -1,0 +1,24 @@
+digraph G {
+node0 [shape="box" color="steelblue" style="filled" label="VFXValue`1 Float (1)
+Rate_a"]
+node1 [shape="box" color="steelblue" style="filled" label="VFXValue`1 Float3 ((0.0, 1.0, 0.0))
+bounds_center"]
+node2 [shape="box" color="steelblue" style="filled" label="VFXValue`1 Float3 ((2.0, 3.0, 2.0))
+bounds_size"]
+node3 [shape="box" color="steelblue" style="filled" label="VFXValue`1 Float (2)
+Lifetime_a"]
+node4 [shape="box" color="cyan" style="filled" label="VFXBuiltInExpression Float (DeltaTime)
+deltaTime_a"]
+node5 [shape="box" color="cyan" style="filled" label="VFXExpressionBakeGradient Float
+Color_b"]
+node6 [shape="box" color="lightslategray" style="filled" label="VFXValue`1 ColorGradient (UnityEngine.Gradient)"]
+node7 [shape="box" color="steelblue" style="filled" label="VFXValue`1 Float (6)
+Size_c"]
+node8 [shape="box" color="cyan" style="filled" label="VFXExpressionBakeCurve Float4
+Size_d"]
+node9 [shape="box" color="lightslategray" style="filled" label="VFXValue`1 Curve (UnityEngine.AnimationCurve)"]
+node10 [shape="box" color="cyan" style="filled" label="VFXTexture2DValue Texture2D (790)
+mainTexture"]
+node6 -> node5 
+node9 -> node8 
+}
