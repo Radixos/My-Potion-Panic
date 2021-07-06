@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f2f35a80cb5434a9f749215b43c618, type: 3}
+  m_Name: Volcanic Blast
+  m_EditorClassIdentifier: 
+  Name: Volcanic Blast
+  Description: A fiery shockwave originating from player dealing decreasing damage
+    from the center.
+  spellImage: {fileID: 21300000, guid: dfdd930a10857fa4cb9b681a616ffcaa, type: 3}
+  requiredIngredients:
+  - {fileID: 8307939410927398286, guid: 064aa48e53b16b645b8ab8224ba7d476, type: 3}
+  - {fileID: 1190935073731639397, guid: dd45652b834f16146aaad9a4564ef2a4, type: 3}
+  - {fileID: 5022789680773796988, guid: d48e68b305d56ad409ae09bf976293ef, type: 3}
+  spellPrefab: {fileID: 0}
+  NumberOfUses: 1
