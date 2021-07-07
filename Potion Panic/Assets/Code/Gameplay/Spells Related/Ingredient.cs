@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Ingredient : MonoBehaviour
 {
-    public string Name;
+    public Ingredient_SO ingredientInfo;
 
     private Transform target;
+
+    public GameObject inputInfo;
 
     // Start is called before the first frame update
     //void Start()
@@ -36,6 +38,7 @@ public class Ingredient : MonoBehaviour
     {
         target = newTarget;
         SetKeyElementsState(false);
+        SetInputInfoState(false);
     }
 
     public void SetKeyElementsState(bool state)
@@ -43,5 +46,23 @@ public class Ingredient : MonoBehaviour
         GetComponent<Rigidbody>().useGravity = state;
         GetComponent<BoxCollider>().enabled = state;
         GetComponent<SphereCollider>().enabled = state;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+            SetInputInfoState(true);
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+            SetInputInfoState(false);
+    }
+
+    void SetInputInfoState(bool state)
+    {
+        inputInfo.SetActive(state);
     }
 }

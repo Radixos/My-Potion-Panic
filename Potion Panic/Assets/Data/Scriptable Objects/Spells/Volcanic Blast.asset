@@ -15,10 +15,10 @@ MonoBehaviour:
   Name: Volcanic Blast
   Description: A fiery shockwave originating from player dealing decreasing damage
     from the center.
-  spellImage: {fileID: 21300000, guid: dfdd930a10857fa4cb9b681a616ffcaa, type: 3}
+  spellPreview: {fileID: 21300000, guid: dfdd930a10857fa4cb9b681a616ffcaa, type: 3}
   requiredIngredients:
-  - {fileID: 8307939410927398286, guid: 064aa48e53b16b645b8ab8224ba7d476, type: 3}
-  - {fileID: 1190935073731639397, guid: dd45652b834f16146aaad9a4564ef2a4, type: 3}
-  - {fileID: 5022789680773796988, guid: d48e68b305d56ad409ae09bf976293ef, type: 3}
+  - {fileID: 11400000, guid: bc676ba93bb9a8045a7531b960f2d507, type: 2}
+  - {fileID: 11400000, guid: 1f381dd7910f1fb4fb357028c3bbc083, type: 2}
+  - {fileID: 11400000, guid: 43ed1b89f5ca4de49b988af498318114, type: 2}
   spellPrefab: {fileID: 0}
   NumberOfUses: 1

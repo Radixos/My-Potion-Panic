@@ -612,7 +612,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278381829}
   m_LocalRotation: {x: 0.60876137, y: 0, z: 0, w: 0.7933534}
-  m_LocalPosition: {x: 0, y: 12.5, z: -4}
+  m_LocalPosition: {x: 2.9, y: 12.5, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -955,6 +955,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6153225777422264928, guid: e54ebbaf1848c1645b4875e5d88823a1, type: 3}
       propertyPath: spell
+      value: 
+      objectReference: {fileID: 11400000, guid: 5d5047b4da87ba244965ca4e366c4818, type: 2}
+    - target: {fileID: 6153225777422264928, guid: e54ebbaf1848c1645b4875e5d88823a1, type: 3}
+      propertyPath: spellInfo
       value: 
       objectReference: {fileID: 11400000, guid: 5d5047b4da87ba244965ca4e366c4818, type: 2}
     - target: {fileID: 6153225777422264929, guid: e54ebbaf1848c1645b4875e5d88823a1, type: 3}
@@ -2126,6 +2130,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: myCauldron
+      value: 
+      objectReference: {fileID: 1752451969}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
 --- !u!4 &945796957 stripped
@@ -2518,6 +2526,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6153225777422264928, guid: e54ebbaf1848c1645b4875e5d88823a1, type: 3}
       propertyPath: spell
+      value: 
+      objectReference: {fileID: 11400000, guid: 3b7d9cb426ad91c4b9989a8233ad03c9, type: 2}
+    - target: {fileID: 6153225777422264928, guid: e54ebbaf1848c1645b4875e5d88823a1, type: 3}
+      propertyPath: spellInfo
       value: 
       objectReference: {fileID: 11400000, guid: 3b7d9cb426ad91c4b9989a8233ad03c9, type: 2}
     - target: {fileID: 6153225777422264929, guid: e54ebbaf1848c1645b4875e5d88823a1, type: 3}
@@ -3635,6 +3647,10 @@ PrefabInstance:
       propertyPath: spell
       value: 
       objectReference: {fileID: 11400000, guid: 29bfef7556a21374196acdc41fc5b7a8, type: 2}
+    - target: {fileID: 6153225777422264928, guid: e54ebbaf1848c1645b4875e5d88823a1, type: 3}
+      propertyPath: spellInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 29bfef7556a21374196acdc41fc5b7a8, type: 2}
     - target: {fileID: 6153225777422264929, guid: e54ebbaf1848c1645b4875e5d88823a1, type: 3}
       propertyPath: m_Name
       value: Volcanic Blast SC
@@ -3813,6 +3829,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+      propertyPath: cauldronOwner
+      value: 
+      objectReference: {fileID: 1907517097}
     - target: {fileID: 8283081595099862278, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_Carve
       value: 0
@@ -3931,15 +3951,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 504359552303502017, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.8379545
+      value: 3.372
       objectReference: {fileID: 0}
     - target: {fileID: 504359552303502017, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.558
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 504359552303502017, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.007102
+      value: -0.903
       objectReference: {fileID: 0}
     - target: {fileID: 504359552303502017, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3972,6 +3992,10 @@ PrefabInstance:
     - target: {fileID: 987424095258822779, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
       propertyPath: m_Name
       value: octopus tentacle Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 987424095258822779, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
@@ -4027,6 +4051,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4480083285837352, guid: 1e58e3c5035624042aae44b75036e67a, type: 3}
   m_PrefabInstance: {fileID: 1375059659}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1752451969 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+  m_PrefabInstance: {fileID: 1589810087}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5b5e77eb496a74ea606f14e0867819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1800716911
 GameObject:
   m_ObjectHideFlags: 0
@@ -4192,6 +4227,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4639873908540890, guid: cb4aec065755ca34ca39b132f34a6fe2, type: 3}
   m_PrefabInstance: {fileID: 69246622}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1907517097 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+  m_PrefabInstance: {fileID: 945796956}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1931005547
 GameObject:
   m_ObjectHideFlags: 0

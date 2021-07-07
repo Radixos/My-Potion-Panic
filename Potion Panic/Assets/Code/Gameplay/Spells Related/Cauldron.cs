@@ -11,6 +11,10 @@ public class Cauldron : MonoBehaviour
 
     public Transform cauldronCore;
 
+    public PlayerController cauldronOwner;
+
+    public GameObject inputInfo;
+
     // Start is called before the first frame update
     //void Start()
     //{
@@ -40,6 +44,32 @@ public class Cauldron : MonoBehaviour
     public void AssignDroppingIngredient(Ingredient newIngredient)
     {
         droppingIngredient = newIngredient;
+        SetInputInfoState(false);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if (other.gameObject.GetInstanceID() == cauldronOwner.gameObject.GetInstanceID())
+                if (cauldronOwner.carryingIngredient != null)
+                    SetInputInfoState(true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            if (other.gameObject.GetInstanceID() == cauldronOwner.gameObject.GetInstanceID())
+                if (cauldronOwner.carryingIngredient != null)
+                    SetInputInfoState(false);
+        }
+    }
+
+    void SetInputInfoState(bool state)
+    {
+        inputInfo.SetActive(state);
     }
 
 }

@@ -7,8 +7,13 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
 
+    private bool inTriggerRange;
+    private GameObject collidingObject; // Ingredient that the player is in range with
+
     public Transform carryingLocation;
-    private Ingredient carryingIngredient;
+    public Ingredient carryingIngredient; // Ingredient that the player is carrying
+
+    public Cauldron myCauldron;
 
     // Start is called before the first frame update
     //void Start()
@@ -22,7 +27,10 @@ public class PlayerController : MonoBehaviour
         GetComponent<Rigidbody>().velocity = Vector3.zero;
 
         Move();
-        //CarryIngredient();
+        AimWithMouse();
+
+        if (inTriggerRange)
+            InTriggerRangeAction();
     }
 
     void Move()
@@ -43,11 +51,56 @@ public class PlayerController : MonoBehaviour
             if (isValid)
             {
                 if ((transform.position - hit.position).magnitude >= 0.02f)
-                {
                     transform.position = newPosition;
-                    Debug.Log("Move OK");
-                }
+            }
+        }
+    }
 
+    void AimWithMouse()
+    {
+        Vector3 mousePos = Input.mousePosition;
+
+        Ray camRay = Camera.main.ScreenPointToRay(mousePos); // Ray casted from screen post into the world
+        RaycastHit hit;
+
+        if (Physics.Raycast(camRay, out hit, Mathf.Infinity))
+        {
+            if (hit.transform.CompareTag("Ground")) // If hit anything ground, use impact point to look at
+            {
+                Vector3 aimTarget = new Vector3(hit.point.x, transform.position.y, hit.point.z);
+                transform.LookAt(aimTarget);
+            }
+        }
+    }
+
+    void InTriggerRangeAction()
+    {
+        Ingredient collidingIngredient = collidingObject.GetComponent<Ingredient>();
+
+        if (collidingIngredient != null)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                carryingIngredient = collidingIngredient;
+                carryingIngredient.transform.parent = transform;
+                carryingIngredient.SetTarget(carryingLocation);
+            }
+
+        }
+        else
+        {
+            Cauldron collidingCauldron = collidingObject.GetComponent<Cauldron>();
+
+            if (collidingCauldron == myCauldron && carryingIngredient != null)
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    collidingCauldron.AssignDroppingIngredient(carryingIngredient);
+
+                    carryingIngredient.SetTarget(collidingCauldron.dropLocation);
+                    carryingIngredient.transform.parent = null;
+                    carryingIngredient = null;
+                }
             }
         }
     }
@@ -56,28 +109,19 @@ public class PlayerController : MonoBehaviour
     {
         Ingredient collidingIngredient = other.gameObject.GetComponent<Ingredient>();
 
-        if(collidingIngredient != null)
+        if (collidingIngredient != null || other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
         {
-            carryingIngredient = collidingIngredient;
-            carryingIngredient.transform.parent = transform;
-            carryingIngredient.SetTarget(carryingLocation);
-            //carryingIngredient.gameObject.GetComponent<Rigidbody>().useGravity = false;
-            //carryingIngredient.gameObject.GetComponent<SphereCollider>().enabled = false; // Trigger
-            //carryingIngredient.gameObject.GetComponent<BoxCollider>().enabled = false; // Normal
-
+            inTriggerRange = true;
+            collidingObject = other.gameObject;
         }
-        else
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(collidingObject != null)
         {
-            Cauldron collidingCauldron = other.gameObject.GetComponent<Cauldron>();
-
-            if (collidingCauldron != null && carryingIngredient != null)
-            {
-                collidingCauldron.AssignDroppingIngredient(carryingIngredient);
-
-                carryingIngredient.SetTarget(collidingCauldron.dropLocation);
-                carryingIngredient.transform.parent = null;
-                carryingIngredient = null;
-            }
+            inTriggerRange = false;
+            collidingObject = null;
         }
 
     }
