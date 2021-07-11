@@ -6,7 +6,7 @@ public class FountainBehaviour : MonoBehaviour
 {
     [SerializeField] private int delay = 2;
     [SerializeField] private float minRandomSpawnDelay = 1.5f, maxRandomSpawnDelay = 2f;
-    [SerializeField] private float minSpawnOff = 1.25f, maxSpawnOff = 2.25f;
+    [SerializeField] private float minSpawnOff = 1.75f, maxSpawnOff = 3f;
     [SerializeField] private List<GameObject> ingredients;
 
     private void Start()
@@ -25,18 +25,98 @@ public class FountainBehaviour : MonoBehaviour
 
         while (true)
         {
-            Vector3 center = transform.position;
+            Vector3 center = gameObject.GetComponent<Renderer>().bounds.center;
             Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
+
             Quaternion rot = Quaternion.FromToRotation(Vector3.forward, center - pos);
-            Instantiate(ingredients[(Random.Range(0, ingredients.Count))], pos, rot);
+            GameObject clone = Instantiate(ingredients[(Random.Range(0, ingredients.Count))], center, rot);
+
+            Vector3 cloneCenter = clone.transform.position;
+
+            float privateRotation = 60f;
+            float dragDown = 5f;
+
+            // Calculate distance to target
+            float target_Distance = Vector3.Distance(cloneCenter, pos);
+
+            // Calculate the velocity needed to throw the object to the target at specified angle.
+            float projectile_Velocity = target_Distance / (Mathf.Sin(2 * privateRotation * Mathf.Deg2Rad) / dragDown);
+
+            // Extract the X  Y componenent of the velocity
+            float Vx = Mathf.Sqrt(projectile_Velocity) * Mathf.Cos(privateRotation * Mathf.Deg2Rad);
+            float Vy = Mathf.Sqrt(projectile_Velocity) * Mathf.Sin(privateRotation * Mathf.Deg2Rad);
+
+            // Calculate flight time.
+            float flightDuration = target_Distance / Vx;
+
+            // Rotate projectile to face the target.
+            clone.transform.rotation = Quaternion.LookRotation(pos - clone.transform.position);
+
+            float elapse_time = 0;
+
+            while (elapse_time < flightDuration)
+            {
+                clone.transform.Translate(0, (Vy - (dragDown * elapse_time)) * Time.deltaTime, Vx * Time.deltaTime);
+
+                elapse_time += Time.deltaTime;
+
+                yield return null;
+            }
 
             float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
-            Debug.Log(waitTime);
+            //Debug.Log(waitTime);
             yield return new WaitForSeconds(waitTime);
-
+            
             //StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
         }
     }
+
+    //private IEnumerator Fountain()
+    //{
+    //    yield return new WaitForSeconds(delay);
+
+    //    while (true)
+    //    {
+    //        Vector3 center = transform.position;
+    //        Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
+    //        Quaternion rot = Quaternion.FromToRotation(Vector3.forward, center - pos);
+    //        Instantiate(ingredients[(Random.Range(0, ingredients.Count))], pos, rot);
+
+    //        float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
+    //        Debug.Log(waitTime);
+    //        yield return new WaitForSeconds(waitTime);
+
+    //        //StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
+    //    }
+    //}
+
+    //private IEnumerator Fountain()
+    //{
+    //    yield return new WaitForSeconds(delay);
+
+    //    float time = 2f;
+    //    float elapsedTime = 0f;
+
+    //    while (true)
+    //    {
+    //        Vector3 center = gameObject.GetComponent<Renderer>().bounds.center;
+    //        Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
+    //        Quaternion rot = Quaternion.FromToRotation(Vector3.forward, center - pos);
+    //        GameObject clone = Instantiate(ingredients[(Random.Range(0, ingredients.Count))], center, rot);
+
+    //        while (elapsedTime < time)
+    //        {
+    //            clone.transform.position = MathParabola.Parabola(center, pos, 2f, elapsedTime / time);
+    //            elapsedTime += Time.deltaTime;
+    //        }
+
+    //        float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
+    //        //Debug.Log(waitTime);
+    //        yield return new WaitForSeconds(waitTime);
+
+    //        //StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
+    //    }
+    //}
 
     Vector3 RandomCircle(Vector3 center, float radius)
     {

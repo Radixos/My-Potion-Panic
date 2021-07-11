@@ -182,6 +182,9 @@ VisualEffect:
       - m_Value: 0
         m_Name: CircleMeshRate
         m_Overridden: 1
+      - m_Value: 15
+        m_Name: ParticlesRate
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
