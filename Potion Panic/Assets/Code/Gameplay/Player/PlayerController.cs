@@ -15,11 +15,32 @@ public class PlayerController : MonoBehaviour
 
     public Cauldron myCauldron;
 
-    // Start is called before the first frame update
-    //void Start()
-    //{
+    private float controllerConnectionCheckTimer;
+    private float controllerConnectionCheckDelay;
 
-    //}
+    private string controllerType;
+
+    [Range(1, 4)]
+    public int playerID;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        controllerConnectionCheckDelay = 3.0f;
+        controllerConnectionCheckTimer = 0.0f;
+
+        if (Input.GetJoystickNames().Length > 0)
+        {
+            if (Input.GetJoystickNames()[playerID - 1] == "Controller (Xbox One For Windows)")
+                controllerType = "Xbox";
+            else
+                controllerType = "PS";
+        }
+
+
+        //Debug.Log(controllerType);
+
+    }
 
     // Update is called once per frame
     void Update()
@@ -27,18 +48,20 @@ public class PlayerController : MonoBehaviour
         GetComponent<Rigidbody>().velocity = Vector3.zero;
 
         Move();
-        AimWithMouse();
+        Aim();
+        ControllerConnectionCheck();
 
-        if (inTriggerRange)
-            InTriggerRangeAction();
+        // To update for actions in range of interacting objects
+        //if (inTriggerRange)
+        //InTriggerRangeAction();
     }
 
     void Move()
     {
-        float inputX = Input.GetAxis("Horizontal");
-        float inputZ = Input.GetAxis("Vertical");
+        float inputLeftX = Input.GetAxis("Horizontal Left " + playerID.ToString());
+        float inputLeftY = Input.GetAxis("Vertical Left " + playerID.ToString());
 
-        Vector3 dir = new Vector3(inputX, 0, inputZ);
+        Vector3 dir = new Vector3(inputLeftX, 0, inputLeftY);
 
         float magnitude = dir.sqrMagnitude;
 
@@ -56,21 +79,71 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void AimWithMouse()
+    //void AimWithMouse()
+    //{
+    //    Vector3 mousePos = Input.mousePosition;
+
+    //    Ray camRay = Camera.main.ScreenPointToRay(mousePos); // Ray casted from screen post into the world
+    //    RaycastHit hit;
+
+    //    if (Physics.Raycast(camRay, out hit, Mathf.Infinity))
+    //    {
+    //        if (hit.transform.CompareTag("Ground")) // If hit anything ground, use impact point to look at
+    //        {
+    //            Vector3 aimTarget = new Vector3(hit.point.x, transform.position.y, hit.point.z);
+    //            transform.LookAt(aimTarget);
+    //        }
+    //    }
+    //}
+
+    void Aim()
     {
-        Vector3 mousePos = Input.mousePosition;
+        float inputRightX = 0.0f;
+        float inputRightY = 0.0f;
 
-        Ray camRay = Camera.main.ScreenPointToRay(mousePos); // Ray casted from screen post into the world
-        RaycastHit hit;
-
-        if (Physics.Raycast(camRay, out hit, Mathf.Infinity))
+        if (controllerType == "Xbox")
         {
-            if (hit.transform.CompareTag("Ground")) // If hit anything ground, use impact point to look at
-            {
-                Vector3 aimTarget = new Vector3(hit.point.x, transform.position.y, hit.point.z);
-                transform.LookAt(aimTarget);
-            }
+            inputRightX = Input.GetAxisRaw("Horizontal Right Xbox " + playerID.ToString());
+            inputRightY = Input.GetAxisRaw("Vertical Right Xbox " + playerID.ToString());
         }
+        else if (controllerType == "PS")
+        {
+            inputRightX = Input.GetAxisRaw("Horizontal Right PS " + playerID.ToString());
+            inputRightY = Input.GetAxisRaw("Vertical Right PS " + playerID.ToString());
+        }
+
+        Vector3 faceDir = new Vector3(inputRightX, 0, inputRightY);
+
+        //transform.rotation = Quaternion.Euler(0, Mathf.Atan2(faceDir.y, faceDir.x) * Mathf.Rad2Deg, 0);
+
+        if (faceDir.magnitude > 0)
+        {
+            Quaternion playerRotation = Quaternion.LookRotation(faceDir, Vector3.up);
+            transform.rotation = playerRotation;
+        }
+
+    }
+
+    void ControllerConnectionCheck()
+    {
+        if (controllerConnectionCheckTimer >= controllerConnectionCheckDelay)
+        {
+            if (Input.GetJoystickNames().Length > 0)
+            {
+                if (!(Input.GetJoystickNames()[playerID - 1] == ""))
+                {
+                    if (Input.GetJoystickNames()[playerID - 1] == "Controller (Xbox One For Windows)")
+                        controllerType = "Xbox";
+                    else
+                        controllerType = "PS";
+                }
+            }
+
+            controllerConnectionCheckTimer = 0.0f;
+        }
+        else
+            controllerConnectionCheckTimer += Time.deltaTime;
+
     }
 
     void InTriggerRangeAction()
@@ -79,7 +152,8 @@ public class PlayerController : MonoBehaviour
 
         if (collidingIngredient != null)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            //if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetButtonDown("Interact " + playerID))
             {
                 carryingIngredient = collidingIngredient;
                 carryingIngredient.transform.parent = transform;
@@ -93,7 +167,8 @@ public class PlayerController : MonoBehaviour
 
             if (collidingCauldron == myCauldron && carryingIngredient != null)
             {
-                if (Input.GetKeyDown(KeyCode.E))
+                //if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetButtonDown("Interact " + playerID))
                 {
                     collidingCauldron.AssignDroppingIngredient(carryingIngredient);
 
@@ -118,7 +193,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if(collidingObject != null)
+        if (collidingObject != null)
         {
             inTriggerRange = false;
             collidingObject = null;

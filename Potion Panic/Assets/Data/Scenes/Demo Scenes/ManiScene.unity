@@ -2084,11 +2084,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1996767962855262, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: m_Name
-      value: Player 2
+      value: Player 1
       objectReference: {fileID: 0}
     - target: {fileID: 4372348789597376, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4372348789597376, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2129,6 +2129,10 @@ PrefabInstance:
     - target: {fileID: 4372348789597376, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerID
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: myCauldron
@@ -2376,11 +2380,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1996767962855262, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: m_Name
-      value: Player 1
+      value: Player 2
       objectReference: {fileID: 0}
     - target: {fileID: 4372348789597376, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4372348789597376, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2423,9 +2427,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: playerID
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: myCauldron
+      value: 
+      objectReference: {fileID: 1704619493}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
 --- !u!4 &1077844440 stripped
@@ -3482,6 +3494,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1473010986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+  m_PrefabInstance: {fileID: 1077844439}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1533951108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4046,6 +4069,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.23, y: 0.1, z: 0.31}
   m_Center: {x: -0.03, y: 0, z: 0.1}
+--- !u!114 &1704619493 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+  m_PrefabInstance: {fileID: 2040466096}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5b5e77eb496a74ea606f14e0867819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1714685174 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4480083285837352, guid: 1e58e3c5035624042aae44b75036e67a, type: 3}
@@ -4369,8 +4403,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1077844440}
   - {fileID: 945796957}
+  - {fileID: 1077844440}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4833,6 +4867,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+      propertyPath: cauldronOwner
+      value: 
+      objectReference: {fileID: 1473010986}
     m_RemovedComponents:
     - {fileID: 64531850024605570, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
