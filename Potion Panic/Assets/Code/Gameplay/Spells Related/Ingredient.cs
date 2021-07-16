@@ -30,6 +30,8 @@ public class Ingredient : MonoBehaviour
 
                 if (transform.parent == null) // If not carried by player
                     GetComponent<Rigidbody>().useGravity = true;
+                else
+                    transform.parent.gameObject.GetComponent<PlayerController>().holdIngredient = true;
             }
         }
     }
