@@ -13,17 +13,17 @@ public class Ingredient : MonoBehaviour
     // Start is called before the first frame update
     //void Start()
     //{
-        
+
     //}
 
     // Update is called once per frame
     void Update()
     {
-        if(target != null)
+        if (target != null)
         {
             transform.position = Vector3.MoveTowards(transform.position, target.position, 5 * Time.deltaTime);
 
-            if(Vector3.Distance(transform.position, target.position) <= 0.2f)
+            if (Vector3.Distance(transform.position, target.position) <= 0.2f)
             {
                 transform.position = target.position;
                 target = null;
@@ -52,8 +52,9 @@ public class Ingredient : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
-            SetInputInfoState(true);
+        if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.GetComponent<PlayerController>().carryingIngredient == null)
+                SetInputInfoState(true);
 
     }
 

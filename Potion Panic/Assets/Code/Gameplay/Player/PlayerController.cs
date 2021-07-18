@@ -51,12 +51,33 @@ public class PlayerController : MonoBehaviour
         blinkDuration = 2.0f;
         blinkDelay = 0.15f;
 
+        myCauldron.OnSuccessEvent += MyCauldron_OnSuccessEvent;
+        myCauldron.OnFailureEvent += MyCauldron_OnFailureEvent;
+
+    }
+
+    private void MyCauldron_OnSuccessEvent(Spell_SO brewedSpell)
+    {
+        Debug.Log("Success! Brewed " + brewedSpell.Name);
+    }
+
+    private void MyCauldron_OnFailureEvent(Transform t)
+    {
+
+        Debug.Log("Failure!");
+
+        Vector3 backFireForce = new Vector3(transform.position.x,
+            t.position.y,
+            transform.position.z) - t.position;
+
+        GetComponent<Rigidbody>().AddForce(10 * backFireForce.normalized, ForceMode.Impulse);
+        health -= 20;
     }
 
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        //GetComponent<Rigidbody>().velocity = Vector3.zero;
 
         if (isBlinking)
             BlinkPlayer();
@@ -68,7 +89,7 @@ public class PlayerController : MonoBehaviour
         if (health <= 0)
         {
             // Post Death Functions
-            if(carryingIngredient != null)
+            if (carryingIngredient != null)
             {
                 carryingIngredient.transform.parent = null;
                 carryingIngredient.SetKeyElementsState(true);
@@ -128,7 +149,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (holdIngredient && carryingIngredient != null)
+        if (holdIngredient && carryingIngredient != null) // Waiting to carry until the pickup "animation" is finished
             carryingIngredient.transform.position = carryingLocation.position;
     }
 
@@ -151,32 +172,16 @@ public class PlayerController : MonoBehaviour
 
     void Aim()
     {
-        float inputRightX = 0.0f;
-        float inputRightY = 0.0f;
-
-        inputRightX = Input.GetAxisRaw("Horizontal Right " + controllerType + " " + playerID.ToString());
-        inputRightY = Input.GetAxisRaw("Vertical Right " + controllerType + " " + playerID.ToString());
-
-        //if (controllerType == "Xbox")
-        //{
-
-        //}
-        //else if (controllerType == "PS")
-        //{
-        //    inputRightX = Input.GetAxisRaw("Horizontal Right PS " + playerID.ToString());
-        //    inputRightY = Input.GetAxisRaw("Vertical Right PS " + playerID.ToString());
-        //}
+        float inputRightX = Input.GetAxisRaw("Horizontal Right " + controllerType + " " + playerID.ToString());
+        float inputRightY = Input.GetAxisRaw("Vertical Right " + controllerType + " " + playerID.ToString());
 
         Vector3 faceDir = new Vector3(inputRightX, 0, inputRightY);
-
-        //transform.rotation = Quaternion.Euler(0, Mathf.Atan2(faceDir.y, faceDir.x) * Mathf.Rad2Deg, 0);
 
         if (faceDir.magnitude > 0)
         {
             Quaternion playerRotation = Quaternion.LookRotation(faceDir, Vector3.up);
             transform.rotation = playerRotation;
         }
-
     }
 
     void ControllerConnectionCheck()
@@ -251,7 +256,8 @@ public class PlayerController : MonoBehaviour
     {
         Ingredient collidingIngredient = other.gameObject.GetComponent<Ingredient>();
 
-        if (collidingIngredient != null || other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
+        if ((collidingIngredient != null && carryingIngredient == null) ||
+            other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
         {
             inTriggerRange = true;
             collidingObject = other.gameObject;
