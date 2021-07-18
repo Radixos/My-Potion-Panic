@@ -5,61 +5,125 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Core")]
     public float speed;
+    public float health;
+    public const float maxHealth = 100.0f;
+    public bool isDead;
 
-    private bool inTriggerRange;
+    [Header("Blink")]
+    public bool isBlinking; // Blinking to indicate i-frames upon respawn
+    private float blinkDuration; // Time the player will stay invulnerable
+    private float blinkDelay; // Time interval to switch render state
+    public GameObject playerSkin; // Model to blink
+
+    [Header("Spell Related")]
+    private bool inTriggerRange; // In range of a trigger object. OnTriggerStay works only for a couple of frames
     private GameObject collidingObject; // Ingredient that the player is in range with
 
-    public Transform carryingLocation;
+    public Transform carryingLocation; // Location where the picked up ingredient will be placed
     public Ingredient carryingIngredient; // Ingredient that the player is carrying
+    public bool holdIngredient; // Boolean to check whether the player is carrying an ingredient or not
 
     public Cauldron myCauldron;
 
+    [Header("Controller")]
+    // To frequently check if the controller is connected
+    // or has been switched to a different type.
     private float controllerConnectionCheckTimer;
     private float controllerConnectionCheckDelay;
-
     private string controllerType;
 
     [Range(1, 4)]
-    public int playerID;
+    public int playerID; // Player Num in Game
 
     // Start is called before the first frame update
     void Start()
     {
+
+        health = 100.0f;
+
         controllerConnectionCheckDelay = 3.0f;
-        controllerConnectionCheckTimer = 0.0f;
+        controllerConnectionCheckTimer = controllerConnectionCheckDelay;
 
-        if (Input.GetJoystickNames().Length > 0)
-        {
-            if (Input.GetJoystickNames()[playerID - 1] == "Controller (Xbox One For Windows)")
-                controllerType = "Xbox";
-            else
-                controllerType = "PS";
-        }
+        ControllerConnectionCheck();
 
+        blinkDuration = 2.0f;
+        blinkDelay = 0.15f;
 
-        //Debug.Log(controllerType);
+        myCauldron.OnSuccessEvent += MyCauldron_OnSuccessEvent;
+        myCauldron.OnFailureEvent += MyCauldron_OnFailureEvent;
 
+    }
+
+    private void MyCauldron_OnSuccessEvent(Spell_SO brewedSpell)
+    {
+        Debug.Log("Success! Brewed " + brewedSpell.Name);
+    }
+
+    private void MyCauldron_OnFailureEvent()
+    {
+        Debug.Log("Failure! Player " + playerID.ToString() + " died!");
+        health = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        //GetComponent<Rigidbody>().velocity = Vector3.zero;
+
+        if (isBlinking)
+            BlinkPlayer();
 
         Move();
         Aim();
         ControllerConnectionCheck();
 
+        if (health <= 0)
+        {
+            // Post Death Functions
+            if (carryingIngredient != null)
+            {
+                carryingIngredient.transform.parent = null;
+                carryingIngredient.SetKeyElementsState(true);
+                holdIngredient = false;
+                carryingIngredient = null;
+            }
+        }
+
         // To update for actions in range of interacting objects
-        //if (inTriggerRange)
-        //InTriggerRangeAction();
+        if (inTriggerRange)
+            InTriggerRangeAction();
+    }
+
+    void BlinkPlayer()
+    {
+        if (blinkDuration > 0)
+        {
+            if (blinkDelay <= 0)
+            {
+                // Subjected to change once final models are in
+                playerSkin.gameObject.SetActive(!playerSkin.gameObject.activeSelf);
+                blinkDelay = 0.15f;
+            }
+            else
+                blinkDelay -= Time.deltaTime;
+
+            blinkDuration -= Time.deltaTime;
+        }
+        else
+        {
+            blinkDelay = 0.15f;
+            blinkDuration = 3.0f;
+            playerSkin.gameObject.SetActive(true);
+            isBlinking = false;
+        }
     }
 
     void Move()
     {
-        float inputLeftX = Input.GetAxis("Horizontal Left " + playerID.ToString());
-        float inputLeftY = Input.GetAxis("Vertical Left " + playerID.ToString());
+        float inputLeftX = Input.GetAxisRaw("Horizontal Left " + playerID.ToString());
+        float inputLeftY = Input.GetAxisRaw("Vertical Left " + playerID.ToString());
 
         Vector3 dir = new Vector3(inputLeftX, 0, inputLeftY);
 
@@ -77,6 +141,9 @@ public class PlayerController : MonoBehaviour
                     transform.position = newPosition;
             }
         }
+
+        if (holdIngredient && carryingIngredient != null) // Waiting to carry until the pickup "animation" is finished
+            carryingIngredient.transform.position = carryingLocation.position;
     }
 
     //void AimWithMouse()
@@ -98,30 +165,16 @@ public class PlayerController : MonoBehaviour
 
     void Aim()
     {
-        float inputRightX = 0.0f;
-        float inputRightY = 0.0f;
-
-        if (controllerType == "Xbox")
-        {
-            inputRightX = Input.GetAxisRaw("Horizontal Right Xbox " + playerID.ToString());
-            inputRightY = Input.GetAxisRaw("Vertical Right Xbox " + playerID.ToString());
-        }
-        else if (controllerType == "PS")
-        {
-            inputRightX = Input.GetAxisRaw("Horizontal Right PS " + playerID.ToString());
-            inputRightY = Input.GetAxisRaw("Vertical Right PS " + playerID.ToString());
-        }
+        float inputRightX = Input.GetAxisRaw("Horizontal Right " + controllerType + " " + playerID.ToString());
+        float inputRightY = Input.GetAxisRaw("Vertical Right " + controllerType + " " + playerID.ToString());
 
         Vector3 faceDir = new Vector3(inputRightX, 0, inputRightY);
-
-        //transform.rotation = Quaternion.Euler(0, Mathf.Atan2(faceDir.y, faceDir.x) * Mathf.Rad2Deg, 0);
 
         if (faceDir.magnitude > 0)
         {
             Quaternion playerRotation = Quaternion.LookRotation(faceDir, Vector3.up);
             transform.rotation = playerRotation;
         }
-
     }
 
     void ControllerConnectionCheck()
@@ -152,14 +205,15 @@ public class PlayerController : MonoBehaviour
 
         if (collidingIngredient != null)
         {
-            //if (Input.GetKeyDown(KeyCode.E))
-            if (Input.GetButtonDown("Interact " + playerID))
+            if (Input.GetButtonDown("Interact " + controllerType + " " + playerID.ToString()))
             {
                 carryingIngredient = collidingIngredient;
                 carryingIngredient.transform.parent = transform;
                 carryingIngredient.SetTarget(carryingLocation);
-            }
 
+                inTriggerRange = false;
+                collidingObject = null;
+            }
         }
         else
         {
@@ -167,24 +221,35 @@ public class PlayerController : MonoBehaviour
 
             if (collidingCauldron == myCauldron && carryingIngredient != null)
             {
-                //if (Input.GetKeyDown(KeyCode.E))
-                if (Input.GetButtonDown("Interact " + playerID))
+                if (Input.GetButtonDown("Interact " + controllerType + " " + playerID.ToString()))
                 {
                     collidingCauldron.AssignDroppingIngredient(carryingIngredient);
 
                     carryingIngredient.SetTarget(collidingCauldron.dropLocation);
                     carryingIngredient.transform.parent = null;
+                    holdIngredient = false;
                     carryingIngredient = null;
+
+                    inTriggerRange = false;
+                    collidingObject = null;
                 }
             }
         }
+    }
+
+    public void Respawn()
+    {
+        health = maxHealth;
+        isDead = false;
+        isBlinking = true;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Ingredient collidingIngredient = other.gameObject.GetComponent<Ingredient>();
 
-        if (collidingIngredient != null || other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
+        if ((collidingIngredient != null && carryingIngredient == null) ||
+            other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
         {
             inTriggerRange = true;
             collidingObject = other.gameObject;
