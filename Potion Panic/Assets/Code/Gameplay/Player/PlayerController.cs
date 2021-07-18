@@ -61,17 +61,10 @@ public class PlayerController : MonoBehaviour
         Debug.Log("Success! Brewed " + brewedSpell.Name);
     }
 
-    private void MyCauldron_OnFailureEvent(Transform t)
+    private void MyCauldron_OnFailureEvent()
     {
-
-        Debug.Log("Failure!");
-
-        Vector3 backFireForce = new Vector3(transform.position.x,
-            t.position.y,
-            transform.position.z) - t.position;
-
-        GetComponent<Rigidbody>().AddForce(10 * backFireForce.normalized, ForceMode.Impulse);
-        health -= 20;
+        Debug.Log("Failure! Player " + playerID.ToString() + " died!");
+        health = 0;
     }
 
     // Update is called once per frame
@@ -221,7 +214,6 @@ public class PlayerController : MonoBehaviour
                 inTriggerRange = false;
                 collidingObject = null;
             }
-
         }
         else
         {

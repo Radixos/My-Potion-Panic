@@ -27,7 +27,7 @@ public class Cauldron : MonoBehaviour
     public delegate void OnSuccess(Spell_SO brewedSpell);
     public event OnSuccess OnSuccessEvent;
 
-    public delegate void OnFailure(Transform t);
+    public delegate void OnFailure();
     public event OnFailure OnFailureEvent;
 
     // Start is called before the first frame update
@@ -39,27 +39,23 @@ public class Cauldron : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ingredientLimitReached)
-            BrewSpell();
-        else
+        if (droppingIngredient != null)
             ConsumeIngredient();
+        else if (ingredientLimitReached)
+            BrewSpell();
     }
 
     void ConsumeIngredient()
     {
-        if (droppingIngredient != null)
+        if (Vector3.Distance(droppingIngredient.transform.position, cauldronCore.position) <= 0.3f)
         {
-            if (Vector3.Distance(droppingIngredient.transform.position, cauldronCore.position) <= 0.2f)
-            {
-                // PERFORM INGREDIENT ACTION
-                consumedIngredients.Add(droppingIngredient);
+            consumedIngredients.Add(droppingIngredient);
 
-                if (consumedIngredients.Count >= 3)
-                    ingredientLimitReached = true;
+            if (consumedIngredients.Count >= 3)
+                ingredientLimitReached = true;
 
-                droppingIngredient.gameObject.SetActive(false); // Set to false if ingredients are object pooled
-                droppingIngredient = null;
-            }
+            droppingIngredient.gameObject.SetActive(false); // Set to false if ingredients are object pooled
+            droppingIngredient = null;
         }
     }
 
@@ -73,7 +69,7 @@ public class Cauldron : MonoBehaviour
                 {
                     correctIngredients.Add(consumedIngredients[j]);
 
-                    if(correctIngredients.Count >= 3)
+                    if (correctIngredients.Count >= 3)
                     {
                         OnSuccessEvent?.Invoke(spellPool[i]);
 
@@ -91,7 +87,7 @@ public class Cauldron : MonoBehaviour
 
         if (!spellBrewed)
         {
-            OnFailureEvent?.Invoke(transform);
+            OnFailureEvent?.Invoke();
         }
 
         // Reset Cauldron
