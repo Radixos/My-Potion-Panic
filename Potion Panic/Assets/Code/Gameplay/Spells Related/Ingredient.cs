@@ -4,30 +4,34 @@ using UnityEngine;
 
 public class Ingredient : MonoBehaviour
 {
-    public string Name;
+    public Ingredient_SO ingredientInfo;
 
     private Transform target;
+
+    public GameObject inputInfo;
 
     // Start is called before the first frame update
     //void Start()
     //{
-        
+
     //}
 
     // Update is called once per frame
     void Update()
     {
-        if(target != null)
+        if (target != null)
         {
             transform.position = Vector3.MoveTowards(transform.position, target.position, 5 * Time.deltaTime);
 
-            if(Vector3.Distance(transform.position, target.position) <= 0.2f)
+            if (Vector3.Distance(transform.position, target.position) <= 0.2f)
             {
                 transform.position = target.position;
                 target = null;
 
                 if (transform.parent == null) // If not carried by player
                     GetComponent<Rigidbody>().useGravity = true;
+                else
+                    transform.parent.gameObject.GetComponent<PlayerController>().holdIngredient = true;
             }
         }
     }
@@ -36,6 +40,7 @@ public class Ingredient : MonoBehaviour
     {
         target = newTarget;
         SetKeyElementsState(false);
+        SetInputInfoState(false);
     }
 
     public void SetKeyElementsState(bool state)
@@ -43,5 +48,24 @@ public class Ingredient : MonoBehaviour
         GetComponent<Rigidbody>().useGravity = state;
         GetComponent<BoxCollider>().enabled = state;
         GetComponent<SphereCollider>().enabled = state;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.GetComponent<PlayerController>().carryingIngredient == null)
+                SetInputInfoState(true);
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+            SetInputInfoState(false);
+    }
+
+    void SetInputInfoState(bool state)
+    {
+        inputInfo.SetActive(state);
     }
 }

@@ -9,9 +9,9 @@ public class Spell_SO : ScriptableObject
 
     public string Description;
 
-    public Sprite spellImage;
+    public Sprite spellPreview;
 
-    public List<GameObject> requiredIngredients;
+    public List<Ingredient_SO> requiredIngredients;
 
     public GameObject spellPrefab;
 

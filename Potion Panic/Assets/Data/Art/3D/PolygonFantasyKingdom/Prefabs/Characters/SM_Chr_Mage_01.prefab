@@ -2116,7 +2116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4017456201002590
 Transform:
   m_ObjectHideFlags: 0
@@ -4097,7 +4097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4614039248060944
 Transform:
   m_ObjectHideFlags: 0
@@ -4580,7 +4580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4935367326487138
 Transform:
   m_ObjectHideFlags: 0
@@ -4909,7 +4909,7 @@ GameObject:
   - component: {fileID: 9204741375443034325}
   m_Layer: 0
   m_Name: SM_Chr_Mage_01
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4984,7 +4984,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  health: 0
+  isDead: 0
+  isBlinking: 0
+  playerSkin: {fileID: 0}
   carryingLocation: {fileID: 3243018192011339490}
+  carryingIngredient: {fileID: 0}
+  myCauldron: {fileID: 0}
+  playerID: 0
 --- !u!136 &5358881565660517975
 CapsuleCollider:
   m_ObjectHideFlags: 0

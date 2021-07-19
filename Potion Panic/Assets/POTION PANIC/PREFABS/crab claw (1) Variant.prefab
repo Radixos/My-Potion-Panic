@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db6477af8bd2b474f96fb08e2fbc2466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Crab Claw
+  ingredientInfo: {fileID: 11400000, guid: c86ceb5a7d036a64796851c38724701c, type: 2}
 --- !u!1001 &8069229985017515812
 PrefabInstance:
   m_ObjectHideFlags: 0

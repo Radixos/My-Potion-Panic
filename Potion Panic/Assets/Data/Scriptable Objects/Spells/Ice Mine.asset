@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Ice Mine
   Description: An ice mine deployed at player's position that kills any enemy instantly.
-  spellImage: {fileID: 21300000, guid: c6b4d515c00bb5f479b53102ca1656ea, type: 3}
+  spellPreview: {fileID: 21300000, guid: c6b4d515c00bb5f479b53102ca1656ea, type: 3}
   requiredIngredients:
-  - {fileID: 8307939410927398286, guid: 064aa48e53b16b645b8ab8224ba7d476, type: 3}
-  - {fileID: 2538594590375467570, guid: 4d6553c530b0cf44098e275a13a94824, type: 3}
-  - {fileID: 987424095258822779, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
+  - {fileID: 11400000, guid: e18d6b5c31f4f1d4690be4697747f96a, type: 2}
+  - {fileID: 11400000, guid: a810bb7bddbbb0642876da882457da2a, type: 2}
+  - {fileID: 11400000, guid: bc676ba93bb9a8045a7531b960f2d507, type: 2}
   spellPrefab: {fileID: 0}
   NumberOfUses: 5

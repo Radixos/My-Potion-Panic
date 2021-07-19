@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db6477af8bd2b474f96fb08e2fbc2466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Hot Dragon Scale
+  ingredientInfo: {fileID: 11400000, guid: 1f381dd7910f1fb4fb357028c3bbc083, type: 2}
 --- !u!1001 &2037426872519673140
 PrefabInstance:
   m_ObjectHideFlags: 0
