@@ -4395,6 +4395,48 @@ MonoBehaviour:
   maxRandomSpawnDelay: 5
   minSpawnOff: 2
   maxSpawnOff: 3.5
+  ac:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.00012921164
+      outSlope: 0.00012921164
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4557592
+    - serializedVersion: 3
+      time: 0.25
+      value: 0.85
+      inSlope: -1.1865511
+      outSlope: -1.1865511
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.6
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.34545338
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1.9239055
+      outSlope: 1.9239055
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15303445
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   ingredients:
   - {fileID: 3191636892794315801, guid: 61323612590315144a7a5e0f1242cb68, type: 3}
   - {fileID: 3702935386900594988, guid: 2dea04ae30da24045a99d5a3195d4b45, type: 3}
