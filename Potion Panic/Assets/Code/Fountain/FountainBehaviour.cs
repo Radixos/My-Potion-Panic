@@ -33,8 +33,8 @@ public class FountainBehaviour : MonoBehaviour
 
             Vector3 cloneCenter = clone.transform.position;
 
-            float privateRotation = 60f;
-            float dragDown = 5f;
+            float privateRotation = 70f;    //between 1f and 89f
+            float dragDown = 10f;           //"speed"
 
             // Calculate distance to target
             float target_Distance = Vector3.Distance(cloneCenter, pos);
@@ -90,34 +90,12 @@ public class FountainBehaviour : MonoBehaviour
     //    }
     //}
 
-    //private IEnumerator Fountain()
-    //{
-    //    yield return new WaitForSeconds(delay);
-
-    //    float time = 2f;
-    //    float elapsedTime = 0f;
-
-    //    while (true)
-    //    {
-    //        Vector3 center = gameObject.GetComponent<Renderer>().bounds.center;
-    //        Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
-    //        Quaternion rot = Quaternion.FromToRotation(Vector3.forward, center - pos);
-    //        GameObject clone = Instantiate(ingredients[(Random.Range(0, ingredients.Count))], center, rot);
-
-    //        while (elapsedTime < time)
-    //        {
-    //            clone.transform.position = MathParabola.Parabola(center, pos, 2f, elapsedTime / time);
-    //            elapsedTime += Time.deltaTime;
-    //        }
-
-    //        float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
-    //        //Debug.Log(waitTime);
-    //        yield return new WaitForSeconds(waitTime);
-
-    //        //StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
-    //    }
-    //}
-
+    /// <summary>
+    /// Generate a random circle with a center and radius
+    /// </summary>
+    /// <param name="center">The center point of the circle</param>
+    /// <param name="radius">The radius of the circle (use Random.Range to create a ring)</param>
+    /// <returns>A circle</returns>
     Vector3 RandomCircle(Vector3 center, float radius)
     {
         float angle = Random.value * 360;
