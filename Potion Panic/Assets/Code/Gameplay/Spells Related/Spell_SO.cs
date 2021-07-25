@@ -17,4 +17,23 @@ public class Spell_SO : ScriptableObject
 
     public int NumberOfUses;
 
+    private void Awake()
+    {
+       
+    }
+
+    private void OnEnable()
+    {
+        
+    }
+
+    private void OnDestroy()
+    {
+        
+    }
+
+    private void OnDisable()
+    {
+        
+    }
 }
