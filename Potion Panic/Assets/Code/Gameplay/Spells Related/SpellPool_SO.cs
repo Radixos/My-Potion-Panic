@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpellPool : MonoBehaviour
+public class SpellPool_SO : ScriptableObject
 {
     public List<Spell_SO> allSpells;
 

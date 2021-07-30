@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float health;
     public const float maxHealth = 100.0f;
     public bool isDead;
+    public float kills;
 
     [Header("Blink")]
     public bool isBlinking; // Blinking to indicate i-frames upon respawn
@@ -53,7 +54,6 @@ public class PlayerController : MonoBehaviour
 
         myCauldron.OnSuccessEvent += MyCauldron_OnSuccessEvent;
         myCauldron.OnFailureEvent += MyCauldron_OnFailureEvent;
-
     }
 
     private void MyCauldron_OnSuccessEvent(Spell_SO brewedSpell)
@@ -70,14 +70,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //GetComponent<Rigidbody>().velocity = Vector3.zero;
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
 
         if (isBlinking)
             BlinkPlayer();
 
+        ControllerConnectionCheck();
+
         Move();
         Aim();
-        ControllerConnectionCheck();
 
         if (health <= 0)
         {
@@ -176,6 +177,8 @@ public class PlayerController : MonoBehaviour
             transform.rotation = playerRotation;
         }
     }
+
+
 
     void ControllerConnectionCheck()
     {
