@@ -15,11 +15,11 @@ D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56994
+55753
 Successfully changed project path to: D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 203.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 237.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -36,173 +36,1667 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001504 seconds.
+Registered in 0.005824 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 175.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 178.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.594 seconds
+- Completed reload, in  1.910 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006845 seconds.
+Registered in 0.011754 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 194.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 198.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.527 seconds
+- Completed reload, in  1.725 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2697 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.8 MB.
-System memory in use after: 132.0 MB.
+System memory in use before: 131.9 MB.
+System memory in use after: 132.1 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3134.
-Total: 3.282800 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.183500 ms MarkObjects: 2.662200 ms  DeleteObjects: 0.140100 ms)
+Total: 2.968500 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.142200 ms MarkObjects: 2.455200 ms  DeleteObjects: 0.083200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Code/Gameplay/Spells Related/Cauldron.cs
-  artifactKey: Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Spells Related/Cauldron.cs using Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee3fea177f57fc2a9a61f3003209b65') in 0.058646 seconds
-  Import took 0.065234 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007853 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.388 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 125.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3137.
-Total: 9.300000 ms (FindLiveObjects: 0.543200 ms CreateObjectMapping: 0.299300 ms MarkObjects: 8.410200 ms  DeleteObjects: 0.045000 ms)
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_05.fbx
+  artifactKey: Guid(db640f7f6815a524790c2e74c8b90629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_05.fbx using Guid(db640f7f6815a524790c2e74c8b90629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70a097643fea723428f9228c484b906') in 0.887937 seconds
+  Import took 0.910516 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 139.544466 seconds.
-  path: Assets/Code/Gameplay/Spells Related/Cauldron.cs
-  artifactKey: Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Spells Related/Cauldron.cs using Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1859bd7c92a76ec13752863fee6f8822') in 0.008148 seconds
-  Import took 0.049354 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008218 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 125.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3140.
-Total: 3.005100 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.604400 ms  DeleteObjects: 0.028100 ms)
+  Time since last request: 0.006654 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Gap_01.fbx
+  artifactKey: Guid(3c848fd744839374d9e599a04982eeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Gap_01.fbx using Guid(3c848fd744839374d9e599a04982eeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07c8fcc038aecc7860f6a793c8cc193') in 0.074884 seconds
+  Import took 0.100564 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.924921 seconds.
-  path: Assets/Code/Gameplay/Spells Related/Cauldron.cs
-  artifactKey: Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Spells Related/Cauldron.cs using Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f287680349768d35e54884bafc2217') in 0.006624 seconds
-  Import took 0.048739 seconds .
+  Time since last request: 0.000361 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_01.fbx
+  artifactKey: Guid(d1ddefe55f8321046ab791b018fa7b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_01.fbx using Guid(d1ddefe55f8321046ab791b018fa7b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59a1453d8b6288560a1b6adaf5f4c44') in 0.106969 seconds
+  Import took 0.129509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_06.fbx
+  artifactKey: Guid(962be61ad2a3b194180e6b080c1de4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_06.fbx using Guid(962be61ad2a3b194180e6b080c1de4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fa56df64209cfb32227a60bb3de020') in 0.069943 seconds
+  Import took 0.091570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Chandelier_02.fbx
+  artifactKey: Guid(eb4028a68cf20f047bf02340212d3728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Chandelier_02.fbx using Guid(eb4028a68cf20f047bf02340212d3728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a21eb1e1f8270ddb882564dca9fb2e4') in 0.071522 seconds
+  Import took 0.093488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_06.fbx
+  artifactKey: Guid(1736d759d51dadc44a4b3ec001175261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_06.fbx using Guid(1736d759d51dadc44a4b3ec001175261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ff017e2790919a24444c69a7115021') in 0.067669 seconds
+  Import took 0.105073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Top_02.fbx
+  artifactKey: Guid(37d2406667901a44f887fd8b31bfa542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Top_02.fbx using Guid(37d2406667901a44f887fd8b31bfa542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5545db252bd2f19c9b127fa61ba7e4') in 0.055601 seconds
+  Import took 0.087140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_02.fbx
+  artifactKey: Guid(7d711349dbd20314f9a8a0f61cc6ec30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_02.fbx using Guid(7d711349dbd20314f9a8a0f61cc6ec30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454049bb8564a223a691eb47eb02cd8a') in 0.075754 seconds
+  Import took 0.100786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_03.fbx
+  artifactKey: Guid(c6df2e3d4bca57342b72a0922f1ed38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_03.fbx using Guid(c6df2e3d4bca57342b72a0922f1ed38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cfd783b8a535617fc8d15fc9a19583') in 0.053471 seconds
+  Import took 0.075852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_04_Half.fbx
+  artifactKey: Guid(1b03aa5c85bdbd240a31c19a9315b452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_04_Half.fbx using Guid(1b03aa5c85bdbd240a31c19a9315b452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d903ca9e28072a3075662fbb2c6cbd') in 0.098741 seconds
+  Import took 0.106362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Round_02.fbx
+  artifactKey: Guid(01e5f334d86661c4d935027bc9f9bc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Round_02.fbx using Guid(01e5f334d86661c4d935027bc9f9bc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2951fa8722a6e55a3091ff46d63be68c') in 0.074949 seconds
+  Import took 0.081754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Beams_01.fbx
+  artifactKey: Guid(61d33f991902cc441a39c1534a946bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Beams_01.fbx using Guid(61d33f991902cc441a39c1534a946bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0ee9c5e90647f222fd909c353d66b7') in 0.061592 seconds
+  Import took 0.084192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_06.fbx
+  artifactKey: Guid(29e463b0a5282264b8c068c18fa2f70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_06.fbx using Guid(29e463b0a5282264b8c068c18fa2f70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06535e23b5516d3ab092e803a04767a') in 0.065231 seconds
+  Import took 0.071387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_05.fbx
+  artifactKey: Guid(75918a0f05d8a1b46be7b4420c0fcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_05.fbx using Guid(75918a0f05d8a1b46be7b4420c0fcf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8faa6ef8a079e0bc0f76e2bd9c36c6e1') in 0.066978 seconds
+  Import took 0.072417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Candle_Melted_Group_01.fbx
+  artifactKey: Guid(faec5845d07b04f459d3be8977a5c552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Candle_Melted_Group_01.fbx using Guid(faec5845d07b04f459d3be8977a5c552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebff8cbc4c65ef0e24ac36552167cab4') in 0.095281 seconds
+  Import took 0.107793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_04.fbx
+  artifactKey: Guid(2ad90c3326073e54fa4f814934204c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_04.fbx using Guid(2ad90c3326073e54fa4f814934204c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd312338321b295ccc166aebc83a3d110') in 0.054664 seconds
+  Import took 0.071555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Sphere_03.fbx
+  artifactKey: Guid(357d53aa062ebb04e8e5aaa195e1a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Sphere_03.fbx using Guid(357d53aa062ebb04e8e5aaa195e1a5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafbc7742db703bfcc791427a7aeeae3') in 0.039217 seconds
+  Import took 0.055498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_10.fbx
+  artifactKey: Guid(8b3fb705d430f5144a3219ba27dd821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_10.fbx using Guid(8b3fb705d430f5144a3219ba27dd821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1bf138b3d7528e7b866fc0c4748457') in 0.063988 seconds
+  Import took 0.089974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_01_Half.fbx
+  artifactKey: Guid(14b9bc996bf140a4d9a0223202d45528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_01_Half.fbx using Guid(14b9bc996bf140a4d9a0223202d45528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7876c2d34b550bfd0d3f5b6769057dda') in 0.063734 seconds
+  Import took 0.084297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_02.fbx
+  artifactKey: Guid(220ef83255645f848ac85f872e2113e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_02.fbx using Guid(220ef83255645f848ac85f872e2113e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7bd0e3938136d39afd503c5bb6946d') in 0.057573 seconds
+  Import took 0.078487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_01.fbx
+  artifactKey: Guid(d15dead8d069c294293dba459cbeefef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_01.fbx using Guid(d15dead8d069c294293dba459cbeefef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f918e5c82bcc4e9ad36fac4459f14f') in 0.056255 seconds
+  Import took 0.061911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_07.fbx
+  artifactKey: Guid(886aba88b5fb8ad4c9b9f67765b8fc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_07.fbx using Guid(886aba88b5fb8ad4c9b9f67765b8fc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6c0dbed7ac6aa3728be3d716e81017') in 0.056585 seconds
+  Import took 0.074967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_Hatch_01.fbx
+  artifactKey: Guid(4e87bdb38276ac842a5c8a4e1dc681bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_Hatch_01.fbx using Guid(4e87bdb38276ac842a5c8a4e1dc681bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b22e91e09eb025f462ceebd728d80b6') in 0.067886 seconds
+  Import took 0.096108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FantasyKingdom_Capes.fbx
+  artifactKey: Guid(cef1a67a5bafdb34fa6dce98924fe4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FantasyKingdom_Capes.fbx using Guid(cef1a67a5bafdb34fa6dce98924fe4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce629480c48803b2be0fc5f6dd9832e') in 0.060741 seconds
+  Import took 0.077359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_06.fbx
+  artifactKey: Guid(4d689be4ca12ceb4d80217e67b0cbf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_06.fbx using Guid(4d689be4ca12ceb4d80217e67b0cbf70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcabc7978439563a5bb16b991b0361f2') in 0.061113 seconds
+  Import took 0.085626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Round_01.fbx
+  artifactKey: Guid(4b486a6c9b78d1344bb6579c403b8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Round_01.fbx using Guid(4b486a6c9b78d1344bb6579c403b8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5598a1cf593059817c3bb58414171b') in 0.071471 seconds
+  Import took 0.092675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_05.fbx
+  artifactKey: Guid(2887300ca0ea90e44943b6f6ab03f3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_05.fbx using Guid(2887300ca0ea90e44943b6f6ab03f3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e98280166a524e188f15434985f11a6') in 0.093332 seconds
+  Import took 0.122369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Middle_01.fbx
+  artifactKey: Guid(0d89d3a2693bc184e9e7daa2e28b1750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Middle_01.fbx using Guid(0d89d3a2693bc184e9e7daa2e28b1750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bba815b1b68e3eb0a3b4070e6fe64e') in 0.058304 seconds
+  Import took 0.072335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_01.fbx
+  artifactKey: Guid(495c65849a75fdf418f8d84f07734eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_01.fbx using Guid(495c65849a75fdf418f8d84f07734eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd703dd2e1a0aa6046b776ccb23fb770f') in 0.055931 seconds
+  Import took 0.080992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FantasyKingdom_FairyWings.fbx
+  artifactKey: Guid(f75b9948cb8c2274ea2f8cd63510d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FantasyKingdom_FairyWings.fbx using Guid(f75b9948cb8c2274ea2f8cd63510d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e671e5945cc9cbccad0894ce71d410') in 0.085308 seconds
+  Import took 0.095246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_03.fbx
+  artifactKey: Guid(6ebbc41294f5e3e4f9e64c5a8e75b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_03.fbx using Guid(6ebbc41294f5e3e4f9e64c5a8e75b307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8e8f00e561194edbd47ed64872d504') in 0.086673 seconds
+  Import took 0.092313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_04.fbx
+  artifactKey: Guid(53228029f4d971342ab17c621d1a3318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_04.fbx using Guid(53228029f4d971342ab17c621d1a3318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8928aa3888504ef5e45bc7010c3c29') in 0.072256 seconds
+  Import took 0.096724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_Corner_01.fbx
+  artifactKey: Guid(d8bbd1f2a9a303645a3bde07eab07b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_Corner_01.fbx using Guid(d8bbd1f2a9a303645a3bde07eab07b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfca6e826dd6cb9edaaa67b01762f2d') in 0.059029 seconds
+  Import took 0.074560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_09.fbx
+  artifactKey: Guid(a3f1e3d16ebbd6848866c15036c1148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_09.fbx using Guid(a3f1e3d16ebbd6848866c15036c1148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33e4e2457dc779dcccf8954b77f2593') in 0.053390 seconds
+  Import took 0.066373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Balcony_01.fbx
+  artifactKey: Guid(90c1102f3a5ce0a409f7597576a39a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Balcony_01.fbx using Guid(90c1102f3a5ce0a409f7597576a39a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9e387b8095381cb61997a2e6401a45') in 0.070469 seconds
+  Import took 0.085478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_02_Half.fbx
+  artifactKey: Guid(1ba999e00989c4140a770ec635bd5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_02_Half.fbx using Guid(1ba999e00989c4140a770ec635bd5ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961b4513cbe7d2c6f6a48c87e2bdb471') in 0.064626 seconds
+  Import took 0.079433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_12.fbx
+  artifactKey: Guid(943934ab060de4a41a3c0eb2a9b34062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_12.fbx using Guid(943934ab060de4a41a3c0eb2a9b34062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e9f73096fbefc9c81459643134ff6c') in 0.054170 seconds
+  Import took 0.079216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_02.fbx
+  artifactKey: Guid(364df270f19543e46bc3d343773e040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_02.fbx using Guid(364df270f19543e46bc3d343773e040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a719de874ea6650c4656742ec6afb2') in 0.069386 seconds
+  Import took 0.083179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_01.fbx
+  artifactKey: Guid(7826450b5ba4f1b44a673318905851d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_01.fbx using Guid(7826450b5ba4f1b44a673318905851d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c876fc02f74f5da860d57083af55451') in 0.116283 seconds
+  Import took 0.144461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Edge_01.fbx
+  artifactKey: Guid(4647898c9edf8c740b986d7cb61ada0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Edge_01.fbx using Guid(4647898c9edf8c740b986d7cb61ada0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476a3e9b32243cc7485b8cd43950b253') in 0.070794 seconds
+  Import took 0.083884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Item_Candlestick_02.fbx
+  artifactKey: Guid(55fe83e9640bf6948963e891327d8683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Item_Candlestick_02.fbx using Guid(55fe83e9640bf6948963e891327d8683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0206312c578962bee48d4c88d01e1062') in 0.027157 seconds
+  Import took 0.034426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_Round_M_01.fbx
+  artifactKey: Guid(e70c15eeb4f581045abfe3fc53e5d698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_Round_M_01.fbx using Guid(e70c15eeb4f581045abfe3fc53e5d698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439300adfb325227ae5ee02b2d5c6729') in 0.086075 seconds
+  Import took 0.105594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_Roof_01.fbx
+  artifactKey: Guid(cc06ab52187e41746810e63a54fcf579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_Roof_01.fbx using Guid(cc06ab52187e41746810e63a54fcf579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff1cfafddbce44bb563cd0fd354f28e') in 0.082315 seconds
+  Import took 0.099730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Round_03.fbx
+  artifactKey: Guid(386291f6a2dcef443a13933392f36323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Round_03.fbx using Guid(386291f6a2dcef443a13933392f36323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af160f61d614d3108a5888c84d1c6605') in 0.072802 seconds
+  Import took 0.079075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_09.fbx
+  artifactKey: Guid(e3ba7871e0e02ab40afc6e84912f9538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_09.fbx using Guid(e3ba7871e0e02ab40afc6e84912f9538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf2be4d43622f10c6e60090615f76c7') in 0.066516 seconds
+  Import took 0.093901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Corner_S_01.fbx
+  artifactKey: Guid(46cef4bd7139135469f51aa77e6523b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Corner_S_01.fbx using Guid(46cef4bd7139135469f51aa77e6523b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5803683cf4be5edd918bdc552da6a814') in 0.065825 seconds
+  Import took 0.086442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_Corner_Half_01.fbx
+  artifactKey: Guid(e3911ea3883b6e4478ec0c3ff34da70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_Corner_Half_01.fbx using Guid(e3911ea3883b6e4478ec0c3ff34da70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a67c4cd2176a546d2fb817392787940') in 0.060285 seconds
+  Import took 0.086845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Flat_01.fbx
+  artifactKey: Guid(61f12e90d1e071b4698f345924957723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Flat_01.fbx using Guid(61f12e90d1e071b4698f345924957723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569f723daabf8a1ec593627c5af0df8d') in 0.074072 seconds
+  Import took 0.110536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Drawbridge_02.fbx
+  artifactKey: Guid(c7400a4c9c66041499db6681950035b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Drawbridge_02.fbx using Guid(c7400a4c9c66041499db6681950035b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015b633fb12c0d1367ce7d22266c6b2b') in 0.058467 seconds
+  Import took 0.088053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Chandelier_04.fbx
+  artifactKey: Guid(0bae7a97476e01e4080fdc886b013875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Chandelier_04.fbx using Guid(0bae7a97476e01e4080fdc886b013875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cb63ad4adfa39b92796f85a2840061') in 0.069681 seconds
+  Import took 0.075498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Chandelier_01.fbx
+  artifactKey: Guid(0688c177e50df0740be456681be3d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Chandelier_01.fbx using Guid(0688c177e50df0740be456681be3d122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f55ff5b80f1b66198271b4b87ebdaa') in 0.085100 seconds
+  Import took 0.099159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Round_M_01.fbx
+  artifactKey: Guid(603bdc7b96c3c5047a89d76dc6f34808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Round_M_01.fbx using Guid(603bdc7b96c3c5047a89d76dc6f34808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2a91d96e8394052efcc1d5f189ab55') in 0.076102 seconds
+  Import took 0.101658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_01.fbx
+  artifactKey: Guid(d68bba841b570c148b02dcd43c46ab55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_01.fbx using Guid(d68bba841b570c148b02dcd43c46ab55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ce25507df94e61dcb8c8df28521ab8') in 0.066457 seconds
+  Import took 0.097364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_04.fbx
+  artifactKey: Guid(a158f8091996b2a48a3626bc5f65927a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_04.fbx using Guid(a158f8091996b2a48a3626bc5f65927a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e63aa0b3f7628b5db17659120fbd47') in 0.072141 seconds
+  Import took 0.078620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_End_01.fbx
+  artifactKey: Guid(ba13f1e31e6018d45a0df0b38659de00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_End_01.fbx using Guid(ba13f1e31e6018d45a0df0b38659de00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00a751af16aad0b5f4b9ab857dac89b') in 0.065701 seconds
+  Import took 0.073231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_01.fbx
+  artifactKey: Guid(923394e5e759b2c448cf16d9872a1c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_01.fbx using Guid(923394e5e759b2c448cf16d9872a1c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a16b40767faf746db925f10aa06723') in 0.065035 seconds
+  Import took 0.087048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_06.fbx
+  artifactKey: Guid(274933a9f00b0cf459bcae4749b59f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_06.fbx using Guid(274933a9f00b0cf459bcae4749b59f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b5323904e0ea6d5d137382f11f4e9f') in 0.105714 seconds
+  Import took 0.156056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_13.fbx
+  artifactKey: Guid(1e23a712e901e4746948eadd9197cdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_13.fbx using Guid(1e23a712e901e4746948eadd9197cdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ddfa9fd2de132e740b8919f1bf3ee1') in 0.065449 seconds
+  Import took 0.085780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Wood_Round_02.fbx
+  artifactKey: Guid(a0406cf8a046db04080a34f3cff9dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Wood_Round_02.fbx using Guid(a0406cf8a046db04080a34f3cff9dd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10943304184f0bad479e20f68b73f5c') in 0.066155 seconds
+  Import took 0.072322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_01.fbx
+  artifactKey: Guid(eb2a6198f57f9a246b9d74307217128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_01.fbx using Guid(eb2a6198f57f9a246b9d74307217128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfdb0ee34d5e21eeb840fab9d43f07d') in 0.097994 seconds
+  Import took 0.112631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_Round_L_01.fbx
+  artifactKey: Guid(dac2ba948bb0acd4485acd8860cf6ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_Round_L_01.fbx using Guid(dac2ba948bb0acd4485acd8860cf6ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0b00cb450bcb039cf573b40e1a9aaf') in 0.060236 seconds
+  Import took 0.085376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_06.fbx
+  artifactKey: Guid(292e8d972e3f0bb4d853334c2be537d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_06.fbx using Guid(292e8d972e3f0bb4d853334c2be537d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e39f4b8997fcb2a0cc86ba0c24658') in 0.058510 seconds
+  Import took 0.079837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_03.fbx
+  artifactKey: Guid(84be2dfca16a711428d8ebe46cb4c78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_03.fbx using Guid(84be2dfca16a711428d8ebe46cb4c78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8be686649bbb7f7bac76dc838b69109') in 0.057549 seconds
+  Import took 0.080416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_04.fbx
+  artifactKey: Guid(36174a546a888d94cb6da3b174ca1bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_04.fbx using Guid(36174a546a888d94cb6da3b174ca1bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be880bbe389184227a73f8b5f3bf9d0') in 0.064382 seconds
+  Import took 0.078236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_02.fbx
+  artifactKey: Guid(bf99d3a97da9feb4fac949d671056934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_02.fbx using Guid(bf99d3a97da9feb4fac949d671056934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf7c2d63ed663978091ff8d0a5ed40a') in 0.072026 seconds
+  Import took 0.089272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_01.fbx
+  artifactKey: Guid(b62539bf6bb95de40bcf355ce29a2982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_01.fbx using Guid(b62539bf6bb95de40bcf355ce29a2982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971cc196beacb676b81f0bd7b5437be4') in 0.060567 seconds
+  Import took 0.083664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_07.fbx
+  artifactKey: Guid(60f026e8ca1c3254c8e0e738ab8552b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_07.fbx using Guid(60f026e8ca1c3254c8e0e738ab8552b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c203c424b460137d180f7a81020ff55a') in 0.066815 seconds
+  Import took 0.079833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Drawbridge_01.fbx
+  artifactKey: Guid(581724ac9eda10247abffa5f06abbff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Drawbridge_01.fbx using Guid(581724ac9eda10247abffa5f06abbff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68778149ef5eed2756dd0ce14b78208d') in 0.064398 seconds
+  Import took 0.074699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Half_02.fbx
+  artifactKey: Guid(7171056cddfa7de42971cc879af86160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Half_02.fbx using Guid(7171056cddfa7de42971cc879af86160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684a168fff869885dce86f930324b82e') in 0.068573 seconds
+  Import took 0.084387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Cross_01.fbx
+  artifactKey: Guid(f8bc889ae00116a4ab4a8ef6c4018840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Cross_01.fbx using Guid(f8bc889ae00116a4ab4a8ef6c4018840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679cd0559d8f7c54277d4c99d5c5cb34') in 0.057386 seconds
+  Import took 0.080127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Half_03.fbx
+  artifactKey: Guid(9e3fcf342379ce94bb6ab495d53dab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Half_03.fbx using Guid(9e3fcf342379ce94bb6ab495d53dab44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00b1018633764dfa47ae97e6eed1137') in 0.063288 seconds
+  Import took 0.083474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_Pillars_01.fbx
+  artifactKey: Guid(17353457a140215489ddf85a8296a6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_Pillars_01.fbx using Guid(17353457a140215489ddf85a8296a6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea151c4fb0ea72bcc037b35c459f140') in 0.064034 seconds
+  Import took 0.104695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Pool_01.fbx
+  artifactKey: Guid(ca372996a55db834ca746dc42bfc40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Pool_01.fbx using Guid(ca372996a55db834ca746dc42bfc40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe0eb915b93e76ceb6ff7e4ac084ec1') in 0.024046 seconds
+  Import took 0.054696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Item_Candlestick_01.fbx
+  artifactKey: Guid(46b5de4ebad60c14389c556194e53ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Item_Candlestick_01.fbx using Guid(46b5de4ebad60c14389c556194e53ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56a3ff14d80297f26862faaa5da35d3') in 0.079815 seconds
+  Import took 0.097779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_05.fbx
+  artifactKey: Guid(3c13b2602e6f1ad45a6bb7f7006a8ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_05.fbx using Guid(3c13b2602e6f1ad45a6bb7f7006a8ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1fbcd08f5e688802387a56b0a6f5cc') in 0.095220 seconds
+  Import took 0.114479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_05.fbx
+  artifactKey: Guid(7056ed259bafe9c458767eaff2c86d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_05.fbx using Guid(7056ed259bafe9c458767eaff2c86d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c573279535eda744a98726c12c01d4') in 0.067254 seconds
+  Import took 0.089955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_01.fbx
+  artifactKey: Guid(f1d1f0d6f34f9564bbe284b009f88836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_01.fbx using Guid(f1d1f0d6f34f9564bbe284b009f88836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12659a995c55471157d3f51f8c425fba') in 0.069301 seconds
+  Import took 0.084950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_03.fbx
+  artifactKey: Guid(517f7cf1795314e4c93b2aca38a3fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_03.fbx using Guid(517f7cf1795314e4c93b2aca38a3fb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62937b7ca93c3af030c497fcd42ac3ce') in 0.051581 seconds
+  Import took 0.072930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Wall_01.fbx
+  artifactKey: Guid(142aeed241417084c88ae6845b971a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Wall_01.fbx using Guid(142aeed241417084c88ae6845b971a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2996c8f31c2cfae4ba5320b16505d735') in 0.053038 seconds
+  Import took 0.059817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_03.fbx
+  artifactKey: Guid(786bb9266e9945540990a32e908cb76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_03.fbx using Guid(786bb9266e9945540990a32e908cb76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c963ce0743226289967dcc3cc6b034fb') in 0.083924 seconds
+  Import took 0.095558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Corner_M_01.fbx
+  artifactKey: Guid(f28a39cedf400bd45ba209ce6dce316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Corner_M_01.fbx using Guid(f28a39cedf400bd45ba209ce6dce316b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38abe53b4623ad1ecef6222135d5b6f3') in 0.075282 seconds
+  Import took 0.099781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Chandelier_03.fbx
+  artifactKey: Guid(9d1db145a6a4888429d2e9334b53cb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Prop_Chandelier_03.fbx using Guid(9d1db145a6a4888429d2e9334b53cb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e077a2e90de2b56802e430bf11ce079') in 0.069939 seconds
+  Import took 0.092180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_04.fbx
+  artifactKey: Guid(18e0e2eade0044a4a815af1f202dbfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_04.fbx using Guid(18e0e2eade0044a4a815af1f202dbfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455aa94b54545dc778f8c3d8a430ddf4') in 0.056572 seconds
+  Import took 0.069189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_01.fbx
+  artifactKey: Guid(c9e18d86d9bf83744961a05445c90f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_01.fbx using Guid(c9e18d86d9bf83744961a05445c90f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da4ff41b2d4fcf749186c87ad44a903') in 0.064459 seconds
+  Import took 0.104287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Corner_L_01.fbx
+  artifactKey: Guid(08b2abe948c5248428b18d66f5a62558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Corner_L_01.fbx using Guid(08b2abe948c5248428b18d66f5a62558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4f9a0234eb016d28d86cfa9323a39c') in 0.065269 seconds
+  Import took 0.088615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Half_01.fbx
+  artifactKey: Guid(707bd1d190b0f0746a3a4764493ee4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Half_01.fbx using Guid(707bd1d190b0f0746a3a4764493ee4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e837f0cf909671cd8228f7087b0caf4') in 0.051303 seconds
+  Import took 0.070366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_05.fbx
+  artifactKey: Guid(05a7d1de7b9110541a656938cae605fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_05.fbx using Guid(05a7d1de7b9110541a656938cae605fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9968286938fd7478ff452eaddd3acf') in 0.070510 seconds
+  Import took 0.152389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_06_Half.fbx
+  artifactKey: Guid(a2111f88a6593b94da65e94c605c4219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_06_Half.fbx using Guid(a2111f88a6593b94da65e94c605c4219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b3f4ca6acc6484df69d7d5babb9f17') in 0.089078 seconds
+  Import took 0.114711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_01_Shorter.fbx
+  artifactKey: Guid(ce908b8fae1f2df429ca934401da025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_01_Shorter.fbx using Guid(ce908b8fae1f2df429ca934401da025f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979799d3d3562139d36d123ffc70ee46') in 0.062606 seconds
+  Import took 0.068931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_04.fbx
+  artifactKey: Guid(8931ea6f7b7e682499ef130148baa2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_04.fbx using Guid(8931ea6f7b7e682499ef130148baa2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225d0171498a23a8ed24e323539c23b5') in 0.075436 seconds
+  Import took 0.091174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_01.fbx
+  artifactKey: Guid(305043ea959fb494c80e184aaf61884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_01.fbx using Guid(305043ea959fb494c80e184aaf61884a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48e8fd87c86a65489bdb172fc4ca235') in 0.054841 seconds
+  Import took 0.076108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_02.fbx
+  artifactKey: Guid(87a4a842603e7fe47a837d2f1959c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_02.fbx using Guid(87a4a842603e7fe47a837d2f1959c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48c30e9b15f46734044a122f16572ee') in 0.065787 seconds
+  Import took 0.082797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Roof_01.fbx
+  artifactKey: Guid(ca507c0dc909b154ab66c39f15a59e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Roof_01.fbx using Guid(ca507c0dc909b154ab66c39f15a59e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e9f309ec0f0265bcd7dea83c0f6d84') in 0.062285 seconds
+  Import took 0.067811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_08.fbx
+  artifactKey: Guid(6011a5b341ccdbd49aded6b257e3f01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_08.fbx using Guid(6011a5b341ccdbd49aded6b257e3f01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d21537be4def3cf13267d3623f45415') in 0.072070 seconds
+  Import took 0.093192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_02.fbx
+  artifactKey: Guid(fbc9f3769e16b414aa7d4fefe09762cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_02.fbx using Guid(fbc9f3769e16b414aa7d4fefe09762cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8056d0bbeafad0aff4cf2ed6ecbe896b') in 0.060178 seconds
+  Import took 0.074139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_08.fbx
+  artifactKey: Guid(bbdc2612e633e044e9656a6e08c84b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_08.fbx using Guid(bbdc2612e633e044e9656a6e08c84b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9f2d11ee5dc99629f2525eca0bcc49') in 0.043209 seconds
+  Import took 0.059846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_01.fbx
+  artifactKey: Guid(330f28cd7e6595245aff28cfd94e9d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_01.fbx using Guid(330f28cd7e6595245aff28cfd94e9d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0893fa42891023cbf3d2f23647a7296') in 0.023355 seconds
+  Import took 0.035785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Round_L_01.fbx
+  artifactKey: Guid(c09a16d3b4f78f74ba490ad5128eaa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Round_L_01.fbx using Guid(c09a16d3b4f78f74ba490ad5128eaa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dceb2d225428ff1bcdd146f4eff7b5') in 0.021736 seconds
+  Import took 0.036270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Wood_Round_01.fbx
+  artifactKey: Guid(a6cfab2ec0490de47a70c8af53c49819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Wood_Round_01.fbx using Guid(a6cfab2ec0490de47a70c8af53c49819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b153892d027b99b87c8fd96870a29f04') in 0.065099 seconds
+  Import took 0.070379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Middle_02.fbx
+  artifactKey: Guid(dc716fdef865d624ca63c438b000fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Middle_02.fbx using Guid(dc716fdef865d624ca63c438b000fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87896df5460e2d286779f5379ad3116d') in 0.060615 seconds
+  Import took 0.072913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Half_01.fbx
+  artifactKey: Guid(3978fc888bbcffc46a029db61a457a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_Half_01.fbx using Guid(3978fc888bbcffc46a029db61a457a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09ab89d89334c805fffe07c280ed34d') in 0.085903 seconds
+  Import took 0.104762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_06.fbx
+  artifactKey: Guid(e15a87d568988c44b97664253cde8caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_06.fbx using Guid(e15a87d568988c44b97664253cde8caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c9d3f5a1126b80bee655db81c62bdd') in 0.063739 seconds
+  Import took 0.078386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_05_Half.fbx
+  artifactKey: Guid(282d25973183d2145a13a0f2bc8d7cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_05_Half.fbx using Guid(282d25973183d2145a13a0f2bc8d7cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52dd0dc09e197b63c9a8fa81c4110ac') in 0.055879 seconds
+  Import took 0.072343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_06_Short.fbx
+  artifactKey: Guid(98ee6d671019ac442bd1268387122f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_06_Short.fbx using Guid(98ee6d671019ac442bd1268387122f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6216cfee65bf3c24a6e76aa275d44380') in 0.080024 seconds
+  Import took 0.145118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_02.fbx
+  artifactKey: Guid(14526d26e9885f740a3d2270c58d3b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_Pillar_02.fbx using Guid(14526d26e9885f740a3d2270c58d3b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b13094aa3ae3ab42166c3035b8d087') in 0.090386 seconds
+  Import took 0.121031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_04.fbx
+  artifactKey: Guid(59251e8e8849b7642abad8add909de7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_L_Corner_04.fbx using Guid(59251e8e8849b7642abad8add909de7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39fb09998abb40b4272655a4a21ee47') in 0.055723 seconds
+  Import took 0.071658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_03.fbx
+  artifactKey: Guid(349467fdf78671841a6b00f4a3b69d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_03.fbx using Guid(349467fdf78671841a6b00f4a3b69d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c1ce25e3c9c3faa7afa043e96e0844') in 0.055165 seconds
+  Import took 0.070969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Archway_Small_01.fbx
+  artifactKey: Guid(183a02db61d512c498c3a91ceb0b656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Archway_Small_01.fbx using Guid(183a02db61d512c498c3a91ceb0b656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd661ab816da62053c5976a2440dbc1a') in 0.058913 seconds
+  Import took 0.072516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000981 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Top_01.fbx
+  artifactKey: Guid(6a962ce5bb850a6438fd41a89f2cdc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Top_01.fbx using Guid(6a962ce5bb850a6438fd41a89f2cdc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735f48dd0471755ea5cdb03d2eec2aa1') in 0.082940 seconds
+  Import took 0.099953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_03_Half.fbx
+  artifactKey: Guid(dc2106a0da8d98a44b6d793061bf53cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_03_Half.fbx using Guid(dc2106a0da8d98a44b6d793061bf53cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160c8cc3e5e601600789215ae7f2fe45') in 0.063523 seconds
+  Import took 0.069932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Wood_02.fbx
+  artifactKey: Guid(4c460c4dd7a9173458dd922937d4d0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Wood_02.fbx using Guid(4c460c4dd7a9173458dd922937d4d0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4a8b55d9b03e30facde123b8bc4b00') in 0.061163 seconds
+  Import took 0.077798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_01_Short.fbx
+  artifactKey: Guid(94fcf8763c636a3459b5611e33cfd087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_01_Short.fbx using Guid(94fcf8763c636a3459b5611e33cfd087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04725b68510a6ccc5bfaf3f5bc8d1917') in 0.057472 seconds
+  Import took 0.082856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Arrow_01.fbx
+  artifactKey: Guid(98fbb4e6af3ede74cb14d4f49571e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Arrow_01.fbx using Guid(98fbb4e6af3ede74cb14d4f49571e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5cce601df1dc3665f56adbbd38edea') in 0.108576 seconds
+  Import took 0.116960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_05.fbx
+  artifactKey: Guid(98d2c181f8bde3c4abbd37ea42b80125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_05.fbx using Guid(98d2c181f8bde3c4abbd37ea42b80125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85805cd446a375371fbf9ca92787566b') in 0.063023 seconds
+  Import took 0.079782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Door_Single_01.fbx
+  artifactKey: Guid(96b29e6b1437dec4483edd6a8425cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Door_Single_01.fbx using Guid(96b29e6b1437dec4483edd6a8425cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486003431d3aeb69976f77baf0ecffef') in 0.060535 seconds
+  Import took 0.076518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_RubbleBlock_01.fbx
+  artifactKey: Guid(1ea301835ec7a15478e3409239b2321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_RubbleBlock_01.fbx using Guid(1ea301835ec7a15478e3409239b2321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221d47719cb7ca52fabead45dca56f3f') in 0.063938 seconds
+  Import took 0.070778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_04.fbx
+  artifactKey: Guid(712540703031ba64fa21fe846e635a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_04.fbx using Guid(712540703031ba64fa21fe846e635a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f7bbf5dbb7101caa7295d02c31431f') in 0.078565 seconds
+  Import took 0.097133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_02.fbx
+  artifactKey: Guid(6c0b70f71fdf0f24ab214970b6fa067b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_02.fbx using Guid(6c0b70f71fdf0f24ab214970b6fa067b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385dc4039ef4fb8647acb50f2b7ebd16') in 0.063380 seconds
+  Import took 0.075898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Rubble_Top_01.fbx
+  artifactKey: Guid(25585a401e2fcdb4286ea663c9659a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Rubble_Top_01.fbx using Guid(25585a401e2fcdb4286ea663c9659a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6d07a85c6c35a6456069e925daac57') in 0.061911 seconds
+  Import took 0.074087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Floor_01.fbx
+  artifactKey: Guid(b3844a4d2d769c049888c5437bb8ea4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Floor_01.fbx using Guid(b3844a4d2d769c049888c5437bb8ea4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d13e7dfc5a7c745478096ad5f02db96') in 0.063277 seconds
+  Import took 0.137238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Rubble_Bottom_01.fbx
+  artifactKey: Guid(14ae082df6269984b8613d38d95fe7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Rubble_Bottom_01.fbx using Guid(14ae082df6269984b8613d38d95fe7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5c961d49560f839f6f0c2db2339a2e') in 0.059580 seconds
+  Import took 0.065899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_03.fbx
+  artifactKey: Guid(ef35a2d89fd55a347910d9b90d8721f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_03.fbx using Guid(ef35a2d89fd55a347910d9b90d8721f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8822b894a1f5c8e7788bcd71a9082eee') in 0.116915 seconds
+  Import took 0.135351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_04.fbx
+  artifactKey: Guid(f82c661f9f3fe58419343c2dc9b88e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_04.fbx using Guid(f82c661f9f3fe58419343c2dc9b88e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a259760cc963745c8ef12b75ed0c6d6') in 0.087603 seconds
+  Import took 0.094643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Bottom_02.fbx
+  artifactKey: Guid(1bedc980bcd56d2408d7dde3bc269f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Bottom_02.fbx using Guid(1bedc980bcd56d2408d7dde3bc269f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8ad87519d0588c367d7e389593a4a4') in 0.061312 seconds
+  Import took 0.086305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Bottom_01.fbx
+  artifactKey: Guid(c4bae5fd558662c4d9e1a54672ce91e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Bottom_01.fbx using Guid(c4bae5fd558662c4d9e1a54672ce91e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b326d71d0c0c94005d089476975eca96') in 0.061302 seconds
+  Import took 0.082625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_11.fbx
+  artifactKey: Guid(a5e18c3aaf0b7d94abb637c3bab9a156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Round_11.fbx using Guid(a5e18c3aaf0b7d94abb637c3bab9a156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175e58ef2d205f4c6b540ba8b587e79c') in 0.051960 seconds
+  Import took 0.075766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_Corner_Inner_01.fbx
+  artifactKey: Guid(df2d1f5d603f77348a6fc1962b581c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_Corner_Inner_01.fbx using Guid(df2d1f5d603f77348a6fc1962b581c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a389a20eb684d3a72ea8f36986d024e1') in 0.056934 seconds
+  Import took 0.063449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_05.fbx
+  artifactKey: Guid(70fa26e943b0f5548807ed40a79d64f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_Cap_Square_05.fbx using Guid(70fa26e943b0f5548807ed40a79d64f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72cd71b6e3dd27d82c2e484e59e0474') in 0.079853 seconds
+  Import took 0.104004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_End_01.fbx
+  artifactKey: Guid(2bdb4057e97a474418190ad8ae8b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_End_01.fbx using Guid(2bdb4057e97a474418190ad8ae8b737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e516e4db28bfaeb3d90d9cb84dcef4f5') in 0.057098 seconds
+  Import took 0.062361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_02.fbx
+  artifactKey: Guid(ff1dd204fcabca340a22ccb778e38322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_02.fbx using Guid(ff1dd204fcabca340a22ccb778e38322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd0c5b23c8cf7d0f2ce39f3df211cbb') in 0.062067 seconds
+  Import took 0.068781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_TopCap_01.fbx
+  artifactKey: Guid(e749d8bac746d774f996b5115662cb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_TopCap_01.fbx using Guid(e749d8bac746d774f996b5115662cb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdf14096898119ffb7da3940bc211b7') in 0.069914 seconds
+  Import took 0.088250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_Round_S_01.fbx
+  artifactKey: Guid(103f0bc4af3b99c45a1bdb35f30d4b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_Round_S_01.fbx using Guid(103f0bc4af3b99c45a1bdb35f30d4b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefd2b900c39d0f2f571afcc633199b4') in 0.070991 seconds
+  Import took 0.086077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_RubblePile_01.fbx
+  artifactKey: Guid(4a8f2d2d52da311449b25716bb46c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_RubblePile_01.fbx using Guid(4a8f2d2d52da311449b25716bb46c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20d6d123ade36cafef855308f7a2156') in 0.074889 seconds
+  Import took 0.082192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_04.fbx
+  artifactKey: Guid(96d6f9e4c7135de4f974c0318ffdace3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_M_Corner_04.fbx using Guid(96d6f9e4c7135de4f974c0318ffdace3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ed61622c356a1574d41b041594cd60') in 0.070042 seconds
+  Import took 0.077778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Wood_Fancy_01.fbx
+  artifactKey: Guid(6a517dde73c7efb48b3546be25f14913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Wood_Fancy_01.fbx using Guid(6a517dde73c7efb48b3546be25f14913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ac3d6ddfd900d6d6beb1e725f5efa0') in 0.065329 seconds
+  Import took 0.226704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Wall_02.fbx
+  artifactKey: Guid(89ce5e8d0b8e8064d934a701be7e1c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Hoarding_Wood_Wall_02.fbx using Guid(89ce5e8d0b8e8064d934a701be7e1c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcfb765281caab75a830c3e1faa45c4') in 0.254780 seconds
+  Import took 0.298223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_03.fbx
+  artifactKey: Guid(3cb6fa7058029d94c894fddffd1c1479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_03.fbx using Guid(3cb6fa7058029d94c894fddffd1c1479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079ea9367836b5e0a6f9547d6ec70dca') in 0.104264 seconds
+  Import took 0.132703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_01.fbx
+  artifactKey: Guid(a9bfa31b5caba0c43a110f3a33150be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_01.fbx using Guid(a9bfa31b5caba0c43a110f3a33150be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9822186ddb57bcbdc20e2c47b1b405') in 0.064823 seconds
+  Import took 0.092179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_05_Half.fbx
+  artifactKey: Guid(3f0be8432f6fbaa4f90607d9b9457978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Pillar_Stone_05_Half.fbx using Guid(3f0be8432f6fbaa4f90607d9b9457978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fea8eb55c1ce4c8ecd3c1adccfb1b5e') in 0.096667 seconds
+  Import took 0.123756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Gap_02.fbx
+  artifactKey: Guid(8d0d2d01db3f1f843b433e32fcd440b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Gap_02.fbx using Guid(8d0d2d01db3f1f843b433e32fcd440b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4bbffb652c470da0fcac7c71ff3df2') in 0.068808 seconds
+  Import took 0.101429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_Railing_01.fbx
+  artifactKey: Guid(470a6551cdbc0044da45d5fe9a8c8ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_Railing_01.fbx using Guid(470a6551cdbc0044da45d5fe9a8c8ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7434630541890c773305b1fabf9a94') in 0.069335 seconds
+  Import took 0.096440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_Corner_Inner_Half_01.fbx
+  artifactKey: Guid(c3a0c4ebe8664a84aa106388cd2aed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Roof_L_Corner_Inner_Half_01.fbx using Guid(c3a0c4ebe8664a84aa106388cd2aed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b850dc728cf0ba3ac3db1ae071286be4') in 0.080878 seconds
+  Import took 0.095451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Sphere.fbx
+  artifactKey: Guid(219de587148d8bb41a8e255859dafe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FX_Sphere.fbx using Guid(219de587148d8bb41a8e255859dafe53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a708da8be3975d554bcac383119284') in 0.074091 seconds
+  Import took 0.102742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Rubble_Middle_01.fbx
+  artifactKey: Guid(40168f4aaf382d145b1b26a34e08a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_DestroyedWall_Rubble_Middle_01.fbx using Guid(40168f4aaf382d145b1b26a34e08a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d308a03e8235a004975721a5e5cd65') in 0.059627 seconds
+  Import took 0.065259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FantasyKingdom_Characters.fbx
+  artifactKey: Guid(9d545e43681431348908eab98e78aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/FantasyKingdom_Characters.fbx using Guid(9d545e43681431348908eab98e78aa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc89ba7bc2d10dd81fbacf7edab33f22') in 0.331367 seconds
+  Import took 0.343947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Round_S_01.fbx
+  artifactKey: Guid(a7e3cb552fff4b047a23630b03946e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_Round_S_01.fbx using Guid(a7e3cb552fff4b047a23630b03946e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff46371ebe7b1c10e7650d25803259ee') in 0.070309 seconds
+  Import took 0.078438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_Railing_02.fbx
+  artifactKey: Guid(13d365eaf457e1447b35bd214e06fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Bridge_Railing_02.fbx using Guid(13d365eaf457e1447b35bd214e06fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5290d16ff85537ce307170074a3b1380') in 0.058727 seconds
+  Import took 0.065754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_03.fbx
+  artifactKey: Guid(3a214e581ea29244a8a427fb7e08fb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Stone_03.fbx using Guid(3a214e581ea29244a8a427fb7e08fb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8d5fa6ada1d9ba91fb0f2bcba0cb42') in 0.062487 seconds
+  Import took 0.088260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_03.fbx
+  artifactKey: Guid(9868d69cec5170240a4cc206049dc1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Battlements_S_Corner_03.fbx using Guid(9868d69cec5170240a4cc206049dc1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24836715d258c2dcecb8d1378b81ac2') in 0.070694 seconds
+  Import took 0.088594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_02.fbx
+  artifactKey: Guid(25961942c7832314087a03aa611bf4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Models/SM_Bld_Castle_Floor_Wood_02.fbx using Guid(25961942c7832314087a03aa611bf4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c3848825d96441e1cb7df5481caa07') in 0.068737 seconds
+  Import took 0.091466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 807.945893 seconds.
+  path: Assets/Data/Animations
+  artifactKey: Guid(100cba3fff88f544a8b9529e2a692c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations using Guid(100cba3fff88f544a8b9529e2a692c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6f3608665f2c47dff9471853e51ad8') in 0.011278 seconds
+  Import took 0.051202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.922813 seconds.
+  path: Assets/Data/Animations/PlayerAnimController.controller
+  artifactKey: Guid(444d1d88a40b2ad4d8bf14d9c40c8171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/PlayerAnimController.controller using Guid(444d1d88a40b2ad4d8bf14d9c40c8171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c980cc2c6453ee6acb736b5329380d5e') in 0.022239 seconds
+  Import took 0.064660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.684320 seconds.
+  path: Assets/Data/Animations/Jog Forward Right Diagonal.fbx
+  artifactKey: Guid(01db47f9ab7667c4ebd36a6e5290d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Jog Forward Right Diagonal.fbx using Guid(01db47f9ab7667c4ebd36a6e5290d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1442b55b3aebd3bfe309891ff6fe8f37') in 0.338424 seconds
+  Import took 0.368829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.037595 seconds.
+  path: Assets/Data/Animations/Jog Forward Left Diagonal.fbx
+  artifactKey: Guid(ed9a763d0dbc0f34a8b8580ba3cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Jog Forward Left Diagonal.fbx using Guid(ed9a763d0dbc0f34a8b8580ba3cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903ff5f9fc23a7d8fa9d6a48e5c03684') in 0.334696 seconds
+  Import took 0.358483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.854752 seconds.
+  path: Assets/Data/Animations/Jog Forward Right Diagonal.fbx
+  artifactKey: Guid(01db47f9ab7667c4ebd36a6e5290d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Jog Forward Right Diagonal.fbx using Guid(01db47f9ab7667c4ebd36a6e5290d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8019dd32944a78a38278fc07730b00e9') in 0.293741 seconds
+  Import took 0.325219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.940486 seconds.
+  path: Assets/Data/Animations/Jog Forward Left Diagonal.fbx
+  artifactKey: Guid(ed9a763d0dbc0f34a8b8580ba3cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Jog Forward Left Diagonal.fbx using Guid(ed9a763d0dbc0f34a8b8580ba3cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94fc157300202f29aa2b3247836a8be') in 0.259248 seconds
+  Import took 0.302260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.976249 seconds.
+  path: Assets/Data/Animations/Falling Back Death.fbx
+  artifactKey: Guid(8263e363ed73fbf4f85679eb5d8ecef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Falling Back Death.fbx using Guid(8263e363ed73fbf4f85679eb5d8ecef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce699a6c007a083f27eb8fc58d831b3') in 0.257021 seconds
+  Import took 0.299371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.482409 seconds.
+  path: Assets/Data/Animations/Falling Back Death.fbx
+  artifactKey: Guid(8263e363ed73fbf4f85679eb5d8ecef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Falling Back Death.fbx using Guid(8263e363ed73fbf4f85679eb5d8ecef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265f600b7cbbe53be1d7b1ec0f65c12e') in 0.288488 seconds
+  Import took 0.313529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.551279 seconds.
+  path: Assets/Data/Animations/Running.fbx
+  artifactKey: Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Running.fbx using Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab366c6aa74c642e2272140f51bc179') in 0.256851 seconds
+  Import took 0.280002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.104196 seconds.
+  path: Assets/Data/Animations/Strafing Right.fbx
+  artifactKey: Guid(e03faabe6a9376d4ba154b1b2e6c79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Strafing Right.fbx using Guid(e03faabe6a9376d4ba154b1b2e6c79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11ddaff6655a9ea7ccc951616db8d09') in 0.247089 seconds
+  Import took 0.264018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.403890 seconds.
+  path: Assets/Data/Animations/Running.fbx
+  artifactKey: Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Running.fbx using Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46264ff502500e4b5fd530609ed1633e') in 0.265763 seconds
+  Import took 0.286164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.435274 seconds.
+  path: Assets/Data/Animations/Strafing Right.fbx
+  artifactKey: Guid(e03faabe6a9376d4ba154b1b2e6c79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Strafing Right.fbx using Guid(e03faabe6a9376d4ba154b1b2e6c79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2710c91819dcdc48577c2c90ffaef4d5') in 0.225596 seconds
+  Import took 0.244278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.120102 seconds.
+  path: Assets/Data/Animations/Running.fbx
+  artifactKey: Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Running.fbx using Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4c1cc22a2e5013a15103b6aa3be247') in 0.225931 seconds
+  Import took 0.272164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.225361 seconds.
+  path: Assets/Data/Animations/Strafing Right.fbx
+  artifactKey: Guid(e03faabe6a9376d4ba154b1b2e6c79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Strafing Right.fbx using Guid(e03faabe6a9376d4ba154b1b2e6c79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c3f36a484169b06515c6425af83dc0') in 0.269621 seconds
+  Import took 0.312574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.096280 seconds.
+  path: Assets/Data/Animations/Idle.fbx
+  artifactKey: Guid(41af78303d6e56b4a8cc53b90fd2dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Idle.fbx using Guid(41af78303d6e56b4a8cc53b90fd2dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529f759ffd2a4d75ab5cd5283e56e98d') in 0.272056 seconds
+  Import took 0.279498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.735422 seconds.
+  path: Assets/Data/Animations/Idle.fbx
+  artifactKey: Guid(41af78303d6e56b4a8cc53b90fd2dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Idle.fbx using Guid(41af78303d6e56b4a8cc53b90fd2dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ec8c06f41bd2426b886a4bf30e46c5') in 0.282123 seconds
+  Import took 0.289520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.779154 seconds.
+  path: Assets/Data/Animations/Idle.fbx
+  artifactKey: Guid(41af78303d6e56b4a8cc53b90fd2dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Idle.fbx using Guid(41af78303d6e56b4a8cc53b90fd2dbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae1a5926ed211be0dd6f328ba50e08c') in 0.304207 seconds
+  Import took 0.386703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.612525 seconds.
+  path: Assets/Data/Animations/Falling Back Death.fbx
+  artifactKey: Guid(8263e363ed73fbf4f85679eb5d8ecef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Falling Back Death.fbx using Guid(8263e363ed73fbf4f85679eb5d8ecef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5006fef74b492da258b802d77c81f9') in 0.315136 seconds
+  Import took 0.343567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.679169 seconds.
+  path: Assets/Data/Animations/Jog Forward Left Diagonal.fbx
+  artifactKey: Guid(ed9a763d0dbc0f34a8b8580ba3cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Jog Forward Left Diagonal.fbx using Guid(ed9a763d0dbc0f34a8b8580ba3cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7d6f752f7a851adcfb1d73635005af') in 0.276583 seconds
+  Import took 0.283541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.119775 seconds.
+  path: Assets/Data/Animations/Jog Forward Right Diagonal.fbx
+  artifactKey: Guid(01db47f9ab7667c4ebd36a6e5290d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Jog Forward Right Diagonal.fbx using Guid(01db47f9ab7667c4ebd36a6e5290d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f35cb8e935ec95ac3a02e859b56fca') in 0.269681 seconds
+  Import took 0.327288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.157873 seconds.
+  path: Assets/Data/Animations/Running.fbx
+  artifactKey: Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Running.fbx using Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152429602035e01ab39c76339e1ddffb') in 0.370781 seconds
+  Import took 0.392024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.445593 seconds.
+  path: Assets/Data/Animations/Strafing Right.fbx
+  artifactKey: Guid(e03faabe6a9376d4ba154b1b2e6c79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Strafing Right.fbx using Guid(e03faabe6a9376d4ba154b1b2e6c79b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd8824324f156760b4163d1d9a5385d') in 0.262521 seconds
+  Import took 0.334372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.055738 seconds.
+  path: Assets/Data/Animations/Falling Back Death.fbx
+  artifactKey: Guid(8263e363ed73fbf4f85679eb5d8ecef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Falling Back Death.fbx using Guid(8263e363ed73fbf4f85679eb5d8ecef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002aef629822cb4d8f8e3ecf7cc327f1') in 0.337340 seconds
+  Import took 0.351221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.389224 seconds.
+  path: Assets/Data/Animations/Jog Forward Left Diagonal.fbx
+  artifactKey: Guid(ed9a763d0dbc0f34a8b8580ba3cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Jog Forward Left Diagonal.fbx using Guid(ed9a763d0dbc0f34a8b8580ba3cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5fbcfbc74e5aa4ca4bc9db56d6d944') in 0.274384 seconds
+  Import took 0.305741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.903576 seconds.
+  path: Assets/Data/Animations/Jog Forward Right Diagonal.fbx
+  artifactKey: Guid(01db47f9ab7667c4ebd36a6e5290d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Jog Forward Right Diagonal.fbx using Guid(01db47f9ab7667c4ebd36a6e5290d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc99500cef869d03744d7b1cd3be7fa') in 0.284109 seconds
+  Import took 0.329302 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008988 seconds.
+Registered in 0.011441 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
+- Completed reload, in  1.654 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.9 MB.
-System memory in use after: 125.2 MB.
+System memory in use before: 145.7 MB.
+System memory in use after: 145.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3143.
-Total: 3.239000 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.118300 ms MarkObjects: 2.761100 ms  DeleteObjects: 0.065100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3219.
+Total: 2.894600 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.105100 ms MarkObjects: 2.471300 ms  DeleteObjects: 0.039500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006953 seconds.
+Registered in 0.011663 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.390 seconds
+- Completed reload, in  1.453 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.2 MB.
+System memory in use before: 145.8 MB.
+System memory in use after: 146.0 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3146.
-Total: 3.224300 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.827600 ms  DeleteObjects: 0.022600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 2.977000 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.115600 ms MarkObjects: 2.554300 ms  DeleteObjects: 0.020100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008983 seconds.
+Registered in 0.009787 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.449 seconds
+- Completed reload, in  1.420 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 146.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3225.
+Total: 3.123500 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.117500 ms MarkObjects: 2.693800 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 146.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3228.
+Total: 4.004900 ms (FindLiveObjects: 0.880000 ms CreateObjectMapping: 0.208200 ms MarkObjects: 2.875800 ms  DeleteObjects: 0.039100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 146.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3231.
+Total: 3.038800 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.126900 ms MarkObjects: 2.608000 ms  DeleteObjects: 0.038700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 146.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3234.
+Total: 2.768100 ms (FindLiveObjects: 0.294100 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.305900 ms  DeleteObjects: 0.048200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.2 MB.
+System memory in use before: 145.8 MB.
+System memory in use after: 146.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3149.
-Total: 3.456200 ms (FindLiveObjects: 0.541200 ms CreateObjectMapping: 0.204600 ms MarkObjects: 2.650500 ms  DeleteObjects: 0.058300 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3237.
+Total: 5.740500 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.130500 ms MarkObjects: 5.185000 ms  DeleteObjects: 0.025300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 2998.844087 seconds.
-  path: Assets/Code/Gameplay/Spells Related/Cauldron.cs
-  artifactKey: Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Spells Related/Cauldron.cs using Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce87813e984332630804be3a9430a91') in 0.010533 seconds
-  Import took 0.018771 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.549 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 146.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3240.
+Total: 3.110800 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.105400 ms MarkObjects: 2.673500 ms  DeleteObjects: 0.048200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.511 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.8 MB.
+System memory in use after: 146.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3243.
+Total: 3.083800 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.129800 ms MarkObjects: 2.635000 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015404 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.157 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.9 MB.
+System memory in use after: 146.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3246.
+Total: 4.491700 ms (FindLiveObjects: 0.352000 ms CreateObjectMapping: 0.329900 ms MarkObjects: 3.775100 ms  DeleteObjects: 0.033200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010435 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.9 MB.
+System memory in use after: 146.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3249.
+Total: 2.994700 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.124600 ms MarkObjects: 2.535100 ms  DeleteObjects: 0.052400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
