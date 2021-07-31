@@ -4907,7 +4907,7 @@ GameObject:
   - component: {fileID: 1366322311610185089}
   - component: {fileID: 5358881565660517975}
   - component: {fileID: 9204741375443034325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SM_Chr_Mage_01
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4961,8 +4961,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1996767962855262}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9d545e43681431348908eab98e78aa45, type: 3}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 41af78303d6e56b4a8cc53b90fd2dbcb, type: 3}
+  m_Controller: {fileID: 9100000, guid: 444d1d88a40b2ad4d8bf14d9c40c8171, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -4983,14 +4983,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
   health: 0
   isDead: 0
+  kills: 0
   isBlinking: 0
   playerSkin: {fileID: 0}
   carryingLocation: {fileID: 3243018192011339490}
   carryingIngredient: {fileID: 0}
+  holdIngredient: 0
   myCauldron: {fileID: 0}
+  deadZone: 0.19
   playerID: 0
 --- !u!136 &5358881565660517975
 CapsuleCollider:
