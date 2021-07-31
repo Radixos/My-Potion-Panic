@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f35bd9bba296d542a453f608d50804e, type: 3}
+  m_Name: Cold Dragon Scale
+  m_EditorClassIdentifier: 
+  Name: Cold Dragon Scale
+  ingredientPrefab: {fileID: 2538594590375467570, guid: 4d6553c530b0cf44098e275a13a94824, type: 3}
+  ingredientPreview: {fileID: 21300000, guid: 0efbfef1deda7964c9aec0d0448a15e6, type: 3}
