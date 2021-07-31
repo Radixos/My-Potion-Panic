@@ -32,11 +32,6 @@ public class PlayerController : MonoBehaviour
 
     public Cauldron myCauldron;
 
-    // TESTING STUFF
-    private bool hasSpell = true;
-    private bool spellCasted;
-    private bool isCasting;
-
     [Header("Controller")]
     // To frequently check if the controller is connected
     // or has been switched to a different type.
@@ -55,6 +50,14 @@ public class PlayerController : MonoBehaviour
     private Vector3 newPushLocation;
     private float pushDelay; // To prevent push spam
     private float pushDistance;
+
+    // TESTING STUFF
+    private bool hasSpell = true;
+    private bool inSpellAnim;
+    private bool isCasting;
+    private bool spellCasted;
+    private ObjectPool arrowPool;
+    public Transform aimArrow;
 
     // Start is called before the first frame update
     void Start()
@@ -85,6 +88,8 @@ public class PlayerController : MonoBehaviour
 
         playerLayer = 1 << 6;
         pushDelay = 2.0f;
+
+        arrowPool = GameObject.Find("Nature's Arrow Pool").GetComponent<ObjectPool>();
     }
 
     private void MyCauldron_OnSuccessEvent(Spell_SO brewedSpell)
@@ -123,7 +128,7 @@ public class PlayerController : MonoBehaviour
 
             ControllerConnectionCheck();
 
-            if (!spellCasted)
+            if (!inSpellAnim)
             {
                 if(!isCasting)
                 {
@@ -139,7 +144,7 @@ public class PlayerController : MonoBehaviour
                 {
                     if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9)
                     {
-                        spellCasted = false;
+                        inSpellAnim = false;
                         anim.SetBool("castedAreaMagic", false);
                     }
                 }
@@ -147,9 +152,21 @@ public class PlayerController : MonoBehaviour
                 {
                     if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9)
                     {
-                        spellCasted = false;
+                        inSpellAnim = false;
                         isCasting = false;
                         anim.SetBool("castedProjectileMagic", false);
+
+                    }
+                    else if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7 && !spellCasted)
+                    {
+                        GameObject obj = arrowPool.GetPooledObject();
+                        obj.transform.position = transform.position + transform.up;
+                        obj.transform.rotation = transform.rotation;
+                        obj.SetActive(true);
+
+                        obj.GetComponent<SpellBehaviour>().caster = this;
+                        obj.GetComponent<Rigidbody>().AddForce(transform.forward * 20, ForceMode.Impulse);
+                        spellCasted = true;
                     }
                 }
             }
@@ -269,28 +286,33 @@ public class PlayerController : MonoBehaviour
         {
             float val = 2; // WILL BE ENUM FROM SPELL INFO
             
-            if(val == 1)
+            if(val == 1) // AREA
             {
                 if (Input.GetButtonDown("Cast " + playerID.ToString()))
                 {
                     ResetAnimationToIdle();
                     anim.SetBool("castedAreaMagic", true);
-                    spellCasted = true;
+                    inSpellAnim = true;
+                    spellCasted = false;
                 }
             }
-            else
+            else // PROJECTILE
             {
                 if(Input.GetButton("Cast " + playerID.ToString()))
                 {
+                    aimArrow.gameObject.SetActive(true);
                     isCasting = true;
                     ResetAnimationToIdle();
                     Aim();
+                    aimArrow.rotation = transform.rotation;
                 }
 
                 if(Input.GetButtonUp("Cast " + playerID.ToString()))
                 {
                     anim.SetBool("castedProjectileMagic", true);
-                    spellCasted = true;
+                    inSpellAnim = true;
+                    spellCasted = false;
+                    aimArrow.gameObject.SetActive(false);
                 }
 
             }
@@ -306,7 +328,7 @@ public class PlayerController : MonoBehaviour
 
                     for (int i = 0; i < 3; i++) // To broaden the Raycast check
                     {
-                        if (Physics.Raycast(transform.position + (transform.right * j) + (transform.up),
+                        if (Physics.Raycast(transform.position + (transform.right * j) + transform.up,
                             transform.forward, out hit, 1.5f, playerLayer))
                         {
                             Vector3 dir = hit.collider.gameObject.transform.position - transform.position;
@@ -411,7 +433,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (!(Input.GetJoystickNames()[playerID - 1] == ""))
                 {
-                    if (Input.GetJoystickNames()[playerID - 1] == "Controller (Xbox One For Windows)")
+                    if (Input.GetJoystickNames()[playerID - 1].Contains("Xbox"))
                         controllerType = "Xbox";
                     else
                         controllerType = "PS";
