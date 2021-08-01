@@ -54,14 +54,21 @@ public class Ingredient : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
             if (other.gameObject.GetComponent<PlayerController>().carryingIngredient == null)
+            {
+                GetComponent<Rigidbody>().useGravity = false;
+                GetComponent<BoxCollider>().enabled = false;
                 SetInputInfoState(true);
-
+            }
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
+        {
+            GetComponent<Rigidbody>().useGravity = true;
+            GetComponent<BoxCollider>().enabled = true;
             SetInputInfoState(false);
+        }
     }
 
     void SetInputInfoState(bool state)

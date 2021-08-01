@@ -15,11 +15,11 @@ D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56994
+49500
 Successfully changed project path to: D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 203.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 205.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -36,173 +36,1858 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001504 seconds.
+Registered in 0.004866 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 175.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 189.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.594 seconds
+- Completed reload, in  1.803 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006845 seconds.
+Registered in 0.011370 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 194.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 209.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.527 seconds
+- Completed reload, in  1.731 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2697 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.8 MB.
-System memory in use after: 132.0 MB.
+Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 132.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3134.
-Total: 3.282800 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.183500 ms MarkObjects: 2.662200 ms  DeleteObjects: 0.140100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3137.
+Total: 3.539300 ms (FindLiveObjects: 0.678000 ms CreateObjectMapping: 0.443700 ms MarkObjects: 2.280200 ms  DeleteObjects: 0.136100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Code/Gameplay/Spells Related/Cauldron.cs
-  artifactKey: Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Spells Related/Cauldron.cs using Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee3fea177f57fc2a9a61f3003209b65') in 0.058646 seconds
-  Import took 0.065234 seconds .
+  path: Assets/Data/Prefabs/Mani Prefabs/Nature's Arrow - MOCK.prefab
+  artifactKey: Guid(01d62d0306c6d1949ab9c8dc322af09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Nature's Arrow - MOCK.prefab using Guid(01d62d0306c6d1949ab9c8dc322af09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4aaae46cb45e44d9d182490f72be80') in 0.315272 seconds
+  Import took 0.322409 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007853 seconds.
+Registered in 0.013588 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.388 seconds
+- Completed reload, in  1.730 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 125.0 MB.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3137.
-Total: 9.300000 ms (FindLiveObjects: 0.543200 ms CreateObjectMapping: 0.299300 ms MarkObjects: 8.410200 ms  DeleteObjects: 0.045000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3186.
+Total: 3.318900 ms (FindLiveObjects: 0.472400 ms CreateObjectMapping: 0.161800 ms MarkObjects: 2.620300 ms  DeleteObjects: 0.063100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 139.544466 seconds.
-  path: Assets/Code/Gameplay/Spells Related/Cauldron.cs
-  artifactKey: Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Spells Related/Cauldron.cs using Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1859bd7c92a76ec13752863fee6f8822') in 0.008148 seconds
-  Import took 0.049354 seconds .
+  Time since last request: 225.870610 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Nature's Arrow Pool.prefab
+  artifactKey: Guid(a7617e719078d864089be66f52b68bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Nature's Arrow Pool.prefab using Guid(a7617e719078d864089be66f52b68bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3896ba64d62a74e8b618466c72f5faea') in 0.067077 seconds
+  Import took 0.074865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.998010 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Nature's Arrow Pool.prefab
+  artifactKey: Guid(a7617e719078d864089be66f52b68bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Nature's Arrow Pool.prefab using Guid(a7617e719078d864089be66f52b68bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19448adac624cec8f0bd732cbb56a17e') in 0.010187 seconds
+  Import took 0.018474 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008218 seconds.
+Registered in 0.012867 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
+- Completed reload, in  1.887 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 125.0 MB.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.7 MB.
+System memory in use after: 130.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3140.
-Total: 3.005100 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.604400 ms  DeleteObjects: 0.028100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.924921 seconds.
-  path: Assets/Code/Gameplay/Spells Related/Cauldron.cs
-  artifactKey: Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Spells Related/Cauldron.cs using Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f287680349768d35e54884bafc2217') in 0.006624 seconds
-  Import took 0.048739 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3189.
+Total: 3.529200 ms (FindLiveObjects: 0.359900 ms CreateObjectMapping: 0.195200 ms MarkObjects: 2.949200 ms  DeleteObjects: 0.023400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008988 seconds.
+Registered in 0.012504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.7 MB.
+System memory in use after: 130.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3192.
+Total: 4.315500 ms (FindLiveObjects: 0.694400 ms CreateObjectMapping: 0.282300 ms MarkObjects: 3.303500 ms  DeleteObjects: 0.033300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012862 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
+- Completed reload, in  1.827 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.9 MB.
-System memory in use after: 125.2 MB.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.7 MB.
+System memory in use after: 130.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3143.
-Total: 3.239000 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.118300 ms MarkObjects: 2.761100 ms  DeleteObjects: 0.065100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3195.
+Total: 4.399700 ms (FindLiveObjects: 0.369000 ms CreateObjectMapping: 0.196700 ms MarkObjects: 3.785600 ms  DeleteObjects: 0.045200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006953 seconds.
+Registered in 0.013773 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.390 seconds
+- Completed reload, in  1.813 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.2 MB.
+Unloading 2591 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.7 MB.
+System memory in use after: 131.0 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3146.
-Total: 3.224300 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.827600 ms  DeleteObjects: 0.022600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008983 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.449 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.0 MB.
-System memory in use after: 125.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3149.
-Total: 3.456200 ms (FindLiveObjects: 0.541200 ms CreateObjectMapping: 0.204600 ms MarkObjects: 2.650500 ms  DeleteObjects: 0.058300 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3198.
+Total: 3.327600 ms (FindLiveObjects: 0.403100 ms CreateObjectMapping: 0.171700 ms MarkObjects: 2.726900 ms  DeleteObjects: 0.024900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2998.844087 seconds.
-  path: Assets/Code/Gameplay/Spells Related/Cauldron.cs
-  artifactKey: Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Spells Related/Cauldron.cs using Guid(dd5b5e77eb496a74ea606f14e0867819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce87813e984332630804be3a9430a91') in 0.010533 seconds
-  Import took 0.018771 seconds .
+  Time since last request: 810.093492 seconds.
+  path: Assets/Code/Gameplay/Spells & Interactables/Spells/VolcanicBlast.cs
+  artifactKey: Guid(2d6f88205480c704fa961f07f2c27fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Gameplay/Spells & Interactables/Spells/VolcanicBlast.cs using Guid(2d6f88205480c704fa961f07f2c27fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e924c634f5a7d9699ae56015bceb1ee') in 0.033894 seconds
+  Import took 0.083811 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3202.
+Total: 3.377900 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.168800 ms MarkObjects: 2.842300 ms  DeleteObjects: 0.109700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.466 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 131.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3205.
+Total: 3.029000 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.138000 ms MarkObjects: 2.568500 ms  DeleteObjects: 0.023400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1204.454120 seconds.
+  path: Assets/Code/Gameplay/Spells & Interactables/Spells/VolcanicBlast.cs
+  artifactKey: Guid(2d6f88205480c704fa961f07f2c27fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Gameplay/Spells & Interactables/Spells/VolcanicBlast.cs using Guid(2d6f88205480c704fa961f07f2c27fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bc2d557a914f9c5e54d83a2a2d43b3') in 0.008010 seconds
+  Import took 0.016203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.128254 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(5a57939b05fe2074fad21e560fc5d21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(5a57939b05fe2074fad21e560fc5d21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97402577a16ed76bc895e5162672af99') in 0.011661 seconds
+  Import took 0.017468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.351029 seconds.
+  path: Assets/POTION PANIC/Decor/book1/book1.png
+  artifactKey: Guid(d8ca586b3c1bb654fb79c2ead3b4e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/book1/book1.png using Guid(d8ca586b3c1bb654fb79c2ead3b4e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb439cdc2d518f75fc9d7941948e4b13') in 0.415501 seconds
+  Import took 0.421677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Normal_Map.png
+  artifactKey: Guid(d21b0d52ea5f1c84ba2e275be1619ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Normal_Map.png using Guid(d21b0d52ea5f1c84ba2e275be1619ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35d217cee86b0446dde7ffc1222ade9') in 0.293783 seconds
+  Import took 0.302023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_A.png
+  artifactKey: Guid(13e3a485e140b31418d24312e61aab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_A.png using Guid(13e3a485e140b31418d24312e61aab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241de0b3c46316a6a33cd8ceaa81643f') in 0.273942 seconds
+  Import took 0.287317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_C.png
+  artifactKey: Guid(5c6b3761b0fdbba4994c73c26207ffb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_C.png using Guid(5c6b3761b0fdbba4994c73c26207ffb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5894f5ecfeb0a36a8985769aa0a250c0') in 0.229637 seconds
+  Import took 0.240023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_B.png
+  artifactKey: Guid(7ae8f77fa925126479463bba857655f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_B.png using Guid(7ae8f77fa925126479463bba857655f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b52c95de93d2a3396e510c1124ff5a') in 0.272954 seconds
+  Import took 0.281884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeon_Fog_Breakup.tga
+  artifactKey: Guid(188986f6af92a334c8b22f1bb58d2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeon_Fog_Breakup.tga using Guid(188986f6af92a334c8b22f1bb58d2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0c34c48d5b3a205b7857609e1bcda2') in 0.242879 seconds
+  Import took 0.251182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_01_B.png
+  artifactKey: Guid(43a17cdabcb2b374fbcc12e4d4977760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_01_B.png using Guid(43a17cdabcb2b374fbcc12e4d4977760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ca02f07304dd44e255d08dc6b1b894') in 0.058330 seconds
+  Import took 0.064530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/POTION PANIC/Decor/book1/book1.png
+  artifactKey: Guid(d8ca586b3c1bb654fb79c2ead3b4e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/book1/book1.png using Guid(d8ca586b3c1bb654fb79c2ead3b4e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb439cdc2d518f75fc9d7941948e4b13') in 0.017044 seconds
+  Import took 0.025406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_A.png
+  artifactKey: Guid(96c8d855fdff49e4f9c755db6b18afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_A.png using Guid(96c8d855fdff49e4f9c755db6b18afd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fffc4287bdc14fac59989bd0bb23bcc') in 0.236521 seconds
+  Import took 0.244549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_A.png
+  artifactKey: Guid(ca2ee8a5255af1e4cbecb47bd1ef41ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_A.png using Guid(ca2ee8a5255af1e4cbecb47bd1ef41ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdacde431c35ee9041f09d74c7abcf8') in 0.248798 seconds
+  Import took 0.258360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_01_C.png
+  artifactKey: Guid(84991b099ef2b2f448c89be08a27a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_01_C.png using Guid(84991b099ef2b2f448c89be08a27a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd096d0321cac50449da1d272537e1005') in 0.063644 seconds
+  Import took 0.071273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_A.png
+  artifactKey: Guid(48dd9a7736c11b5448a74711310e2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_A.png using Guid(48dd9a7736c11b5448a74711310e2ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748d329d55b1b5e8c4edb56cc6ad749f') in 0.240704 seconds
+  Import took 0.261639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_C.png
+  artifactKey: Guid(cde832adb12d071478b86817fa7882d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_C.png using Guid(cde832adb12d071478b86817fa7882d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d713c791ffa91e18e02ccdeec4555fb') in 0.270048 seconds
+  Import took 0.281640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_B.png
+  artifactKey: Guid(312cbbeccfed8164c88c2bcefd9f8379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_02_B.png using Guid(312cbbeccfed8164c88c2bcefd9f8379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a08830439a6f4f1d217d8c2a85179b') in 0.266428 seconds
+  Import took 0.275559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_02_D.png
+  artifactKey: Guid(a7a21d65fb82f1c4db162a9a414dc1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_02_D.png using Guid(a7a21d65fb82f1c4db162a9a414dc1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b14e6aad529ee559eb8cd6fd8ad6255') in 0.073480 seconds
+  Import took 0.080764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_02.png
+  artifactKey: Guid(d6e50c0686f83eb42951795e5627f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_02.png using Guid(d6e50c0686f83eb42951795e5627f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6202dad996ec016c616a1088dcd2c3f1') in 0.064180 seconds
+  Import took 0.069921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_01_D.png
+  artifactKey: Guid(f1446f759308e5a429875c542c92d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_01_D.png using Guid(f1446f759308e5a429875c542c92d5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bd6badc05f71c620c97a02618b42c9') in 0.057146 seconds
+  Import took 0.064638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Dungeons_Texture_01.png
+  artifactKey: Guid(b24b57e0cfed05643be34b0256df875e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Dungeons_Texture_01.png using Guid(b24b57e0cfed05643be34b0256df875e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc4c12c76aac5b9571fd5c01172c158') in 0.024101 seconds
+  Import took 0.033466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_03.png
+  artifactKey: Guid(1495bbacddfd57442a4fe4a843b72bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_03.png using Guid(1495bbacddfd57442a4fe4a843b72bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd6aa5b2c69986e79d3d711858acbe6') in 0.092883 seconds
+  Import took 0.100702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/POTION PANIC/Decor/book2/book2.png
+  artifactKey: Guid(3ba351434b060774ab541d81686b3708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/book2/book2.png using Guid(3ba351434b060774ab541d81686b3708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b95fc54c26db12b58b677337022a11') in 0.111668 seconds
+  Import took 0.119155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_B.png
+  artifactKey: Guid(8ae9d9f08f7575e43921775971a3899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_01_B.png using Guid(8ae9d9f08f7575e43921775971a3899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea98bc1c7fa795ff2d705a0dc4caff7') in 0.256348 seconds
+  Import took 0.263458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_C.png
+  artifactKey: Guid(639511dd3af824b4aabafe585a6e5c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_C.png using Guid(639511dd3af824b4aabafe585a6e5c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db098c5e9f5df2921bc8941496e024b9') in 0.247690 seconds
+  Import took 0.254477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_02_A.png
+  artifactKey: Guid(7f655a704929b8f47b4cbabe4b5ff85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_02_A.png using Guid(7f655a704929b8f47b4cbabe4b5ff85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c9be23add80aa141e44f9d8056debf') in 0.053182 seconds
+  Import took 0.059455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Dungeons_Texture_02.png
+  artifactKey: Guid(f3117e735161a1e49aa3f78498761f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Dungeons_Texture_02.png using Guid(f3117e735161a1e49aa3f78498761f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b8804854c8d2d6353a46d9f3491f39') in 0.051246 seconds
+  Import took 0.056544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_04.png
+  artifactKey: Guid(b6fcd73958bbd514faba7f1d7298809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_04.png using Guid(b6fcd73958bbd514faba7f1d7298809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63022d98c50212743fcb88e7b07e23c') in 0.112648 seconds
+  Import took 0.120097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Crystal_Metallic.tif
+  artifactKey: Guid(b8d8f0f13772c374d8d6354900c44e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Crystal_Metallic.tif using Guid(b8d8f0f13772c374d8d6354900c44e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d587e5974db0cb1be9e3b07cb73a63') in 0.025407 seconds
+  Import took 0.030627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_C.png
+  artifactKey: Guid(37ba4ec46156aa24d8b2c21e544c1dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_03_C.png using Guid(37ba4ec46156aa24d8b2c21e544c1dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f18f9d45be980740716ef433808f5d') in 0.253240 seconds
+  Import took 0.260893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_Realms_Metallic.tif
+  artifactKey: Guid(ca5218861d869e442bcae7aca8629a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_Realms_Metallic.tif using Guid(ca5218861d869e442bcae7aca8629a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb354e83c56fb0b3500b47725f93ff7b') in 0.093824 seconds
+  Import took 0.125875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_01.png
+  artifactKey: Guid(2deb9a997d4c62c4d92210d0f0a9abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Dungeons_2_Texture_Emission_01.png using Guid(2deb9a997d4c62c4d92210d0f0a9abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7527c3cf461b510634c0aee88d3c8b29') in 0.075622 seconds
+  Import took 0.083707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_02_C.png
+  artifactKey: Guid(5cc82904a6e45f842ab36cf805c89fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_02_C.png using Guid(5cc82904a6e45f842ab36cf805c89fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079438828ae7c035b9565a3bc0875116') in 0.043921 seconds
+  Import took 0.049286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Dungeons_Texture_03.png
+  artifactKey: Guid(a2e781ab9b9e5d748b74706dcbbab973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Dungeons_Texture_03.png using Guid(a2e781ab9b9e5d748b74706dcbbab973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc4fffd1bc96576c7b92f01c33785ca') in 0.050585 seconds
+  Import took 0.055394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_02_B.png
+  artifactKey: Guid(7cd840983f1fee34ea83d3a281e39017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_02_B.png using Guid(7cd840983f1fee34ea83d3a281e39017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ae31d7bd024b3498fcdfc6edb1d55c') in 0.044336 seconds
+  Import took 0.050674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_B.png
+  artifactKey: Guid(f3e74b48e65a6d3499f80ed135977dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Dungeons_2_Texture_04_B.png using Guid(f3e74b48e65a6d3499f80ed135977dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd279764fb0e949515c68e9174299dd78') in 0.221975 seconds
+  Import took 0.228237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/POTION PANIC/Decor/book3/book3.png
+  artifactKey: Guid(1f72307300d20924c85b6ec7accc1853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/book3/book3.png using Guid(1f72307300d20924c85b6ec7accc1853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c34f0b38a42f680cfb803d6337e81d') in 0.189624 seconds
+  Import took 0.195427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_01_A.png
+  artifactKey: Guid(31ccc8816a063274bbcd2ed6a7cd6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_01_A.png using Guid(31ccc8816a063274bbcd2ed6a7cd6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61110dc309be72246ea1eaf89b68dfca') in 0.053381 seconds
+  Import took 0.058952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.118811 seconds.
+  path: Assets/Data/Effects
+  artifactKey: Guid(66a07021ae3c30547a865b8196329595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Effects using Guid(66a07021ae3c30547a865b8196329595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1d6828170dcbaeee69f98fc4186e01') in 0.009459 seconds
+  Import took 0.015760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.668502 seconds.
+  path: Assets/Data/Sprites
+  artifactKey: Guid(66a07021ae3c30547a865b8196329595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Sprites using Guid(66a07021ae3c30547a865b8196329595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edfd3900d76f681b6a71ca434fb8d40') in 0.011963 seconds
+  Import took 0.020025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.368038 seconds.
+  path: Assets/Data/Sprites/Effects
+  artifactKey: Guid(abda2d62658244d47ac70e79343ff819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Sprites/Effects using Guid(abda2d62658244d47ac70e79343ff819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafa034385925a9637f528721657a3e4') in 0.004582 seconds
+  Import took 0.011983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.181978 seconds.
+  path: Assets/Data/Sprites/Effects/SurgeWave Outline.png
+  artifactKey: Guid(092a7941807dd434a9717620d32da411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Sprites/Effects/SurgeWave Outline.png using Guid(092a7941807dd434a9717620d32da411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa20b8aeca627ae1578f6b71f1a7bea7') in 0.015452 seconds
+  Import took 0.021232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073696 seconds.
+  path: Assets/Data/Sprites/Effects/SurgeWave Outline.png
+  artifactKey: Guid(092a7941807dd434a9717620d32da411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Sprites/Effects/SurgeWave Outline.png using Guid(092a7941807dd434a9717620d32da411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa20b8aeca627ae1578f6b71f1a7bea7') in 0.011925 seconds
+  Import took 0.018908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.714207 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_03_A.png
+  artifactKey: Guid(f5091d7101c57414f9e80ac6f576f9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_03_A.png using Guid(f5091d7101c57414f9e80ac6f576f9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84afcd0b8530f24626ec123463e12007') in 0.069043 seconds
+  Import took 0.076208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_03.png
+  artifactKey: Guid(799cb419e1c152a489f0053a612f9d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_03.png using Guid(799cb419e1c152a489f0053a612f9d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8459072bd40f01c1197122aa29f2e1') in 0.071302 seconds
+  Import took 0.079353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000775 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_04_B.png
+  artifactKey: Guid(f2a001e91ce41ae45998592e5a689d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_04_B.png using Guid(f2a001e91ce41ae45998592e5a689d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1e6b1060af06f94d2129e16ecc512f') in 0.072183 seconds
+  Import took 0.079668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_01.png
+  artifactKey: Guid(7b6e8693e1d992d42b4e4e946a43e145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_01.png using Guid(7b6e8693e1d992d42b4e4e946a43e145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f6fd897897e81ab78900270ec7b77a') in 0.062803 seconds
+  Import took 0.068657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Emmisive/Emmisive_03.png
+  artifactKey: Guid(d05f150f4dc22c346be2f63a0e655d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Emmisive/Emmisive_03.png using Guid(d05f150f4dc22c346be2f63a0e655d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88595e8bc56ce517ed31d297be97752b') in 0.099025 seconds
+  Import took 0.106580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Emmisive/Emmisive_04.png
+  artifactKey: Guid(8fea07ba9566b9a4fbcb5b84ba018cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Emmisive/Emmisive_04.png using Guid(8fea07ba9566b9a4fbcb5b84ba018cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbfc3e1e857b210aa8114bb1e21a5d8') in 0.097262 seconds
+  Import took 0.105953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_04.png
+  artifactKey: Guid(735fd3feaf9a6664c907219593c835d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_04.png using Guid(735fd3feaf9a6664c907219593c835d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25624d8a4898fef3444e6640659abebd') in 0.090442 seconds
+  Import took 0.097851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/FX_Textures/FX_Arrow.png
+  artifactKey: Guid(0f7191054ff297e4fae1e1592efe7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/FX_Textures/FX_Arrow.png using Guid(0f7191054ff297e4fae1e1592efe7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058bfebd3db91290c697a14934949dc2') in 0.057874 seconds
+  Import took 0.065514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/FX_Circle_Soft_Tex.png
+  artifactKey: Guid(f4612baa55e931c47a4c13825c9201c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/FX_Circle_Soft_Tex.png using Guid(f4612baa55e931c47a4c13825c9201c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0278537dee5d5f90b646e30eb8fa67d6') in 0.103246 seconds
+  Import took 0.111492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/FX_Textures/FX_Arrow.png
+  artifactKey: Guid(0f7191054ff297e4fae1e1592efe7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/FX_Textures/FX_Arrow.png using Guid(0f7191054ff297e4fae1e1592efe7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058bfebd3db91290c697a14934949dc2') in 0.011532 seconds
+  Import took 0.019268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Gold_Normal.png
+  artifactKey: Guid(7b8a40e6d053c4943b507b803b484f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Gold_Normal.png using Guid(7b8a40e6d053c4943b507b803b484f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4908c09d2a68158d69b6581a43350097') in 0.047681 seconds
+  Import took 0.054868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_04_A.png
+  artifactKey: Guid(0dc0773311e12ff4a8d66f4272e7215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_04_A.png using Guid(0dc0773311e12ff4a8d66f4272e7215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150e1fe4b254abbea0eafc865f05e313') in 0.046176 seconds
+  Import took 0.052468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_mask.png
+  artifactKey: Guid(24a5587de2eb8e247b6aa8c26aba8954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_mask.png using Guid(24a5587de2eb8e247b6aa8c26aba8954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06009c0591c7051971fa72a3bf27541d') in 0.092005 seconds
+  Import took 0.098464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/FX_Circle_Tex.png
+  artifactKey: Guid(7107f6404ee84f14d9f6eeefd1811aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/FX_Circle_Tex.png using Guid(7107f6404ee84f14d9f6eeefd1811aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c4e7ad30b0c08b288cf3cc6944fc3e') in 0.043053 seconds
+  Import took 0.049049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_Soft_Particle.png
+  artifactKey: Guid(133329c838301ba4494f40da020fcdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_Soft_Particle.png using Guid(133329c838301ba4494f40da020fcdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ac13fee3feef0e6a4546dbb7e5db76') in 0.039329 seconds
+  Import took 0.046889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Emmisive/Emmisive_01.png
+  artifactKey: Guid(91ec928f471bba747ad8c1a981051402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Emmisive/Emmisive_01.png using Guid(91ec928f471bba747ad8c1a981051402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac435a2f7ef982f859e23cf4697f3dc') in 0.023242 seconds
+  Import took 0.030601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/FX_Gold_Sparkle_Tex.png
+  artifactKey: Guid(fb61e07f4c3baa1478d96e31ee8ebf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/FX_Gold_Sparkle_Tex.png using Guid(fb61e07f4c3baa1478d96e31ee8ebf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a39e82bad869c47ca5026946e095c37') in 0.054748 seconds
+  Import took 0.061225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_03.png
+  artifactKey: Guid(f32ef10807da6b34181c4cebaeaea003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_03.png using Guid(f32ef10807da6b34181c4cebaeaea003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8f05f8c8108731ca0cc3facb47dd1f') in 0.076692 seconds
+  Import took 0.082250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_02.png
+  artifactKey: Guid(89e7e835426a958478d75e3e9218a441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_02.png using Guid(89e7e835426a958478d75e3e9218a441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f57b923efc6ffd3b0d9dd578868985') in 0.101200 seconds
+  Import took 0.106755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_Normal.png
+  artifactKey: Guid(4d8e7be369dd9f74da8b602c3f10c3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_Normal.png using Guid(4d8e7be369dd9f74da8b602c3f10c3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574eab27e5a142af0fa65678b562bc3c') in 0.245564 seconds
+  Import took 0.253586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Mud_01.png
+  artifactKey: Guid(8dd9c98cbc4581f4fb73e8920b223544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Mud_01.png using Guid(8dd9c98cbc4581f4fb73e8920b223544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff53593640fa5b63c603a8b755ae95d4') in 0.123258 seconds
+  Import took 0.129442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_03_C.png
+  artifactKey: Guid(42b1c203036f79f45850a8b6b4aa8ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_03_C.png using Guid(42b1c203036f79f45850a8b6b4aa8ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0269fcd703f83170c79b8bea1f11b8dd') in 0.154245 seconds
+  Import took 0.160763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Green_Lion.png
+  artifactKey: Guid(41fddf620bf183a408098aa0bd7a1670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Green_Lion.png using Guid(41fddf620bf183a408098aa0bd7a1670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d63abd0239ec3c56cec0756574edd81') in 0.048159 seconds
+  Import took 0.056115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Purple_Lion.png
+  artifactKey: Guid(d5ecef340be7946408a8b8e7ef1291ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Purple_Lion.png using Guid(d5ecef340be7946408a8b8e7ef1291ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789b57404754f421da129c5c81321a17') in 0.054449 seconds
+  Import took 0.060281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_01.png
+  artifactKey: Guid(b97621a6d0abc3743a6ef00747c3224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_01.png using Guid(b97621a6d0abc3743a6ef00747c3224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefa279d6658428f80047ff4fa18e6d5') in 0.075190 seconds
+  Import took 0.084628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_01_C.png
+  artifactKey: Guid(05d9eda4b33607a49ac805968d3e21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_01_C.png using Guid(05d9eda4b33607a49ac805968d3e21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a84fe1712ee0de60dff508506b7af9') in 0.149566 seconds
+  Import took 0.157890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Horse_02.png
+  artifactKey: Guid(1f57832b72039cc4ab565104ca131c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Horse_02.png using Guid(1f57832b72039cc4ab565104ca131c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6222180970ec9111415a0e78f21502') in 0.087921 seconds
+  Import took 0.093760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Mud_02.png
+  artifactKey: Guid(179e42e26b92c8a408b2724262267876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Mud_02.png using Guid(179e42e26b92c8a408b2724262267876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7ee87d4e0cccfc71ef0d9d1d12adbc') in 0.064976 seconds
+  Import took 0.073461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_03_Normals.png
+  artifactKey: Guid(56c42ef5b1b131e4b995923bfd490ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_03_Normals.png using Guid(56c42ef5b1b131e4b995923bfd490ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd0f0c4b6e98ca34fb9adcc44404099') in 0.090708 seconds
+  Import took 0.098512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_03.png
+  artifactKey: Guid(affa1d7bc2f89314aae1f6532d89bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_03.png using Guid(affa1d7bc2f89314aae1f6532d89bcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18b1b28d3f08f93419604b5097621f5') in 0.065061 seconds
+  Import took 0.072277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Purple_Head.png
+  artifactKey: Guid(a137b7df65a80a64892c94bb1896760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Purple_Head.png using Guid(a137b7df65a80a64892c94bb1896760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884621a919183c3ab1702b414ed58036') in 0.051519 seconds
+  Import took 0.057325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_Normal.png
+  artifactKey: Guid(8d626288425427f42806b70f30e50a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_Normal.png using Guid(8d626288425427f42806b70f30e50a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8b905004bbe34814e2dceba8750573') in 0.238165 seconds
+  Import took 0.246872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_Ghosts.tif
+  artifactKey: Guid(7c0ff09a380398147ae5ac1ca6cb3d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_Ghosts.tif using Guid(7c0ff09a380398147ae5ac1ca6cb3d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84233b86cf47252f7c56bcbfea01eff2') in 0.061846 seconds
+  Import took 0.070170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/PolygonFantasyKingdom_Texture_04_A.png
+  artifactKey: Guid(aaf9424602452d6409ff6e72a7b18f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/PolygonFantasyKingdom_Texture_04_A.png using Guid(aaf9424602452d6409ff6e72a7b18f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbca4ae73762064ddeabf6a7ebb916b') in 0.161811 seconds
+  Import took 0.168131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Dungeon_01.png
+  artifactKey: Guid(ae02a64bacfd7874f90e711560908f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Dungeon_01.png using Guid(ae02a64bacfd7874f90e711560908f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcd80a8e888931c296f7a21b10e4b4d') in 0.067807 seconds
+  Import took 0.073780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_mask.png
+  artifactKey: Guid(2e7da44e17f80444984517112e28bb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_mask.png using Guid(2e7da44e17f80444984517112e28bb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b3c28dc7a7068c02cd238426c53a73') in 0.064096 seconds
+  Import took 0.070517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Evil_Normal.png
+  artifactKey: Guid(aa3f47482bbe27440af98ea5723a8f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Evil_Normal.png using Guid(aa3f47482bbe27440af98ea5723a8f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857f3211740e0b46b36a12607f9954d0') in 0.082030 seconds
+  Import took 0.089866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_04_D.png
+  artifactKey: Guid(264f8b9c29acfbf4d92e5d083d3efe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_04_D.png using Guid(264f8b9c29acfbf4d92e5d083d3efe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851ae2c3ed485635d910e963f8fecc43') in 0.042215 seconds
+  Import took 0.048789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Evil_Normal.png
+  artifactKey: Guid(aa3f47482bbe27440af98ea5723a8f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Evil_Normal.png using Guid(aa3f47482bbe27440af98ea5723a8f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857f3211740e0b46b36a12607f9954d0') in 0.018139 seconds
+  Import took 0.024771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_04_C.png
+  artifactKey: Guid(2f813ab06deb9894fa1df3f6afa64289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_04_C.png using Guid(2f813ab06deb9894fa1df3f6afa64289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfa3f9f023b31d65f5621eaf7c0e7ff') in 0.054156 seconds
+  Import took 0.060980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_Normal.png
+  artifactKey: Guid(0e6ba8a94503377419f2b78d5951298f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_Normal.png using Guid(0e6ba8a94503377419f2b78d5951298f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d932329828350834553d5b5ecb43861') in 0.087577 seconds
+  Import took 0.093062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Brick_Normal.png
+  artifactKey: Guid(2201873fd1cce694bb2347a8c13e652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Brick_Normal.png using Guid(2201873fd1cce694bb2347a8c13e652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adee58b1122432c690d6797ff12725f') in 0.020632 seconds
+  Import took 0.026634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Glass_Crossed.png
+  artifactKey: Guid(7b7e7e1465cbb024f9efc58b722bec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Glass_Crossed.png using Guid(7b7e7e1465cbb024f9efc58b722bec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76c2848bcfd81ad6a0adc3969775154') in 0.233423 seconds
+  Import took 0.240594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Green_Head.png
+  artifactKey: Guid(d47a6d17f3808b141be55d17533d09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Green_Head.png using Guid(d47a6d17f3808b141be55d17533d09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa789e4430aae9e757525349ba6a0cd') in 0.049828 seconds
+  Import took 0.055958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Normal.png
+  artifactKey: Guid(9e3d9d2d63c13c843b1e2ed12027bfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Normal.png using Guid(9e3d9d2d63c13c843b1e2ed12027bfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f53b025936366376505115b326189a') in 0.103077 seconds
+  Import took 0.108504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Red_Fleur.png
+  artifactKey: Guid(298a6a2869c50fb438a8e78e24a3cd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Red_Fleur.png using Guid(298a6a2869c50fb438a8e78e24a3cd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a975ea6b7b16d1be1a8f27fa605de9') in 0.043376 seconds
+  Import took 0.054791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Horse_01.png
+  artifactKey: Guid(636738433ebdc7246bc1fb7e2a55b335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Horse_01.png using Guid(636738433ebdc7246bc1fb7e2a55b335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a9314a15637658c8b3d6800ddb8dfa') in 0.046766 seconds
+  Import took 0.053918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Large_Brick_Normal.png
+  artifactKey: Guid(02c646b629fe67a419da183fab83c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Large_Brick_Normal.png using Guid(02c646b629fe67a419da183fab83c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe32c11c611f9bb2a2d36f1dcd7da7f') in 0.095058 seconds
+  Import took 0.102343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_03.png
+  artifactKey: Guid(6622055b198e5ed4fbacea7f74553e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_03.png using Guid(6622055b198e5ed4fbacea7f74553e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b5aa32eac946edd6d3a656059bf480') in 0.095219 seconds
+  Import took 0.100922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Emmisive.png
+  artifactKey: Guid(ddc131df32f11f54a98daf8633aee1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Emmisive.png using Guid(ddc131df32f11f54a98daf8633aee1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cff801b76439861434f26a27bac12bb') in 0.019835 seconds
+  Import took 0.027522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_02_B.png
+  artifactKey: Guid(f5de05efcda7b4a4ab6d224988c3983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_02_B.png using Guid(f5de05efcda7b4a4ab6d224988c3983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97b8d7e6bd07cb42831cc93bb42163a') in 0.146972 seconds
+  Import took 0.154241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Red_Lion.png
+  artifactKey: Guid(11cc7415ebfa4b54ba93365786a4a52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Red_Lion.png using Guid(11cc7415ebfa4b54ba93365786a4a52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e410592e2d8683ac5f1cdfa5a685b97') in 0.052585 seconds
+  Import took 0.058389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/White.png
+  artifactKey: Guid(fd0f504a214c9c349ab4d1f6a6673b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/White.png using Guid(fd0f504a214c9c349ab4d1f6a6673b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3201c3c3dacb189316aa6049864c33') in 0.023594 seconds
+  Import took 0.032107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Slat_04.png
+  artifactKey: Guid(4ddcad10f074e3947be38efd28c3177a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Slat_04.png using Guid(4ddcad10f074e3947be38efd28c3177a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccaee419582c2b20c1f130851bf98a9d') in 0.073227 seconds
+  Import took 0.078776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/POTION PANIC/Decor/plant3/plant 3.png
+  artifactKey: Guid(c02af48a6a31f9e4ebc27fa3f198bb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/plant3/plant 3.png using Guid(c02af48a6a31f9e4ebc27fa3f198bb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4925aeb18bf9265fcb156b4e3cd617fc') in 0.115473 seconds
+  Import took 0.121799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/POTION PANIC/ocarus root/ocarus root normal map.png
+  artifactKey: Guid(3a59a85077ced8745854fb9d3b84d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/ocarus root/ocarus root normal map.png using Guid(3a59a85077ced8745854fb9d3b84d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b00033e8c15fba321298463d02022e7') in 0.044630 seconds
+  Import took 0.051118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/POTION PANIC/red tarromine fungi/red tarromine fungi normal map.png
+  artifactKey: Guid(cc52b3fd945fe344e8f4e200f8be28ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/red tarromine fungi/red tarromine fungi normal map.png using Guid(cc52b3fd945fe344e8f4e200f8be28ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedba369cf06cccb00d8e6b5bd398a29') in 0.103546 seconds
+  Import took 0.110449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/POTION PANIC/sabertooth fang/sabertooth normal map.png
+  artifactKey: Guid(6853c01d19f69f943a535d2169ba3a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/sabertooth fang/sabertooth normal map.png using Guid(6853c01d19f69f943a535d2169ba3a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651a4202f074e0d690bb6722cbbea134') in 0.022243 seconds
+  Import took 0.029748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_01.png
+  artifactKey: Guid(023a7d6bc5fbf764f94d182c42369e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_01.png using Guid(023a7d6bc5fbf764f94d182c42369e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71137252e135d381df80be011e326590') in 0.064177 seconds
+  Import took 0.071129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Brick_01.png
+  artifactKey: Guid(24f1ea296c9e695449086de7c2eca5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Brick_01.png using Guid(24f1ea296c9e695449086de7c2eca5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02925170af764999947bf52e2c1e96a6') in 0.018487 seconds
+  Import took 0.025965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/POTION PANIC/Decor/plant1/plant 1.png
+  artifactKey: Guid(bc65c60af3e0b904291f7dd7b52f5fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/plant1/plant 1.png using Guid(bc65c60af3e0b904291f7dd7b52f5fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e84a197d830266711a1b05b2d66f5d') in 0.109388 seconds
+  Import took 0.115958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Base_Normals.png
+  artifactKey: Guid(ae6da1f30745f024683bad2d094f8220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Base_Normals.png using Guid(ae6da1f30745f024683bad2d094f8220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12580c2deb2ec7b8045be81410beac1d') in 0.091346 seconds
+  Import took 0.097214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/PolygonFantasyKingdom_Texture_01_A.png
+  artifactKey: Guid(270fd5c64f7118c4495be93b7ce2530c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/PolygonFantasyKingdom_Texture_01_A.png using Guid(270fd5c64f7118c4495be93b7ce2530c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0337910d71479c66f2fe8d5d8d4908') in 0.026762 seconds
+  Import took 0.032410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_02.png
+  artifactKey: Guid(fe32eda3b4a762f48b8e466aadc3b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_02.png using Guid(fe32eda3b4a762f48b8e466aadc3b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ac6941fbb9a85d388f357d2f8fb023') in 0.064184 seconds
+  Import took 0.071118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Slat_03.png
+  artifactKey: Guid(54905948d52986b42af483d5d88a084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Slat_03.png using Guid(54905948d52986b42af483d5d88a084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96e53e629caf2d0234ba0891aac0995') in 0.078118 seconds
+  Import took 0.083977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_03.png
+  artifactKey: Guid(97d4d124b4550134e818fc2112e0e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_03.png using Guid(97d4d124b4550134e818fc2112e0e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363762d63db53e6010b773bb05736130') in 0.066915 seconds
+  Import took 0.074152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/POTION PANIC/red tarromine fungi/red tarromine fungi texture.png
+  artifactKey: Guid(d336b94dc0348294cac8f038487e7ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/red tarromine fungi/red tarromine fungi texture.png using Guid(d336b94dc0348294cac8f038487e7ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0132ea3e60ddaabe4decd9b844ab9d') in 0.067812 seconds
+  Import took 0.073786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Spiderweb_01.png
+  artifactKey: Guid(5fa1c973b11a91246bec4920291a22b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Spiderweb_01.png using Guid(5fa1c973b11a91246bec4920291a22b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef69890375e6e920bdbdeec480a07294') in 0.099714 seconds
+  Import took 0.106014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Stucco_01.png
+  artifactKey: Guid(d53e919cf857ea44bb1888968d771535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Stucco_01.png using Guid(d53e919cf857ea44bb1888968d771535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3c3b50f791d5f4f5c735068ab17e24') in 0.068855 seconds
+  Import took 0.074442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_02_Normal.png
+  artifactKey: Guid(4ccece7cca7868e46bd90e6a42245241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_02_Normal.png using Guid(4ccece7cca7868e46bd90e6a42245241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13343f41b573f1ca1452a3960844576d') in 0.081248 seconds
+  Import took 0.087205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_03_B.png
+  artifactKey: Guid(ec5f845ae1dc55d44b3f4cb0b90a2a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_03_B.png using Guid(ec5f845ae1dc55d44b3f4cb0b90a2a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec35e23c122e2b6b23f2625ab2594d78') in 0.045871 seconds
+  Import took 0.052839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_04.png
+  artifactKey: Guid(b6eb5cf5fab23044fbabaed394a7d277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Tile_04.png using Guid(b6eb5cf5fab23044fbabaed394a7d277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ac104d0f0710a8a7f9b838441c5951') in 0.084292 seconds
+  Import took 0.089942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Emmisive/Emmisive_02.png
+  artifactKey: Guid(8c7dd9c3365f19d4c995f92c3932d3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Emmisive/Emmisive_02.png using Guid(8c7dd9c3365f19d4c995f92c3932d3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1e40228c2c4f8e905aa8e45cb432a1') in 0.091085 seconds
+  Import took 0.098745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_04_C.png
+  artifactKey: Guid(51148e3057e25994c80f5321340afc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_04_C.png using Guid(51148e3057e25994c80f5321340afc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082a0e334b343a6bbaafe54b4fd30629') in 0.150776 seconds
+  Import took 0.161669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Blue_Cross.png
+  artifactKey: Guid(6488902f7a8a5ea44b0921438e443a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Blue_Cross.png using Guid(6488902f7a8a5ea44b0921438e443a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3011e2d078cba923018ecd778646003') in 0.046424 seconds
+  Import took 0.055004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/PolygonFantasyKingdom_Texture_03_A.png
+  artifactKey: Guid(b673e45a7b841c74eb1c847eef94e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/PolygonFantasyKingdom_Texture_03_A.png using Guid(b673e45a7b841c74eb1c847eef94e748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb76154929470f26d36ef54f4a2ac48') in 0.126149 seconds
+  Import took 0.132311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_01.png
+  artifactKey: Guid(c6ccd03103233674ca80877613801a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_01.png using Guid(c6ccd03103233674ca80877613801a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb191527be03115122fb1807c3f92cc8') in 0.073720 seconds
+  Import took 0.079952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Slat_02.png
+  artifactKey: Guid(54c7cb070fcec4a41b7ac5e2cfb7055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Slat_02.png using Guid(54c7cb070fcec4a41b7ac5e2cfb7055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2a854301ff064911db4068dd076e14') in 0.065530 seconds
+  Import took 0.071552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Paintings_01.png
+  artifactKey: Guid(5ebf91eeb29c9034f8ce66726a8671f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Paintings_01.png using Guid(5ebf91eeb29c9034f8ce66726a8671f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbd45cf6d74c823441793ed4703ef72') in 0.082845 seconds
+  Import took 0.088349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Horse_03.png
+  artifactKey: Guid(782a02e7886cd2d4c8585a3425a67930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Horse_03.png using Guid(782a02e7886cd2d4c8585a3425a67930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc3700ea9163d32fe13650208db886c') in 0.038404 seconds
+  Import took 0.045953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Red_Cross.png
+  artifactKey: Guid(8b3dee3fc7b6e5c46bd910912360c533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Red_Cross.png using Guid(8b3dee3fc7b6e5c46bd910912360c533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7cdfb50f3a305c36c9c2c367c639c2') in 0.038954 seconds
+  Import took 0.045974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Blue_Head.png
+  artifactKey: Guid(d1a6c378eb5da604c86c54b9ed18b158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Blue_Head.png using Guid(d1a6c378eb5da604c86c54b9ed18b158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b902d7440f9d7b6c80eb0e828784515b') in 0.072784 seconds
+  Import took 0.079470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Large_Brick_01.png
+  artifactKey: Guid(10a65e33d9df3aa4ca20fa4f0f3b4bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Large_Brick_01.png using Guid(10a65e33d9df3aa4ca20fa4f0f3b4bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6ff46434e762fdd21d20bbfc74755e') in 0.070326 seconds
+  Import took 0.076641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Green_Fleur.png
+  artifactKey: Guid(a48f60285c0b2784a942d71060c862f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Green_Fleur.png using Guid(a48f60285c0b2784a942d71060c862f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136c9b6242c086f2855e1221552a9b17') in 0.047662 seconds
+  Import took 0.053963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Mud_03.png
+  artifactKey: Guid(92daa924349453f47a5cfc3fbe84707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Mud_03.png using Guid(92daa924349453f47a5cfc3fbe84707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09d9a4074cc547a6d66b3dc637184ba') in 0.084987 seconds
+  Import took 0.091394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_03_B.png
+  artifactKey: Guid(f49f627af78c74843923759d1c40fa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_03_B.png using Guid(f49f627af78c74843923759d1c40fa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386af58a0cf984e4e79258691feedd2f') in 0.129656 seconds
+  Import took 0.137283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Evil_01.png
+  artifactKey: Guid(5483f1a576ffa6e439438df08762919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Evil_01.png using Guid(5483f1a576ffa6e439438df08762919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147ca0923bd92d4153da7fecde141556') in 0.066802 seconds
+  Import took 0.081881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Red_Head.png
+  artifactKey: Guid(465fe52631f4cec469540e597d7d65de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Red_Head.png using Guid(465fe52631f4cec469540e597d7d65de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9314ad6f16d39a11f5f79eed4480d216') in 0.050913 seconds
+  Import took 0.056428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Gold_Diffuse.png
+  artifactKey: Guid(6873a7f466b825c4d841e22a7b4216c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/Gold_Diffuse.png using Guid(6873a7f466b825c4d841e22a7b4216c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e3a5c2357a0d977955a804cf1c282c') in 0.052743 seconds
+  Import took 0.059932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_01_Dark.png
+  artifactKey: Guid(5e1b44b6b0ff2ee4cb607a807ab32950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_01_Dark.png using Guid(5e1b44b6b0ff2ee4cb607a807ab32950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba05c00603fde3a9532b99a12bbbc46') in 0.145529 seconds
+  Import took 0.152276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Green_Cross.png
+  artifactKey: Guid(9317ac6f6bd71d548b5f4ac164935690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Green_Cross.png using Guid(9317ac6f6bd71d548b5f4ac164935690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db85897935f396bffe73900e3b8452e') in 0.047229 seconds
+  Import took 0.053152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/POTION PANIC/sabertooth fang/sabertooth texture.png
+  artifactKey: Guid(cbcd06ea3857aba47b99d1bc4568cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/sabertooth fang/sabertooth texture.png using Guid(cbcd06ea3857aba47b99d1bc4568cca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39102193f49fdfb23479ca3bba3931c5') in 0.016893 seconds
+  Import took 0.023141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/FX_SunBeam_Tex.png
+  artifactKey: Guid(c7c4fdf40a26f2b48a5a8cfb02a576f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/FX_SunBeam_Tex.png using Guid(c7c4fdf40a26f2b48a5a8cfb02a576f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a675776141662d0dbb0b7f762f466b1c') in 0.030743 seconds
+  Import took 0.037421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_04.png
+  artifactKey: Guid(a29db67bb370abb4b8ce3719b45e66a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_04.png using Guid(a29db67bb370abb4b8ce3719b45e66a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d9e421bb867d41eae1fd4bfc5ff955') in 0.067933 seconds
+  Import took 0.073230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_02.png
+  artifactKey: Guid(c28ad7b3304101f419618040bf7ffdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_02.png using Guid(c28ad7b3304101f419618040bf7ffdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3058138debd127ce88930c6744d59ebe') in 0.251081 seconds
+  Import took 0.257327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Dungeon_Normal.png
+  artifactKey: Guid(84643877aa3958c4994d25ed2ca0142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Dungeon_Normal.png using Guid(84643877aa3958c4994d25ed2ca0142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98bbb9799d0baf6fcd102de16355858') in 0.093208 seconds
+  Import took 0.100959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_02.png
+  artifactKey: Guid(e2d1459f5307d6944a0849703603c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Sand_02.png using Guid(e2d1459f5307d6944a0849703603c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125a89d3e3aceadb48af4eb2dde6cc1a') in 0.059039 seconds
+  Import took 0.065307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/PolygonFantasyKingdom_Texture_02_A.png
+  artifactKey: Guid(15824d4b0cec9da479fa593d05e15a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/PolygonFantasyKingdom_Texture_02_A.png using Guid(15824d4b0cec9da479fa593d05e15a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf0ed6b4a2fdf20df0171c4812e1590') in 0.130514 seconds
+  Import took 0.136079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_03_C.png
+  artifactKey: Guid(149cc95da1851b84c8cc80d2471176db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_03_C.png using Guid(149cc95da1851b84c8cc80d2471176db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639ef85f4221fe9aa47281949fff9767') in 0.084751 seconds
+  Import took 0.090733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_01_B.png
+  artifactKey: Guid(419c8de0e871baf4cb5fcaf45ad6377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_01_B.png using Guid(419c8de0e871baf4cb5fcaf45ad6377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825fea5830f0aff6f2b122dc3134c1a6') in 0.153124 seconds
+  Import took 0.159496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Normal_02.png
+  artifactKey: Guid(d03da1677b8b6874ea15e3326437eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Normal_02.png using Guid(d03da1677b8b6874ea15e3326437eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a16bad2f675a282275755801d02be2c') in 0.266002 seconds
+  Import took 0.272261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Purple_Fleur.png
+  artifactKey: Guid(25570ee8a1959804ba1bcae933cbb252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Purple_Fleur.png using Guid(25570ee8a1959804ba1bcae933cbb252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67c1769780495592e6e1bec28e335bf') in 0.053055 seconds
+  Import took 0.059557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_02_C.png
+  artifactKey: Guid(ee3ff03016e42ae4697303db1c12a228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_02_C.png using Guid(ee3ff03016e42ae4697303db1c12a228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2235ee3d0d406dbd1c845631c98a19') in 0.146170 seconds
+  Import took 0.153383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Purple_Cross.png
+  artifactKey: Guid(745269375cb3a8c43be46377d4fd86c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Purple_Cross.png using Guid(745269375cb3a8c43be46377d4fd86c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0633a747e265b92bd34ab4a07da771b1') in 0.038485 seconds
+  Import took 0.045478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Blue_Lion.png
+  artifactKey: Guid(ca203c138a5181d4f9ee1a60130c4d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Blue_Lion.png using Guid(ca203c138a5181d4f9ee1a60130c4d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5037ec46f3bf127fbaa412a6ed576d') in 0.046479 seconds
+  Import took 0.051836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Blue_Fleur.png
+  artifactKey: Guid(cbc652c939f90d24cab34cd29f2ecf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Flag_Symbols/PolygonFantasyKingdom_Texture_Blue_Fleur.png using Guid(cbc652c939f90d24cab34cd29f2ecf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa875619abe78e431d202b5a1cbe856c') in 0.063084 seconds
+  Import took 0.068402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Normal_01.png
+  artifactKey: Guid(ee4ca7d229aa8f04cab686907c5f3396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Misc/PolygonFantasyKingdom_Texture_Normal_01.png using Guid(ee4ca7d229aa8f04cab686907c5f3396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f827f11ad3a35f4547182d6f546eece') in 0.032654 seconds
+  Import took 0.039969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/POTION PANIC/Decor/plant2/plant 2.png
+  artifactKey: Guid(f6d61a16b8e1ef64e83ac7737ae73d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/plant2/plant 2.png using Guid(f6d61a16b8e1ef64e83ac7737ae73d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499453f2409e20f2e43c2c7cfab25090') in 0.103081 seconds
+  Import took 0.108784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/FX_Textures/Smoke_01.png
+  artifactKey: Guid(608b0bba5c9806149ae5d24a33c606de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/FX_Textures/Smoke_01.png using Guid(608b0bba5c9806149ae5d24a33c606de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65e9c16e822bdd0c14933f4dcdd30ea') in 0.017303 seconds
+  Import took 0.024155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/POTION PANIC/ocarus root/ocarus root texture.png
+  artifactKey: Guid(de431e0c89453b745816924eb4aae9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/ocarus root/ocarus root texture.png using Guid(de431e0c89453b745816924eb4aae9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8858d7afd94e08d851dba38b9d6f132') in 0.017925 seconds
+  Import took 0.024041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_01.png
+  artifactKey: Guid(04c738e82af2a96438356f3111b4fa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_WallTiles_01.png using Guid(04c738e82af2a96438356f3111b4fa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45568d38728ec32ae9bce1bbc692bf94') in 0.071642 seconds
+  Import took 0.078307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_03_Normals.png
+  artifactKey: Guid(e5793db5a62ee0e488d76958c7e4b85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_03_Normals.png using Guid(e5793db5a62ee0e488d76958c7e4b85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b3f7dd56b965949d190d7ad72441fd') in 0.081744 seconds
+  Import took 0.087396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_02.png
+  artifactKey: Guid(12f02ee64768725449da076f8f95aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Misc/Dungeons_Texture_FloorTiles_02.png using Guid(12f02ee64768725449da076f8f95aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea68def8b32cfcfea3d1ca8219cecf') in 0.064708 seconds
+  Import took 0.071453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_02_Normal.png
+  artifactKey: Guid(f67cc9afcb568de44b1cf2f7068fc475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Ground/PFK_Texture_Ground_Grass_02_Normal.png using Guid(f67cc9afcb568de44b1cf2f7068fc475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774b65571c26dcd727998e1dd0e2d106') in 0.095949 seconds
+  Import took 0.101568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Stucco_Normal.png
+  artifactKey: Guid(9208b62c28e43d544a7c6a7c2da633ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Wall_Stucco_Normal.png using Guid(9208b62c28e43d544a7c6a7c2da633ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df76ba49b9bc108d82fe10f0ebf71e7') in 0.086227 seconds
+  Import took 0.093210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/SimpleSky_Texture.png
+  artifactKey: Guid(69db3369a95839841b1909c6eac47b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Textures/Misc/SimpleSky_Texture.png using Guid(69db3369a95839841b1909c6eac47b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7b712fc25847bfd7e76980bd6db138') in 0.048874 seconds
+  Import took 0.055764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_03_D.png
+  artifactKey: Guid(07694d84c5bfd0743b6160b11aabbc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Alternatives/Dungeons_Texture_03_D.png using Guid(07694d84c5bfd0743b6160b11aabbc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba719af1c2d9fabb2394bbe1b135b87f') in 0.042118 seconds
+  Import took 0.047606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/FX_Textures/FX_SunBeam_Particles.png
+  artifactKey: Guid(481a4bf8633827b4998c05ee4d9ff706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/FX_Textures/FX_SunBeam_Particles.png using Guid(481a4bf8633827b4998c05ee4d9ff706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e063dffaaaf24090fe589383f06879') in 0.034019 seconds
+  Import took 0.040544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Textures/Dungeons_Texture_04.png
+  artifactKey: Guid(e2470a432baf43f4b9602fe6cb1753ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Textures/Dungeons_Texture_04.png using Guid(e2470a432baf43f4b9602fe6cb1753ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d6bf8bbd3c8b6de9aaeb2d20ecb75b') in 0.045318 seconds
+  Import took 0.050882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Slat_01.png
+  artifactKey: Guid(b1ed37ad147137f4b90d3bb40799e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Castle/PolygonFantasyKingdon_Texture_Roof_Slat_01.png using Guid(b1ed37ad147137f4b90d3bb40799e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5ff4578f39f9dd17069eb3a3551f14') in 0.075924 seconds
+  Import took 0.082279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_04_B.png
+  artifactKey: Guid(58c1d8ea78ba39045aa42c44a430c28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Textures/Alts/PolygonFantasyKingdom_Texture_04_B.png using Guid(58c1d8ea78ba39045aa42c44a430c28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7494989c5bd17965d81717dd62a682') in 0.173987 seconds
+  Import took 0.180662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 588.546956 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast - MOCK.prefab
+  artifactKey: Guid(82f8113ca0375c442a47b9c988128650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast - MOCK.prefab using Guid(82f8113ca0375c442a47b9c988128650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1213e3fba0cb2f23262204a8578c9ada') in 0.251067 seconds
+  Import took 0.259144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.081854 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast Arrow Pool.prefab
+  artifactKey: Guid(378f377ffc11c114dbe05daad8372924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast Arrow Pool.prefab using Guid(378f377ffc11c114dbe05daad8372924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb893abfd243972b60df90f3efe53acf') in 0.015664 seconds
+  Import took 0.022185 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.523 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3251.
+Total: 2.914700 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.135000 ms MarkObjects: 2.461000 ms  DeleteObjects: 0.036300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.647 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3254.
+Total: 4.779900 ms (FindLiveObjects: 0.440000 ms CreateObjectMapping: 0.196000 ms MarkObjects: 4.092300 ms  DeleteObjects: 0.050100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.615 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3257.
+Total: 5.585700 ms (FindLiveObjects: 0.374500 ms CreateObjectMapping: 0.222000 ms MarkObjects: 4.947900 ms  DeleteObjects: 0.039800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3260.
+Total: 3.204700 ms (FindLiveObjects: 0.360700 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.666300 ms  DeleteObjects: 0.041900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.571 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.1 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3263.
+Total: 4.010400 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.231100 ms MarkObjects: 3.411100 ms  DeleteObjects: 0.038800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011073 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.542 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3266.
+Total: 3.814500 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.138400 ms MarkObjects: 3.344700 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1317.472719 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast Pool.prefab
+  artifactKey: Guid(378f377ffc11c114dbe05daad8372924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast Pool.prefab using Guid(378f377ffc11c114dbe05daad8372924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e64b77cbd8b74015a843a280f80a39') in 0.114272 seconds
+  Import took 0.121450 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.565 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3269.
+Total: 3.049000 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.259100 ms MarkObjects: 2.448100 ms  DeleteObjects: 0.057900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3272.
+Total: 4.845500 ms (FindLiveObjects: 0.565300 ms CreateObjectMapping: 0.210500 ms MarkObjects: 4.006600 ms  DeleteObjects: 0.060800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3275.
+Total: 3.014400 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.130700 ms MarkObjects: 2.537500 ms  DeleteObjects: 0.036600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3278.
+Total: 3.273000 ms (FindLiveObjects: 0.299400 ms CreateObjectMapping: 0.120000 ms MarkObjects: 2.787000 ms  DeleteObjects: 0.065700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012049 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3281.
+Total: 3.213400 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.218300 ms MarkObjects: 2.616900 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3284.
+Total: 2.976100 ms (FindLiveObjects: 0.362800 ms CreateObjectMapping: 0.150800 ms MarkObjects: 2.411400 ms  DeleteObjects: 0.050000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.504 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3287.
+Total: 3.129800 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.136400 ms MarkObjects: 2.578800 ms  DeleteObjects: 0.050300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3290.
+Total: 3.209500 ms (FindLiveObjects: 0.448600 ms CreateObjectMapping: 0.222500 ms MarkObjects: 2.479800 ms  DeleteObjects: 0.057600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2592 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.2 MB.
+System memory in use after: 131.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3293.
+Total: 2.962000 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.130000 ms MarkObjects: 2.541400 ms  DeleteObjects: 0.020800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
