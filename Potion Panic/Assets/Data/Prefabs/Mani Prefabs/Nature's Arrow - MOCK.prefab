@@ -4896,7 +4896,7 @@ GameObject:
   - component: {fileID: 8141825894024259968}
   - component: {fileID: 8141825894024259982}
   - component: {fileID: 8141825894024259969}
-  - component: {fileID: -259635290415564481}
+  - component: {fileID: 4328702594984493458}
   m_Layer: 0
   m_Name: Nature's Arrow - MOCK
   m_TagString: Untagged
@@ -4950,7 +4950,7 @@ CapsuleCollider:
   m_Height: 0.5967928
   m_Direction: 2
   m_Center: {x: -0.004627228, y: 0.0035533905, z: 0.0025675297}
---- !u!114 &-259635290415564481
+--- !u!114 &4328702594984493458
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4959,7 +4959,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8141825894024259971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc6a430b0c795094fbd818d253ce235a, type: 3}
+  m_Script: {fileID: 11500000, guid: 54d7d1441e7eb4b45b87b0e13494c9de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   caster: {fileID: 0}

@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpellBehaviour : MonoBehaviour
+public class NatureArrow : SpellBehaviour
 {
-    public PlayerController caster;
-
     private float lifeTime = 4.0f;
 
     // Start is called before the first frame update
     //void Start()
-    //{
-
+    //{        
     //}
 
     // Update is called once per frame
@@ -21,10 +18,9 @@ public class SpellBehaviour : MonoBehaviour
             SpellReset();
         else
             lifeTime -= Time.deltaTime;
-
     }
 
-    void SpellReset()
+    protected override void SpellReset()
     {
         caster = null;
         lifeTime = 4.0f;
@@ -34,11 +30,11 @@ public class SpellBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            if(other.gameObject.GetInstanceID() != caster.gameObject.GetInstanceID())
+            if (other.gameObject.GetInstanceID() != caster.gameObject.GetInstanceID())
             {
-                if(!other.gameObject.GetComponent<PlayerController>().isBlinking)
+                if (!other.gameObject.GetComponent<PlayerController>().isBlinking)
                 {
                     other.gameObject.GetComponent<PlayerController>().health = 0;
                     caster.kills += 1;

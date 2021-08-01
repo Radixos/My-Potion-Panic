@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private float blinkDelay; // Time interval to switch render state
     public GameObject playerSkin; // Model to blink
 
-    [Header("Spell Related")]
+    [Header("Interactables")]
     private bool inTriggerRange; // In range of a trigger object. OnTriggerStay works only for a couple of frames
     private GameObject collidingObject; // Ingredient that the player is in range with
 
@@ -51,12 +51,16 @@ public class PlayerController : MonoBehaviour
     private float pushDelay; // To prevent push spam
     private float pushDistance;
 
-    // TESTING STUFF
-    private bool hasSpell = true;
+    // SPELL CASTING
+    private bool hasSpell;
     private bool inSpellAnim;
     private bool isCasting;
     private bool spellCasted;
-    private ObjectPool arrowPool;
+    private Spell_SO spellInfo;
+    private ObjectPool spellPool;
+    private int spellUses;
+
+    // UI
     public Transform aimArrow;
 
     // Start is called before the first frame update
@@ -88,13 +92,17 @@ public class PlayerController : MonoBehaviour
 
         playerLayer = 1 << 6;
         pushDelay = 2.0f;
-
-        arrowPool = GameObject.Find("Nature's Arrow Pool").GetComponent<ObjectPool>();
     }
 
     private void MyCauldron_OnSuccessEvent(Spell_SO brewedSpell)
     {
         Debug.Log("Success! Brewed " + brewedSpell.Name);
+
+        spellInfo = brewedSpell;
+        spellUses = brewedSpell.NumberOfUses;
+        spellPool = GameObject.Find(brewedSpell.spellPrefab.name).GetComponent<ObjectPool>();
+
+        hasSpell = true;
     }
 
     private void MyCauldron_OnFailureEvent()
@@ -146,6 +154,21 @@ public class PlayerController : MonoBehaviour
                     {
                         inSpellAnim = false;
                         anim.SetBool("castedAreaMagic", false);
+
+                        if (spellUses <= 0)
+                        {
+                            hasSpell = false;
+                            spellInfo = null;
+                        }
+                    }
+                    else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.5 && !spellCasted)
+                    {
+                        GameObject obj = spellPool.GetPooledObject();
+                        obj.transform.position = transform.position + transform.up;
+                        obj.SetActive(true);
+
+                        obj.GetComponent<SpellBehaviour>().caster = this;
+                        spellCasted = true;
                     }
                 }
                 else if(anim.GetCurrentAnimatorStateInfo(0).IsName("Projectile Magic"))
@@ -156,10 +179,15 @@ public class PlayerController : MonoBehaviour
                         isCasting = false;
                         anim.SetBool("castedProjectileMagic", false);
 
+                        if (spellUses <= 0)
+                        {
+                            hasSpell = false;
+                            spellInfo = null;
+                        }
                     }
                     else if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7 && !spellCasted)
                     {
-                        GameObject obj = arrowPool.GetPooledObject();
+                        GameObject obj = spellPool.GetPooledObject();
                         obj.transform.position = transform.position + transform.up;
                         obj.transform.rotation = transform.rotation;
                         obj.SetActive(true);
@@ -284,9 +312,9 @@ public class PlayerController : MonoBehaviour
     {
         if (hasSpell) // CAST
         {
-            float val = 2; // WILL BE ENUM FROM SPELL INFO
-            
-            if(val == 1) // AREA
+            SpellType type = spellInfo.spellType;
+
+            if(type == SpellType.AREA)
             {
                 if (Input.GetButtonDown("Cast " + playerID.ToString()))
                 {
@@ -294,9 +322,11 @@ public class PlayerController : MonoBehaviour
                     anim.SetBool("castedAreaMagic", true);
                     inSpellAnim = true;
                     spellCasted = false;
+
+                    spellUses -= 1;
                 }
             }
-            else // PROJECTILE
+            else if (type == SpellType.PROJECTILE)
             {
                 if(Input.GetButton("Cast " + playerID.ToString()))
                 {
@@ -313,6 +343,10 @@ public class PlayerController : MonoBehaviour
                     inSpellAnim = true;
                     spellCasted = false;
                     aimArrow.gameObject.SetActive(false);
+
+                    --spellUses;
+
+                    Debug.Log("Uses Left = " + spellUses.ToString());
                 }
 
             }
@@ -500,13 +534,16 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Ingredient collidingIngredient = other.gameObject.GetComponent<Ingredient>();
-
-        if ((collidingIngredient != null && carryingIngredient == null) ||
-            other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
+        if(!hasSpell) // Can only interact with ingredients and cauldron if player doesn't have a spell
         {
-            inTriggerRange = true;
-            collidingObject = other.gameObject;
+            Ingredient collidingIngredient = other.gameObject.GetComponent<Ingredient>();
+
+            if ((collidingIngredient != null && carryingIngredient == null) ||
+                other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
+            {
+                inTriggerRange = true;
+                collidingObject = other.gameObject;
+            }
         }
     }
 

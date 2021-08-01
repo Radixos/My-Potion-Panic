@@ -19,5 +19,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f137e9b70f1f601439c58efeded998ff, type: 2}
   - {fileID: 11400000, guid: c86ceb5a7d036a64796851c38724701c, type: 2}
   - {fileID: 11400000, guid: 43ed1b89f5ca4de49b988af498318114, type: 2}
-  spellPrefab: {fileID: 0}
+  spellPrefab: {fileID: 3305519658014318988, guid: a7617e719078d864089be66f52b68bec, type: 3}
+  spellType: 1
   NumberOfUses: 3
