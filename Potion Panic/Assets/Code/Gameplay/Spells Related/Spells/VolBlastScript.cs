@@ -33,6 +33,5 @@ public class VolBlastScript : MonoBehaviour
     }
 }
 
-
 //<=2 (closest) --> <=5.5 (furthest)
 //INSTAKILL -------> =-
