@@ -34,9 +34,10 @@ public class PlayerManager : MonoBehaviour
             // Check who has won
             for (int i = 0; i < players.Count; i++)
             {
-                if (players[i].kills >= 10)
+                if (players[i].kills >= 3)
                 {
                     OnMatchCompletedEvent?.Invoke();
+                    Debug.Log("Player " + (i + 1) + " wins!");
                     matchCompleted = true;
                     break;
                 }

@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private float blinkDelay; // Time interval to switch render state
     public GameObject playerSkin; // Model to blink
 
-    [Header("Spell Related")]
+    [Header("Interactables")]
     private bool inTriggerRange; // In range of a trigger object. OnTriggerStay works only for a couple of frames
     private GameObject collidingObject; // Ingredient that the player is in range with
 
@@ -31,11 +31,6 @@ public class PlayerController : MonoBehaviour
     public bool holdIngredient; // Boolean to check whether the player is carrying an ingredient or not
 
     public Cauldron myCauldron;
-
-    // TESTING STUFF
-    private bool hasSpell = true;
-    private bool spellCasted;
-    private bool isCasting;
 
     [Header("Controller")]
     // To frequently check if the controller is connected
@@ -55,6 +50,18 @@ public class PlayerController : MonoBehaviour
     private Vector3 newPushLocation;
     private float pushDelay; // To prevent push spam
     private float pushDistance;
+
+    // SPELL CASTING
+    private bool hasSpell;
+    private bool inSpellAnim;
+    private bool isCasting;
+    private bool spellCasted;
+    private Spell_SO spellInfo;
+    private ObjectPool spellPool;
+    private int spellUses;
+
+    // UI
+    public Transform aimArrow;
 
     // Start is called before the first frame update
     void Start()
@@ -90,6 +97,12 @@ public class PlayerController : MonoBehaviour
     private void MyCauldron_OnSuccessEvent(Spell_SO brewedSpell)
     {
         Debug.Log("Success! Brewed " + brewedSpell.Name);
+
+        spellInfo = brewedSpell;
+        spellUses = brewedSpell.NumberOfUses;
+        spellPool = GameObject.Find(brewedSpell.spellPrefab.name).GetComponent<ObjectPool>();
+
+        hasSpell = true;
     }
 
     private void MyCauldron_OnFailureEvent()
@@ -123,7 +136,7 @@ public class PlayerController : MonoBehaviour
 
             ControllerConnectionCheck();
 
-            if (!spellCasted)
+            if (!inSpellAnim)
             {
                 if(!isCasting)
                 {
@@ -139,17 +152,49 @@ public class PlayerController : MonoBehaviour
                 {
                     if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9)
                     {
-                        spellCasted = false;
+                        inSpellAnim = false;
                         anim.SetBool("castedAreaMagic", false);
+
+                        if (spellUses <= 0)
+                        {
+                            hasSpell = false;
+                            spellInfo = null;
+                        }
+                    }
+                    else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.5 && !spellCasted)
+                    {
+                        GameObject obj = spellPool.GetPooledObject();
+                        obj.transform.position = transform.position + transform.up;
+                        obj.SetActive(true);
+
+                        obj.GetComponent<SpellBehaviour>().caster = this;
+                        spellCasted = true;
                     }
                 }
                 else if(anim.GetCurrentAnimatorStateInfo(0).IsName("Projectile Magic"))
                 {
                     if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9)
                     {
-                        spellCasted = false;
+                        inSpellAnim = false;
                         isCasting = false;
                         anim.SetBool("castedProjectileMagic", false);
+
+                        if (spellUses <= 0)
+                        {
+                            hasSpell = false;
+                            spellInfo = null;
+                        }
+                    }
+                    else if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7 && !spellCasted)
+                    {
+                        GameObject obj = spellPool.GetPooledObject();
+                        obj.transform.position = transform.position + transform.up;
+                        obj.transform.rotation = transform.rotation;
+                        obj.SetActive(true);
+
+                        obj.GetComponent<SpellBehaviour>().caster = this;
+                        obj.GetComponent<Rigidbody>().AddForce(transform.forward * 20, ForceMode.Impulse);
+                        spellCasted = true;
                     }
                 }
             }
@@ -267,30 +312,41 @@ public class PlayerController : MonoBehaviour
     {
         if (hasSpell) // CAST
         {
-            float val = 2; // WILL BE ENUM FROM SPELL INFO
-            
-            if(val == 1)
+            SpellType type = spellInfo.spellType;
+
+            if(type == SpellType.AREA)
             {
                 if (Input.GetButtonDown("Cast " + playerID.ToString()))
                 {
                     ResetAnimationToIdle();
                     anim.SetBool("castedAreaMagic", true);
-                    spellCasted = true;
+                    inSpellAnim = true;
+                    spellCasted = false;
+
+                    spellUses -= 1;
                 }
             }
-            else
+            else if (type == SpellType.PROJECTILE)
             {
                 if(Input.GetButton("Cast " + playerID.ToString()))
                 {
+                    aimArrow.gameObject.SetActive(true);
                     isCasting = true;
                     ResetAnimationToIdle();
                     Aim();
+                    aimArrow.rotation = transform.rotation;
                 }
 
                 if(Input.GetButtonUp("Cast " + playerID.ToString()))
                 {
                     anim.SetBool("castedProjectileMagic", true);
-                    spellCasted = true;
+                    inSpellAnim = true;
+                    spellCasted = false;
+                    aimArrow.gameObject.SetActive(false);
+
+                    --spellUses;
+
+                    Debug.Log("Uses Left = " + spellUses.ToString());
                 }
 
             }
@@ -306,7 +362,7 @@ public class PlayerController : MonoBehaviour
 
                     for (int i = 0; i < 3; i++) // To broaden the Raycast check
                     {
-                        if (Physics.Raycast(transform.position + (transform.right * j) + (transform.up),
+                        if (Physics.Raycast(transform.position + (transform.right * j) + transform.up,
                             transform.forward, out hit, 1.5f, playerLayer))
                         {
                             Vector3 dir = hit.collider.gameObject.transform.position - transform.position;
@@ -411,7 +467,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (!(Input.GetJoystickNames()[playerID - 1] == ""))
                 {
-                    if (Input.GetJoystickNames()[playerID - 1] == "Controller (Xbox One For Windows)")
+                    if (Input.GetJoystickNames()[playerID - 1].Contains("Xbox"))
                         controllerType = "Xbox";
                     else
                         controllerType = "PS";
@@ -478,13 +534,16 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Ingredient collidingIngredient = other.gameObject.GetComponent<Ingredient>();
-
-        if ((collidingIngredient != null && carryingIngredient == null) ||
-            other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
+        if(!hasSpell) // Can only interact with ingredients and cauldron if player doesn't have a spell
         {
-            inTriggerRange = true;
-            collidingObject = other.gameObject;
+            Ingredient collidingIngredient = other.gameObject.GetComponent<Ingredient>();
+
+            if ((collidingIngredient != null && carryingIngredient == null) ||
+                other.gameObject.GetInstanceID() == myCauldron.gameObject.GetInstanceID())
+            {
+                inTriggerRange = true;
+                collidingObject = other.gameObject;
+            }
         }
     }
 
