@@ -290,6 +290,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: octopus tentacle Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 9631d571605e6e5418873bd2b1ec0ebd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 9631d571605e6e5418873bd2b1ec0ebd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 9631d571605e6e5418873bd2b1ec0ebd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9631d571605e6e5418873bd2b1ec0ebd, type: 3}
 --- !u!1 &987424095258822779 stripped
@@ -327,7 +339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944266, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.8
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944267, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -348,6 +360,30 @@ PrefabInstance:
     - target: {fileID: 2082404865986944267, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.x
+      value: 1.0090355
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.y
+      value: 0.32839033
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.z
+      value: 0.04754615
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.y
+      value: 0.39019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.z
+      value: 0.05490196
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
