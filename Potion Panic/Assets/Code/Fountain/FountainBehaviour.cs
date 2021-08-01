@@ -27,6 +27,7 @@ public class FountainBehaviour : MonoBehaviour
         while (true)
         {
             Vector3 center = gameObject.GetComponent<Renderer>().bounds.center;
+            center.y += 1.1f;
             Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
 
             Quaternion rot = Quaternion.FromToRotation(Vector3.forward, center - pos);
