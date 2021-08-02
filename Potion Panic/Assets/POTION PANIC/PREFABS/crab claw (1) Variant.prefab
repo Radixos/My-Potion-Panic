@@ -127,6 +127,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Overridden
       value: 1
       objectReference: {fileID: 0}
