@@ -5097,7 +5097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43cb2c4ab52025a42ab686736026158b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 2
+  delay: 3
   minRandomSpawnDelay: 2
   maxRandomSpawnDelay: 5
   minSpawnOff: 3

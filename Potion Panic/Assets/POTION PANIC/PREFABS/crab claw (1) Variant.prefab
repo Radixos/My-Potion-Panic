@@ -263,7 +263,7 @@ MonoBehaviour:
   ingredientInfo: {fileID: 11400000, guid: c86ceb5a7d036a64796851c38724701c, type: 2}
   inputInfo: {fileID: 2337327427487664760}
   boxCollider: {fileID: 4556583023596008386}
---- !u!1001 &7361317800434497034
+--- !u!1001 &6328168405563841732
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -284,7 +284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944266, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.8
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944266, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_LocalPosition.z
@@ -339,32 +339,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
-      propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
-      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Name
-      value: GlowSize
-      objectReference: {fileID: 0}
-    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
-      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Name
-      value: GlowGroundSize
-      objectReference: {fileID: 0}
-    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
-      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Value
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Value
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
-      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Overridden
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Overridden
@@ -375,12 +355,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.x
-      value: 0.5
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.x
+      value: 0.5627057
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Overridden
-      value: 1
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.y
+      value: 0.04754615
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.x
+      value: 1.6705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.y
+      value: 0.21960784
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944268, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[1].m_Value.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
@@ -442,6 +434,18 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56b14cf408aa1454aae0059e21c7e25f, type: 3}
       propertyPath: m_Name
       value: crab claw (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 56b14cf408aa1454aae0059e21c7e25f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 56b14cf408aa1454aae0059e21c7e25f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 56b14cf408aa1454aae0059e21c7e25f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 56b14cf408aa1454aae0059e21c7e25f, type: 3}
       propertyPath: m_LocalPosition.y

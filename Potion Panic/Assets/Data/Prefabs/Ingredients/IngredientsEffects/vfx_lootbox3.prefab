@@ -58,7 +58,7 @@ VisualEffect:
       - m_Value: 0.03
         m_Name: ParticlesUpSpeed
         m_Overridden: 1
-      - m_Value: 0
+      - m_Value: 1
         m_Name: CircleMeshRate
         m_Overridden: 1
       - m_Value: 2
@@ -66,6 +66,12 @@ VisualEffect:
         m_Overridden: 1
       - m_Value: 3
         m_Name: GlowGroundSize
+        m_Overridden: 1
+      - m_Value: 0.8
+        m_Name: CircleMeshSize
+        m_Overridden: 1
+      - m_Value: 0.002
+        m_Name: CircleMeshUpSpeed
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
@@ -76,12 +82,12 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 0.04139633, y: 0.4915814, z: 1.0090355, w: 0.47058824}
+      - m_Value: {x: 0.04139633, y: 0.4915814, z: 1.0090355, w: 0.39215687}
         m_Name: Color01
         m_Overridden: 1
-      - m_Value: {x: 1, y: 1, z: 1, w: 1}
+      - m_Value: {x: 0.10849059, y: 0.88553923, z: 1, w: 0.39215687}
         m_Name: Color02
-        m_Overridden: 0
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
@@ -93,7 +99,10 @@ VisualEffect:
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 2800000, guid: 276d9e395ae18fe40a9b4988549f2349, type: 3}
+        m_Name: Tex02_CircleMesh
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!73398921 &2082404865986944267
