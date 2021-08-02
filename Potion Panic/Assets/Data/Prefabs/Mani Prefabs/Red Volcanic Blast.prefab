@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 6169548726596305040}
   - component: {fileID: 4213031418832300604}
   m_Layer: 0
-  m_Name: Volcanic Blast - MOCK
+  m_Name: Red Volcanic Blast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

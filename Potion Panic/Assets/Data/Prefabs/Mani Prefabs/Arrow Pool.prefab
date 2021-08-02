@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3305519658014318986}
   - component: {fileID: 3305519658014318987}
   m_Layer: 0
-  m_Name: Nature's Arrow Pool
+  m_Name: Arrow Pool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,6 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c5f9817e6b4064b9a7cc123b25516a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolingObject: {fileID: 8141825894024259971, guid: 01d62d0306c6d1949ab9c8dc322af09f, type: 3}
-  poolingAmount: 10
-  objectPool: []
+  poolingObject: {fileID: 3450969006004026242, guid: 9f01e66ca9d2d904fab4233d247df952, type: 3}
+  poolingAmount: 3

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Cauldron : MonoBehaviour
 {
@@ -18,9 +19,9 @@ public class Cauldron : MonoBehaviour
     // Variables for post consumption of ingredients
     private bool ingredientLimitReached;
     private bool spellBrewed;
+    private float brewDelay = 0.25f;
 
-    private List<Ingredient> consumedIngredients = new List<Ingredient>();
-    private List<Ingredient> correctIngredients = new List<Ingredient>();
+    public List<Ingredient> consumedIngredients = new List<Ingredient>();
     public List<Spell_SO> spellPool; // Should be Spell Prefab
 
     // EVENTS
@@ -30,10 +31,13 @@ public class Cauldron : MonoBehaviour
     public delegate void OnFailure();
     public event OnFailure OnFailureEvent;
 
+    // UI
+    public List<GameObject> ingredientIconMasks; // Circle Mask
+    public List<GameObject> ingredientIcons; // Actual Image
+
     // Start is called before the first frame update
     //void Start()
     //{
-
     //}
 
     // Update is called once per frame
@@ -42,7 +46,18 @@ public class Cauldron : MonoBehaviour
         if (droppingIngredient != null)
             ConsumeIngredient();
         else if (ingredientLimitReached)
-            BrewSpell();
+        {
+            brewDelay -= Time.deltaTime;
+
+            if(brewDelay <= 0)
+            {
+                BrewSpell();
+                brewDelay = 0.25f;
+            }
+        }
+
+
+        ManageUI();
     }
 
     void ConsumeIngredient()
@@ -54,20 +69,30 @@ public class Cauldron : MonoBehaviour
             if (consumedIngredients.Count >= 3)
                 ingredientLimitReached = true;
 
-            droppingIngredient.gameObject.SetActive(false); // Set to false if ingredients are object pooled
+            //droppingIngredient.gameObject.SetActive(false); // Set to false if ingredients are object pooled
+            Destroy(droppingIngredient.gameObject);
             droppingIngredient = null;
+
         }
     }
 
     void BrewSpell()
     {
+        List<Ingredient> correctIngredients = new List<Ingredient>();
+
         for (int i = 0; i < spellPool.Count; i++) // Looping through Spells
         {
+            List<Ingredient_SO> updatedRequiredIngredients = new List<Ingredient_SO>();
+
+            for (int k = 0; k < spellPool[i].requiredIngredients.Count; k++)
+                updatedRequiredIngredients.Add(spellPool[i].requiredIngredients[k]);
+
             for (int j = 0; j < consumedIngredients.Count; j++) // Looping through every ingredient of a spell
             {
-                if (spellPool[i].requiredIngredients.Contains(consumedIngredients[j].ingredientInfo))
+                if (updatedRequiredIngredients.Contains(consumedIngredients[j].ingredientInfo))
                 {
                     correctIngredients.Add(consumedIngredients[j]);
+                    updatedRequiredIngredients.Remove(consumedIngredients[j].ingredientInfo);
 
                     if (correctIngredients.Count >= 3)
                     {
@@ -93,6 +118,22 @@ public class Cauldron : MonoBehaviour
         // Reset Cauldron
         ingredientLimitReached = false;
         spellBrewed = false;
+        consumedIngredients.Clear();
+    }
+
+    void ManageUI()
+    {
+        if (consumedIngredients.Count > 0)
+        {
+            for (int i = 0; i < consumedIngredients.Count; i++)
+            {
+                ingredientIconMasks[i].gameObject.SetActive(true);
+                ingredientIcons[i].GetComponent<Image>().sprite = consumedIngredients[i].ingredientInfo.ingredientPreview;
+            }
+        }
+        else
+            for (int i = 0; i < ingredientIconMasks.Count; i++)
+                ingredientIconMasks[i].SetActive(false);
     }
 
     public void AssignDroppingIngredient(Ingredient newIngredient)

@@ -67,6 +67,7 @@ public class PlayerManager : MonoBehaviour
 
                         players[i].Respawn();
                         players[i].transform.position = spawnPoints[i].position;
+                        players[i].transform.rotation = spawnPoints[i].rotation;
                         players[i].gameObject.SetActive(true);
                     }
                 }
