@@ -15,11 +15,11 @@ D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60606
-Successfully changed project path to: C:/Users/radix/OneDrive/Pulpit/UWE/Potion-Panic/Potion Panic
-C:/Users/radix/OneDrive/Pulpit/UWE/Potion-Panic/Potion Panic
+59373
+Successfully changed project path to: D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
+D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 226.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 231.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -33,1659 +33,360 @@ Direct3D:
     Driver:   27.21.14.6172
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Mono path[0] = 'D:/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002924 seconds.
+Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005627 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 181.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 224.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.627 seconds
+- Completed reload, in  1.859 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012243 seconds.
+Registered in 0.012383 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 201.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 220.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.636 seconds
+- Completed reload, in  1.944 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.5 MB.
-System memory in use after: 148.7 MB.
+Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.3 MB.
+System memory in use after: 149.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3669.
-Total: 3.894300 ms (FindLiveObjects: 0.358100 ms CreateObjectMapping: 0.173800 ms MarkObjects: 3.203700 ms  DeleteObjects: 0.156700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb41d6d3a8e850ff1911949aa957ecda') in 0.341303 seconds
-  Import took 0.350270 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3670.
+Total: 3.612900 ms (FindLiveObjects: 0.533700 ms CreateObjectMapping: 0.362200 ms MarkObjects: 2.591200 ms  DeleteObjects: 0.124800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a2ef7cbb3d295903d0db5e93d478c2') in 0.053867 seconds
-  Import took 0.062287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ac643e081a6f106be752fb28a6219a') in 0.030163 seconds
-  Import took 0.040329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb2d99ab1fc23110967f3ba08baf059') in 0.048847 seconds
-  Import took 0.065111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
   path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e81c8cc0e2e3cae8a872ce43bb8c3ba') in 0.033104 seconds
-  Import took 0.044246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a5f8a65a39062f5bc24c91c40bebb9') in 0.027136 seconds
-  Import took 0.035230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343399fab9b1056826adb7057f237e12') in 0.026419 seconds
-  Import took 0.035999 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009887 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.734 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.1 MB.
-System memory in use after: 146.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3717.
-Total: 3.974000 ms (FindLiveObjects: 0.358200 ms CreateObjectMapping: 0.195900 ms MarkObjects: 3.348800 ms  DeleteObjects: 0.069500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 276.013370 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1e4e516adb5c9a9abd57c88edbd104') in 0.216056 seconds
-  Import took 0.223646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.168296 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e3aa4c228801fde07464a9a4cbdfe4') in 0.022142 seconds
-  Import took 0.028937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.622226 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a94ee0c731493404c069ad67470a1b') in 0.020152 seconds
-  Import took 0.026735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.331559 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2302b5d18bbff86428567399a2e7a217') in 0.021388 seconds
-  Import took 0.027707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.386308 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b35c6bbd718311570bc2200d880185b') in 0.020901 seconds
-  Import took 0.027734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.405865 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a8b3f562db4b7dfd84fa7c5d9f5fc1') in 0.021329 seconds
-  Import took 0.028237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.582908 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b403d2437a2a85efdee416c48ab3a5ac') in 0.019547 seconds
-  Import took 0.026120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.202772 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f159b83e6e19228cb2c2675d188e32fd') in 0.020525 seconds
-  Import took 0.027130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 533.772907 seconds.
-  path: Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox1.prefab
-  artifactKey: Guid(5228193c9321411429f36433465f2fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox1.prefab using Guid(5228193c9321411429f36433465f2fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174cf08accb47e456e82b68bd75644a2') in 0.012139 seconds
-  Import took 0.026686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox3.prefab
-  artifactKey: Guid(26f871844511fca4aac6ec36ad7ac706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox3.prefab using Guid(26f871844511fca4aac6ec36ad7ac706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ed10341982843a130fe5fc78808a4e') in 0.009343 seconds
-  Import took 0.016248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox2.prefab
-  artifactKey: Guid(106f26261b637ae4590cd94f41861847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox2.prefab using Guid(106f26261b637ae4590cd94f41861847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4ec63a95c92ea611483c5c94b5d6c4') in 0.008416 seconds
-  Import took 0.014310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox5.prefab
-  artifactKey: Guid(cb07b77e0ddd58d4588ea301f31a980c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox5.prefab using Guid(cb07b77e0ddd58d4588ea301f31a980c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395cf41389b350aed5d6b5460f771a72') in 0.009040 seconds
-  Import took 0.015320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox4.prefab
-  artifactKey: Guid(33b312c9719af8b4199858be5b6b4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox4.prefab using Guid(33b312c9719af8b4199858be5b6b4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c2cff72a1d6251f94d0902aa843599') in 0.008849 seconds
-  Import took 0.014928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.003486 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient01.prefab
-  artifactKey: Guid(61323612590315144a7a5e0f1242cb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient01.prefab using Guid(61323612590315144a7a5e0f1242cb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deba6e73dec3c3050127273a3af19243') in 0.018110 seconds
-  Import took 0.024823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient04.prefab
-  artifactKey: Guid(df62f47446bd0b34ab877799905d3ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient04.prefab using Guid(df62f47446bd0b34ab877799905d3ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a6de77f8724188765b36fcbd63c141') in 0.017616 seconds
-  Import took 0.030485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient05.prefab
-  artifactKey: Guid(40a5954426caf5645870607d93b1531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient05.prefab using Guid(40a5954426caf5645870607d93b1531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e322f9e1a7a07a9ff3925f052ce25d') in 0.015872 seconds
-  Import took 0.022226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient02.prefab
-  artifactKey: Guid(2dea04ae30da24045a99d5a3195d4b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient02.prefab using Guid(2dea04ae30da24045a99d5a3195d4b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8bd48df746d18e8876f939972f4322') in 0.013180 seconds
-  Import took 0.020665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient03.prefab
-  artifactKey: Guid(3744ca2a1c4f5fd41b394c06af6b1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient03.prefab using Guid(3744ca2a1c4f5fd41b394c06af6b1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57518ecf7f5fb2e2619f76c8f561d022') in 0.014622 seconds
-  Import took 0.020934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.095302 seconds.
-  path: Assets/Data/Prefabs/Ingredients/IngredientsEffects
-  artifactKey: Guid(22bf49c0b87992e4d8b80cf8be867d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/IngredientsEffects using Guid(22bf49c0b87992e4d8b80cf8be867d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8f7c863a1e15c688b24860efba1b0e') in 0.002534 seconds
-  Import took 0.014337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.607637 seconds.
-  path: Assets/Data/Prefabs/vfx_lootbox.vfx
-  artifactKey: Guid(cb7bec7599637754e91f3f1c99d91c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/vfx_lootbox.vfx using Guid(cb7bec7599637754e91f3f1c99d91c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befe18f419156661a5d5f02c865d5bbd') in 0.007065 seconds
-  Import took 0.013758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.781987 seconds.
-  path: Assets/Data/Prefabs/vfx_lootbox.vfx
-  artifactKey: Guid(cb7bec7599637754e91f3f1c99d91c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/vfx_lootbox.vfx using Guid(cb7bec7599637754e91f3f1c99d91c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5735d51e7676a303b43c4a07b5a405') in 0.007154 seconds
-  Import took 0.015242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009809 seconds.
-  path: Assets/Data/Prefabs/vfx_lootbox.vfx
-  artifactKey: Guid(cb7bec7599637754e91f3f1c99d91c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/vfx_lootbox.vfx using Guid(cb7bec7599637754e91f3f1c99d91c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5735d51e7676a303b43c4a07b5a405') in 0.008520 seconds
-  Import took 0.015823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 200.691869 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619fce248a5470245f5e8af7efdd7e83') in 0.025372 seconds
-  Import took 0.033680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56c538c604d7e7d90361995c8a23c4f') in 0.033345 seconds
-  Import took 0.040971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e843fbbc64ecfc4c2e91fe37d37e60') in 0.025177 seconds
-  Import took 0.032847 seconds .
+  artifactKey: Guid(00bd25c89d764494f8757be7c063f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(00bd25c89d764494f8757be7c063f952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f13c2f0f5c6eb3d82c6c2aa35fbc72') in 0.405589 seconds
+  Import took 0.414548 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000353 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756bbd77ef8b9f356bf23c5b4924ac5e') in 0.022505 seconds
-  Import took 0.035105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
   path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
   artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d819fcbb4c6e8fb0f3b6e235fb16ff') in 0.021247 seconds
-  Import took 0.029627 seconds .
+Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b19982ad2dabcd05b89ebdc870cf226') in 0.051466 seconds
+  Import took 0.064758 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b576cd4720c9ac2d380ac85cf693e1e') in 0.023416 seconds
-  Import took 0.030730 seconds .
+  Time since last request: 0.000366 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(4b2f407a26031994194777fb59f406e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(4b2f407a26031994194777fb59f406e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9911d296984a1fbace8053223f13a32a') in 0.013081 seconds
+  Import took 0.021534 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
+  Time since last request: 1.532194 seconds.
   path: Assets/POTION PANIC/PREFABS/root Variant.prefab
   artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821f4de8b35d6317fbd232d35585d68b') in 0.024294 seconds
-  Import took 0.031587 seconds .
+Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00363e697b4829463b4ee4807973c253') in 0.039610 seconds
+  Import took 0.049837 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 285.221493 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
+  Time since last request: 0.005901 seconds.
+  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
+  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00363e697b4829463b4ee4807973c253') in 0.032760 seconds
+  Import took 0.042209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.705508 seconds.
+  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
+  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4525f5f1655d79ab01b9ab869a8ea3') in 0.039723 seconds
+  Import took 0.048872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007540 seconds.
+  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
+  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4525f5f1655d79ab01b9ab869a8ea3') in 0.035715 seconds
+  Import took 0.044831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.470828 seconds.
+  path: Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab
+  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea21b41c76ab4658385092b2ae8d9c9') in 0.039746 seconds
+  Import took 0.048501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001194 seconds.
+  path: Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab
+  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea21b41c76ab4658385092b2ae8d9c9') in 0.034886 seconds
+  Import took 0.044014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.011430 seconds.
+  path: Assets/POTION PANIC/PREFABS/cold dragon scale variant.prefab
   artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fed8fced7349b104dab2e149528cd52') in 0.025501 seconds
-  Import took 0.034146 seconds .
+Start importing Assets/POTION PANIC/PREFABS/cold dragon scale variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed602424c98156026194d8deb5ff2d8') in 0.043814 seconds
+  Import took 0.053548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.572463 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
+  Time since last request: 0.003054 seconds.
+  path: Assets/POTION PANIC/PREFABS/cold dragon scale variant.prefab
   artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34828feb8324d38f55e2901b0ac2eff9') in 0.024803 seconds
-  Import took 0.032779 seconds .
+Start importing Assets/POTION PANIC/PREFABS/cold dragon scale variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed602424c98156026194d8deb5ff2d8') in 0.032688 seconds
+  Import took 0.043637 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.419360 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef35fa4999071e492478e545a37f8999') in 0.022733 seconds
-  Import took 0.030022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.649449 seconds.
+  Time since last request: 9.616171 seconds.
   path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
   artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792d8a830922a2dbbdb26f87149d64ce') in 0.017234 seconds
-  Import took 0.024591 seconds .
+Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bccb227a93af9a2b19eef10538697a3') in 0.038566 seconds
+  Import took 0.046767 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.497551 seconds.
-  path: Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox3.prefab
-  artifactKey: Guid(26f871844511fca4aac6ec36ad7ac706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/IngredientsEffects/vfx_lootbox3.prefab using Guid(26f871844511fca4aac6ec36ad7ac706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1e84f3f810e688d48ae57d6d1efe98') in 0.007669 seconds
-  Import took 0.013324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.054231 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient03.prefab
-  artifactKey: Guid(3744ca2a1c4f5fd41b394c06af6b1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient03.prefab using Guid(3744ca2a1c4f5fd41b394c06af6b1a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402ed89b43244a866e020d513fa99af7') in 0.013570 seconds
-  Import took 0.019663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.533685 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient05.prefab
-  artifactKey: Guid(40a5954426caf5645870607d93b1531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient05.prefab using Guid(40a5954426caf5645870607d93b1531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d499f5306d301a0124f69efa99240e') in 0.017091 seconds
-  Import took 0.025510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.652615 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient05.prefab
-  artifactKey: Guid(40a5954426caf5645870607d93b1531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient05.prefab using Guid(40a5954426caf5645870607d93b1531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a037060c01016f0d8d812525762e262e') in 0.017051 seconds
-  Import took 0.025720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.096035 seconds.
-  path: Assets/Data/Prefabs/Ingredients/Ingredient05.prefab
-  artifactKey: Guid(40a5954426caf5645870607d93b1531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Ingredients/Ingredient05.prefab using Guid(40a5954426caf5645870607d93b1531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bd156658f29092e3df578dd8f9e7d0') in 0.016497 seconds
-  Import took 0.024211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.324937 seconds.
+  Time since last request: 0.007595 seconds.
   path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
   artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3865515847bfa19bec153df2f2223ca6') in 0.021841 seconds
-  Import took 0.027418 seconds .
+Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bccb227a93af9a2b19eef10538697a3') in 0.031593 seconds
+  Import took 0.040579 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.341535 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9320b1da5859cde26d9c6fdbca1fced2') in 0.023602 seconds
-  Import took 0.031203 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009516 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.678 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.3 MB.
-System memory in use after: 146.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3757.
-Total: 4.105700 ms (FindLiveObjects: 0.472100 ms CreateObjectMapping: 0.223400 ms MarkObjects: 3.339800 ms  DeleteObjects: 0.069300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 788.634878 seconds.
+  Time since last request: 29.113877 seconds.
   path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
   artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5224c9a5da612bf354e1398665b91314') in 0.221134 seconds
-  Import took 0.229943 seconds .
+Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22069715ca13f9bf21056010561e6a9') in 0.038250 seconds
+  Import took 0.048644 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d93a7b24e7d3e2d06aaf6d1b8d6238') in 0.021291 seconds
-  Import took 0.028643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cb2450a4329e7113798d45763d7141') in 0.024580 seconds
-  Import took 0.031814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2544e110527ff803fd5c215e73b0da6') in 0.024506 seconds
-  Import took 0.032388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac85f7acd90e79149e091dae5f3c6652') in 0.021884 seconds
-  Import took 0.030354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0868ac32261b90b54aa9ad61dfe86c5c') in 0.025088 seconds
-  Import took 0.033062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8973cc4adfd28c518c62f44770ca60') in 0.023610 seconds
-  Import took 0.031997 seconds .
+  Time since last request: 0.003595 seconds.
+  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
+  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22069715ca13f9bf21056010561e6a9') in 0.026992 seconds
+  Import took 0.034249 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008602 seconds.
+Registered in 0.013858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.719 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 147.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3718.
+Total: 3.590600 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.191300 ms MarkObjects: 2.959600 ms  DeleteObjects: 0.093600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.839826 seconds.
+  path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity
+  artifactKey: Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity using Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5974fcf487f12779037b89f6f58e75bc') in 0.051245 seconds
+  Import took 0.061526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.318119 seconds.
+  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
+  artifactKey: Guid(a288eea55e6147344bbd13f2547ae869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(a288eea55e6147344bbd13f2547ae869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b11e2ea76853438855970760348020') in 0.239216 seconds
+  Import took 0.248300 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.651 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.0 MB.
+System memory in use after: 147.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3757.
+Total: 3.364300 ms (FindLiveObjects: 0.348400 ms CreateObjectMapping: 0.188400 ms MarkObjects: 2.768600 ms  DeleteObjects: 0.057200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.119160 seconds.
+  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
+  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e897cd5e52c4298703d255fb2da0fe12') in 0.327817 seconds
+  Import took 0.338578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.281415 seconds.
+  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
+  artifactKey: Guid(a288eea55e6147344bbd13f2547ae869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(a288eea55e6147344bbd13f2547ae869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6ec7b8945ec887e9efd14793582be9') in 0.036167 seconds
+  Import took 0.044405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006609 seconds.
+  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
+  artifactKey: Guid(a288eea55e6147344bbd13f2547ae869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(a288eea55e6147344bbd13f2547ae869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6ec7b8945ec887e9efd14793582be9') in 0.037057 seconds
+  Import took 0.046936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.187642 seconds.
+  path: Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab
+  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea595c34d6fa77326c3b188137a8824') in 0.032966 seconds
+  Import took 0.041017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab
+  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea595c34d6fa77326c3b188137a8824') in 0.068794 seconds
+  Import took 0.078122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.662065 seconds.
+  path: Assets/POTION PANIC/PREFABS/cold dragon scale variant.prefab
+  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/cold dragon scale variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9451efd3edf403d488caa0ce01f5f21f') in 0.038154 seconds
+  Import took 0.048107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.385344 seconds.
+  path: Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab
+  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ed3f08e140b2d8639beeab86da3a77') in 0.019165 seconds
+  Import took 0.027274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.850307 seconds.
+  path: Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab
+  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6a29149f1611b6bda98b438f2f7794') in 0.026273 seconds
+  Import took 0.034134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003784 seconds.
+  path: Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab
+  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6a29149f1611b6bda98b438f2f7794') in 0.029479 seconds
+  Import took 0.038435 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014020 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.702 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3796.
+Total: 4.356400 ms (FindLiveObjects: 0.460700 ms CreateObjectMapping: 0.235800 ms MarkObjects: 3.589200 ms  DeleteObjects: 0.069400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.384895 seconds.
+  path: Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab
+  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/hot dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16321492a93be0a778b225e5b9d58d3c') in 0.313451 seconds
+  Import took 0.324224 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.908 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.4 MB.
+System memory in use after: 147.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3835.
+Total: 5.015800 ms (FindLiveObjects: 0.473800 ms CreateObjectMapping: 0.328400 ms MarkObjects: 4.146400 ms  DeleteObjects: 0.065500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012854 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
+- Completed reload, in  1.655 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.5 MB.
-System memory in use after: 146.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3796.
-Total: 3.017000 ms (FindLiveObjects: 0.358700 ms CreateObjectMapping: 0.166100 ms MarkObjects: 2.444900 ms  DeleteObjects: 0.046000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.635816 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4acb15a8b4834700e0c32ed611cac58') in 0.240388 seconds
-  Import took 0.249299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.490157 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332e51a9ef3993c192f9dbf65d9fe6f5') in 0.021825 seconds
-  Import took 0.030075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.353797 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7997c36b9c18f07abfee4c531e0ba217') in 0.021716 seconds
-  Import took 0.028832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59c3337c5b5346a79b583dbeaa3fa66') in 0.035735 seconds
-  Import took 0.042749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3b1776b105e469df82318db9eaa7ae') in 0.024957 seconds
-  Import took 0.031986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd6f7131cb28ca92a7408ed2e85ef52') in 0.021266 seconds
-  Import took 0.028175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7e2d949dfb4f46169ecd4b55066f8f') in 0.018710 seconds
-  Import took 0.026443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d3647f4b2e0c747691bb91b5381a30') in 0.022196 seconds
-  Import took 0.029575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430207cc7e90d5d2bbd7e0f9559b817e') in 0.020039 seconds
-  Import took 0.027019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.999791 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd743c5401a9d4dc6d7ecd26c1562b62a') in 0.022975 seconds
-  Import took 0.030446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede04ba64507a623146c4d72492231bf') in 0.022379 seconds
-  Import took 0.029764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3c8fa9e69ac124f2a96655a1bf6a05') in 0.021890 seconds
-  Import took 0.030270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4e512c940ea079d5b7a4b47bcb3dce') in 0.023490 seconds
-  Import took 0.030689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bdde90a9db7f2ebfd3e77efb53c21f') in 0.021346 seconds
-  Import took 0.034921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d568a2af19729783692445db7cad91') in 0.022162 seconds
-  Import took 0.029360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2cdd44cbe8c0610704b871227565ff') in 0.021291 seconds
-  Import took 0.029312 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009212 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.7 MB.
-System memory in use after: 146.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3835.
-Total: 3.602200 ms (FindLiveObjects: 0.469800 ms CreateObjectMapping: 0.222600 ms MarkObjects: 2.857000 ms  DeleteObjects: 0.051200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.479603 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7379a21185cf2af18628babf196faa42') in 0.246521 seconds
-  Import took 0.263527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e386577b31ad7c9be0b1fcc626fc0d') in 0.023821 seconds
-  Import took 0.031803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1e2f115977fdca40766a857b9f420d') in 0.025383 seconds
-  Import took 0.032884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6a0f1b50e661260c7be8824106412f') in 0.019641 seconds
-  Import took 0.027072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af3e147958808c8eb2d88ee54dba3f6') in 0.021930 seconds
-  Import took 0.029872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29d4b3e42bbbf49f3168da2fa9c8dae') in 0.029540 seconds
-  Import took 0.038767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d208db64ed5db5e387396c2fe09092f') in 0.029135 seconds
-  Import took 0.038795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.840638 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4a1e2c05a8c6a24d6b5a45d31a17d7') in 0.022595 seconds
-  Import took 0.029598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647cb072ad6ac2fc77e0eb9c8187d4cc') in 0.022866 seconds
-  Import took 0.030389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238605abb46dc3608d05c33777bc76c5') in 0.023140 seconds
-  Import took 0.030538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f073c007540d8f047cba857b96b1fe1a') in 0.022245 seconds
-  Import took 0.030720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41ca4fda534723b9831485f8692e81e') in 0.020848 seconds
-  Import took 0.029187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18de7549f7319d17d8c4f56ed5fac94f') in 0.025306 seconds
-  Import took 0.033154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa5a92a423ef6a66ca6b6cf03e427cd') in 0.027025 seconds
-  Import took 0.035250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.885615 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0968850c3c001970cd379813a13d094') in 0.024219 seconds
-  Import took 0.032299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285be7993d4424ad16f614e7e4ac8eec') in 0.021289 seconds
-  Import took 0.028754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d75a9d74c8f46009d1443312de6ff') in 0.023828 seconds
-  Import took 0.030630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35d0fdd4a2c12c3d7d5b259383b9d06') in 0.025860 seconds
-  Import took 0.033296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5cfa71d51082d5103db3bca13dcd92') in 0.022104 seconds
-  Import took 0.029998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a455ce9764d40f10ace3fc8ed16caf') in 0.025594 seconds
-  Import took 0.033912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2e1e988eaf6f7a194da8b0af4a000f') in 0.027333 seconds
-  Import took 0.036057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.616875 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e48d871ecf2dcc31b12a7310c81cbb') in 0.022361 seconds
-  Import took 0.029414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80013cefb8f58eef48ddb0417eaa4752') in 0.021837 seconds
-  Import took 0.030141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce23abe5d868f32ac1f3055ff3e0864c') in 0.021782 seconds
-  Import took 0.029032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbce506a9337d5fe4c2b6b3e05d011d') in 0.025161 seconds
-  Import took 0.032154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2cfd3dacffa9fc3d5472ee2a941792') in 0.019681 seconds
-  Import took 0.027462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540524bcf53d54cd80f69181ca2f417c') in 0.021337 seconds
-  Import took 0.029698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac41749aab0b5e4a57e6f6cdc105d16') in 0.022082 seconds
-  Import took 0.029339 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007559 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.585 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.8 MB.
-System memory in use after: 147.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3874.
-Total: 3.845300 ms (FindLiveObjects: 0.416300 ms CreateObjectMapping: 0.178800 ms MarkObjects: 3.177900 ms  DeleteObjects: 0.070900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.695512 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965af8b84603c16ae7f12172b85a38c1') in 0.229659 seconds
-  Import took 0.239083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.555169 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b999f0661ad108859416ebde68e14ce') in 0.020978 seconds
-  Import took 0.027861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.387926 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0a7f55141dd7021665f0ebe7a63886') in 0.023106 seconds
-  Import took 0.031121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.273907 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9f222feab30f925cc18a01b6a79282') in 0.022231 seconds
-  Import took 0.030339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.230269 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c442985699ebcd89d2d678e1399726f') in 0.034985 seconds
-  Import took 0.042384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.941320 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdba3c36204be6eac6b7af5d5e6b7ad8') in 0.023817 seconds
-  Import took 0.031860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.512836 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f976b17070d3aad75f084408fb2e89') in 0.021064 seconds
-  Import took 0.029467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.290118 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b530c808aa1af8c2d3823149e140eec5') in 0.022073 seconds
-  Import took 0.029946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.878874 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95402844cf9c83a67de027e3ab5532b') in 0.022249 seconds
-  Import took 0.029312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.921883 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2b9c4187d7af2c72fb755ff5b3f0e0') in 0.023368 seconds
-  Import took 0.030525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.692250 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ade0dd2f4c06ad58b84d0059233f29a') in 0.019779 seconds
-  Import took 0.026390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.755499 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78694b292ad882ce3764018e26e4676') in 0.024675 seconds
-  Import took 0.032898 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008915 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.576 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.0 MB.
-System memory in use after: 147.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3913.
-Total: 3.710600 ms (FindLiveObjects: 0.394000 ms CreateObjectMapping: 0.149400 ms MarkObjects: 3.098100 ms  DeleteObjects: 0.067900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.454380 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f704f700db8f48384b799727916b9c24') in 0.258299 seconds
-  Import took 0.274993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.867921 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b88536dc4b6508e100df83ae8421489') in 0.028411 seconds
-  Import took 0.036537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6025c6483de511f03cd99e65afb484f') in 0.024658 seconds
-  Import took 0.038132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63048ac09a3802207e58d08441e593a6') in 0.023847 seconds
-  Import took 0.031823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ad4afe716e6087e9b19773afeea105') in 0.022819 seconds
-  Import took 0.030753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90544fd95b50fad5e2571132632875dc') in 0.020966 seconds
-  Import took 0.028107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb272d99a707f90ad814031d22ccd7ac') in 0.021184 seconds
-  Import took 0.028045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e88ac42eed92e7e2a10029d0386728') in 0.021435 seconds
-  Import took 0.042285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.406504 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9529f5082f4f74e9c13b510f0aba5a') in 0.024382 seconds
-  Import took 0.031837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5dbd1f71b532197b40fbb3cc49a573') in 0.030790 seconds
-  Import took 0.039146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8254e5b1f14ecb75ee4574bcc3e0264') in 0.028386 seconds
-  Import took 0.036695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897210aa4c9c962d3078bd3ed48d3865') in 0.024562 seconds
-  Import took 0.032351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbb378602181243fa2e45088896fdf2') in 0.024217 seconds
-  Import took 0.033175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d2369b0f2895c6cd541acda1a0fd65') in 0.025027 seconds
-  Import took 0.033350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837804007387cb5578322fa34302adbb') in 0.027311 seconds
-  Import took 0.035305 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008402 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.626 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.3 MB.
-System memory in use after: 147.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3952.
-Total: 3.601000 ms (FindLiveObjects: 0.385600 ms CreateObjectMapping: 0.150800 ms MarkObjects: 3.011100 ms  DeleteObjects: 0.052100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.236359 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e855a9ba68067abd2fe7980e35faf1b1') in 0.237271 seconds
-  Import took 0.246381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.866692 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305f5a1051a850637251da0d8630ffad') in 0.025388 seconds
-  Import took 0.033117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.561023 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8725662763669af6f85e6fa66ec65c6f') in 0.031536 seconds
-  Import took 0.038399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.536441 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2b798b6517a392aa02865e8568c888') in 0.021160 seconds
-  Import took 0.028454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.409442 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325b98ca086c9243198d04681d039e0c') in 0.020927 seconds
-  Import took 0.028714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.370797 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399a2f3d5fd040ee5b0f1f603f8f6075') in 0.024289 seconds
-  Import took 0.032158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.595483 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639cc202ea6fc5baa19d79e8e915748f') in 0.024307 seconds
-  Import took 0.032411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.937706 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9189ed7db3e5518bf02b8129d86084b5') in 0.023015 seconds
-  Import took 0.030413 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009191 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.552 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.4 MB.
-System memory in use after: 147.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3991.
-Total: 4.105400 ms (FindLiveObjects: 0.438300 ms CreateObjectMapping: 0.175500 ms MarkObjects: 3.424700 ms  DeleteObjects: 0.065700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010576 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.987 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.4 MB.
-System memory in use after: 147.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3994.
-Total: 4.312800 ms (FindLiveObjects: 0.482600 ms CreateObjectMapping: 0.195300 ms MarkObjects: 3.600600 ms  DeleteObjects: 0.032900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009390 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 147.4 MB.
-System memory in use after: 147.7 MB.
+System memory in use after: 147.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3997.
-Total: 4.594400 ms (FindLiveObjects: 0.494400 ms CreateObjectMapping: 0.365200 ms MarkObjects: 3.700700 ms  DeleteObjects: 0.031800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 548.552034 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31fba37cf5e5b1078387dd97120d72a') in 0.241041 seconds
-  Import took 0.249921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.199597 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bf80c1548baddbba291196841cd065') in 0.023089 seconds
-  Import took 0.031430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.583669 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4560e41e843a29da4f825291be4b6b60') in 0.022952 seconds
-  Import took 0.030702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.858225 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29f4d95e05cab2bbeb4c6bd6d593cdd') in 0.023408 seconds
-  Import took 0.030545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.101416 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8daf9f41b59306c3d545fa8c18ef10') in 0.022927 seconds
-  Import took 0.030532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.410492 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c5e02dac8720d1511ca555ca38b92d') in 0.021916 seconds
-  Import took 0.029050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.873744 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae45840579681bd3e152227dcc860bcd') in 0.020451 seconds
-  Import took 0.027423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.596795 seconds.
-  path: Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab
-  artifactKey: Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/crab claw (1) Variant.prefab using Guid(9b4d1081b6f0f134189ea6cc449d978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da33746fcd57a1096cc6bec7d0e6dc') in 0.022054 seconds
-  Import took 0.029298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.577643 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8823a4d3f376e88f0854c4ca5abd929') in 0.033951 seconds
-  Import took 0.041980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.542126 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab
-  artifactKey: Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale 2 Variant.prefab using Guid(4d6553c530b0cf44098e275a13a94824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd694141860c0100a4dce9c829d08aa') in 0.024464 seconds
-  Import took 0.031855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.246905 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b9d657b4660bcf021cc270c000a71e') in 0.020330 seconds
-  Import took 0.027485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.216710 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d457acbb49879f7d4346dafd307280') in 0.022028 seconds
-  Import took 0.029659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.571480 seconds.
-  path: Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab
-  artifactKey: Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/lotus flower 1 Variant.prefab using Guid(064aa48e53b16b645b8ab8224ba7d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d048088ab0808ca09232d78aa025069') in 0.024567 seconds
-  Import took 0.034196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.524936 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d2e59683357272e2dc1ab3d83a7589') in 0.024889 seconds
-  Import took 0.032988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.908458 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d0507369c35821397a388b02cd671b') in 0.024477 seconds
-  Import took 0.031960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.648891 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d3ebecbec0f679703a78f66893a7a8') in 0.021717 seconds
-  Import took 0.028557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.080556 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b283c970eb7e780bedc56afe5483bb') in 0.030441 seconds
-  Import took 0.038655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.699314 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760d3c156932ffe9375fcd6a0e8d224c') in 0.023289 seconds
-  Import took 0.030455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.956449 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb8adb92d49846637937c7550c0c6a1') in 0.024250 seconds
-  Import took 0.032060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.557587 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be1c3a10961bf0209c6dc26020dc9d4') in 0.021632 seconds
-  Import took 0.028799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.951717 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239cc861e70d14f2594b2159ca1140f7') in 0.023269 seconds
-  Import took 0.030584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.529305 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce4592b3db16e28116b614262da0d7a') in 0.021219 seconds
-  Import took 0.028628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.163969 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8119f5d03279b5d82bb4f51ffa21a') in 0.023950 seconds
-  Import took 0.032020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.120484 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e534624dbdcd8642f15b2f2884c7f52e') in 0.023604 seconds
-  Import took 0.031300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.600500 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdc3ab3a3f180514f3639a7005a4faf') in 0.023907 seconds
-  Import took 0.031656 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008691 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.557 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.5 MB.
-System memory in use after: 147.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4036.
-Total: 4.172700 ms (FindLiveObjects: 0.408100 ms CreateObjectMapping: 0.206800 ms MarkObjects: 3.498100 ms  DeleteObjects: 0.057700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.110629 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddb3514f9b35895f0f99fa56e31222e') in 0.246600 seconds
-  Import took 0.255743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075588 seconds.
-  path: Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab
-  artifactKey: Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/octopus tentacle Variant.prefab using Guid(20ba33f72123581468539c5cd0c9761b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebd5dc2e23f4935da477b9b73757f17') in 0.023725 seconds
-  Import took 0.031464 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010594 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.955 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.7 MB.
-System memory in use after: 147.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4075.
-Total: 4.368100 ms (FindLiveObjects: 0.517600 ms CreateObjectMapping: 0.229200 ms MarkObjects: 3.521200 ms  DeleteObjects: 0.098000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 171.717397 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55000ecea0cf81e8106ccd6d1e895c1') in 0.247154 seconds
-  Import took 0.256860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.245806 seconds.
-  path: Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab
-  artifactKey: Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/dragon scale Variant.prefab using Guid(dd45652b834f16146aaad9a4564ef2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb322f678968f838fac59524d061fb10') in 0.021844 seconds
-  Import took 0.029343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.510132 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0a3401ebbb330edbcb672db669f87f') in 0.024740 seconds
-  Import took 0.032484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.212862 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2044004a03de68f0f9e955fb1edbf84a') in 0.024652 seconds
-  Import took 0.032527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.168018 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290d10cac9ff7ef220e070cb6335204f') in 0.022440 seconds
-  Import took 0.029425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.034695 seconds.
-  path: Assets/POTION PANIC/PREFABS/root Variant.prefab
-  artifactKey: Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/root Variant.prefab using Guid(d48e68b305d56ad409ae09bf976293ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452a8a8c435cdb4b917a60c909024d81') in 0.023703 seconds
-  Import took 0.031519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.200982 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8242e0433f01047fe5943c542b152c68') in 0.035922 seconds
-  Import took 0.043494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.011552 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a7cd65bc27acdee1272b1ea112ed4f') in 0.026777 seconds
-  Import took 0.035682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.031893 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccda989f3655d72d68833cd57246288a') in 0.022957 seconds
-  Import took 0.030368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.196727 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40034b38aa627e94658daa64ab6b604e') in 0.026149 seconds
-  Import took 0.034687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.365003 seconds.
-  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
-  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a175e8b93b13e10eb5a9665f3acf626d') in 0.025085 seconds
-  Import took 0.033003 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3838.
+Total: 3.123700 ms (FindLiveObjects: 0.333200 ms CreateObjectMapping: 0.150400 ms MarkObjects: 2.592500 ms  DeleteObjects: 0.046600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

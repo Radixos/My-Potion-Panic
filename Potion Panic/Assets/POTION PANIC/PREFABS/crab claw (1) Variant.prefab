@@ -261,7 +261,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredientInfo: {fileID: 11400000, guid: c86ceb5a7d036a64796851c38724701c, type: 2}
-  inputInfo: {fileID: 0}
+  inputInfo: {fileID: 2337327427487664760}
+  boxCollider: {fileID: 4556583023596008386}
 --- !u!1001 &6328168405563841732
 PrefabInstance:
   m_ObjectHideFlags: 0
