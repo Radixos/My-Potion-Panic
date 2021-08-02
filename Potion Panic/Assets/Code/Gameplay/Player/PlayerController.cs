@@ -52,13 +52,13 @@ public class PlayerController : MonoBehaviour
     private float pushDistance;
 
     // SPELL CASTING
-    private bool hasSpell;
+    public bool hasSpell;
     private bool inSpellAnim;
     private bool isCasting;
     private bool spellCasted;
-    private Spell_SO spellInfo;
+    public Spell_SO spellInfo;
     private ObjectPool spellPool;
-    private int spellUses;
+    public int spellUses;
 
     // UI
     public Transform aimArrow;
@@ -92,6 +92,10 @@ public class PlayerController : MonoBehaviour
 
         playerLayer = 1 << 6;
         pushDelay = 2.0f;
+
+        //hasSpell = true;
+        //spellPool = GameObject.Find("Volcanic Blast Pool").GetComponent<ObjectPool>();
+        //spellUses = 100;
     }
 
     private void MyCauldron_OnSuccessEvent(Spell_SO brewedSpell)
@@ -100,7 +104,7 @@ public class PlayerController : MonoBehaviour
 
         spellInfo = brewedSpell;
         spellUses = brewedSpell.NumberOfUses;
-        spellPool = GameObject.Find(brewedSpell.spellPrefab.name).GetComponent<ObjectPool>();
+        spellPool = GameObject.Find("Player " + playerID.ToString() + " " + brewedSpell.spellPrefab.name).GetComponent<ObjectPool>();
 
         hasSpell = true;
     }
@@ -208,8 +212,21 @@ public class PlayerController : MonoBehaviour
                     carryingIngredient.SetKeyElementsState(true);
                     holdIngredient = false;
                     carryingIngredient = null;
+                    collidingObject = null;
                 }
             }
+
+            if (carryingIngredient != null && !inTriggerRange)
+            {
+                if(Input.GetButtonDown("Interact " + controllerType + " " + playerID.ToString()))
+                {
+                    carryingIngredient.transform.parent = null;
+                    carryingIngredient.SetKeyElementsState(true);
+                    holdIngredient = false;
+                    carryingIngredient = null;
+                }
+
+            }            
 
             // To update for actions in range of interacting objects
             if (inTriggerRange)
@@ -274,7 +291,12 @@ public class PlayerController : MonoBehaviour
         }
 
         if (holdIngredient && carryingIngredient != null) // Waiting to carry until the pickup "animation" is finished
+        {
             carryingIngredient.transform.position = carryingLocation.position;
+            carryingIngredient.transform.rotation = Quaternion.Euler(carryingIngredient.transform.rotation.x,
+                0, carryingIngredient.transform.rotation.z);
+        }
+
     }
 
     //void AimWithMouse()

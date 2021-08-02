@@ -10,10 +10,11 @@ public class Ingredient : MonoBehaviour
 
     public GameObject inputInfo;
 
+    public BoxCollider boxCollider;
+
     // Start is called before the first frame update
     //void Start()
     //{
-
     //}
 
     // Update is called once per frame
@@ -29,7 +30,10 @@ public class Ingredient : MonoBehaviour
                 target = null;
 
                 if (transform.parent == null) // If not carried by player
+                {
                     GetComponent<Rigidbody>().useGravity = true;
+                    boxCollider.enabled = false;
+                }
                 else
                     transform.parent.gameObject.GetComponent<PlayerController>().holdIngredient = true;
             }
@@ -46,33 +50,42 @@ public class Ingredient : MonoBehaviour
     public void SetKeyElementsState(bool state)
     {
         GetComponent<Rigidbody>().useGravity = state;
-        GetComponent<BoxCollider>().enabled = state;
         GetComponent<SphereCollider>().enabled = state;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
+        {
             if (other.gameObject.GetComponent<PlayerController>().carryingIngredient == null)
             {
-                GetComponent<Rigidbody>().useGravity = false;
-                GetComponent<BoxCollider>().enabled = false;
                 SetInputInfoState(true);
             }
+
+            //if (onGround)
+                //GetComponent<BoxCollider>().enabled = false;
+            //GetComponent<Rigidbody>().useGravity = false;
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            GetComponent<Rigidbody>().useGravity = true;
-            GetComponent<BoxCollider>().enabled = true;
             SetInputInfoState(false);
+
+            //if (onGround)
+                //GetComponent<BoxCollider>().enabled = true;
+            //GetComponent<Rigidbody>().useGravity = true;
         }
     }
 
     void SetInputInfoState(bool state)
     {
+        //if (transform.rotation.y != 0)
+        //transform.rotation = Quaternion.Euler(transform.rotation.x, 0, transform.rotation.z);
+
         inputInfo.SetActive(state);
     }
 }

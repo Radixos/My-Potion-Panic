@@ -20,4 +20,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a810bb7bddbbb0642876da882457da2a, type: 2}
   - {fileID: 11400000, guid: bc676ba93bb9a8045a7531b960f2d507, type: 2}
   spellPrefab: {fileID: 0}
+  spellType: 0
   NumberOfUses: 5

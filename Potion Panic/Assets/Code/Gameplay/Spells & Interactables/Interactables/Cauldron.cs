@@ -19,8 +19,7 @@ public class Cauldron : MonoBehaviour
     private bool ingredientLimitReached;
     private bool spellBrewed;
 
-    private List<Ingredient> consumedIngredients = new List<Ingredient>();
-    private List<Ingredient> correctIngredients = new List<Ingredient>();
+    public List<Ingredient> consumedIngredients = new List<Ingredient>();
     public List<Spell_SO> spellPool; // Should be Spell Prefab
 
     // EVENTS
@@ -54,20 +53,30 @@ public class Cauldron : MonoBehaviour
             if (consumedIngredients.Count >= 3)
                 ingredientLimitReached = true;
 
-            droppingIngredient.gameObject.SetActive(false); // Set to false if ingredients are object pooled
+            //droppingIngredient.gameObject.SetActive(false); // Set to false if ingredients are object pooled
+            Destroy(droppingIngredient.gameObject);
             droppingIngredient = null;
+
         }
     }
 
     void BrewSpell()
     {
+        List<Ingredient> correctIngredients = new List<Ingredient>();
+
         for (int i = 0; i < spellPool.Count; i++) // Looping through Spells
         {
+            List<Ingredient_SO> updatedRequiredIngredients = new List<Ingredient_SO>();
+
+            for (int k = 0; k < spellPool[i].requiredIngredients.Count; k++)
+                updatedRequiredIngredients.Add(spellPool[i].requiredIngredients[k]);
+
             for (int j = 0; j < consumedIngredients.Count; j++) // Looping through every ingredient of a spell
             {
-                if (spellPool[i].requiredIngredients.Contains(consumedIngredients[j].ingredientInfo))
+                if (updatedRequiredIngredients.Contains(consumedIngredients[j].ingredientInfo))
                 {
                     correctIngredients.Add(consumedIngredients[j]);
+                    updatedRequiredIngredients.Remove(consumedIngredients[j].ingredientInfo);
 
                     if (correctIngredients.Count >= 3)
                     {
@@ -93,6 +102,7 @@ public class Cauldron : MonoBehaviour
         // Reset Cauldron
         ingredientLimitReached = false;
         spellBrewed = false;
+        consumedIngredients.Clear();
     }
 
     public void AssignDroppingIngredient(Ingredient newIngredient)
