@@ -28,9 +28,13 @@ public class VolcanicBlast : SpellBehaviour
 
         if (enemies.Length > 0)
         {
+            float damage = 0;
             // Dealing damage based on distance from the cast position
             // Adding 0.35 value to cause some overload 
-            float damage = baseDamage - (baseDamage * radius / maxRadius) + (0.4f * baseDamage);
+            if (radius <= 0.5 * maxRadius)
+                damage = baseDamage;
+            else
+                damage = baseDamage - (baseDamage * radius / maxRadius);
 
             for (int i = 0; i < enemies.Length; i++)
             {

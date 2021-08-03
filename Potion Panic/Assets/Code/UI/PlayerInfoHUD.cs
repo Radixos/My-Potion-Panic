@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class PlayerInfoHUD : MonoBehaviour
 {
     private PlayerController player;
+    [Range(1, 4)]
+    public int playerID;
 
     // KIllS
     public Text killCounter;
@@ -23,7 +25,7 @@ public class PlayerInfoHUD : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find(gameObject.name).GetComponent<PlayerController>();
+        player = GameObject.Find("Player " + playerID.ToString()).GetComponent<PlayerController>();
     }
 
     // Update is called once per frame

@@ -10,15 +10,19 @@ public class FountainBehaviour : MonoBehaviour
     [SerializeField] private AnimationCurve ac;
     [SerializeField] private List<GameObject> ingredients;
 
+    private PlayerManager playerManager;
+
     private void Start()
     {
         StartCoroutine(nameof(Fountain));
+
+        playerManager = FindObjectOfType<PlayerManager>();
     }
 
-    private void Update()
-    {
+    //private void Update()
+    //{
         
-    }
+    //}
 
     private IEnumerator Fountain()
     {
@@ -26,50 +30,64 @@ public class FountainBehaviour : MonoBehaviour
 
         while (true)
         {
-            Vector3 center = gameObject.GetComponent<Renderer>().bounds.center;
-            center.y += 1.1f;
-            Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
-
-            Quaternion rot = Quaternion.FromToRotation(Vector3.forward, center - pos);
-            GameObject clone = Instantiate(ingredients[(Random.Range(0, ingredients.Count))], center, rot);
-
-            Vector3 cloneCenter = clone.transform.position;
-
-            float privateRotation = 70f;    //between 1f and 89f
-            float dragDown = 10f;           //"speed"
-
-            // Calculate distance to target
-            float target_Distance = Vector3.Distance(cloneCenter, pos);
-
-            // Calculate the velocity needed to throw the object to the target at specified angle.
-            float projectile_Velocity = target_Distance / (Mathf.Sin(2 * privateRotation * Mathf.Deg2Rad) / dragDown);
-
-            // Extract the X  Y componenent of the velocity
-            float Vx = Mathf.Sqrt(projectile_Velocity) * Mathf.Cos(privateRotation * Mathf.Deg2Rad);
-            float Vy = Mathf.Sqrt(projectile_Velocity) * Mathf.Sin(privateRotation * Mathf.Deg2Rad);
-
-            // Calculate flight time.
-            float flightDuration = target_Distance / Vx;
-
-            // Rotate projectile to face the target.
-            clone.transform.rotation = Quaternion.LookRotation(pos - clone.transform.position);
-
-            float elapse_time = 0;
-
-            while (elapse_time < flightDuration)
+            if (playerManager.levelEstablished)
             {
-                clone.transform.Translate(0, (Vy - (dragDown * elapse_time)) * Time.deltaTime * ac.Evaluate(elapse_time), Vx * Time.deltaTime * ac.Evaluate(elapse_time));
+                GameObject[] activeIngredients = GameObject.FindGameObjectsWithTag("Ingredient");
 
-                elapse_time += Time.deltaTime;
+                if (activeIngredients.Length < playerManager.players.Count * 4)
+                {
+                    Vector3 center = gameObject.GetComponent<Renderer>().bounds.center;
+                    center.y += 1.1f;
+                    Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
 
-                yield return null;
+                    Quaternion rot = Quaternion.FromToRotation(Vector3.forward, center - pos);
+                    GameObject clone = Instantiate(ingredients[(Random.Range(0, ingredients.Count))], center, rot);
+
+                    Vector3 cloneCenter = clone.transform.position;
+
+                    float privateRotation = 70f;    //between 1f and 89f
+                    float dragDown = 10f;           //"speed"
+
+                    // Calculate distance to target
+                    float target_Distance = Vector3.Distance(cloneCenter, pos);
+
+                    // Calculate the velocity needed to throw the object to the target at specified angle.
+                    float projectile_Velocity = target_Distance / (Mathf.Sin(2 * privateRotation * Mathf.Deg2Rad) / dragDown);
+
+                    // Extract the X  Y componenent of the velocity
+                    float Vx = Mathf.Sqrt(projectile_Velocity) * Mathf.Cos(privateRotation * Mathf.Deg2Rad);
+                    float Vy = Mathf.Sqrt(projectile_Velocity) * Mathf.Sin(privateRotation * Mathf.Deg2Rad);
+
+                    // Calculate flight time.
+                    float flightDuration = target_Distance / Vx;
+
+                    // Rotate projectile to face the target.
+                    clone.transform.rotation = Quaternion.LookRotation(pos - clone.transform.position);
+
+                    float elapse_time = 0;
+
+                    while (elapse_time < flightDuration)
+                    {
+                        clone.transform.Translate(0, (Vy - (dragDown * elapse_time)) * Time.deltaTime * ac.Evaluate(elapse_time), Vx * Time.deltaTime * ac.Evaluate(elapse_time));
+
+                        elapse_time += Time.deltaTime;
+
+                        yield return null;
+                    }
+
+                    clone.transform.rotation = Quaternion.Euler(clone.transform.rotation.x, 0, clone.transform.rotation.z);
+
+                    float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
+                    //Debug.Log(waitTime);
+                    yield return new WaitForSeconds(waitTime);
+
+                    //StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
+                }
+                else
+                    yield return new WaitForEndOfFrame();
             }
-
-            float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
-            //Debug.Log(waitTime);
-            yield return new WaitForSeconds(waitTime);
-            
-            //StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
+            else
+                yield return new WaitForEndOfFrame();
         }
     }
 
