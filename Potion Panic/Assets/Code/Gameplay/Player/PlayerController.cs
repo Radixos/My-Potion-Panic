@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Core")]
+    [Header("-Core-")]
     public float speed;
     public float health;
     public const float maxHealth = 100.0f;
@@ -16,30 +16,29 @@ public class PlayerController : MonoBehaviour
     private List<string> animStates = new List<string>();
     private Animator anim;
 
-    [Header("Blink")]
+    [Header("-Blink-")]
     public bool isBlinking; // Blinking to indicate i-frames upon respawn
     private float blinkDuration; // Time the player will stay invulnerable
     private float blinkDelay; // Time interval to switch render state
     public GameObject playerSkin; // Model to blink
 
-    [Header("Interactables")]
-    private bool inTriggerRange; // In range of a trigger object. OnTriggerStay works only for a couple of frames
-    private GameObject collidingObject; // Ingredient that the player is in range with
-
+    [Header("-Interactables-")]
     public Transform carryingLocation; // Location where the picked up ingredient will be placed
     public Ingredient carryingIngredient; // Ingredient that the player is carrying
     public bool holdIngredient; // Boolean to check whether the player is carrying an ingredient or not
-
     public Cauldron myCauldron;
 
-    [Header("Controller")]
+    private bool inTriggerRange; // In range of a trigger object. OnTriggerStay works only for a couple of frames
+    private GameObject collidingObject; // Ingredient that the player is in range with
+
+    [Header("-Controller-")]
     // To frequently check if the controller is connected
     // or has been switched to a different type.
+    [Range(0, 1)]
+    public float deadZone;
     private float controllerConnectionCheckTimer;
     private float controllerConnectionCheckDelay;
     private string controllerType;
-    [Range(0, 1)]
-    public float deadZone;
 
     [Range(1, 4)]
     public int playerID; // Player Num in Game
@@ -52,15 +51,18 @@ public class PlayerController : MonoBehaviour
     private float pushDistance;
 
     // SPELL CASTING
+    [Header("-Spell Info-")]
+    public Spell_SO spellInfo;
     public bool hasSpell;
+    public int spellUses;
+
     private bool inSpellAnim;
     private bool isCasting;
     private bool spellCasted;
-    public Spell_SO spellInfo;
     private ObjectPool spellPool;
-    public int spellUses;
 
     // UI
+    [Header("-UI-")]
     public Transform aimArrow;
 
     // Start is called before the first frame update
@@ -71,21 +73,14 @@ public class PlayerController : MonoBehaviour
         controllerConnectionCheckDelay = 3.0f;
         controllerConnectionCheckTimer = controllerConnectionCheckDelay;
 
-        ControllerConnectionCheck();
-
         blinkDuration = 2.0f;
         blinkDelay = 0.15f;
 
         anim = GetComponent<Animator>();
 
         animStates.Add("isMovingForward");
-        animStates.Add("isMovingForwardRight");
-        animStates.Add("isMovingForwardLeft");
-        animStates.Add("isMovingBackward");
-        animStates.Add("isMovingBackwardRight");
-        animStates.Add("isMovingBackwardLeft");
-        animStates.Add("isStrafingRight");
-        animStates.Add("isStrafingLeft");
+        animStates.Add("castedAreaMagic");
+        animStates.Add("castedProjectileMagic");
 
         myCauldron.OnSuccessEvent += MyCauldron_OnSuccessEvent;
         myCauldron.OnFailureEvent += MyCauldron_OnFailureEvent;
@@ -93,8 +88,10 @@ public class PlayerController : MonoBehaviour
         playerLayer = 1 << 6;
         pushDelay = 2.0f;
 
+        StartCoroutine(ControllerCheck());
+
         //hasSpell = true;
-        //spellPool = GameObject.Find("Volcanic Blast Pool").GetComponent<ObjectPool>();
+        //spellPool = GameObject.Find("Player " + playerID.ToString() + " Arrow Pool").GetComponent<ObjectPool>();
         //spellUses = 100;
     }
 
@@ -118,6 +115,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Post Death Functions
+        if (health <= 0)
+        {
+            if (carryingIngredient != null)
+            {
+                carryingIngredient.transform.parent = null;
+                carryingIngredient.SetKeyElementsState(true);
+                holdIngredient = false;
+                carryingIngredient = null;
+                collidingObject = null;
+            }
+
+            isPushed = false;
+            newPushLocation = Vector3.zero;
+            pushDelay = 2.0f;
+            pushDistance = 0.0f;
+
+            inSpellAnim = false;
+            isCasting = false;
+            spellCasted = false;
+
+            ResetAnimationToIdle();
+
+            return;
+        }
+
         if (isPushed)
         {
             float dist = Vector3.Distance(transform.position, newPushLocation);
@@ -138,11 +161,9 @@ public class PlayerController : MonoBehaviour
             if (isBlinking)
                 BlinkPlayer();
 
-            ControllerConnectionCheck();
-
             if (!inSpellAnim)
             {
-                if(!isCasting)
+                if (!isCasting)
                 {
                     Move();
                     Animate();
@@ -175,7 +196,7 @@ public class PlayerController : MonoBehaviour
                         spellCasted = true;
                     }
                 }
-                else if(anim.GetCurrentAnimatorStateInfo(0).IsName("Projectile Magic"))
+                else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Projectile Magic"))
                 {
                     if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9)
                     {
@@ -189,7 +210,7 @@ public class PlayerController : MonoBehaviour
                             spellInfo = null;
                         }
                     }
-                    else if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7 && !spellCasted)
+                    else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7 && !spellCasted)
                     {
                         GameObject obj = spellPool.GetPooledObject();
                         obj.transform.position = transform.position + transform.up;
@@ -203,30 +224,18 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (health <= 0)
+            // DROP INGREDIENT ON THE GROUND
+            if (carryingIngredient != null && !inTriggerRange && holdIngredient)
             {
-                // Post Death Functions
-                if (carryingIngredient != null)
+                if (Input.GetButtonDown("Interact " + controllerType + " " + playerID.ToString()))
                 {
                     carryingIngredient.transform.parent = null;
-                    carryingIngredient.SetKeyElementsState(true);
+                    carryingIngredient.gameObject.GetComponent<Rigidbody>().useGravity = true;
                     holdIngredient = false;
                     carryingIngredient = null;
-                    collidingObject = null;
                 }
+
             }
-
-            if (carryingIngredient != null && !inTriggerRange)
-            {
-                if(Input.GetButtonDown("Interact " + controllerType + " " + playerID.ToString()))
-                {
-                    carryingIngredient.transform.parent = null;
-                    carryingIngredient.SetKeyElementsState(true);
-                    holdIngredient = false;
-                    carryingIngredient = null;
-                }
-
-            }            
 
             // To update for actions in range of interacting objects
             if (inTriggerRange)
@@ -299,23 +308,6 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    //void AimWithMouse()
-    //{
-    //    Vector3 mousePos = Input.mousePosition;
-
-    //    Ray camRay = Camera.main.ScreenPointToRay(mousePos); // Ray casted from screen post into the world
-    //    RaycastHit hit;
-
-    //    if (Physics.Raycast(camRay, out hit, Mathf.Infinity))
-    //    {
-    //        if (hit.transform.CompareTag("Ground")) // If hit anything ground, use impact point to look at
-    //        {
-    //            Vector3 aimTarget = new Vector3(hit.point.x, transform.position.y, hit.point.z);
-    //            transform.LookAt(aimTarget);
-    //        }
-    //    }
-    //}
-
     void Aim()
     {
         float inputRightX = Input.GetAxisRaw("Horizontal Right " + controllerType + " " + playerID.ToString());
@@ -334,9 +326,9 @@ public class PlayerController : MonoBehaviour
     {
         if (hasSpell) // CAST
         {
-            SpellType type = spellInfo.spellType;
+            SpellType type = spellInfo.spellType; //SpellType.PROJECTILE; //spellInfo.spellType;
 
-            if(type == SpellType.AREA)
+            if (type == SpellType.AREA)
             {
                 if (Input.GetButtonDown("Cast " + playerID.ToString()))
                 {
@@ -350,7 +342,7 @@ public class PlayerController : MonoBehaviour
             }
             else if (type == SpellType.PROJECTILE)
             {
-                if(Input.GetButton("Cast " + playerID.ToString()))
+                if (Input.GetButton("Cast " + playerID.ToString()))
                 {
                     aimArrow.gameObject.SetActive(true);
                     isCasting = true;
@@ -359,7 +351,7 @@ public class PlayerController : MonoBehaviour
                     aimArrow.rotation = transform.rotation;
                 }
 
-                if(Input.GetButtonUp("Cast " + playerID.ToString()))
+                if (Input.GetButtonUp("Cast " + playerID.ToString()))
                 {
                     anim.SetBool("castedProjectileMagic", true);
                     inSpellAnim = true;
@@ -410,56 +402,7 @@ public class PlayerController : MonoBehaviour
     void Animate()
     {
         if (transform.position != previousPosition)
-        {
-            SetAnimationActive("isMovingForward");
-
-            //Vector3 val = transform.position - previousPosition;
-
-            //Vector3 moveVector = Vector3.Normalize(transform.position - previousPosition);
-            //float angle = Vector3.Angle(transform.forward, moveVector);
-
-            //// RUNNING FORWARD
-            //if (angle < 30.0f)
-
-
-            //// RUNNING FORWARD DIAGONAL
-            //else if (angle >= 30 && angle < 60)
-            //{
-            //    float sidewaysAngle = Vector3.Angle(transform.right, moveVector);
-
-            //    // RUN FORWARD RIGHT
-            //    if (sidewaysAngle < 90.0f)
-            //        SetAnimationActive("isMovingForwardRight");
-            //    else
-            //        SetAnimationActive("isMovingForwardLeft");
-            //}
-            //// STRAFING
-            //else if (angle >= 60 && angle <= 120)
-            //{
-            //    float sidewaysAngle = Vector3.Angle(transform.right, moveVector);
-
-            //    // STRAFING RIGHT
-            //    if (sidewaysAngle < 90.0f)
-            //        SetAnimationActive("isStrafingRight");
-            //    // STRAFING LEFT
-            //    else
-            //        SetAnimationActive("isStrafingLeft");
-            //}
-            //// RUNNING BACKWARD DIAGONAL
-            //else if (angle > 120 && angle <= 150)
-            //{
-            //    float sidewaysAngle = Vector3.Angle(transform.right, moveVector);
-
-            //    // RUNNING BACKWARD 
-            //    if (sidewaysAngle < 90.0f)
-            //        SetAnimationActive("isMovingBackwardRight");
-            //    else
-            //        SetAnimationActive("isMovingBackwardLeft");
-            //}
-            //// RUNNING BACKWARD
-            //else if (angle > 150)
-            //    SetAnimationActive("isMovingBackward");
-        }
+            anim.SetBool("isMovingForward", true);
         else
             ResetAnimationToIdle();
     }
@@ -481,27 +424,6 @@ public class PlayerController : MonoBehaviour
             anim.SetBool(animStates[i], false);
     }
 
-    void ControllerConnectionCheck()
-    {
-        if (controllerConnectionCheckTimer >= controllerConnectionCheckDelay)
-        {
-            if (Input.GetJoystickNames().Length > playerID - 1)
-            {
-                if (!(Input.GetJoystickNames()[playerID - 1] == ""))
-                {
-                    if (Input.GetJoystickNames()[playerID - 1].Contains("Xbox"))
-                        controllerType = "Xbox";
-                    else
-                        controllerType = "PS";
-                }
-            }
-
-            controllerConnectionCheckTimer = 0.0f;
-        }
-        else
-            controllerConnectionCheckTimer += Time.deltaTime;
-    }
-
     void InTriggerRangeAction()
     {
         Ingredient collidingIngredient = collidingObject.GetComponent<Ingredient>();
@@ -515,6 +437,8 @@ public class PlayerController : MonoBehaviour
                 carryingIngredient.SetTarget(carryingLocation);
 
                 inTriggerRange = false;
+                collidingIngredient.SetInputInfoState(false);
+
                 collidingObject = null;
             }
         }
@@ -537,6 +461,7 @@ public class PlayerController : MonoBehaviour
                     collidingObject = null;
                 }
             }
+
         }
     }
 
@@ -556,7 +481,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(!hasSpell) // Can only interact with ingredients and cauldron if player doesn't have a spell
+        if (!hasSpell) // Can only interact with ingredients and cauldron if player doesn't have a spell
         {
             Ingredient collidingIngredient = other.gameObject.GetComponent<Ingredient>();
 
@@ -573,8 +498,40 @@ public class PlayerController : MonoBehaviour
     {
         if (collidingObject != null)
         {
-            inTriggerRange = false;
-            collidingObject = null;
+            if(other.gameObject == collidingObject)
+            {
+                inTriggerRange = false;
+                collidingObject = null;
+            }
+        }
+    }
+
+    IEnumerator ControllerCheck()
+    {
+        while (true)
+        {
+            int controllerNum = 0;
+
+            for (int i = 0; i < Input.GetJoystickNames().Length; i++)
+            {
+                if (!(Input.GetJoystickNames()[i] == ""))
+                {
+                    ++controllerNum;
+
+                    if (controllerNum == playerID)
+                    {
+                        if (Input.GetJoystickNames()[i].ToLower().Contains("xbox"))
+                            controllerType = "Xbox";
+                        else
+                            controllerType = "PS";
+
+                        break;
+                    }
+
+                }
+            }
+
+            yield return new WaitForSeconds(3);
         }
     }
 }

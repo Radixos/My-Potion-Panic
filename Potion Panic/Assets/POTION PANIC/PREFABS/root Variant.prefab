@@ -27,7 +27,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.6
+  m_Radius: 0.4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4386828283577255384
 MonoBehaviour:
@@ -321,6 +321,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f985ca83812c5f24dafeb6a4dc0b7b16, type: 3}
       propertyPath: m_Name
       value: root Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f985ca83812c5f24dafeb6a4dc0b7b16, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f985ca83812c5f24dafeb6a4dc0b7b16, type: 3}
+      propertyPath: m_TagString
+      value: Ingredient
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: f985ca83812c5f24dafeb6a4dc0b7b16, type: 3}
       propertyPath: m_LocalScale.x

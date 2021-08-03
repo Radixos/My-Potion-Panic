@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poolingObject: {fileID: 6987742897132379543, guid: 82f8113ca0375c442a47b9c988128650, type: 3}
-  poolingAmount: 10
+  poolingAmount: 1

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7056478711256661148}
   - component: {fileID: 8966759073942013562}
   - component: {fileID: 2306520611646982918}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Input Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.27
+  m_Radius: 0.4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1267122513714977943
 MonoBehaviour:
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 7341639083747002264}
   - component: {fileID: 1835562712253028146}
   - component: {fileID: 3654449851227915918}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Command
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,6 +270,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2914170876670673032}
     m_Modifications:
+    - target: {fileID: 2082404865986944265, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944266, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -371,6 +375,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cold dragon scale variant
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a978274e3267e243864c5ce275f2dc5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a978274e3267e243864c5ce275f2dc5, type: 3}
+      propertyPath: m_TagString
+      value: Ingredient
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 2a978274e3267e243864c5ce275f2dc5, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -378,6 +390,14 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: 2a978274e3267e243864c5ce275f2dc5, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 2a978274e3267e243864c5ce275f2dc5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 2a978274e3267e243864c5ce275f2dc5, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a978274e3267e243864c5ce275f2dc5, type: 3}

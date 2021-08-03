@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eb143503c3cf5ba4980ddb9455bca756, type: 2}
+  - {fileID: 2100000, guid: 66f22d43f902b804885a0cee7159934c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 6169548726596305040}
   - component: {fileID: 4213031418832300604}
   m_Layer: 0
-  m_Name: Red Volcanic Blast
+  m_Name: Yellow Volcanic Blast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

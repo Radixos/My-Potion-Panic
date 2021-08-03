@@ -11,11 +11,13 @@ public class Ingredient : MonoBehaviour
     public GameObject inputInfo;
 
     public BoxCollider boxCollider;
+    private LayerMask groundLayer;
 
     // Start is called before the first frame update
-    //void Start()
-    //{
-    //}
+    void Start()
+    {
+        groundLayer = 1 << 0;
+    }
 
     // Update is called once per frame
     void Update()
@@ -36,6 +38,16 @@ public class Ingredient : MonoBehaviour
                 }
                 else
                     transform.parent.gameObject.GetComponent<PlayerController>().holdIngredient = true;
+            }
+        }
+        else
+        {
+            if (boxCollider.enabled) // A hack to know that it's not going to cauldron
+            {
+                if (Physics.Raycast(boxCollider.gameObject.transform.position, -Vector3.up, 0.5f, groundLayer))
+                    GetComponent<SphereCollider>().enabled = true;
+                else
+                    GetComponent<SphereCollider>().enabled = false;
             }
         }
     }
@@ -61,12 +73,7 @@ public class Ingredient : MonoBehaviour
             {
                 SetInputInfoState(true);
             }
-
-            //if (onGround)
-                //GetComponent<BoxCollider>().enabled = false;
-            //GetComponent<Rigidbody>().useGravity = false;
         }
-
     }
 
     private void OnTriggerExit(Collider other)
@@ -74,18 +81,11 @@ public class Ingredient : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             SetInputInfoState(false);
-
-            //if (onGround)
-                //GetComponent<BoxCollider>().enabled = true;
-            //GetComponent<Rigidbody>().useGravity = true;
         }
     }
 
-    void SetInputInfoState(bool state)
+    public void SetInputInfoState(bool state)
     {
-        //if (transform.rotation.y != 0)
-        //transform.rotation = Quaternion.Euler(transform.rotation.x, 0, transform.rotation.z);
-
         inputInfo.SetActive(state);
     }
 }

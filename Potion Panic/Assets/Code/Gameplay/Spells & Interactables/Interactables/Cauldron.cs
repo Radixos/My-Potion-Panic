@@ -166,7 +166,7 @@ public class Cauldron : MonoBehaviour
         }
     }
 
-    void SetInputInfoState(bool state)
+    public void SetInputInfoState(bool state)
     {
         inputInfo.SetActive(state);
     }

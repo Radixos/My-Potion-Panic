@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
-    public List<PlayerController> players;
+    public List<PlayerController> players = new List<PlayerController>();
+    public bool levelEstablished;
 
     public Transform[] spawnPoints;
 
@@ -16,45 +19,30 @@ public class PlayerManager : MonoBehaviour
     public event OnMatchCompleted OnMatchCompletedEvent;
     private bool matchCompleted;
 
+    // UI
+    private string victoryText;
+    public Text victoryBanner;
+
+    private float restartTimer;
+    public Text restartTimerObj;
+
     // Start is called before the first frame update
     void Start()
     {
         spawnDelay = 4.0f;
+        restartTimer = 5.0f;
 
-        for(int i = 0; i < players.Count; i++)
-            spawnTimers.Add(0.0f);
-        
+        EstablishLevel();
+
+        StartCoroutine(ManagePlayers());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!matchCompleted)
+        if (!matchCompleted)
         {
-            // Check who has won
-            for (int i = 0; i < players.Count; i++)
-            {
-                if (players[i].kills >= 3)
-                {
-                    OnMatchCompletedEvent?.Invoke();
-                    Debug.Log("Player " + (i + 1) + " wins!");
-                    matchCompleted = true;
-                    break;
-                }
-
-            }
-
-            // Remove player from play area
-            for (int i = 0; i < players.Count; i++)
-            {
-                if (players[i].health <= 0 && !players[i].isDead)
-                {
-                    players[i].gameObject.SetActive(false);
-                    players[i].isDead = true;
-                }
-            }
-
-            // Spawn player at spawn point after few seconds
+            // Spawn player at spawn point after a few seconds
             for (int i = 0; i < players.Count; i++)
             {
                 if (players[i].isDead)
@@ -73,6 +61,92 @@ public class PlayerManager : MonoBehaviour
                 }
             }
         }
-        
+        else
+        {
+            //victoryBanner.transform.parent.gameObject.SetActive(true);
+
+            victoryBanner.text = victoryText;
+
+            restartTimer -= Time.deltaTime;
+
+            restartTimerObj.text = "Restarting in " + Mathf.RoundToInt(restartTimer).ToString() + "...";
+
+            if (restartTimer <= 0)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+
+    }
+
+    private void EstablishLevel()
+    {
+        int activePlayers = 0;
+
+        for (int i = 0; i < Input.GetJoystickNames().Length; i++)
+        {
+            if (!(Input.GetJoystickNames()[i] == ""))
+            {
+                activePlayers++;
+            }
+        }
+
+        if (activePlayers < 4) // Removing non-active players from game
+        {
+            for (int i = activePlayers + 1; i <= 4; i++)
+            {
+                Destroy(GameObject.Find("Player " + i.ToString() + " Info"));
+                Destroy(GameObject.Find("Player " + i.ToString() + " Cauldron"));
+                Destroy(GameObject.Find("Player " + i.ToString() + " Arrow Pool"));
+                Destroy(GameObject.Find("Player " + i.ToString() + " Volcanic Blast Pool"));
+                Destroy(GameObject.Find("Player " + i.ToString()));
+            }
+        }
+
+        for(int i = 1; i <= activePlayers; i++)
+        {
+            players.Add(GameObject.Find("Player " + i).GetComponent<PlayerController>());
+        }
+
+        for (int i = 0; i < players.Count; i++)
+            spawnTimers.Add(0.0f);
+
+        levelEstablished = true;
+
+    }
+
+    private IEnumerator ManagePlayers()
+    {
+        while (true)
+        {
+            if (!matchCompleted)
+            {
+                for (int i = 0; i < players.Count; i++)
+                {
+                    if (players[i].kills >= 3)
+                    {
+                        OnMatchCompletedEvent?.Invoke();
+                        //Debug.Log("Player " + (i + 1) + " wins!");
+                        victoryText = "Player " + (i + 1) + " Wins!";
+                        matchCompleted = true;
+                    }
+
+                    if (players[i].health <= 0 && !players[i].isDead)
+                    {
+                        players[i].gameObject.SetActive(false);
+                        players[i].isDead = true;
+                    }
+
+                    if (matchCompleted)
+                        break;
+                }
+            }
+
+            yield return new WaitForEndOfFrame();
+        }
     }
 }

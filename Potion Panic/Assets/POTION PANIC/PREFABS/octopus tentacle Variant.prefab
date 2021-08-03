@@ -27,7 +27,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.45
+  m_Radius: 0.4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3014385110793338955
 MonoBehaviour:
@@ -321,6 +321,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9631d571605e6e5418873bd2b1ec0ebd, type: 3}
       propertyPath: m_Name
       value: octopus tentacle Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9631d571605e6e5418873bd2b1ec0ebd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9631d571605e6e5418873bd2b1ec0ebd, type: 3}
+      propertyPath: m_TagString
+      value: Ingredient
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 9631d571605e6e5418873bd2b1ec0ebd, type: 3}
       propertyPath: m_LocalScale.x
