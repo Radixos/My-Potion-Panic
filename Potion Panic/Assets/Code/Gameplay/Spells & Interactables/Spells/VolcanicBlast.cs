@@ -34,9 +34,11 @@ public class VolcanicBlast : SpellBehaviour
 
             for (int i = 0; i < enemies.Length; i++)
             {
+                float distBetween = Vector3.Distance(transform.position, enemies[i].transform.position);
+
                 // Ignoring caster collider
                 if (enemies[i].gameObject.GetInstanceID() != caster.gameObject.GetInstanceID() &&
-                    !damagedEnemies.Contains(enemies[i].gameObject))
+                    !damagedEnemies.Contains(enemies[i].gameObject) && enemies[i].gameObject.GetComponent<PlayerController>().health > 0)
                 {
                     enemies[i].gameObject.GetComponent<PlayerController>().health -= damage;
 
@@ -48,13 +50,12 @@ public class VolcanicBlast : SpellBehaviour
             }
         }
 
-        blastEffect.transform.localScale = new Vector3(radius * 2, 0.1f, radius * 2);
+        blastEffect.transform.localScale = new Vector3(radius * 1.5f, 0.1f, radius * 1.5f);
 
-        radius += 5 * Time.deltaTime;
+        if (radius < maxRadius) radius += 5 * Time.deltaTime;
 
         if (radius >= maxRadius)
             SpellReset();
-
     }
 
     protected override void SpellReset()
