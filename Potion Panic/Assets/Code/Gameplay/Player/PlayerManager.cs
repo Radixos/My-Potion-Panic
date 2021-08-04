@@ -21,6 +21,7 @@ public class PlayerManager : MonoBehaviour
 
     // UI
     private string victoryText;
+    private Color victoryTextColor;
     public Text victoryBanner;
 
     private float restartTimer;
@@ -30,7 +31,7 @@ public class PlayerManager : MonoBehaviour
     void Start()
     {
         spawnDelay = 4.0f;
-        restartTimer = 5.0f;
+        restartTimer = 6.0f;
 
         EstablishLevel();
 
@@ -66,6 +67,7 @@ public class PlayerManager : MonoBehaviour
             //victoryBanner.transform.parent.gameObject.SetActive(true);
 
             victoryBanner.text = victoryText;
+            victoryBanner.color = victoryTextColor;
 
             restartTimer -= Time.deltaTime;
 
@@ -80,6 +82,9 @@ public class PlayerManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
             Application.Quit();
+
+        if(Input.GetKeyDown(KeyCode.Tab))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
 
@@ -130,8 +135,20 @@ public class PlayerManager : MonoBehaviour
                     if (players[i].kills >= 3)
                     {
                         OnMatchCompletedEvent?.Invoke();
-                        //Debug.Log("Player " + (i + 1) + " wins!");
                         victoryText = "Player " + (i + 1) + " Wins!";
+
+                        switch(i + 1)
+                        {
+                            case 1: victoryTextColor = new Color(0.0f, 0.5f, 1.0f);
+                                break;
+                            case 2: victoryTextColor = Color.red;
+                                break;
+                            case 3: victoryTextColor = Color.green;
+                                break;
+                            case 4: victoryTextColor = Color.yellow;
+                                break;
+                        }
+
                         matchCompleted = true;
                     }
 
@@ -140,9 +157,6 @@ public class PlayerManager : MonoBehaviour
                         players[i].gameObject.SetActive(false);
                         players[i].isDead = true;
                     }
-
-                    if (matchCompleted)
-                        break;
                 }
             }
 
