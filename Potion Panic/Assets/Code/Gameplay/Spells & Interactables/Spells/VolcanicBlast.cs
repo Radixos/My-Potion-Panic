@@ -29,18 +29,19 @@ public class VolcanicBlast : SpellBehaviour
         if (enemies.Length > 0)
         {
             float damage = 0;
-            // Dealing damage based on distance from the cast position
-            // Adding 0.35 value to cause some overload 
+
+            // Dealing max damage if enemies are within half the max blast radius
             if (radius <= 0.5 * maxRadius)
                 damage = baseDamage;
-            else
+            else // Dealing damage based on distance from the cast position
                 damage = baseDamage - (baseDamage * radius / maxRadius);
 
             for (int i = 0; i < enemies.Length; i++)
             {
                 // Ignoring caster collider
                 if (enemies[i].gameObject.GetInstanceID() != caster.gameObject.GetInstanceID() &&
-                    !damagedEnemies.Contains(enemies[i].gameObject))
+                    !damagedEnemies.Contains(enemies[i].gameObject) &&
+                    !enemies[i].gameObject.GetComponent<PlayerController>().isBlinking)
                 {
                     enemies[i].gameObject.GetComponent<PlayerController>().health -= damage;
 
