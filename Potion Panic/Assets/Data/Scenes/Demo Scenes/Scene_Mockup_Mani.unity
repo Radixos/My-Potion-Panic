@@ -773,6 +773,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.792
       objectReference: {fileID: 0}
+    - target: {fileID: 1398519271961928444, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.603
+      objectReference: {fileID: 0}
     - target: {fileID: 2799176694090941860, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.14
@@ -780,6 +784,14 @@ PrefabInstance:
     - target: {fileID: 2799176694090941860, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+      propertyPath: cauldronOwner
+      value: 
+      objectReference: {fileID: 1667070122}
+    - target: {fileID: 4887578199384711400, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6978702856132501971, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1658,6 +1670,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1585027552}
     m_Modifications:
+    - target: {fileID: 2644204629334841050, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
+      propertyPath: poolingObject
+      value: 
+      objectReference: {fileID: 6987742897132379543, guid: 5a22aa365dafe634b9eb7265ee4a4f6c, type: 3}
     - target: {fileID: 3495801623717435429, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: m_Name
       value: Player 1 Volcanic Blast Pool
@@ -2688,6 +2704,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673104878}
   m_Mesh: {fileID: 4300002, guid: e78d898eb2f8c4044a6ad29bc1a87658, type: 3}
+--- !u!114 &691165210 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+  m_PrefabInstance: {fileID: 1304393114}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &703825062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5118,6 +5145,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.75
       objectReference: {fileID: 0}
+    - target: {fileID: 1398519271961928444, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.603
+      objectReference: {fileID: 0}
     - target: {fileID: 2799176694090941860, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.205
@@ -5125,6 +5156,14 @@ PrefabInstance:
     - target: {fileID: 2799176694090941860, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.156
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+      propertyPath: cauldronOwner
+      value: 
+      objectReference: {fileID: 691165210}
+    - target: {fileID: 4887578199384711400, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6978702856132501971, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6687,6 +6726,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650710540}
   m_CullTransparentMesh: 1
+--- !u!114 &1667070122 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+  m_PrefabInstance: {fileID: 723074501}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1714685174 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4480083285837352, guid: 1e58e3c5035624042aae44b75036e67a, type: 3}
@@ -8046,11 +8096,11 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   ingredients:
-  - {fileID: 2538594590375467570, guid: 4d6553c530b0cf44098e275a13a94824, type: 3}
   - {fileID: 1190935073731639397, guid: dd45652b834f16146aaad9a4564ef2a4, type: 3}
-  - {fileID: 7150238717367251573, guid: 9b4d1081b6f0f134189ea6cc449d978c, type: 3}
   - {fileID: 987424095258822779, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
   - {fileID: 5022789680773796988, guid: d48e68b305d56ad409ae09bf976293ef, type: 3}
+  - {fileID: 7150238717367251573, guid: 9b4d1081b6f0f134189ea6cc449d978c, type: 3}
+  - {fileID: 2538594590375467570, guid: 4d6553c530b0cf44098e275a13a94824, type: 3}
   - {fileID: 933925692470941614, guid: 28ada53b6e9a2b44d9a262f8649e4087, type: 3}
 --- !u!224 &2049601751 stripped
 RectTransform:

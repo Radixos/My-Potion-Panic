@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("-Core-")]
     public float speed;
+    private float speedMultiplier;
     public float health;
     public const float maxHealth = 100.0f;
     public bool isDead;
@@ -69,6 +70,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         health = 100.0f;
+        speedMultiplier = 1.0f;
 
         controllerConnectionCheckDelay = 3.0f;
         controllerConnectionCheckTimer = controllerConnectionCheckDelay;
@@ -91,7 +93,7 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(ControllerCheck());
 
         //hasSpell = true;
-        //spellPool = GameObject.Find("Player " + playerID.ToString() + " Arrow Pool").GetComponent<ObjectPool>();
+        //spellPool = GameObject.Find("Player " + playerID.ToString() + " Volcanic Blast Pool").GetComponent<ObjectPool>();
         //spellUses = 100;
     }
 
@@ -115,32 +117,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Post Death Functions
-        if (health <= 0)
-        {
-            if (carryingIngredient != null)
-            {
-                carryingIngredient.transform.parent = null;
-                carryingIngredient.SetKeyElementsState(true);
-                holdIngredient = false;
-                carryingIngredient = null;
-                collidingObject = null;
-            }
-
-            isPushed = false;
-            newPushLocation = Vector3.zero;
-            pushDelay = 2.0f;
-            pushDistance = 0.0f;
-
-            inSpellAnim = false;
-            isCasting = false;
-            spellCasted = false;
-
-            ResetAnimationToIdle();
-
-            return;
-        }
-
         if (isPushed)
         {
             float dist = Vector3.Distance(transform.position, newPushLocation);
@@ -280,7 +256,7 @@ public class PlayerController : MonoBehaviour
 
         if (magnitude > deadZone)
         {
-            Vector3 newPosition = transform.position + dir.normalized * Time.deltaTime * speed;
+            Vector3 newPosition = transform.position + dir.normalized * Time.deltaTime * speed * speedMultiplier;
             NavMeshHit hit;
             bool isValid = NavMesh.SamplePosition(newPosition, out hit, 0.3f, NavMesh.AllAreas);
 
@@ -304,7 +280,11 @@ public class PlayerController : MonoBehaviour
             carryingIngredient.transform.position = carryingLocation.position;
             carryingIngredient.transform.rotation = Quaternion.Euler(carryingIngredient.transform.rotation.x,
                 0, carryingIngredient.transform.rotation.z);
+
+            speedMultiplier = 0.75f;
         }
+        else
+            speedMultiplier = 1.0f;
 
     }
 
@@ -326,7 +306,7 @@ public class PlayerController : MonoBehaviour
     {
         if (hasSpell) // CAST
         {
-            SpellType type = spellInfo.spellType; //SpellType.PROJECTILE; //spellInfo.spellType;
+            SpellType type = spellInfo.spellType; //SpellType.AREA;
 
             if (type == SpellType.AREA)
             {
@@ -477,6 +457,30 @@ public class PlayerController : MonoBehaviour
         isPushed = true;
         newPushLocation = transform.position + (dir * pushDist);
         pushDistance = pushDist;
+        ResetAnimationToIdle();
+    }
+
+    public void PlayerReset()
+    {
+        if (carryingIngredient != null)
+        {
+            carryingIngredient.transform.parent = null;
+            carryingIngredient.SetKeyElementsState(true);
+            holdIngredient = false;
+            carryingIngredient = null;
+            collidingObject = null;
+        }
+
+        isPushed = false;
+        newPushLocation = Vector3.zero;
+        pushDelay = 2.0f;
+        pushDistance = 0.0f;
+
+        inSpellAnim = false;
+        isCasting = false;
+        spellCasted = false;
+
+        ResetAnimationToIdle();
     }
 
     private void OnTriggerEnter(Collider other)

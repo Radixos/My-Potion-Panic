@@ -69,7 +69,8 @@ public class Ingredient : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (other.gameObject.GetComponent<PlayerController>().carryingIngredient == null)
+            if (other.gameObject.GetComponent<PlayerController>().carryingIngredient == null &&
+                !other.gameObject.GetComponent<PlayerController>().hasSpell)
             {
                 SetInputInfoState(true);
             }

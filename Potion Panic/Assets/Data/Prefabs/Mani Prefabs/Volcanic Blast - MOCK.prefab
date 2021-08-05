@@ -64,7 +64,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 659066416939313797, guid: a0278b5f20cb62a4188c1da4f8d8f5b0, type: 3}
       propertyPath: looping
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 659066416939313797, guid: a0278b5f20cb62a4188c1da4f8d8f5b0, type: 3}
       propertyPath: lengthInSec
@@ -236,7 +236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 659066418515605384, guid: a0278b5f20cb62a4188c1da4f8d8f5b0, type: 3}
       propertyPath: looping
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 659066418515605384, guid: a0278b5f20cb62a4188c1da4f8d8f5b0, type: 3}
       propertyPath: lengthInSec
