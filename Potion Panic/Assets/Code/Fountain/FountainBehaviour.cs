@@ -46,7 +46,7 @@ public class FountainBehaviour : MonoBehaviour
                     Vector3 cloneCenter = clone.transform.position;
 
                     float privateRotation = 70f;    //between 1f and 89f
-                    float dragDown = 10f;           //"speed"
+                    float dragDown = 30f;           //"speed"
 
                     // Calculate distance to target
                     float target_Distance = Vector3.Distance(cloneCenter, pos);

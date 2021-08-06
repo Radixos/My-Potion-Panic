@@ -84,8 +84,8 @@ public class PlayerController : MonoBehaviour
         animStates.Add("castedAreaMagic");
         animStates.Add("castedProjectileMagic");
 
-        //myCauldron.OnSuccessEvent += MyCauldron_OnSuccessEvent;
-        //myCauldron.OnFailureEvent += MyCauldron_OnFailureEvent;
+        myCauldron.OnSuccessEvent += MyCauldron_OnSuccessEvent;
+        myCauldron.OnFailureEvent += MyCauldron_OnFailureEvent;
 
         playerLayer = 1 << 6;
         pushDelay = 2.0f;
