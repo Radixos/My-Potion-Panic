@@ -3108,3 +3108,4 @@ Received Import Request.
 Start importing Assets/Data/Art/Custom Assets/HDRI/studio_small_06_4k.hdr using Guid(8e2c6fded98f1b74a9aadd042b5c8400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3516ea32a1f0b6de41de4a187a19e49d') in 0.053288 seconds
   Import took 0.093049 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
