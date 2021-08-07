@@ -1,0 +1,1264 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60198
+Successfully changed project path to: D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
+D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 224.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6172
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004534 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 188.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.705 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 222.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.859 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.1 MB.
+System memory in use after: 153.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3673.
+Total: 3.107100 ms (FindLiveObjects: 0.329000 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.496300 ms  DeleteObjects: 0.129300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast - MOCK.prefab
+  artifactKey: Guid(5a22aa365dafe634b9eb7265ee4a4f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast - MOCK.prefab using Guid(5a22aa365dafe634b9eb7265ee4a4f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44b1595bd70095427352e3a44eae3b1') in 0.402971 seconds
+  Import took 0.410190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Data/Prefabs/Yellow Volcanic Blast.prefab
+  artifactKey: Guid(32718552618112540a0367a9950abad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Yellow Volcanic Blast.prefab using Guid(32718552618112540a0367a9950abad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d03f64f841412cecda33b02c79300b') in 0.025944 seconds
+  Import took 0.034325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.471593 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast - MOCK 1.prefab
+  artifactKey: Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast - MOCK 1.prefab using Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab0d42c5254681c94c80571930d1e54') in 0.050358 seconds
+  Import took 0.057455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.733431 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Blue Volcanic Blast.prefab
+  artifactKey: Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Blue Volcanic Blast.prefab using Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c774f53a44ad87dac88885579424a946') in 0.035461 seconds
+  Import took 0.043204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.616005 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Blue Volcanic Blast VFX.prefab
+  artifactKey: Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Blue Volcanic Blast VFX.prefab using Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa0ae2310ea07cd785c94389c2b2d9c') in 0.036700 seconds
+  Import took 0.044352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.565142 seconds.
+  path: Assets/Materials/Player Rings
+  artifactKey: Guid(4c93e65c4d42eb04aa3053adcfaf668a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player Rings using Guid(4c93e65c4d42eb04aa3053adcfaf668a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1720f611aa22ef4de3e6ec69c272db') in 0.011228 seconds
+  Import took 0.020810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009242 seconds.
+  path: Assets/Materials/Player Rings
+  artifactKey: Guid(4c93e65c4d42eb04aa3053adcfaf668a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player Rings using Guid(4c93e65c4d42eb04aa3053adcfaf668a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1720f611aa22ef4de3e6ec69c272db') in 0.003303 seconds
+  Import took 0.011105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.375058 seconds.
+  path: Assets/Materials/BlastUnlitGraph.shadergraph
+  artifactKey: Guid(6698bf80d4a536e428b4dbf43d829dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlastUnlitGraph.shadergraph using Guid(6698bf80d4a536e428b4dbf43d829dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd4a15b3259786a92f25ba2e358203') in 0.013012 seconds
+  Import took 0.019713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018417 seconds.
+  path: Assets/Materials/BlastUnlitGraph.shadergraph
+  artifactKey: Guid(6698bf80d4a536e428b4dbf43d829dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlastUnlitGraph.shadergraph using Guid(6698bf80d4a536e428b4dbf43d829dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cd4a15b3259786a92f25ba2e358203') in 0.005836 seconds
+  Import took 0.014000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.533441 seconds.
+  path: Assets/Data/Art/3D/VFX/NukeMesh01.fbx
+  artifactKey: Guid(cbeb2d301f483144f83949fd4b5d430e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/VFX/NukeMesh01.fbx using Guid(cbeb2d301f483144f83949fd4b5d430e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e69577acda2e7ad81bb180a6f6873a') in 0.170313 seconds
+  Import took 0.178367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786397 seconds.
+  path: Assets/Data/Art/2D/Materials/VolcanicAfterEffect.mat
+  artifactKey: Guid(228ebeb48bdbddb4b8858eb077e8e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/2D/Materials/VolcanicAfterEffect.mat using Guid(228ebeb48bdbddb4b8858eb077e8e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9203424ce6c83779ba740abb238e8e5') in 0.063641 seconds
+  Import took 0.071713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.358709 seconds.
+  path: Assets/Materials/UI
+  artifactKey: Guid(1d9b8d79dd06b9d45a8576cf1b1bc7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI using Guid(1d9b8d79dd06b9d45a8576cf1b1bc7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e50534ce24427d19849d0affac9711e') in 0.018342 seconds
+  Import took 0.027349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001691 seconds.
+  path: Assets/Materials/UI
+  artifactKey: Guid(1d9b8d79dd06b9d45a8576cf1b1bc7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI using Guid(1d9b8d79dd06b9d45a8576cf1b1bc7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e50534ce24427d19849d0affac9711e') in 0.003152 seconds
+  Import took 0.010710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.424050 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast
+  artifactKey: Guid(45f08fda6529eb64da20eb7f06d33157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast using Guid(45f08fda6529eb64da20eb7f06d33157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1135415711e61f541235d45e9192b88') in 0.015409 seconds
+  Import took 0.027988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000979 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast
+  artifactKey: Guid(45f08fda6529eb64da20eb7f06d33157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast using Guid(45f08fda6529eb64da20eb7f06d33157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1135415711e61f541235d45e9192b88') in 0.003282 seconds
+  Import took 0.012474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 359.106232 seconds.
+  path: Assets/Data/Art/Custom/Blockout_Env/Blockout_OBJ.obj
+  artifactKey: Guid(1fb5f592c4d89b94eb4778a5cba2ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom/Blockout_Env/Blockout_OBJ.obj using Guid(1fb5f592c4d89b94eb4778a5cba2ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204e578df3bed304d17e5539ca23605a') in 7.032337 seconds
+  Import took 7.050327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.875880 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Blockout_OBJ.obj
+  artifactKey: Guid(5561579ee65931c44afa98aa4568f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Blockout_OBJ.obj using Guid(5561579ee65931c44afa98aa4568f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8e5dbc0a5a81120c6f97677518330a') in 6.888904 seconds
+  Import took 6.907613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Wood/Wood_Material.mat
+  artifactKey: Guid(8b443f1315871114da0b188036eae612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Wood/Wood_Material.mat using Guid(8b443f1315871114da0b188036eae612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91620d4b81d0908272df4c258a09f75e') in 0.177849 seconds
+  Import took 0.186643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/Window/Window.mat
+  artifactKey: Guid(22d266d098067c24fbb183021859260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/Window/Window.mat using Guid(22d266d098067c24fbb183021859260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f54886b19f77acc8ed214da8328f686') in 0.093288 seconds
+  Import took 0.101289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast/Yellow AfterMat.mat
+  artifactKey: Guid(85824a5d4260e3a4a86c0e9097411f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast/Yellow AfterMat.mat using Guid(85824a5d4260e3a4a86c0e9097411f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7454dcffda7d526c2904284e2de3752') in 0.024475 seconds
+  Import took 0.033029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast/Yellow BlastMat.mat
+  artifactKey: Guid(0d3de641bf132f247a800f960b1811fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast/Yellow BlastMat.mat using Guid(0d3de641bf132f247a800f960b1811fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ef79f7ad48acc3fec6d3733026fa55') in 0.016423 seconds
+  Import took 0.026589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Cauldron/Wood/Wood.mat
+  artifactKey: Guid(f212834e485c3114297343807596b0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Cauldron/Wood/Wood.mat using Guid(f212834e485c3114297343807596b0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07999036a52413d2e61799969619baa4') in 0.075205 seconds
+  Import took 0.085627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Desk/Wood/Wood2.mat
+  artifactKey: Guid(621fa21071098cf4188ee3683a454b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Desk/Wood/Wood2.mat using Guid(621fa21071098cf4188ee3683a454b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c88dbf7d5aa932abbd23601b73a6f39') in 0.087413 seconds
+  Import took 0.095397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Materials/Yellow Volcanic Blast.mat
+  artifactKey: Guid(66f22d43f902b804885a0cee7159934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Yellow Volcanic Blast.mat using Guid(66f22d43f902b804885a0cee7159934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d202889f4b8f1d3846d8fbc17a073a9') in 0.016728 seconds
+  Import took 0.025796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Materials/Player Rings/Yellow Player Ring.mat
+  artifactKey: Guid(aa45e531c1e897b40bddbbe120f85bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player Rings/Yellow Player Ring.mat using Guid(aa45e531c1e897b40bddbbe120f85bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5574e387b981434c457731f85889c6') in 0.016586 seconds
+  Import took 0.025427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Materials/UI/White-Arrow.mat
+  artifactKey: Guid(d8776bb26a432704c84d270de03d65fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/White-Arrow.mat using Guid(d8776bb26a432704c84d270de03d65fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd7581eaf0b7b18e449ba48c9738ec2') in 0.017118 seconds
+  Import took 0.024795 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.370 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.2 MB.
+System memory in use after: 154.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3758.
+Total: 3.519700 ms (FindLiveObjects: 0.388100 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.918700 ms  DeleteObjects: 0.060300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 660.696431 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Blue Volcanic Blast VFX.prefab
+  artifactKey: Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Blue Volcanic Blast VFX.prefab using Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154b9ff1d4dabd0cd9a4a44da5084b5f') in 0.268514 seconds
+  Import took 0.276792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.405189 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Blue Volcanic Blast VFX 1.prefab
+  artifactKey: Guid(ff65ed6ace10b4a4689fefbc4ce44ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Blue Volcanic Blast VFX 1.prefab using Guid(ff65ed6ace10b4a4689fefbc4ce44ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39e24e17c2ff32895bd75a9e2b7b32d') in 0.021781 seconds
+  Import took 0.029825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.013507 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Red Volcanic Blast VFX.prefab
+  artifactKey: Guid(ff65ed6ace10b4a4689fefbc4ce44ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Red Volcanic Blast VFX.prefab using Guid(ff65ed6ace10b4a4689fefbc4ce44ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eac93b9fc983a96e3e32f79871cdeac') in 0.025136 seconds
+  Import took 0.032719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.159410 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/BlankGrey.mat
+  artifactKey: Guid(b77681db7b346124997c89d65bc88f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/BlankGrey.mat using Guid(b77681db7b346124997c89d65bc88f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5dca8587f62561496e2145b70e1b0a') in 0.083438 seconds
+  Import took 0.091423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Brick/Brick.mat
+  artifactKey: Guid(9553e430aa0cb6746b231230a84886b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Brick/Brick.mat using Guid(9553e430aa0cb6746b231230a84886b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73df10125fed0d07289b9b59902bae19') in 0.067124 seconds
+  Import took 0.075065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Bookshelf/bookshelf.mat
+  artifactKey: Guid(251bf7002d470bb4babd853b371b6c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Bookshelf/bookshelf.mat using Guid(251bf7002d470bb4babd853b371b6c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e663976bc9b8fc20999f012e65938006') in 0.093811 seconds
+  Import took 0.107524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/BlankGrey.mat
+  artifactKey: Guid(b77681db7b346124997c89d65bc88f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/BlankGrey.mat using Guid(b77681db7b346124997c89d65bc88f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5dca8587f62561496e2145b70e1b0a') in 0.015555 seconds
+  Import took 0.025219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast/Blue AfterMat.mat
+  artifactKey: Guid(2274f71ae9cea3a48b831d2b95b31c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast/Blue AfterMat.mat using Guid(2274f71ae9cea3a48b831d2b95b31c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a12ee353457e1964c812e5f5f76826') in 0.019269 seconds
+  Import took 0.026810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Materials/Blue Volcanic Blast.mat
+  artifactKey: Guid(3164d1f3422b004448bd8e9e3b86ea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue Volcanic Blast.mat using Guid(3164d1f3422b004448bd8e9e3b86ea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4708168d4621fa08f3f56616aa952316') in 0.023067 seconds
+  Import took 0.030797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/POTION PANIC/Decor/book1/book1.mat
+  artifactKey: Guid(d7deb9c7181ca804abeeeeee99fdba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/book1/book1.mat using Guid(d7deb9c7181ca804abeeeeee99fdba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47177cbf06ae635948c38ee54d77bae7') in 0.114153 seconds
+  Import took 0.121810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Materials/Player Rings/Blue Player Ring.mat
+  artifactKey: Guid(15b7ada969689b546a3eac3e9608bf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player Rings/Blue Player Ring.mat using Guid(15b7ada969689b546a3eac3e9608bf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2f90823395c6aa68a04a7b7f7e19b0') in 0.016019 seconds
+  Import took 0.023546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/POTION PANIC/Decor/book2/book2.mat
+  artifactKey: Guid(2bad50accad46ff4a96f11c8c3779878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/book2/book2.mat using Guid(2bad50accad46ff4a96f11c8c3779878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d87207afd04ba2e92e23f2107c899d') in 0.092633 seconds
+  Import took 0.099527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast/Blue BlastMat.mat
+  artifactKey: Guid(8723b01e897d273449a1618dae7459cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast/Blue BlastMat.mat using Guid(8723b01e897d273449a1618dae7459cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcb8600e82aafd982c56852baad0a0c') in 0.016497 seconds
+  Import took 0.032167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/POTION PANIC/Decor/book2/book2.mat
+  artifactKey: Guid(2bad50accad46ff4a96f11c8c3779878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/book2/book2.mat using Guid(2bad50accad46ff4a96f11c8c3779878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d87207afd04ba2e92e23f2107c899d') in 0.014809 seconds
+  Import took 0.023863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Cauldron/Stone/Cauldron_Stone.mat
+  artifactKey: Guid(90b4e9b6f7cedc3408dc4bdc5d4563c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Cauldron/Stone/Cauldron_Stone.mat using Guid(90b4e9b6f7cedc3408dc4bdc5d4563c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48feb44c2ef7c536765c16fd010aabae') in 0.065029 seconds
+  Import took 0.074175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/POTION PANIC/Decor/book3/book3.mat
+  artifactKey: Guid(5cc315c81ea2b82449371265806f0819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/Decor/book3/book3.mat using Guid(5cc315c81ea2b82449371265806f0819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98efcd652b0a736fa3ef463dcb7e05ed') in 0.103638 seconds
+  Import took 0.111429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Lantern/Cage/Cage.mat
+  artifactKey: Guid(a26664bb5275d9a4f960f848cedb0231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Lantern/Cage/Cage.mat using Guid(a26664bb5275d9a4f960f848cedb0231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116056309e79769fa7300b9fe092cbd9') in 0.103979 seconds
+  Import took 0.113317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.276302 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast/Green AfterMat.mat
+  artifactKey: Guid(7570639bd452bd34b80df618ec8187b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast/Green AfterMat.mat using Guid(7570639bd452bd34b80df618ec8187b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719920e59bc134283032c99781613280') in 0.014516 seconds
+  Import took 0.022656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Materials/Green Volcanic Blast.mat
+  artifactKey: Guid(34fe82c601046e542a73cc3df10b01de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green Volcanic Blast.mat using Guid(34fe82c601046e542a73cc3df10b01de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95797098091c71c934c6f1fe88c88247') in 0.026243 seconds
+  Import took 0.035838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_03_A.mat
+  artifactKey: Guid(899b963fc9982334da61b5d9484e82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/PolygonDungeonRealms_Mat_03_A.mat using Guid(899b963fc9982334da61b5d9484e82bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a5eacec8975d79db284bbbc206d47d') in 1.674889 seconds
+  Import took 1.686183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Lantern/Screw/Screw.mat
+  artifactKey: Guid(7188983a34f327b4091d8dfe953efb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Lantern/Screw/Screw.mat using Guid(7188983a34f327b4091d8dfe953efb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c1d2f7d2e9deb5505a2e0b481344fc') in 0.080224 seconds
+  Import took 0.088271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast/Red BlastMat.mat
+  artifactKey: Guid(280e77056bdfd6a4393f640d88078d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast/Red BlastMat.mat using Guid(280e77056bdfd6a4393f640d88078d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f099a04ceb6f748712ec330b30c96115') in 0.020641 seconds
+  Import took 0.030529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/POTION PANIC/red tarromine fungi/red tarromine fungi material.mat
+  artifactKey: Guid(e402bc069371a184a8a4f4fcccfc53ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/red tarromine fungi/red tarromine fungi material.mat using Guid(e402bc069371a184a8a4f4fcccfc53ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329fb557aa4fd02916f7bc1a45a09e76') in 0.185101 seconds
+  Import took 0.192236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_03_C.mat
+  artifactKey: Guid(e360ec08a9d429b4b94efb5e005c71ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_03_C.mat using Guid(e360ec08a9d429b4b94efb5e005c71ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b4a681ccaf9d30fa2fe981d461d008') in 0.285111 seconds
+  Import took 0.296254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_01.mat
+  artifactKey: Guid(ff12f95fea14be547980dcb3befc07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/PolygonDungeonRealms_Crystal_01.mat using Guid(ff12f95fea14be547980dcb3befc07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c65c6f3d057068aa44490b16d6c124b') in 0.343912 seconds
+  Import took 0.353244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_03_B.mat
+  artifactKey: Guid(130ecdefde3e5d1498bba318575e4cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Alternates/PolygonDungeonRealms_Mat_03_B.mat using Guid(130ecdefde3e5d1498bba318575e4cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9015f50f306a2b32b7f4b41d1cd110') in 0.303726 seconds
+  Import took 0.315130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast/Red AfterMat.mat
+  artifactKey: Guid(bd77fa0b4dd3f784d9e7895dc1138065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast/Red AfterMat.mat using Guid(bd77fa0b4dd3f784d9e7895dc1138065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c411b2df22228de675f16c02f44c2f9e') in 0.034275 seconds
+  Import took 0.042498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Data/Art/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat
+  artifactKey: Guid(77d08210df254d845885518314593544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat using Guid(77d08210df254d845885518314593544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5929ba93a825973e05240f150e624c') in 0.111575 seconds
+  Import took 0.120045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.391915 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Red Volcanic Blast VFX.prefab
+  artifactKey: Guid(ff65ed6ace10b4a4689fefbc4ce44ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Red Volcanic Blast VFX.prefab using Guid(ff65ed6ace10b4a4689fefbc4ce44ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2612db64d91c491b78a46f59a1cba1db') in 0.059090 seconds
+  Import took 0.067733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.125397 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Red Volcanic Blast VFX 1.prefab
+  artifactKey: Guid(ecabfeaae3bec664ea15220932c328df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Red Volcanic Blast VFX 1.prefab using Guid(ecabfeaae3bec664ea15220932c328df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141400ae83efbb3769efd47685b0032') in 0.024439 seconds
+  Import took 0.033645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.314543 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Green Volcanic Blast VFX.prefab
+  artifactKey: Guid(ecabfeaae3bec664ea15220932c328df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Green Volcanic Blast VFX.prefab using Guid(ecabfeaae3bec664ea15220932c328df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90c4181013be6df02f6ad1561cda40f') in 0.034225 seconds
+  Import took 0.042219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.440417 seconds.
+  path: Assets/Art/Materials/Particles/Projectile_Head_01.mat
+  artifactKey: Guid(7bed2c7f4104eef49a36ed62dbcd3c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Particles/Projectile_Head_01.mat using Guid(7bed2c7f4104eef49a36ed62dbcd3c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea4688e6791d8fd46930cec725b8164') in 0.138164 seconds
+  Import took 0.145118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/SimpleSky_Mat.mat
+  artifactKey: Guid(2dfd8e9e494c2f74286f825fc0cd8112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/SimpleSky_Mat.mat using Guid(2dfd8e9e494c2f74286f825fc0cd8112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73c8f16354ecb409edc26c77d758dce') in 0.153714 seconds
+  Import took 0.159930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_8.mat
+  artifactKey: Guid(6174496d63963904ea1f1abc3da423ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_8.mat using Guid(6174496d63963904ea1f1abc3da423ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94d08ae561556730c9ac089092e06a0') in 0.053274 seconds
+  Import took 0.060505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/SpiderWeb.mat
+  artifactKey: Guid(4776dae064b9f574ea7d2d25294d2a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/SpiderWeb.mat using Guid(4776dae064b9f574ea7d2d25294d2a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93c1bd4d927709789650976212cd806') in 0.668612 seconds
+  Import took 0.675834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_10.mat
+  artifactKey: Guid(8628415ad11b10147ac63ea2de4682dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_10.mat using Guid(8628415ad11b10147ac63ea2de4682dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd93f2f824e822f334cd9f1fd18e87a') in 0.051597 seconds
+  Import took 0.059288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_9.mat
+  artifactKey: Guid(d54c3de6196c24d418ed8d597a1b1b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_9.mat using Guid(d54c3de6196c24d418ed8d597a1b1b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012fb72aa42df3cfce3e7d25379af51f') in 0.054706 seconds
+  Import took 0.062967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Models/Materials/Sky.mat
+  artifactKey: Guid(44f3cb7e112166040a0e8152b47eef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Models/Materials/Sky.mat using Guid(44f3cb7e112166040a0e8152b47eef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bc5964dea1761522c7f16b85aad69c') in 0.069293 seconds
+  Import took 0.077002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Mat_04.mat
+  artifactKey: Guid(71f79b99270ddff4ba1d0f78da459746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Mat_04.mat using Guid(71f79b99270ddff4ba1d0f78da459746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f9b9508cf8152d182deedef4903045') in 0.494409 seconds
+  Import took 0.500654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_2.mat
+  artifactKey: Guid(c4a708fc26be7e445b2e2074f66898e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_2.mat using Guid(c4a708fc26be7e445b2e2074f66898e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89b0ad29d11f3a7ced36ccb33e3c02c') in 0.066846 seconds
+  Import took 0.076020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_7.mat
+  artifactKey: Guid(3fd8d0aa33e548b4eb65a539c2c2def4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_7.mat using Guid(3fd8d0aa33e548b4eb65a539c2c2def4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a95a6cb55724676f7942f2aad23a3ae') in 0.059170 seconds
+  Import took 0.068251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Mat_05.mat
+  artifactKey: Guid(88dd2abb72819d143a867f0b74333037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Mat_05.mat using Guid(88dd2abb72819d143a867f0b74333037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5b1b5afe931085677dbce6ddfd2538') in 0.083087 seconds
+  Import took 0.090610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Dark.mat
+  artifactKey: Guid(b47ab4133b68590488652122e6635c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/FX_Materials/Smoke_Dark.mat using Guid(b47ab4133b68590488652122e6635c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717f8324d630dff563867fddc2877757') in 0.024503 seconds
+  Import took 0.032382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_4.mat
+  artifactKey: Guid(b52fdbd400f237f48a9bca4648baee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_4.mat using Guid(b52fdbd400f237f48a9bca4648baee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302dfcb9071fc315814247eacfe754e0') in 0.055312 seconds
+  Import took 0.077946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Materials/Player Rings/Red Player Ring.mat
+  artifactKey: Guid(1789ccbf807f8334db3138b9c7046ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player Rings/Red Player Ring.mat using Guid(1789ccbf807f8334db3138b9c7046ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528beae6ea460395bed9fb0656563fa7') in 0.014594 seconds
+  Import took 0.022346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_3.mat
+  artifactKey: Guid(b7dc32bed4fe9494aa9570caf6ea042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_3.mat using Guid(b7dc32bed4fe9494aa9570caf6ea042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8470086305834ce0440296859079f14') in 0.064895 seconds
+  Import took 0.073534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Materials/Red Volcanic Blast.mat
+  artifactKey: Guid(eb143503c3cf5ba4980ddb9455bca756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red Volcanic Blast.mat using Guid(eb143503c3cf5ba4980ddb9455bca756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ef04c08d31903731086840dd7a5d2f') in 0.020438 seconds
+  Import took 0.028062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Woodbeams/Small/Small_Woodbeam.mat
+  artifactKey: Guid(66ba252d35a83954bbd387c9b4cd2a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Woodbeams/Small/Small_Woodbeam.mat using Guid(66ba252d35a83954bbd387c9b4cd2a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559d48c878c5f74e1477d48382b77019') in 0.360597 seconds
+  Import took 0.369214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_1.mat
+  artifactKey: Guid(97ac4f42ee3244c45b07858f1d21a124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_1.mat using Guid(97ac4f42ee3244c45b07858f1d21a124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fae0f4248a3e35eaf8c806fd9cbf75') in 0.058440 seconds
+  Import took 0.067037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_6.mat
+  artifactKey: Guid(9e310723bde863b48af09374d42f62cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_6.mat using Guid(9e310723bde863b48af09374d42f62cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcf6b893ff9dae80be910ad77477e7a') in 0.060996 seconds
+  Import took 0.068696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_5.mat
+  artifactKey: Guid(3829d49a4994ebf49bf112f514e14dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Window/SGW_Colours/SGWP_5.mat using Guid(3829d49a4994ebf49bf112f514e14dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41062ad5aef88ca556af75d21a4666d3') in 0.055696 seconds
+  Import took 0.064850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Art/Materials/Particles/Projectile_Parts_01.mat
+  artifactKey: Guid(f3b1a30999a988845b146f49c3a5e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Particles/Projectile_Parts_01.mat using Guid(f3b1a30999a988845b146f49c3a5e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fb0d7933b72199763f64d1817417f4') in 0.030773 seconds
+  Import took 0.038823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/POTION PANIC/sabertooth fang/sabertooth fang material.mat
+  artifactKey: Guid(94ef64274f5d93e49b22af3562a23142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/sabertooth fang/sabertooth fang material.mat using Guid(94ef64274f5d93e49b22af3562a23142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f15289353fe8cb5e3c781cd9dfedbf') in 0.036065 seconds
+  Import took 0.042853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.168006 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Green Volcanic Blast VFX.prefab
+  artifactKey: Guid(ecabfeaae3bec664ea15220932c328df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Green Volcanic Blast VFX.prefab using Guid(ecabfeaae3bec664ea15220932c328df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9451fd5e5322a3d02703b16330dbac7a') in 0.288580 seconds
+  Import took 0.296634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.628084 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Green Volcanic Blast VFX 1.prefab
+  artifactKey: Guid(3e1f7bb60f8293242b95ec2f9b9d612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Green Volcanic Blast VFX 1.prefab using Guid(3e1f7bb60f8293242b95ec2f9b9d612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd65bd8e22766707697b0f2a9a19d4b') in 0.022905 seconds
+  Import took 0.031538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.096432 seconds.
+  path: Assets/Data/Prefabs/Mani Prefabs/Yellow Volcanic Blast VFX.prefab
+  artifactKey: Guid(3e1f7bb60f8293242b95ec2f9b9d612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Mani Prefabs/Yellow Volcanic Blast VFX.prefab using Guid(3e1f7bb60f8293242b95ec2f9b9d612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10ccbcf6554d91ab4156b41b0dda31e') in 0.022118 seconds
+  Import took 0.040794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.147616 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_LightRay.mat
+  artifactKey: Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_LightRay.mat using Guid(91f21d47c2b9b7d4e946b81b5b39f0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de074425e175ce764316ef39a5034d6') in 0.044176 seconds
+  Import took 0.050845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_Water.mat
+  artifactKey: Guid(72e7d1b8d596ac04ea903c06ffb8b93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_Water.mat using Guid(72e7d1b8d596ac04ea903c06ffb8b93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272de7d216f9f8a4ad15f7c371e06494') in 0.051830 seconds
+  Import took 0.060885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Data/Animations/Standing 2H Magic Area Attack 01.fbx
+  artifactKey: Guid(0483d2aab17758a46ac1a066ff0727df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Standing 2H Magic Area Attack 01.fbx using Guid(0483d2aab17758a46ac1a066ff0727df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5370e6eb5fb5b25f5119f26e5decce1c') in 0.461115 seconds
+  Import took 0.468407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Models/Collision/Materials/lambert2.mat
+  artifactKey: Guid(740f8f51f6cc1654d94f36b7875e0731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Models/Collision/Materials/lambert2.mat using Guid(740f8f51f6cc1654d94f36b7875e0731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae700961b1bcdcb637c1591922540214') in 0.047814 seconds
+  Import took 0.056283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/FX_Materials/FX_Material_Soft_Glow.mat
+  artifactKey: Guid(191f25b2bba11214087d4f59337f72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/FX_Materials/FX_Material_Soft_Glow.mat using Guid(191f25b2bba11214087d4f59337f72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0cda7d0eee345a5695ff4a1621b94a') in 0.030329 seconds
+  Import took 0.037469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Models/Collision/Materials/lambert1.mat
+  artifactKey: Guid(96d23d48a7548ca4fb7e4dddb53effea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Models/Collision/Materials/lambert1.mat using Guid(96d23d48a7548ca4fb7e4dddb53effea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bcbfcdefc6fbea69d92af5c7b59ee0') in 0.024730 seconds
+  Import took 0.032026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Lava.mat
+  artifactKey: Guid(695590087dadf804aaaaa358b1238b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Lava.mat using Guid(695590087dadf804aaaaa358b1238b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ee2b437f247c98c1e351202d9a1e73') in 0.059712 seconds
+  Import took 0.068065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Desk/Iron/Iron.mat
+  artifactKey: Guid(c4f8724558e46ea48be39deade8d8f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Desk/Iron/Iron.mat using Guid(c4f8724558e46ea48be39deade8d8f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a2adf7c3558e5c9e64ed526c9e46d4') in 0.064243 seconds
+  Import took 0.073777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Dark.mat
+  artifactKey: Guid(72d2a33fe53d19a4291867c41161e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Dark.mat using Guid(72d2a33fe53d19a4291867c41161e735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c5fc8dbe952d7cb413753ee4a7db6e') in 0.043162 seconds
+  Import took 0.052702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_SunBeam.mat
+  artifactKey: Guid(f200606a797bfbe4bbb9bd5d8d755756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_SunBeam.mat using Guid(f200606a797bfbe4bbb9bd5d8d755756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdee2d780715854919f1902932e524ae') in 0.059556 seconds
+  Import took 0.068861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Standard_Soft.mat
+  artifactKey: Guid(0c361341e05282547b4b27a461b09071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Standard_Soft.mat using Guid(0c361341e05282547b4b27a461b09071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37a395a5b15570fca8b0575472e3cf5') in 0.023011 seconds
+  Import took 0.030159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/GOLD.mat
+  artifactKey: Guid(f161e0c08a3abcf4b901d18f4b9293ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/GOLD.mat using Guid(f161e0c08a3abcf4b901d18f4b9293ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238ad753754ac69d64191d2a6d5f5c39') in 0.021846 seconds
+  Import took 0.029019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Gold_Sparkle_Mat.mat
+  artifactKey: Guid(685aabbe2631d66469ea6e4fe8d17124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/Gold_Sparkle_Mat.mat using Guid(685aabbe2631d66469ea6e4fe8d17124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca97b1b5aebfb9c66e321e7d735ac05') in 0.059551 seconds
+  Import took 0.065718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Data/Animations/Running.fbx
+  artifactKey: Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Animations/Running.fbx using Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066e835a7bac165e4eacca5d644d8ad4') in 0.369693 seconds
+  Import took 0.378832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Sand_01.mat
+  artifactKey: Guid(af0942b8f5e1c944e9167cf78da15103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Sand_01.mat using Guid(af0942b8f5e1c944e9167cf78da15103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6dc87c541c6b832a6dc8ba2439ecd4') in 0.162528 seconds
+  Import took 0.169683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Paintings.mat
+  artifactKey: Guid(f1ab90401dc7fa2418d92c4ee845cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Paintings.mat using Guid(f1ab90401dc7fa2418d92c4ee845cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079be24b82f574571ce6521d3cee65fd') in 0.102363 seconds
+  Import took 0.110689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Sand_02.mat
+  artifactKey: Guid(2d642affbdd28134c8977e416f9b1f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Sand_02.mat using Guid(2d642affbdd28134c8977e416f9b1f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59146977d49ea6183f0d6531cc05060c') in 0.166076 seconds
+  Import took 0.175513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Horse_01.mat
+  artifactKey: Guid(39cc2bc8825246640a30ce3ec75c63cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Horse_01.mat using Guid(39cc2bc8825246640a30ce3ec75c63cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198f2541f1ff02fd7bbc6e502d91e5a9') in 0.067613 seconds
+  Import took 0.074755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Horse_03.mat
+  artifactKey: Guid(abe5e86debb976a42996c0b82e08fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Horse_03.mat using Guid(abe5e86debb976a42996c0b82e08fcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cda33fb800dcb7dc956cdf96739486') in 0.042577 seconds
+  Import took 0.050956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Sand_03.mat
+  artifactKey: Guid(65402eaff1d65be4ca51f80701f37d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Ground_Mat/PolygonFantasyKingdom_Mat_Ground_Sand_03.mat using Guid(65402eaff1d65be4ca51f80701f37d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac42b88eb1d938dd3e5471f984b6fca5') in 0.172734 seconds
+  Import took 0.179891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Water.mat
+  artifactKey: Guid(510d330a319efdb48af520acf5a701f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Water.mat using Guid(510d330a319efdb48af520acf5a701f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fe06356488aded9ebbbc4f3eb5ebc3') in 0.016668 seconds
+  Import took 0.025374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Woodbeams/Large/Large_woodbeam.mat
+  artifactKey: Guid(4184f425e4493ef42a08d9f1a59f22a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Woodbeams/Large/Large_woodbeam.mat using Guid(4184f425e4493ef42a08d9f1a59f22a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77710183913b2d41dca434e116834917') in 0.062816 seconds
+  Import took 0.071338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Materials/Spells/Volcanic Blast/Green BlastMat.mat
+  artifactKey: Guid(ba774ee7a398f7145bef9b50e11e4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Spells/Volcanic Blast/Green BlastMat.mat using Guid(ba774ee7a398f7145bef9b50e11e4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c94737f092a533860f68b7682146c4c') in 0.016371 seconds
+  Import took 0.025250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Mat.mat
+  artifactKey: Guid(c1320227eea283a4d948eb5f71156d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Mat.mat using Guid(c1320227eea283a4d948eb5f71156d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431e6d0d7586a1902b2295512ed31b03') in 0.034606 seconds
+  Import took 0.042521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Materials/Player Rings/Green Player Ring.mat
+  artifactKey: Guid(1f05ef36747684f49815a5c02cb1c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player Rings/Green Player Ring.mat using Guid(1f05ef36747684f49815a5c02cb1c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5673aed6495150ebb4d601743e6e69') in 0.016606 seconds
+  Import took 0.024021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Water_Opaque.mat
+  artifactKey: Guid(c8fab77635469994586774c6735f7ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Water_Opaque.mat using Guid(c8fab77635469994586774c6735f7ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6d5f3aa93f2adc3b066a05b9abaf7f') in 0.035868 seconds
+  Import took 0.043673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_Water_Sewer.mat
+  artifactKey: Guid(455fe742c8c369c4d967a98804d6e56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_Water_Sewer.mat using Guid(455fe742c8c369c4d967a98804d6e56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583eba28ff29bfc0fdbd6d2783ed8331') in 0.038261 seconds
+  Import took 0.045595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/GOLD_Coins.mat
+  artifactKey: Guid(0fd899188af938d41be0b7a8580905d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/GOLD_Coins.mat using Guid(0fd899188af938d41be0b7a8580905d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7640e832d1d051d5b772108d3a0411b') in 0.094786 seconds
+  Import took 0.103003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Horse_02.mat
+  artifactKey: Guid(f92f6636c655adb459b7618b2ccd84fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonFantasyKingdom/Materials/Misc/PolygonFantasyKingdom_Mat_Horse_02.mat using Guid(f92f6636c655adb459b7618b2ccd84fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ef1630256a9f3a9825113921371247') in 0.055611 seconds
+  Import took 0.062377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_Standard.mat
+  artifactKey: Guid(fa9e67520e3a0c04996a1f31dd165bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_Standard.mat using Guid(fa9e67520e3a0c04996a1f31dd165bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3922340f6fee6ea8fd8c6ee28c2be89') in 0.022063 seconds
+  Import took 0.028723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Mat 1.mat
+  artifactKey: Guid(90a8f8199fc7dd04ca275961b8cb956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Portal_Mat 1.mat using Guid(90a8f8199fc7dd04ca275961b8cb956b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74c5b825b46a69f8efc51dcc5e8f934') in 0.032215 seconds
+  Import took 0.039240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Standard 1.mat
+  artifactKey: Guid(07a679004d280c24fac8d73ce8c63836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeonRealms/Materials/Misc/FX_Standard 1.mat using Guid(07a679004d280c24fac8d73ce8c63836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1be7da1303118fc1f717493eddb30e1') in 0.018819 seconds
+  Import took 0.026795 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.648 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3801.
+Total: 4.705400 ms (FindLiveObjects: 0.462200 ms CreateObjectMapping: 0.234600 ms MarkObjects: 3.842400 ms  DeleteObjects: 0.162400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.044 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3804.
+Total: 3.683900 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.140300 ms MarkObjects: 3.176100 ms  DeleteObjects: 0.039000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.607 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3807.
+Total: 5.775500 ms (FindLiveObjects: 0.337600 ms CreateObjectMapping: 0.154600 ms MarkObjects: 5.237500 ms  DeleteObjects: 0.044100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.130 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3810.
+Total: 3.568400 ms (FindLiveObjects: 0.506500 ms CreateObjectMapping: 0.198200 ms MarkObjects: 2.801900 ms  DeleteObjects: 0.060000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3813.
+Total: 4.972000 ms (FindLiveObjects: 0.351800 ms CreateObjectMapping: 0.319700 ms MarkObjects: 4.272100 ms  DeleteObjects: 0.026700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3816.
+Total: 3.583300 ms (FindLiveObjects: 0.376800 ms CreateObjectMapping: 0.163700 ms MarkObjects: 2.977600 ms  DeleteObjects: 0.063800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010268 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.618 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3819.
+Total: 5.104900 ms (FindLiveObjects: 0.643200 ms CreateObjectMapping: 0.399600 ms MarkObjects: 4.037200 ms  DeleteObjects: 0.023600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.547 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3822.
+Total: 3.190500 ms (FindLiveObjects: 0.356000 ms CreateObjectMapping: 0.161400 ms MarkObjects: 2.611000 ms  DeleteObjects: 0.061100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011224 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3825.
+Total: 3.203000 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.165400 ms MarkObjects: 2.684700 ms  DeleteObjects: 0.021300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.669 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3828.
+Total: 3.360600 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.168300 ms MarkObjects: 2.791600 ms  DeleteObjects: 0.066500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010649 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.644 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3831.
+Total: 5.745000 ms (FindLiveObjects: 0.756900 ms CreateObjectMapping: 0.467900 ms MarkObjects: 4.456000 ms  DeleteObjects: 0.062100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.569 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.6 MB.
+System memory in use after: 168.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3834.
+Total: 4.637900 ms (FindLiveObjects: 0.412200 ms CreateObjectMapping: 0.149500 ms MarkObjects: 4.037600 ms  DeleteObjects: 0.037500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1024.679174 seconds.
+  path: Assets/Data/Prefabs/Spells
+  artifactKey: Guid(60477301075d3f545b5ede41b9ac8247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Prefabs/Spells using Guid(60477301075d3f545b5ede41b9ac8247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5231fbf3043d9812c9ed5d8bdc47778c') in 0.040614 seconds
+  Import took 0.052279 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VolcanicBlast : SpellBehaviour
 {
-    private const float maxRadius = 4;
+    private const float maxRadius = 5;
     private float radius = 1f;
 
     public GameObject blastEffect;
@@ -38,28 +38,34 @@ public class VolcanicBlast : SpellBehaviour
 
             for (int i = 0; i < enemies.Length; i++)
             {
+                float distBetween = Vector3.Distance(transform.position, enemies[i].transform.position);
+
                 // Ignoring caster collider
-                if (enemies[i].gameObject.GetInstanceID() != caster.gameObject.GetInstanceID() &&
-                    !damagedEnemies.Contains(enemies[i].gameObject) &&
-                    !enemies[i].gameObject.GetComponent<PlayerController>().isBlinking)
+                if (enemies[i].gameObject.GetInstanceID() != caster.gameObject.GetInstanceID() && // Spell shouldn't attack caster
+                    !damagedEnemies.Contains(enemies[i].gameObject) && // One time hit
+                    !enemies[i].gameObject.GetComponent<PlayerController>().isBlinking) // Can't damage while invulnerable
                 {
                     enemies[i].gameObject.GetComponent<PlayerController>().health -= damage;
 
                     if (enemies[i].gameObject.GetComponent<PlayerController>().health <= 0)
                         caster.kills += 1;
-                    else
+                    else // Only add them if the spell hasn't killed them
                         damagedEnemies.Add(enemies[i].gameObject);
                 }
             }
         }
 
-        blastEffect.transform.localScale = new Vector3(radius * 2, 0.1f, radius * 2);
+        blastEffect.transform.localScale = new Vector3(radius * 2.15f, 0.1f, radius * 2.15f);
 
-        radius += 5 * Time.deltaTime;
+        if (radius < maxRadius) radius += 5 * Time.deltaTime;
 
         if (radius >= maxRadius)
             SpellReset();
+    }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, radius);
     }
 
     protected override void SpellReset()

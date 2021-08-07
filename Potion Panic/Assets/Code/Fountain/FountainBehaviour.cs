@@ -21,7 +21,7 @@ public class FountainBehaviour : MonoBehaviour
 
     //private void Update()
     //{
-        
+
     //}
 
     private IEnumerator Fountain()
@@ -34,7 +34,7 @@ public class FountainBehaviour : MonoBehaviour
             {
                 GameObject[] activeIngredients = GameObject.FindGameObjectsWithTag("Ingredient");
 
-                if (activeIngredients.Length < playerManager.players.Count * 4)
+                if (activeIngredients.Length <= 20)
                 {
                     Vector3 center = gameObject.GetComponent<Renderer>().bounds.center;
                     center.y += 1.1f;
@@ -46,7 +46,7 @@ public class FountainBehaviour : MonoBehaviour
                     Vector3 cloneCenter = clone.transform.position;
 
                     float privateRotation = 70f;    //between 1f and 89f
-                    float dragDown = 10f;           //"speed"
+                    float dragDown = 30f;           //"speed"
 
                     // Calculate distance to target
                     float target_Distance = Vector3.Distance(cloneCenter, pos);
@@ -68,7 +68,8 @@ public class FountainBehaviour : MonoBehaviour
 
                     while (elapse_time < flightDuration)
                     {
-                        clone.transform.Translate(0, (Vy - (dragDown * elapse_time)) * Time.deltaTime * ac.Evaluate(elapse_time), Vx * Time.deltaTime * ac.Evaluate(elapse_time));
+                        clone.transform.Translate(0, (Vy - (dragDown * elapse_time)) * Time.deltaTime * ac.Evaluate(elapse_time),
+                            Vx * Time.deltaTime * ac.Evaluate(elapse_time));
 
                         elapse_time += Time.deltaTime;
 
@@ -77,17 +78,21 @@ public class FountainBehaviour : MonoBehaviour
 
                     clone.transform.rotation = Quaternion.Euler(clone.transform.rotation.x, 0, clone.transform.rotation.z);
 
-                    float waitTime = Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
+                    clone.GetComponent<Rigidbody>().useGravity = true;
+
+                    //float waitTime = //Random.Range(minRandomSpawnDelay, maxRandomSpawnDelay);
                     //Debug.Log(waitTime);
-                    yield return new WaitForSeconds(waitTime);
+                    //yield return new WaitForSeconds(waitTime);
+                    //yield return new WaitForEndOfFrame();
 
                     //StartCoroutine(DelayAction(minRandomSpawnDelay, maxRandomSpawnDelay));
                 }
-                else
-                    yield return new WaitForEndOfFrame();
+
+                //yield return new WaitForEndOfFrame();
             }
-            else
-                yield return new WaitForEndOfFrame();
+
+            yield return new WaitForEndOfFrame();
+
         }
     }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.AI;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -154,8 +155,9 @@ public class PlayerManager : MonoBehaviour
 
                     if (players[i].health <= 0 && !players[i].isDead)
                     {
-                        players[i].gameObject.SetActive(false);
                         players[i].isDead = true;
+                        players[i].PlayerReset();
+                        players[i].gameObject.SetActive(false);
                     }
                 }
             }

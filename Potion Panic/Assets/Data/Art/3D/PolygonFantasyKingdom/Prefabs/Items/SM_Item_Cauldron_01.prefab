@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 3163408916692190640}
   - component: {fileID: 6019183575638126259}
   m_Layer: 0
-  m_Name: Ing 3 Source
+  m_Name: Ing 3 S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 1575956572225309887}
   - component: {fileID: 8836996414541039963}
   m_Layer: 0
-  m_Name: Ing 2 Source
+  m_Name: Ing 2 S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 5798966782141748923}
   - component: {fileID: 5321160339212959386}
   m_Layer: 0
-  m_Name: Ing 3 Outline
+  m_Name: Ing 3 O
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -748,7 +748,7 @@ GameObject:
   - component: {fileID: 3134385673614051748}
   - component: {fileID: 8430206693121749032}
   m_Layer: 0
-  m_Name: Ing 1 Source
+  m_Name: Ing 1 S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 8424137899481393503}
   - component: {fileID: 6254174097486292122}
   m_Layer: 0
-  m_Name: Ing 2 Outline
+  m_Name: Ing 2 O
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1222,7 +1222,7 @@ GameObject:
   - component: {fileID: 4863102705052632832}
   - component: {fileID: 4667747753633721676}
   m_Layer: 0
-  m_Name: Ing 1 Outline
+  m_Name: Ing 1 O
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
