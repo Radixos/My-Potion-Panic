@@ -297,8 +297,9 @@ public class PlayerController : MonoBehaviour
 
         if (faceDir.magnitude > deadZone)
         {
-            Quaternion playerRotation = Quaternion.LookRotation(faceDir, Vector3.up);
-            transform.rotation = playerRotation;
+            Quaternion lookRotation = Quaternion.LookRotation(faceDir, Vector3.up);
+            //transform.rotation = playerRotation;
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, 1800 * Time.deltaTime);
         }
     }
 
@@ -313,7 +314,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetButtonDown("Cast " + playerID.ToString()))
                 {
                     ResetAnimationToIdle();
-                    anim.SetBool("castedAreaMagic", true);
+                    SetAnimationActive("castedAreaMagic");
                     inSpellAnim = true;
                     spellCasted = false;
 
@@ -333,7 +334,7 @@ public class PlayerController : MonoBehaviour
 
                 if (Input.GetButtonUp("Cast " + playerID.ToString()))
                 {
-                    anim.SetBool("castedProjectileMagic", true);
+                    SetAnimationActive("castedProjectileMagic");
                     inSpellAnim = true;
                     spellCasted = false;
                     aimArrow.gameObject.SetActive(false);
@@ -382,7 +383,7 @@ public class PlayerController : MonoBehaviour
     void Animate()
     {
         if (transform.position != previousPosition)
-            anim.SetBool("isMovingForward", true);
+            SetAnimationActive("isMovingForward");
         else
             ResetAnimationToIdle();
     }

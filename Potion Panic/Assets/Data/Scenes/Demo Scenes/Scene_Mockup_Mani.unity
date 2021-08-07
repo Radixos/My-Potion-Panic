@@ -603,7 +603,7 @@ PrefabInstance:
     - target: {fileID: 2644204629334841050, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: poolingObject
       value: 
-      objectReference: {fileID: 6987742897132379543, guid: 32718552618112540a0367a9950abad5, type: 3}
+      objectReference: {fileID: 6987742897132379543, guid: 3e1f7bb60f8293242b95ec2f9b9d612d, type: 3}
     - target: {fileID: 3495801623717435429, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: m_Name
       value: Player 4 Volcanic Blast Pool
@@ -1843,7 +1843,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148902616}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43cb2c4ab52025a42ab686736026158b, type: 3}
   m_Name: 
@@ -4225,7 +4225,7 @@ PrefabInstance:
     - target: {fileID: 2644204629334841050, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: poolingObject
       value: 
-      objectReference: {fileID: 6987742897132379543, guid: 5a22aa365dafe634b9eb7265ee4a4f6c, type: 3}
+      objectReference: {fileID: 6987742897132379543, guid: e40426c18799d4844ae407a361b7aeaa, type: 3}
     - target: {fileID: 3495801623717435429, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: m_Name
       value: Player 1 Volcanic Blast Pool
@@ -10771,7 +10771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5803969e86064f44cb1dbe968bcfb844, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5803969e86064f44cb1dbe968bcfb844, type: 3}
       propertyPath: m_LocalScale.z
@@ -15036,7 +15036,7 @@ PrefabInstance:
     - target: {fileID: 2644204629334841050, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: poolingObject
       value: 
-      objectReference: {fileID: 6987742897132379543, guid: b01031485b47a8046bdbcef8ba772124, type: 3}
+      objectReference: {fileID: 6987742897132379543, guid: ecabfeaae3bec664ea15220932c328df, type: 3}
     - target: {fileID: 3495801623717435429, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: m_Name
       value: Player 3 Volcanic Blast Pool
@@ -15574,7 +15574,7 @@ PrefabInstance:
     - target: {fileID: 2644204629334841050, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: poolingObject
       value: 
-      objectReference: {fileID: 6987742897132379543, guid: a3de6a37f218af24fa08330bbbb6453b, type: 3}
+      objectReference: {fileID: 6987742897132379543, guid: ff65ed6ace10b4a4689fefbc4ce44ddc, type: 3}
     - target: {fileID: 3495801623717435429, guid: 378f377ffc11c114dbe05daad8372924, type: 3}
       propertyPath: m_Name
       value: Player 2 Volcanic Blast Pool
@@ -21865,30 +21865,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5611039271931753256, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
   m_PrefabInstance: {fileID: 5356137853861987518}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &919132148978806060 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5086176764669094290, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
-  m_PrefabInstance: {fileID: 5356137853861987518}
-  m_PrefabAsset: {fileID: 0}
---- !u!135 &919132148978806061
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148978806060}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.75
-  m_Center: {x: -0.000029437244, y: 0.18288271, z: 0.0002682656}
 --- !u!114 &919132148978806062 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1000194851186930790, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
   m_PrefabInstance: {fileID: 5356137853861987518}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148978806060}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd5b5e77eb496a74ea606f14e0867819, type: 3}

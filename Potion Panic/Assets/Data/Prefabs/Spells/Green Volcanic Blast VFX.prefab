@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6169548726596305040}
   - component: {fileID: 4213031418832300604}
   m_Layer: 0
-  m_Name: Volcanic Blast - MOCK
+  m_Name: Green Volcanic Blast VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,6 +62,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 659066416939313796, guid: a0278b5f20cb62a4188c1da4f8d8f5b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba774ee7a398f7145bef9b50e11e4e68, type: 2}
     - target: {fileID: 659066416939313797, guid: a0278b5f20cb62a4188c1da4f8d8f5b0, type: 3}
       propertyPath: looping
       value: 0
@@ -234,6 +238,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.12
       objectReference: {fileID: 0}
+    - target: {fileID: 659066418515605383, guid: a0278b5f20cb62a4188c1da4f8d8f5b0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ba774ee7a398f7145bef9b50e11e4e68, type: 2}
     - target: {fileID: 659066418515605384, guid: a0278b5f20cb62a4188c1da4f8d8f5b0, type: 3}
       propertyPath: looping
       value: 0
@@ -412,6 +420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AfterEffect5
       objectReference: {fileID: 0}
+    - target: {fileID: 1499902625199685376, guid: afcbca7b934b3c64f9d4a10f6eba8448, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7570639bd452bd34b80df618ec8187b1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afcbca7b934b3c64f9d4a10f6eba8448, type: 3}
 --- !u!1 &4366857795875305792 stripped

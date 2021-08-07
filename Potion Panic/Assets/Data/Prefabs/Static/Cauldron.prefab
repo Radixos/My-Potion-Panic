@@ -627,12 +627,14 @@ GameObject:
   - component: {fileID: 8823028755091766413}
   - component: {fileID: 6743373678326433863}
   - component: {fileID: 1000194851186930790}
+  - component: {fileID: 4839555916031873066}
+  - component: {fileID: 8924645190576350529}
   m_Layer: 8
   m_Name: Cauldron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5611039271931753256
 Transform:
@@ -732,6 +734,32 @@ MonoBehaviour:
   - {fileID: 2642216185393759687}
   - {fileID: 3123004145149557455}
   - {fileID: 1723959198856693869}
+--- !u!65 &4839555916031873066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5086176764669094290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3194058, y: 1.354384, z: 1.3194063}
+  m_Center: {x: 0, y: 0.000000029802322, z: 0}
+--- !u!135 &8924645190576350529
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5086176764669094290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.75
+  m_Center: {x: -0.000029437244, y: 0.18288271, z: 0.0002682656}
 --- !u!1 &5551329387057367207
 GameObject:
   m_ObjectHideFlags: 0
