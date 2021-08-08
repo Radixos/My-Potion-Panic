@@ -44,7 +44,7 @@ public class Ingredient : MonoBehaviour
         {
             if (boxCollider.enabled) // A hack to know that it's not going to cauldron
             {
-                if (Physics.Raycast(boxCollider.gameObject.transform.position, -Vector3.up, 0.5f, groundLayer))
+                if (Physics.Raycast(boxCollider.gameObject.transform.position, -Vector3.up, 0.5f, groundLayer, QueryTriggerInteraction.Ignore))
                     GetComponent<SphereCollider>().enabled = true;
                 else
                     GetComponent<SphereCollider>().enabled = false;

@@ -1896,11 +1896,12 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   ingredients:
+  - {fileID: 2538594590375467570, guid: 4d6553c530b0cf44098e275a13a94824, type: 3}
+  - {fileID: 7150238717367251573, guid: 9b4d1081b6f0f134189ea6cc449d978c, type: 3}
   - {fileID: 1190935073731639397, guid: dd45652b834f16146aaad9a4564ef2a4, type: 3}
+  - {fileID: 8307939410927398286, guid: 064aa48e53b16b645b8ab8224ba7d476, type: 3}
   - {fileID: 987424095258822779, guid: 20ba33f72123581468539c5cd0c9761b, type: 3}
   - {fileID: 5022789680773796988, guid: d48e68b305d56ad409ae09bf976293ef, type: 3}
-  - {fileID: 7150238717367251573, guid: 9b4d1081b6f0f134189ea6cc449d978c, type: 3}
-  - {fileID: 2538594590375467570, guid: 4d6553c530b0cf44098e275a13a94824, type: 3}
   - {fileID: 933925692470941614, guid: 28ada53b6e9a2b44d9a262f8649e4087, type: 3}
 --- !u!1 &154227607
 GameObject:
