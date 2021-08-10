@@ -8,17 +8,18 @@ public class LoadingScreen : MonoBehaviour
 {
     public Image BG;
 
-    private float displayTimer = 5.0f;
-
     public List<GameObject> UIObjects;
     private int currentObj;
     private bool goingDark;
 
+    private List<float> displayTimers = new List<float>();
+
     // Start is called before the first frame update
-    //void Start()
-    //{
-        
-    //}
+    void Start()
+    {
+        displayTimers.Add(5.0f);
+        displayTimers.Add(15.0f);
+    }
 
     // Update is called once per frame
     void Update()
@@ -26,6 +27,9 @@ public class LoadingScreen : MonoBehaviour
         if (goingDark)
         {
             BG.color += new Color(0, 0, 0, Time.deltaTime);
+
+            if (currentObj + 1 >= UIObjects.Count)
+                GetComponent<AudioSource>().volume -= Time.deltaTime;
 
             if (BG.color.a >= 1)
             {
@@ -37,8 +41,10 @@ public class LoadingScreen : MonoBehaviour
                     goingDark = false;
                 }
                 else
+                {
+                    GetComponent<AudioSource>().volume = 0;
                     SceneManager.LoadScene("Scene_Mockup_Mani");
-
+                }
             }
         }
         else if (BG.color.a > 0)
@@ -47,14 +53,10 @@ public class LoadingScreen : MonoBehaviour
 
         if (BG.color.a <= 0)
         {
-            displayTimer -= Time.deltaTime;
+            displayTimers[currentObj] -= Time.deltaTime;
 
-            if (displayTimer <= 0)
-            {
+            if (displayTimers[currentObj] <= 0)
                 goingDark = true;
-                displayTimer = 5.0f;
-            }
-
         }
 
 

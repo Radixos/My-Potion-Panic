@@ -7,10 +7,12 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public Image BG;
-    private string controllerType;
 
-    private bool inMenu;
+    public bool inMenu;
     private bool gameStarted;
+
+    private int numOfPlayers;
+    public int playersReady;
 
     // Start is called before the first frame update
     void Start()
@@ -18,26 +20,21 @@ public class MainMenu : MonoBehaviour
         for (int i = 0; i < Input.GetJoystickNames().Length; i++)
         {
             if (!(Input.GetJoystickNames()[i] == ""))
-            {
-                if (Input.GetJoystickNames()[i].ToLower().Contains("xbox"))
-                    controllerType = "Xbox";
-                else
-                    controllerType = "PS";
-
-                break;
-            }
+                ++numOfPlayers;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!gameStarted && inMenu) // While in Menu
+        if (!gameStarted && inMenu) // While in Menu
         {
-            if (Input.GetButton("OK " + controllerType + " 1"))
+            ControllerCheck();
+
+            if (numOfPlayers == playersReady)
                 gameStarted = true;
         }
-        else if(gameStarted) // When the player presses OK button
+        else if (gameStarted) // When the player presses OK button
         {
             BG.color += new Color(0, 0, 0, Time.deltaTime);
 
@@ -56,6 +53,21 @@ public class MainMenu : MonoBehaviour
             if (BG.color.a <= 0)
                 inMenu = true;
         }
+    }
 
+    void ControllerCheck()
+    {
+        int updatedPlayers = 0;
+
+        for (int i = 0; i < Input.GetJoystickNames().Length; i++)
+        {
+            if (!(Input.GetJoystickNames()[i] == ""))
+            {
+                ++updatedPlayers;
+
+                numOfPlayers = updatedPlayers;
+            }
+
+        }
     }
 }

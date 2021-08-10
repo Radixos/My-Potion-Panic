@@ -64,7 +64,9 @@ public class IceMine : SpellBehaviour
             {
                 for (int j = 0; j < storedOrigins.Length; j++)
                 {
-                    storedOrigins[j].startColor = new Color32(storedR[i], storedG[i], storedB[i], 255);
+                    ParticleSystem.MainModule main = storedOrigins[j].main;
+                    //storedOrigins[j].startColor = new Color32(storedR[i], storedG[i], storedB[i], 255);
+                    main.startColor = new Color(storedR[i], storedG[i], storedB[i], 255f);
                 }
             }
         }
