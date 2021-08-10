@@ -10,11 +10,28 @@ public class IceMine : SpellBehaviour
     private SphereCollider iceMineCollision;
     public int iceMineState = 0;
     private float timerForHurtbox = 0f;
+    private bool foundCaster = false;
+    private GameObject[] storedPlayers;
+    private PlayerController[] storedControllers;
+    public ParticleSystem[] storedOrigins;
+    //in order, blue, red, green, yellow
+    private byte[] storedR = {25, 207, 13, 236};
+    private byte[] storedG = {53, 13, 207, 218};
+    private byte[] storedB = {214, 27, 13, 23};
+    public ParticleSystem.EmissionModule emissionInterface;
+    public ParticleSystem.MinMaxGradient colorInterface;
     // Start is called before the first frame update
     void Start()
     {
         iceMineCollision = GetComponent<SphereCollider>();
         iceMineDetonatedPS.Stop();
+        storedPlayers = GameObject.FindGameObjectsWithTag("Player");
+        storedControllers = new PlayerController[4];
+        for (int i = 0; i < storedPlayers.Length; i++)
+        {
+            storedControllers[i] = storedPlayers[i].GetComponent<PlayerController>();
+        }
+        findCaster();
     }
 
     // Update is called once per frame
@@ -31,13 +48,33 @@ public class IceMine : SpellBehaviour
             {
                 iceMineCollision.radius = iceMineCollision.radius + 0.1f;
             }
-            if (iceMineState == 2 && iceMineDetonatedBuildupPS.emissionRate < 200)
+            if (iceMineState == 2 && iceMineDetonatedBuildupPS.emission.rateOverTimeMultiplier < 200)
             {
-                iceMineDetonatedBuildupPS.emissionRate = iceMineDetonatedBuildupPS.emissionRate + 3;
+                emissionInterface = iceMineDetonatedBuildupPS.emission;
+                emissionInterface.rateOverTimeMultiplier = iceMineDetonatedBuildupPS.emission.rateOverTimeMultiplier + 3f;
             }
-            if (timerForHurtbox > 10.5f)
+            if (timerForHurtbox > 10f && !iceMineDetonatedPS.isEmitting)
             {
                 SpellReset();
+            }
+        }
+        else
+        {
+            iceMineDetonatedPS.Stop();
+        }
+    }
+    private void findCaster()
+    {
+        for (int i = 0; i < storedPlayers.Length; i++)
+        {
+            if (storedControllers[i] == caster)
+            {
+                for (int j = 0; j < storedOrigins.Length; j++)
+                {
+                    //this doesn't work and i don't know why lol
+                    colorInterface = storedOrigins[j].main.startColor;
+                    colorInterface.color = new Color32(storedR[i], storedG[i], storedB[i], 255);
+                }
             }
         }
     }
@@ -72,7 +109,8 @@ public class IceMine : SpellBehaviour
         iceMineCollision.radius = 2;
         iceMinePlantedPS.Stop();
         iceMineDetonatedPS.Stop();
-        iceMineDetonatedBuildupPS.emissionRate = 20;
+        emissionInterface.rateOverTimeMultiplier = 20;
+        foundCaster = false;
         gameObject.SetActive(false);
     }
 }
