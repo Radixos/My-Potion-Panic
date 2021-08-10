@@ -103,7 +103,8 @@ public class PlayerController : MonoBehaviour
 
         spellInfo = brewedSpell;
         spellUses = brewedSpell.NumberOfUses;
-        spellPool = GameObject.Find("Player " + playerID.ToString() + " " + brewedSpell.spellPrefab.name).GetComponent<ObjectPool>();
+        spellPool = GameObject.Find("Player " + playerID.ToString() +
+            " " + brewedSpell.spellPrefab.name).GetComponent<ObjectPool>();
 
         hasSpell = true;
     }
@@ -260,7 +261,13 @@ public class PlayerController : MonoBehaviour
             NavMeshHit hit;
             bool isValid = NavMesh.SamplePosition(newPosition, out hit, 0.3f, NavMesh.AllAreas);
 
-            if (isValid)
+            // To avoid oscillation with hard colliders
+            RaycastHit rayHit;
+            LayerMask wallLayer = 1 << 0;
+            bool isFreeSpace = !Physics.Raycast(transform.position + (0.25f * Vector3.up),
+                dir.normalized, out rayHit, 0.5f, wallLayer, QueryTriggerInteraction.Ignore);
+
+            if (isValid && isFreeSpace)
             {
                 if ((transform.position - hit.position).magnitude >= 0.02f)
                     transform.position = newPosition;
@@ -271,8 +278,8 @@ public class PlayerController : MonoBehaviour
 
         if (faceDir.magnitude > 0.01f)
         {
-            Quaternion playerRotation = Quaternion.LookRotation(faceDir, Vector3.up);
-            transform.rotation = playerRotation;
+            Quaternion lookRotation = Quaternion.LookRotation(faceDir, Vector3.up);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, 1800 * Time.deltaTime);
         }
 
         if (holdIngredient && carryingIngredient != null) // Waiting to carry until the pickup "animation" is finished
@@ -298,7 +305,6 @@ public class PlayerController : MonoBehaviour
         if (faceDir.magnitude > deadZone)
         {
             Quaternion lookRotation = Quaternion.LookRotation(faceDir, Vector3.up);
-            //transform.rotation = playerRotation;
             transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, 1800 * Time.deltaTime);
         }
     }
@@ -364,7 +370,6 @@ public class PlayerController : MonoBehaviour
                             dir = new Vector3(dir.x, 0.0f, dir.z); // Getting a straight line
 
                             hit.collider.gameObject.GetComponent<PlayerController>().PushPlayer(dir.normalized, 2.0f);
-                            //hit.collider.gameObject.GetComponent<Rigidbody>().AddForce(dir.normalized * 10.0f, ForceMode.Impulse);
 
                             pushDelay = 2.0f;
                             break;
@@ -503,7 +508,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collidingObject != null)
         {
-            if(other.gameObject == collidingObject)
+            if (other.gameObject == collidingObject)
             {
                 inTriggerRange = false;
                 collidingObject = null;
@@ -523,6 +528,7 @@ public class PlayerController : MonoBehaviour
                 {
                     ++controllerNum;
 
+                    // Cofirming that the controller in order matches with the player number
                     if (controllerNum == playerID)
                     {
                         if (Input.GetJoystickNames()[i].ToLower().Contains("xbox"))
@@ -536,7 +542,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(2);
         }
     }
 }

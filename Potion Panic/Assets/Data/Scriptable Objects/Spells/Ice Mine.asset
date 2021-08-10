@@ -17,8 +17,8 @@ MonoBehaviour:
   spellPreview: {fileID: 21300000, guid: c6b4d515c00bb5f479b53102ca1656ea, type: 3}
   requiredIngredients:
   - {fileID: 11400000, guid: e18d6b5c31f4f1d4690be4697747f96a, type: 2}
-  - {fileID: 11400000, guid: e18d6b5c31f4f1d4690be4697747f96a, type: 2}
-  - {fileID: 11400000, guid: e18d6b5c31f4f1d4690be4697747f96a, type: 2}
+  - {fileID: 11400000, guid: a810bb7bddbbb0642876da882457da2a, type: 2}
+  - {fileID: 11400000, guid: bc676ba93bb9a8045a7531b960f2d507, type: 2}
   spellPrefab: {fileID: 2582654138438578224, guid: 233416d8cbe8a3a428150540e6e6f7c3, type: 3}
   spellType: 0
   NumberOfUses: 1

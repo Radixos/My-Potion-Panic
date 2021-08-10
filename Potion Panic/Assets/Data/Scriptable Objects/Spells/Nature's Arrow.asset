@@ -16,7 +16,7 @@ MonoBehaviour:
   Description: An aimed projectile that pierces through enemies and kills them instantly.
   spellPreview: {fileID: 21300000, guid: 4cea33aeb7fcf8343a0d31a81c1ab365, type: 3}
   requiredIngredients:
-  - {fileID: 11400000, guid: e18d6b5c31f4f1d4690be4697747f96a, type: 2}
+  - {fileID: 11400000, guid: 43ed1b89f5ca4de49b988af498318114, type: 2}
   - {fileID: 11400000, guid: f137e9b70f1f601439c58efeded998ff, type: 2}
   - {fileID: 11400000, guid: c86ceb5a7d036a64796851c38724701c, type: 2}
   spellPrefab: {fileID: 3305519658014318988, guid: a7617e719078d864089be66f52b68bec, type: 3}
