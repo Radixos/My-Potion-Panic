@@ -10,11 +10,26 @@ public class IceMine : SpellBehaviour
     private SphereCollider iceMineCollision;
     public int iceMineState = 0;
     private float timerForHurtbox = 0f;
+    private bool foundCaster = false;
+    private GameObject[] storedPlayers;
+    private PlayerController[] storedControllers;
+    public ParticleSystem[] storedOrigins;
+    //in order, blue, red, green, yellow
+    private byte[] storedR = {25, 207, 13, 236};
+    private byte[] storedG = {53, 13, 207, 218};
+    private byte[] storedB = {214, 27, 13, 23};
     // Start is called before the first frame update
     void Start()
     {
         iceMineCollision = GetComponent<SphereCollider>();
         iceMineDetonatedPS.Stop();
+        storedPlayers = GameObject.FindGameObjectsWithTag("Player");
+        storedControllers = new PlayerController[4];
+        for (int i = 0; i < storedPlayers.Length; i++)
+        {
+            storedControllers[i] = storedPlayers[i].GetComponent<PlayerController>();
+        }
+        findCaster();
     }
 
     // Update is called once per frame
@@ -38,6 +53,19 @@ public class IceMine : SpellBehaviour
             if (timerForHurtbox > 10.5f)
             {
                 SpellReset();
+            }
+        }
+    }
+    private void findCaster()
+    {
+        for (int i = 0; i < storedPlayers.Length; i++)
+        {
+            if (storedControllers[i] == caster)
+            {
+                for (int j = 0; j < storedOrigins.Length; j++)
+                {
+                    storedOrigins[j].startColor = new Color32(storedR[i], storedG[i], storedB[i], 255);
+                }
             }
         }
     }
@@ -73,6 +101,7 @@ public class IceMine : SpellBehaviour
         iceMinePlantedPS.Stop();
         iceMineDetonatedPS.Stop();
         iceMineDetonatedBuildupPS.emissionRate = 20;
+        foundCaster = false;
         gameObject.SetActive(false);
     }
 }

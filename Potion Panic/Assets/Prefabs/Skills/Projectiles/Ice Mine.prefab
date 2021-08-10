@@ -33938,6 +33938,9 @@ MonoBehaviour:
   iceMineDetonatedPS: {fileID: 2352338707096755273}
   iceMineDetonatedBuildupPS: {fileID: 6162585531334609160}
   iceMineState: 0
+  storedOrigins:
+  - {fileID: 1655486702281179439}
+  - {fileID: 6162585530177266096}
 --- !u!135 &6394296154941667400
 SphereCollider:
   m_ObjectHideFlags: 0
