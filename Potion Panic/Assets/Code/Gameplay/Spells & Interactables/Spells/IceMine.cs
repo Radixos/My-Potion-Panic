@@ -31,7 +31,7 @@ public class IceMine : SpellBehaviour
         {
             storedControllers[i] = storedPlayers[i].GetComponent<PlayerController>();
         }
-        findCaster();
+        //findCaster();
     }
 
     // Update is called once per frame
@@ -63,21 +63,21 @@ public class IceMine : SpellBehaviour
             iceMineDetonatedPS.Stop();
         }
     }
-    private void findCaster()
-    {
-        for (int i = 0; i < storedPlayers.Length; i++)
-        {
-            if (storedControllers[i] == caster)
-            {
-                for (int j = 0; j < storedOrigins.Length; j++)
-                {
-                    //this doesn't work and i don't know why lol
-                    colorInterface = storedOrigins[j].main.startColor;
-                    colorInterface.color = new Color32(storedR[i], storedG[i], storedB[i], 255);
-                }
-            }
-        }
-    }
+    //private void findCaster()
+    //{
+    //    for (int i = 0; i < storedPlayers.Length; i++)
+    //    {
+    //        if (storedControllers[i] == caster)
+    //        {
+    //            for (int j = 0; j < storedOrigins.Length; j++)
+    //            {
+    //                //this doesn't work and i don't know why lol
+    //                colorInterface = storedOrigins[j].main.startColor;
+    //                colorInterface.color = new Color32(storedR[i], storedG[i], storedB[i], 255);
+    //            }
+    //        }
+    //    }
+    //}
 
     private void OnTriggerStay(Collider other)
     {
