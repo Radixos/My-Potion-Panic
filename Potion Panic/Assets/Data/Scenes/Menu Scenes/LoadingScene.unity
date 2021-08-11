@@ -335,7 +335,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &264071156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,8 +657,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BG: {fileID: 642126275}
   UIObjects:
-  - {fileID: 671399790}
   - {fileID: 264071155}
+  - {fileID: 671399790}
 --- !u!82 &543830224
 AudioSource:
   m_ObjectHideFlags: 0
@@ -845,7 +845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &671399791
 Transform:
   m_ObjectHideFlags: 0

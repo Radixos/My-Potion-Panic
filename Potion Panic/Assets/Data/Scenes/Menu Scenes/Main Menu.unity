@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 25201276}
   - component: {fileID: 25201275}
   m_Layer: 0
-  m_Name: to Play
+  m_Name: to Ready
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: to Play
+  m_Text: to Ready
 --- !u!222 &25201276
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4232,7 +4232,7 @@ MonoBehaviour:
   XboxIcon: {fileID: 21300000, guid: 6fe7bc59c9387b048be7ea7cbe18a2f6, type: 3}
   inputIcon: {fileID: 1084293327}
   Press: {fileID: 338623581}
-  toPlay: {fileID: 1251466496}
+  toReady: {fileID: 1251466496}
   readyColour: {r: 0, g: 1, b: 0, a: 1}
 --- !u!1001 &489360807
 PrefabInstance:
@@ -6016,7 +6016,7 @@ GameObject:
   - component: {fileID: 698105510}
   - component: {fileID: 698105509}
   m_Layer: 0
-  m_Name: to Play
+  m_Name: to Ready
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6074,7 +6074,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: to Play
+  m_Text: to Ready
 --- !u!222 &698105510
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6288,7 +6288,7 @@ MonoBehaviour:
   XboxIcon: {fileID: 21300000, guid: 6fe7bc59c9387b048be7ea7cbe18a2f6, type: 3}
   inputIcon: {fileID: 1880704585}
   Press: {fileID: 444574118}
-  toPlay: {fileID: 25201275}
+  toReady: {fileID: 25201275}
   readyColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &753907151
 PrefabInstance:
@@ -9661,7 +9661,7 @@ GameObject:
   - component: {fileID: 1251466497}
   - component: {fileID: 1251466496}
   m_Layer: 0
-  m_Name: to Play
+  m_Name: to Ready
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9719,7 +9719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: to Play
+  m_Text: to Ready
 --- !u!222 &1251466497
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11214,7 +11214,7 @@ MonoBehaviour:
   XboxIcon: {fileID: 21300000, guid: 6fe7bc59c9387b048be7ea7cbe18a2f6, type: 3}
   inputIcon: {fileID: 1963287139}
   Press: {fileID: 1554406539}
-  toPlay: {fileID: 1478649425}
+  toReady: {fileID: 1478649425}
   readyColour: {r: 1, g: 1, b: 0, a: 1}
 --- !u!1 &1416813563
 GameObject:
@@ -11451,7 +11451,7 @@ GameObject:
   - component: {fileID: 1478649426}
   - component: {fileID: 1478649425}
   m_Layer: 0
-  m_Name: to Play
+  m_Name: to Ready
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11509,7 +11509,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: to Play
+  m_Text: to Ready
 --- !u!222 &1478649426
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12036,7 +12036,7 @@ MonoBehaviour:
   XboxIcon: {fileID: 21300000, guid: 6fe7bc59c9387b048be7ea7cbe18a2f6, type: 3}
   inputIcon: {fileID: 1616973002}
   Press: {fileID: 36674642}
-  toPlay: {fileID: 698105509}
+  toReady: {fileID: 698105509}
   readyColour: {r: 0, g: 0.5019608, b: 1, a: 1}
 --- !u!1 &1597170726
 GameObject:

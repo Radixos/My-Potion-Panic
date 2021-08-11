@@ -20,7 +20,7 @@ public class MainMenuLobby : MonoBehaviour
 
     // Text
     public Text Press;
-    public Text toPlay;
+    public Text toReady;
     public Color readyColour;
 
     // Start is called before the first frame update
@@ -48,7 +48,7 @@ public class MainMenuLobby : MonoBehaviour
                 {
                     mainMenu.playersReady++;
 
-                    toPlay.gameObject.SetActive(false);
+                    toReady.gameObject.SetActive(false);
                     inputIcon.gameObject.SetActive(false);
                     Press.text = "Ready!";
                     Press.color = readyColour;

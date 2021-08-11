@@ -120,7 +120,7 @@ public class PlayerManager : MonoBehaviour
             {
                 for (int i = 0; i < players.Count; i++)
                 {
-                    if (players[i].kills >= 1)
+                    if (players[i].kills >= 3)
                     {
                         //OnMatchCompletedEvent?.Invoke();
                         victoryText = "Player " + (i + 1) + " Wins!";
