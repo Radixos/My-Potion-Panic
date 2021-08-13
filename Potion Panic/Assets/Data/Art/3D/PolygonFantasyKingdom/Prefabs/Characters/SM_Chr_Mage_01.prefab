@@ -4904,7 +4904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4372348789597376}
   - component: {fileID: 95328103556620382}
-  - component: {fileID: 1366322311610185089}
+  - component: {fileID: 7146849529491022807}
   - component: {fileID: 5358881565660517975}
   - component: {fileID: 9204741375443034325}
   - component: {fileID: 3281902972976709609}
@@ -4975,7 +4975,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1366322311610185089
+--- !u!114 &7146849529491022807
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4984,25 +4984,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1996767962855262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 39bdc0d310ee7004395d2b2f7a4ffed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  health: 100
+  speed: 0
+  health: 0
   isDead: 0
   kills: 0
   isBlinking: 0
   playerSkin: {fileID: 0}
-  carryingLocation: {fileID: 3243018192011339490}
+  carryingLocation: {fileID: 0}
   carryingIngredient: {fileID: 0}
   holdIngredient: 0
   myCauldron: {fileID: 0}
-  deadZone: 0.19
+  deadZone: 0
   playerID: 0
   spellInfo: {fileID: 0}
   hasSpell: 0
   spellUses: 0
-  aimArrow: {fileID: 189142193262718162}
+  aimArrow: {fileID: 0}
 --- !u!136 &5358881565660517975
 CapsuleCollider:
   m_ObjectHideFlags: 0
