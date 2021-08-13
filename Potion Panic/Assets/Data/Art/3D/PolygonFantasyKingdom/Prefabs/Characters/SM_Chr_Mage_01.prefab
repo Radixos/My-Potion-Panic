@@ -4904,11 +4904,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4372348789597376}
   - component: {fileID: 95328103556620382}
-  - component: {fileID: 7146849529491022807}
+  - component: {fileID: 1366322311610185089}
   - component: {fileID: 5358881565660517975}
   - component: {fileID: 9204741375443034325}
   - component: {fileID: 3281902972976709609}
-  - component: {fileID: 1625097839716520229}
   m_Layer: 6
   m_Name: SM_Chr_Mage_01
   m_TagString: Player
@@ -4975,7 +4974,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7146849529491022807
+--- !u!114 &1366322311610185089
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4984,25 +4983,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1996767962855262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39bdc0d310ee7004395d2b2f7a4ffed5, type: 3}
+  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  health: 0
+  speed: 5.5
+  health: 100
   isDead: 0
   kills: 0
   isBlinking: 0
   playerSkin: {fileID: 0}
-  carryingLocation: {fileID: 0}
+  carryingLocation: {fileID: 3243018192011339490}
   carryingIngredient: {fileID: 0}
   holdIngredient: 0
   myCauldron: {fileID: 0}
-  deadZone: 0
+  deadZone: 0.19
   playerID: 0
   spellInfo: {fileID: 0}
   hasSpell: 0
   spellUses: 0
-  aimArrow: {fileID: 0}
+  aimArrow: {fileID: 189142193262718162}
 --- !u!136 &5358881565660517975
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5052,53 +5051,6 @@ MonoBehaviour:
       Data3: -1295522888
       Data4: 1614849479
     Path: event:/Player/Footstep
---- !u!114 &1625097839716520229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996767962855262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ab42f7b798f5ff4d82f48f243b730ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrowPath:
-    Guid:
-      Data1: 916353625
-      Data2: 1295962882
-      Data3: 1196506755
-      Data4: -406151233
-    Path: event:/Potions/Arrow Spell
-  arrowHitPath:
-    Guid:
-      Data1: -949567028
-      Data2: 1276507715
-      Data3: -878221665
-      Data4: 884599390
-    Path: event:/Potions/Arrow Impact
-  flamePath:
-    Guid:
-      Data1: -969757113
-      Data2: 1308619164
-      Data3: 964645540
-      Data4: -1011477298
-    Path: event:/Potions/Blast Spell
-  icePath:
-    Guid:
-      Data1: -1526095268
-      Data2: 1330123421
-      Data3: -344586084
-      Data4: -54324160
-    Path: event:/Potions/Ice Spell Plant
-  iceActivatePath:
-    Guid:
-      Data1: 1317016626
-      Data2: 1272612215
-      Data3: -1079646291
-      Data4: 289684600
-    Path: event:/Potions/Ice Spell Activate
 --- !u!1 &1998894919796312
 GameObject:
   m_ObjectHideFlags: 0
