@@ -1811,11 +1811,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7361318644592016736, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.47
+      value: -0.49
       objectReference: {fileID: 0}
     - target: {fileID: 7361318644592016736, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.44
+      value: -0.569
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
@@ -2937,11 +2937,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7361318644592016736, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.52
+      value: 0.72
       objectReference: {fileID: 0}
     - target: {fileID: 7361318644592016736, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.56
+      value: -0.79
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
@@ -10762,11 +10762,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7361318644592016736, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.56
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: 7361318644592016736, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.59
+      value: 0.782
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
@@ -21170,7 +21170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50.5}
+  m_AnchoredPosition: {x: 0, y: -78}
   m_SizeDelta: {x: 469.2, y: 101}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831307887
@@ -21195,13 +21195,13 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f1614f7947f6f154fad6c49df557e8ec, type: 3}
-    m_FontSize: 35
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 87
     m_Alignment: 4
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0

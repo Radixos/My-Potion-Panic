@@ -53,6 +53,9 @@ public class MainMenu : MonoBehaviour
             if (BG.color.a <= 0)
                 inMenu = true;
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
     }
 
     void ControllerCheck()
