@@ -42,6 +42,8 @@ public class IceMine : SpellBehaviour
             timerForHurtbox += Time.deltaTime;
             if (timerForHurtbox > 3f && iceMineState == 1)
             {
+                // MATT - This is where Ice Mine gets detonated i.e. another player steps into the mine
+
                 iceMineState++;
             }
             if (iceMineState == 2 && iceMineCollision.radius < 4.2)
@@ -92,7 +94,7 @@ public class IceMine : SpellBehaviour
                     break;
                 case 2:
                     other.gameObject.GetComponent<PlayerController>().health--;
-                    if (other.gameObject.GetComponent<PlayerController>().health == 0)
+                    if (other.gameObject.GetComponent<PlayerController>().health <= 0)
                     {
                         caster.kills += 1;
                     }

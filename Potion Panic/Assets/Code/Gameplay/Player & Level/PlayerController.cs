@@ -187,6 +187,18 @@ public class PlayerController : MonoBehaviour
                     }
                     else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.5 && !spellCasted)
                     {
+                        switch (spellInfo.Name)
+                        {
+                            case "Volcanic Blast":
+                                // MATT - Audio Call for Volcanic Blast start up
+
+                                break;
+                            case "Ice Mine":
+                                // MATT - Audio Call for Ice Mine start up
+
+                                break;
+                        }
+
                         GameObject obj = spellPool.GetPooledObject();
                         obj.transform.position = transform.position + transform.up;
                         obj.SetActive(true);
@@ -211,6 +223,9 @@ public class PlayerController : MonoBehaviour
                     }
                     else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7 && !spellCasted)
                     {
+                        // MATT - Audio Call for Projectile Type Spells
+                        // Only Nature's Arrow gets used here. So play start up sound here
+
                         GameObject obj = spellPool.GetPooledObject();
                         obj.transform.position = transform.position + transform.up;
                         obj.transform.rotation = transform.rotation;
@@ -423,6 +438,9 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetButtonDown("Interact " + controllerType + " " + playerID.ToString()))
             {
+
+                // MATT - Audio Call for picking up ingredients
+
                 carryingIngredient = collidingIngredient;
                 carryingIngredient.transform.parent = transform;
                 carryingIngredient.SetTarget(carryingLocation);

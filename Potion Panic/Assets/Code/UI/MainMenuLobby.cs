@@ -46,6 +46,8 @@ public class MainMenuLobby : MonoBehaviour
             {
                 if (Input.GetButtonDown("OK " + controllerType + " " + playerID.ToString()))
                 {
+                    // MATT - Audio Call for SFX after pressing Cross/A to Ready
+
                     mainMenu.playersReady++;
 
                     toReady.gameObject.SetActive(false);
