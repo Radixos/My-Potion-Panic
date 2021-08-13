@@ -75,7 +75,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -1491313582336987323}
+  - {fileID: 4928585915781559703}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -274,10 +274,37 @@ MonoBehaviour:
   Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Menu.bank
   Name: Menu
   StudioPath: bank:/Menu
-  lastModified: 637644623836553899
+  lastModified: 637644804811688170
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-6448623321868245625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Arrow Aim
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Arrow Aim
+  Guid:
+    Data1: 453274993
+    Data2: 1188181934
+    Data3: 956834432
+    Data4: -593788549
+  Banks:
+  - {fileID: 7934821222208464536}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1001
 --- !u!114 &-6104241563008241979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,6 +413,33 @@ MonoBehaviour:
   MinDistance: 3.4
   MaxDistance: 35
   Length: 1374
+--- !u!114 &-5283179857129831106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Arrow Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Arrow Impact
+  Guid:
+    Data1: -949567028
+    Data2: 1276507715
+    Data3: -878221665
+    Data4: 884599390
+  Banks:
+  - {fileID: 7934821222208464536}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
 --- !u!114 &-5130831782972501919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,7 +466,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 3559
 --- !u!114 &-5116882022165948487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,11 +482,11 @@ MonoBehaviour:
   Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637644623836503894
+  lastModified: 637644804811628152
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1776
+    Value: 1858
   Exists: 1
 --- !u!114 &-5013276881207013942
 MonoBehaviour:
@@ -939,7 +993,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 4295
 --- !u!114 &-134765375935341391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,12 +1054,14 @@ MonoBehaviour:
   - {fileID: -1132143688438565567}
   - {fileID: 8259016613953975625}
   - {fileID: 4484333015739384448}
+  - {fileID: -6448623321868245625}
+  - {fileID: -5283179857129831106}
   EditorParameters: []
   MasterBanks:
   - {fileID: 939161229958425665}
   StringsBanks:
   - {fileID: -5116882022165948487}
-  stringsBankWriteTime: 637644623836503894
+  stringsBankWriteTime: 637644804811628152
   cacheVersion: 9
 --- !u!114 &289091193462202304
 MonoBehaviour:
@@ -1141,6 +1197,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &578130070198457003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Drop/In Cauldron
+  m_EditorClassIdentifier: 
+  Name: In Cauldron
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &585189089402860161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1229,7 +1309,7 @@ MonoBehaviour:
   Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637644623836468891
+  lastModified: 637644804811603146
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1311,7 +1391,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 8541775943047218254}
+  - {fileID: 578130070198457003}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1703,6 +1783,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &4928585915781559703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Potion Made/Success
+  m_EditorClassIdentifier: 
+  Name: Success
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &5175546334220122278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1926,7 +2030,7 @@ MonoBehaviour:
   Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Level.bank
   Name: Level
   StudioPath: bank:/Level
-  lastModified: 637644623836418875
+  lastModified: 637644804811548138
   LoadResult: 0
   FileSizes: []
   Exists: 1

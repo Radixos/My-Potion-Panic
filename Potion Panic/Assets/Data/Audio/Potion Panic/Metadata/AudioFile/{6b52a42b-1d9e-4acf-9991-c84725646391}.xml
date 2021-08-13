@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6b52a42b-1d9e-4acf-9991-c84725646391}">
+		<property name="assetPath">
+			<value>Natures arrow stereo.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5596598639455781</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7d38990c-66d5-4a47-ba47-a56b7a0bcc77}</destination>
+		</relationship>
+	</object>
+</objects>
