@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16319 MB
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16319 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60036
+58680
 Successfully changed project path to: D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 211.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 233.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -36,703 +36,248 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005041 seconds.
+Registered in 0.001464 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 207.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 204.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.772 seconds
+- Completed reload, in  1.695 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013519 seconds.
+Registered in 0.010193 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 226.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 215.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.892 seconds
+- Completed reload, in  1.768 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3238 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.6 MB.
-System memory in use after: 153.8 MB.
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3680.
-Total: 4.476200 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.132000 ms MarkObjects: 3.895500 ms  DeleteObjects: 0.131300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Data/UI/Sprites/UI/Controller Icons/Xbox X Icon.png
-  artifactKey: Guid(972c629edec3faa49a05b57069bd5b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/UI/Controller Icons/Xbox X Icon.png using Guid(972c629edec3faa49a05b57069bd5b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a45901ee6c6af8e45a1a239d8a5b81') in 0.176419 seconds
-  Import took 0.184347 seconds .
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 3748.
+Total: 3.362800 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.138200 ms MarkObjects: 2.710100 ms  DeleteObjects: 0.182100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.364436 seconds.
-  path: Assets/Data/UI/Sprites/UI/Player Icons
-  artifactKey: Guid(902942d79ed44004aa2ac29f59331de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/UI/Player Icons using Guid(902942d79ed44004aa2ac29f59331de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced9c6bfb0747a1f5d738c6b791d438d') in 0.009409 seconds
-  Import took 0.051273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.678384 seconds.
-  path: Assets/Data/UI/Sprites/UI/Controller Icons
-  artifactKey: Guid(609345234b4f6e0428647227aa1e19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/UI/Controller Icons using Guid(609345234b4f6e0428647227aa1e19ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b9c7597baeeac9fa0a4ddc7f7048d0') in 0.008684 seconds
-  Import took 0.017388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.306007 seconds.
-  path: Assets/Data/Prefabs/Mani Prefabs
-  artifactKey: Guid(5940754cd403292439306ebaea98667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Mani Prefabs using Guid(5940754cd403292439306ebaea98667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c548fa1de4e87070a2c7c6eb5ba5e6') in 0.010901 seconds
-  Import took 0.020388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000913 seconds.
-  path: Assets/Data/Prefabs/Mani Prefabs
-  artifactKey: Guid(5940754cd403292439306ebaea98667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Mani Prefabs using Guid(5940754cd403292439306ebaea98667d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c548fa1de4e87070a2c7c6eb5ba5e6') in 0.002783 seconds
-  Import took 0.011561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.506258 seconds.
-  path: Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast - MOCK.prefab
-  artifactKey: Guid(a2f3e0896405233459c1036bb9c0d258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Mani Prefabs/Volcanic Blast - MOCK.prefab using Guid(a2f3e0896405233459c1036bb9c0d258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039cc4563ea448bf479f7a9a8e61cea2') in 0.279249 seconds
-  Import took 0.289970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.713819 seconds.
-  path: Assets/Code/Gameplay/Player & Level
-  artifactKey: Guid(5c6a66c2d10c2844399ab796e27803a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Player & Level using Guid(5c6a66c2d10c2844399ab796e27803a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549db7bcddf55cbe8abb8c5aadf4ac0c') in 0.044259 seconds
-  Import took 0.052593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.929933 seconds.
-  path: Assets/Code/Gameplay/Player & Level/PlayerController.cs
-  artifactKey: Guid(129beda65451a8745b9257b66365f5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Player & Level/PlayerController.cs using Guid(129beda65451a8745b9257b66365f5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3a26ad836970c1becb3a7571ad8f6a') in 0.014938 seconds
-  Import took 0.022749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032779 seconds.
-  path: Assets/Code/Gameplay/Player & Level/PlayerController.cs
-  artifactKey: Guid(129beda65451a8745b9257b66365f5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Gameplay/Player & Level/PlayerController.cs using Guid(129beda65451a8745b9257b66365f5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3a26ad836970c1becb3a7571ad8f6a') in 0.004094 seconds
-  Import took 0.012363 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010811 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.645 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.9 MB.
-System memory in use after: 151.1 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3730.
-Total: 4.251500 ms (FindLiveObjects: 0.498600 ms CreateObjectMapping: 0.177100 ms MarkObjects: 3.521900 ms  DeleteObjects: 0.052300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010410 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.622 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.9 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3733.
-Total: 2.995500 ms (FindLiveObjects: 0.319000 ms CreateObjectMapping: 0.179900 ms MarkObjects: 2.474800 ms  DeleteObjects: 0.020300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.364541 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Ice Mine.prefab
-  artifactKey: Guid(51fb8883a78a9c44dbe34a698603e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Ice Mine.prefab using Guid(51fb8883a78a9c44dbe34a698603e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2d45d6284518c6ef6ed5cff0a2ffb5') in 0.135931 seconds
-  Import took 0.146866 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011112 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.611 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.0 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3737.
-Total: 3.625000 ms (FindLiveObjects: 0.425800 ms CreateObjectMapping: 0.192400 ms MarkObjects: 2.966400 ms  DeleteObjects: 0.038800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013937 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.931 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.0 MB.
-System memory in use after: 151.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3740.
-Total: 3.635500 ms (FindLiveObjects: 0.509400 ms CreateObjectMapping: 0.137300 ms MarkObjects: 2.925800 ms  DeleteObjects: 0.061800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 185.779202 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Blue Ice Mine.prefab
-  artifactKey: Guid(51fb8883a78a9c44dbe34a698603e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Blue Ice Mine.prefab using Guid(51fb8883a78a9c44dbe34a698603e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb12826c982656cff8aad042e1cd5b') in 0.170257 seconds
-  Import took 0.182298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.546316 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Blue Nature's Arrow.prefab
-  artifactKey: Guid(9f01e66ca9d2d904fab4233d247df952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Blue Nature's Arrow.prefab using Guid(9f01e66ca9d2d904fab4233d247df952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d1169114f5b8856461120aaf6a746f') in 0.015926 seconds
-  Import took 0.025686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.319934 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Blue Ice Mine 1.prefab
-  artifactKey: Guid(5795a72e8912fd740964d405ed490f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Blue Ice Mine 1.prefab using Guid(5795a72e8912fd740964d405ed490f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccf7c2a5c141072502c68fc06f65eff') in 0.016880 seconds
-  Import took 0.025662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.411614 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab
-  artifactKey: Guid(5795a72e8912fd740964d405ed490f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab using Guid(5795a72e8912fd740964d405ed490f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb18d354b644615d86bbfbaf46e9977') in 0.019802 seconds
-  Import took 0.028505 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019175 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.722 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.0 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3743.
-Total: 2.972800 ms (FindLiveObjects: 0.334400 ms CreateObjectMapping: 0.151700 ms MarkObjects: 2.444600 ms  DeleteObjects: 0.041000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 450.383918 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab
-  artifactKey: Guid(5795a72e8912fd740964d405ed490f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab using Guid(5795a72e8912fd740964d405ed490f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c88324afdcdf2bbcfe0025fc4460f1') in 0.095332 seconds
-  Import took 0.105751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.595330 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Blue Ice Mine 1.prefab
-  artifactKey: Guid(48d0d198eaaa9d642b755dfd24b978bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Blue Ice Mine 1.prefab using Guid(48d0d198eaaa9d642b755dfd24b978bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d90a8a65a46a2d3ca69103faa8b5470') in 0.008851 seconds
-  Import took 0.017494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.277811 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab
-  artifactKey: Guid(48d0d198eaaa9d642b755dfd24b978bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab using Guid(48d0d198eaaa9d642b755dfd24b978bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a51e8cbcaa08af6b06dc5e76cbd1bf') in 0.011659 seconds
-  Import took 0.022185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 174.530197 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab
-  artifactKey: Guid(48d0d198eaaa9d642b755dfd24b978bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab using Guid(48d0d198eaaa9d642b755dfd24b978bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d641306dfac0ea3802310831b5c741') in 0.009737 seconds
-  Import took 0.019266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab
-  artifactKey: Guid(48d0d198eaaa9d642b755dfd24b978bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Red Ice Mine.prefab using Guid(48d0d198eaaa9d642b755dfd24b978bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d641306dfac0ea3802310831b5c741') in 0.010402 seconds
-  Import took 0.021420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.115066 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Red Ice Mine 1.prefab
-  artifactKey: Guid(54967f85a37989c4092b5f866e87e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Red Ice Mine 1.prefab using Guid(54967f85a37989c4092b5f866e87e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ed864cf442dfd7311d228200838fcc') in 0.014648 seconds
-  Import took 0.023212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.064970 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Green Ice Mine.prefab
-  artifactKey: Guid(54967f85a37989c4092b5f866e87e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Green Ice Mine.prefab using Guid(54967f85a37989c4092b5f866e87e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdc55ed315a5b6d26eeb4cce0711401') in 0.016715 seconds
-  Import took 0.026512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.347405 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Green Ice Mine.prefab
-  artifactKey: Guid(54967f85a37989c4092b5f866e87e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Green Ice Mine.prefab using Guid(54967f85a37989c4092b5f866e87e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41f3c1c2e21475248498d30cfb21767') in 0.008887 seconds
-  Import took 0.018319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Green Ice Mine.prefab
-  artifactKey: Guid(54967f85a37989c4092b5f866e87e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Green Ice Mine.prefab using Guid(54967f85a37989c4092b5f866e87e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41f3c1c2e21475248498d30cfb21767') in 0.008158 seconds
-  Import took 0.016513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.913625 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Green Ice Mine 1.prefab
-  artifactKey: Guid(de69e9380a375114696be7eaa8273b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Green Ice Mine 1.prefab using Guid(de69e9380a375114696be7eaa8273b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85518f7711484a5b04f5d5d995b2c251') in 0.017155 seconds
-  Import took 0.026332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.245598 seconds.
-  path: Assets/Prefabs/Skills/Projectiles/Yellow Ice Mine.prefab
-  artifactKey: Guid(de69e9380a375114696be7eaa8273b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Projectiles/Yellow Ice Mine.prefab using Guid(de69e9380a375114696be7eaa8273b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc82dddbf1bcb2d710c31cb129d9a4b') in 0.015265 seconds
-  Import took 0.025013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.380405 seconds.
-  path: Assets/Prefabs/VFX
-  artifactKey: Guid(2bc9a0c63bd4fce45bece7dbd89ee7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFX using Guid(2bc9a0c63bd4fce45bece7dbd89ee7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006c0ac83c205f74d0dcdf9811c9d704') in 0.059389 seconds
-  Import took 0.068688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.769957 seconds.
-  path: Assets/Prefabs/VFX/Skills
-  artifactKey: Guid(613357b34daa9d34fb644b2e23ed845f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFX/Skills using Guid(613357b34daa9d34fb644b2e23ed845f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17b9b13a39ee1554ed1d5f25ffd8e6d') in 0.043857 seconds
-  Import took 0.052351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.545534 seconds.
-  path: Assets/Prefabs/VFX/Skills/Mage
-  artifactKey: Guid(e936a8477d4915641b60390b44be49d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFX/Skills/Mage using Guid(e936a8477d4915641b60390b44be49d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bfde477ad89b42d1cec483ed698c0b') in 0.009781 seconds
-  Import took 0.017621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.138646 seconds.
-  path: Assets/Prefabs/VFX/Skills/Mage/VFX_Projectile_01.prefab
-  artifactKey: Guid(fcc4c7ddbe043094894416eb453b730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFX/Skills/Mage/VFX_Projectile_01.prefab using Guid(fcc4c7ddbe043094894416eb453b730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087bfe6439c270966186681a0057b19d') in 0.032469 seconds
-  Import took 0.041866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002459 seconds.
-  path: Assets/Prefabs/VFX/Skills/Mage/VFX_Projectile_01.prefab
-  artifactKey: Guid(fcc4c7ddbe043094894416eb453b730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/VFX/Skills/Mage/VFX_Projectile_01.prefab using Guid(fcc4c7ddbe043094894416eb453b730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087bfe6439c270966186681a0057b19d') in 0.008764 seconds
-  Import took 0.018536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.130626 seconds.
-  path: Assets/Prefabs/Skills/Area
-  artifactKey: Guid(1c0031e4e2a724f4db352f92fc7b37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Skills/Area using Guid(1c0031e4e2a724f4db352f92fc7b37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b7f831195e47b9c23abfa56f6bf6be') in 0.010622 seconds
-  Import took 0.019459 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011399 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.637 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.0 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3746.
-Total: 3.718900 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.142100 ms MarkObjects: 3.222400 ms  DeleteObjects: 0.024300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 152.682671 seconds.
-  path: Assets/Data/Scenes/Menu Scenes/Main Menu.unity
-  artifactKey: Guid(1f387208bea8baf42804f2b18f074c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Menu Scenes/Main Menu.unity using Guid(1f387208bea8baf42804f2b18f074c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd28655877f3200ebd5d161f9f0faf2') in 0.112465 seconds
-  Import took 0.127567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.874164 seconds.
-  path: Assets/Data/Scenes/Menu Scenes/LoadingScene.unity
-  artifactKey: Guid(89b076beb2b2f894f9ae15d2494b3a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Menu Scenes/LoadingScene.unity using Guid(89b076beb2b2f894f9ae15d2494b3a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f189a468c55646e23af3a81b17e97d') in 0.010476 seconds
-  Import took 0.019653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001469 seconds.
-  path: Assets/Data/Scenes/Menu Scenes/LoadingScene.unity
-  artifactKey: Guid(89b076beb2b2f894f9ae15d2494b3a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Menu Scenes/LoadingScene.unity using Guid(89b076beb2b2f894f9ae15d2494b3a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f189a468c55646e23af3a81b17e97d') in 0.004240 seconds
-  Import took 0.012876 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011644 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.906 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.1 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3749.
-Total: 4.283700 ms (FindLiveObjects: 0.465400 ms CreateObjectMapping: 0.286400 ms MarkObjects: 3.507400 ms  DeleteObjects: 0.023000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010588 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.711 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.1 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3752.
-Total: 3.622800 ms (FindLiveObjects: 0.374400 ms CreateObjectMapping: 0.192300 ms MarkObjects: 3.014800 ms  DeleteObjects: 0.040400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011065 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.753 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.1 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3755.
-Total: 4.878200 ms (FindLiveObjects: 0.669000 ms CreateObjectMapping: 0.360100 ms MarkObjects: 3.814900 ms  DeleteObjects: 0.032700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010698 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.524 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.1 MB.
-System memory in use after: 151.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3758.
-Total: 3.169900 ms (FindLiveObjects: 0.334000 ms CreateObjectMapping: 0.171900 ms MarkObjects: 2.641400 ms  DeleteObjects: 0.021500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 275.888020 seconds.
-  path: Assets/Data/Prefabs/Static
-  artifactKey: Guid(0bdc4b08dfe28a04483d72e0f35c7814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Static using Guid(0bdc4b08dfe28a04483d72e0f35c7814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d1ea97159b4c8c7ea38e87abd1b5ff') in 0.015815 seconds
-  Import took 0.025527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.620641 seconds.
-  path: Assets/Data/Prefabs/Spells/Blue Volcanic Blast VFX.prefab
-  artifactKey: Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Spells/Blue Volcanic Blast VFX.prefab using Guid(e40426c18799d4844ae407a361b7aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477b70389279fcdd34a4fb7149c810de') in 0.315177 seconds
-  Import took 0.322689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.596176 seconds.
-  path: Assets/Data/Prefabs/Spells/Red Volcanic Blast VFX.prefab
-  artifactKey: Guid(ff65ed6ace10b4a4689fefbc4ce44ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Prefabs/Spells/Red Volcanic Blast VFX.prefab using Guid(ff65ed6ace10b4a4689fefbc4ce44ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ba8d11ed1805513070c2867b9a9f4b') in 0.082709 seconds
-  Import took 0.153445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 325.656762 seconds.
-  path: Assets/Data/UI/Sprites/Spells/Volcanic Blast New.PNG
-  artifactKey: Guid(0bf3d19f2a611bf44ac0052e138b6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/Spells/Volcanic Blast New.PNG using Guid(0bf3d19f2a611bf44ac0052e138b6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd521718c85ec5180ef8b2a11a94c9a54') in 0.031947 seconds
-  Import took 0.043824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033277 seconds.
-  path: Assets/Data/UI/Sprites/Spells/Volcanic Blast New.PNG
-  artifactKey: Guid(0bf3d19f2a611bf44ac0052e138b6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/Spells/Volcanic Blast New.PNG using Guid(0bf3d19f2a611bf44ac0052e138b6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd521718c85ec5180ef8b2a11a94c9a54') in 0.030427 seconds
-  Import took 0.039927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.533046 seconds.
-  path: Assets/Data/UI/Sprites/Spells/Ice Mine New.PNG
-  artifactKey: Guid(1f5568c70b3e24246954c4f8aa55962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/Spells/Ice Mine New.PNG using Guid(1f5568c70b3e24246954c4f8aa55962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d4b87f10d115e45b0115827156319e') in 0.018744 seconds
-  Import took 0.062072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.389392 seconds.
-  path: Assets/Data/UI/Sprites/Spells/Nature's Arrow New.PNG
-  artifactKey: Guid(40dfbdc483f22644880800719430538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/Spells/Nature's Arrow New.PNG using Guid(40dfbdc483f22644880800719430538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c28617767d77604721f1e2cb84ed52') in 0.017757 seconds
-  Import took 0.026336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.603025 seconds.
-  path: Assets/Data/UI/Sprites/Spells/Nature's Arrow New.PNG
-  artifactKey: Guid(40dfbdc483f22644880800719430538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/Spells/Nature's Arrow New.PNG using Guid(40dfbdc483f22644880800719430538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046197da4d1636573f91dddc5059e1d3') in 0.049015 seconds
-  Import took 0.056617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.868195 seconds.
-  path: Assets/Data/Scriptable Objects/Spells/Ice Mine.asset
-  artifactKey: Guid(5d5047b4da87ba244965ca4e366c4818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scriptable Objects/Spells/Ice Mine.asset using Guid(5d5047b4da87ba244965ca4e366c4818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffd8ec74a4aa248e1c8779492fdeec1') in 0.051761 seconds
-  Import took 0.061212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.423679 seconds.
-  path: Assets/Data/UI/Sprites/UI/Controller Icons/ControllerMap_PotionPanic.png
-  artifactKey: Guid(2071b6a224778a147b96d2c90bc1849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/UI/Controller Icons/ControllerMap_PotionPanic.png using Guid(2071b6a224778a147b96d2c90bc1849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142133083ed081e513a92dffcd65b564') in 0.062984 seconds
-  Import took 0.073306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Data/UI/Sprites/UI/Controller Icons/PS Square Icon.png
-  artifactKey: Guid(493d21dfa4a703044983ccdf4b82bd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/UI/Controller Icons/PS Square Icon.png using Guid(493d21dfa4a703044983ccdf4b82bd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a516341b320f6d6e3d79f23e042d1e2') in 0.022485 seconds
-  Import took 0.030493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Data/UI/Sprites/UI/Controller Icons/ControllerMap_PotionPanic.png
-  artifactKey: Guid(2071b6a224778a147b96d2c90bc1849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/UI/Controller Icons/ControllerMap_PotionPanic.png using Guid(2071b6a224778a147b96d2c90bc1849f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142133083ed081e513a92dffcd65b564') in 0.016874 seconds
-  Import took 0.025363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Data/UI/Sprites/Spells/Ice Mine New.PNG
-  artifactKey: Guid(1f5568c70b3e24246954c4f8aa55962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/Spells/Ice Mine New.PNG using Guid(1f5568c70b3e24246954c4f8aa55962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8f8982b9ab0cdba4c79d92746b3258') in 0.026098 seconds
-  Import took 0.035215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Data/UI/Sprites/Spells/Volcanic Blast New.PNG
-  artifactKey: Guid(0bf3d19f2a611bf44ac0052e138b6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/UI/Sprites/Spells/Volcanic Blast New.PNG using Guid(0bf3d19f2a611bf44ac0052e138b6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ada897225d5c3031a4caed4b668a95') in 0.024110 seconds
-  Import took 0.033004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.079383 seconds.
-  path: Assets/Data/Scriptable Objects/Spells/Nature's Arrow.asset
-  artifactKey: Guid(3b7d9cb426ad91c4b9989a8233ad03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scriptable Objects/Spells/Nature's Arrow.asset using Guid(3b7d9cb426ad91c4b9989a8233ad03c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a25f08dd418381530d85751f4600f') in 0.034780 seconds
-  Import took 0.046927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.045357 seconds.
-  path: Assets/Data/Scriptable Objects/Spells/Volcanic Blast.asset
-  artifactKey: Guid(29bfef7556a21374196acdc41fc5b7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scriptable Objects/Spells/Volcanic Blast.asset using Guid(29bfef7556a21374196acdc41fc5b7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050fcf78ea91b8346a005b19dd46f683') in 0.032081 seconds
-  Import took 0.043023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.808379 seconds.
-  path: Assets/Data/Scriptable Objects/Spells/Volcanic Blast.asset
-  artifactKey: Guid(29bfef7556a21374196acdc41fc5b7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scriptable Objects/Spells/Volcanic Blast.asset using Guid(29bfef7556a21374196acdc41fc5b7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d60db5f56e0b500d4373ba4dd63cc9e') in 0.031241 seconds
-  Import took 0.041272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.647417 seconds.
   path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity
   artifactKey: Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity using Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447d15013b1da076ee441c1a5ffcfa1a') in 0.010760 seconds
-  Import took 0.019643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.553082 seconds.
-  path: Assets/Data/Scenes/Menu Scenes/Main Menu.unity
-  artifactKey: Guid(1f387208bea8baf42804f2b18f074c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Menu Scenes/Main Menu.unity using Guid(1f387208bea8baf42804f2b18f074c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b97321e20fc9cb71ece6557de617c7') in 0.005008 seconds
-  Import took 0.081175 seconds .
+Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity using Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46989bc7ee123778104897f11f6d3a4') in 0.065345 seconds
+  Import took 0.072389 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013343 seconds.
+Registered in 0.010681 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.821 seconds
+- Completed reload, in  1.577 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.3 MB.
-System memory in use after: 151.5 MB.
+Unloading 796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3805.
-Total: 3.341600 ms (FindLiveObjects: 0.348200 ms CreateObjectMapping: 0.267900 ms MarkObjects: 2.649400 ms  DeleteObjects: 0.075200 ms)
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3751.
+Total: 3.209500 ms (FindLiveObjects: 0.323800 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.678900 ms  DeleteObjects: 0.061100 ms)
 
 ========================================================================
 Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 9.07 ms, found 2 plugins.
+Registering precompiled user dll's ...
+Registered in 0.015633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.0 MB.
-System memory in use after: 90.3 MB.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  2.084 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3805.
-Total: 3.740000 ms (FindLiveObjects: 0.420100 ms CreateObjectMapping: 0.172200 ms MarkObjects: 3.108400 ms  DeleteObjects: 0.037800 ms)
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3754.
+Total: 4.070900 ms (FindLiveObjects: 0.429100 ms CreateObjectMapping: 0.242700 ms MarkObjects: 3.330700 ms  DeleteObjects: 0.066500 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.8 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3757.
+Total: 4.335700 ms (FindLiveObjects: 0.472500 ms CreateObjectMapping: 0.201300 ms MarkObjects: 3.610800 ms  DeleteObjects: 0.048800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 559.129256 seconds.
+  path: Assets/Data/Audio
+  artifactKey: Guid(1cb77e9691a3f0e46b20f6c6408c93e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio using Guid(1cb77e9691a3f0e46b20f6c6408c93e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68165e98d5a3075af325139950dd075') in 0.013861 seconds
+  Import took 0.025545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.221309 seconds.
+  path: Assets/Data/Audio/Potion Panic
+  artifactKey: Guid(4b12a955e1e6b8241821191e4e2dea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic using Guid(4b12a955e1e6b8241821191e4e2dea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39c35b628ffb15ec2a5d6649c27e033') in 0.007531 seconds
+  Import took 0.015733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.243855 seconds.
+  path: Assets/Data/Audio/Potion Panic/Assets
+  artifactKey: Guid(74c5046e985aa4846ad46a7abdd8d8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic/Assets using Guid(74c5046e985aa4846ad46a7abdd8d8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8bfd3a259c49846e757e3653877a90') in 0.008178 seconds
+  Import took 0.017168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.883052 seconds.
+  path: Assets/Data/Audio/Potion Panic/Build
+  artifactKey: Guid(4595ccf8f13716c46a7fc070ae965f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic/Build using Guid(4595ccf8f13716c46a7fc070ae965f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e142a5ed749d1f15c06a6c53035ae9') in 0.007910 seconds
+  Import took 0.015519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.037330 seconds.
+  path: Assets/Data/Audio/Potion Panic/Potion Panic.fspro
+  artifactKey: Guid(3e16d3cfc1e38a14f83a8dc946e9ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic/Potion Panic.fspro using Guid(3e16d3cfc1e38a14f83a8dc946e9ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cbe96529583af0fe778b85f204ebed') in 0.219306 seconds
+  Import took 0.229153 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.8 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3760.
+Total: 3.114800 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.158700 ms MarkObjects: 2.605300 ms  DeleteObjects: 0.061200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.301434 seconds.
+  path: Assets/Data/UI/Sprites/UI/Controller Icons/Face Button Input - Left Button.png
+  artifactKey: Guid(e8427a05ad7905b48b2c61ef887b2ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UI/Sprites/UI/Controller Icons/Face Button Input - Left Button.png using Guid(e8427a05ad7905b48b2c61ef887b2ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4f7e9c14c0a88912f10d84e43cf678') in 0.379532 seconds
+  Import took 0.390653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Data/UI/Sprites/Spells/Nature's Arrow New.PNG
+  artifactKey: Guid(40dfbdc483f22644880800719430538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UI/Sprites/Spells/Nature's Arrow New.PNG using Guid(40dfbdc483f22644880800719430538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4139f35d440a62769ab6657f7910dc') in 0.053816 seconds
+  Import took 0.061835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Data/UI/Sprites/Spells/Ice Mine New.PNG
+  artifactKey: Guid(1f5568c70b3e24246954c4f8aa55962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UI/Sprites/Spells/Ice Mine New.PNG using Guid(1f5568c70b3e24246954c4f8aa55962c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dbb22dda1f81d0908e1e17d2836050') in 0.023114 seconds
+  Import took 0.032357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Data/UI/Sprites/Spells/Volcanic Blast New.PNG
+  artifactKey: Guid(0bf3d19f2a611bf44ac0052e138b6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UI/Sprites/Spells/Volcanic Blast New.PNG using Guid(0bf3d19f2a611bf44ac0052e138b6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1d63a8b0f29175d421d5443daf7e80') in 0.030747 seconds
+  Import took 0.039242 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.5 MB.
+System memory in use after: 104.8 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3775.
+Total: 3.170300 ms (FindLiveObjects: 0.321200 ms CreateObjectMapping: 0.157000 ms MarkObjects: 2.611800 ms  DeleteObjects: 0.079400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.734645 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(bf21e4f3e462bc54ab610534e9f19227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(bf21e4f3e462bc54ab610534e9f19227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866206f86bab23acfff034a26d478e0c') in 0.014500 seconds
+  Import took 0.024062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.992835 seconds.
+  path: Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab
+  artifactKey: Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POTION PANIC/PREFABS/saber tooth fang (1) Variant.prefab using Guid(28ada53b6e9a2b44d9a262f8649e4087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3bf1158aa72301d6274cfc7d38f227') in 0.378501 seconds
+  Import took 0.388324 seconds .
+

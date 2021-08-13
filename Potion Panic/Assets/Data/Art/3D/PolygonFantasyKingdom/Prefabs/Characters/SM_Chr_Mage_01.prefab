@@ -4907,6 +4907,7 @@ GameObject:
   - component: {fileID: 1366322311610185089}
   - component: {fileID: 5358881565660517975}
   - component: {fileID: 9204741375443034325}
+  - component: {fileID: 3281902972976709609}
   m_Layer: 6
   m_Name: SM_Chr_Mage_01
   m_TagString: Player
@@ -5031,6 +5032,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &3281902972976709609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996767962855262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8608a943681ac14192eb59664cce8c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepPath:
+    Guid:
+      Data1: -2109949176
+      Data2: 1302120034
+      Data3: -1295522888
+      Data4: 1614849479
+    Path: event:/Player/Footstep
 --- !u!1 &1998894919796312
 GameObject:
   m_ObjectHideFlags: 0
