@@ -16,14 +16,16 @@ public class PlayerManager : MonoBehaviour
     private float spawnDelay; // Time between respawns
 
     // EVENTS
-    //public delegate void OnMatchCompleted();
-    //public event OnMatchCompleted OnMatchCompletedEvent;
+    public delegate void OnMatchCompleted();
+    public event OnMatchCompleted OnMatchCompletedEvent;
     public bool matchCompleted;
 
     // UI
     private string victoryText;
     private Color victoryTextColor;
     public Text victoryBanner;
+
+    public GameObject deathEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -67,7 +69,7 @@ public class PlayerManager : MonoBehaviour
             victoryBanner.color = victoryTextColor;
         }
 
-        // DEBUG CODE
+
         if (Input.GetKeyDown(KeyCode.Escape))
             Application.Quit();
 
@@ -122,7 +124,7 @@ public class PlayerManager : MonoBehaviour
                 {
                     if (players[i].kills >= 3)
                     {
-                        //OnMatchCompletedEvent?.Invoke();
+                        OnMatchCompletedEvent?.Invoke();
                         victoryText = "Player " + (i + 1) + " Wins!";
 
                         switch(i + 1)
@@ -144,6 +146,12 @@ public class PlayerManager : MonoBehaviour
                     {
                         players[i].isDead = true;
                         players[i].PlayerReset();
+
+                        GameObject newDeathEffect = Instantiate(deathEffect, new Vector3
+                        (players[i].transform.position.x, players[i].transform.position.y, players[i].transform.position.z), Quaternion.identity);
+                        newDeathEffect.GetComponent<PlayerDeathEffect>().playerCount = players.Count;
+                        newDeathEffect.GetComponent<PlayerDeathEffect>().player = i;
+
                         players[i].gameObject.SetActive(false);
                     }
                 }

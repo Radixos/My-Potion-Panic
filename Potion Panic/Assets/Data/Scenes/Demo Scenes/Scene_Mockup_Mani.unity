@@ -4847,6 +4847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spell: {fileID: 11400000, guid: 5d5047b4da87ba244965ca4e366c4818, type: 2}
+  spellIcon: {fileID: 806646835}
   ingredients:
   - {fileID: 952049527}
   - {fileID: 13261428}
@@ -9888,7 +9889,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0bf3d19f2a611bf44ac0052e138b6d3f, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10184,7 +10185,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f5568c70b3e24246954c4f8aa55962c, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11573,6 +11574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spell: {fileID: 11400000, guid: 29bfef7556a21374196acdc41fc5b7a8, type: 2}
+  spellIcon: {fileID: 755770123}
   ingredients:
   - {fileID: 930065021}
   - {fileID: 1202977281}
@@ -18846,6 +18848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spell: {fileID: 11400000, guid: 3b7d9cb426ad91c4b9989a8233ad03c9, type: 2}
+  spellIcon: {fileID: 1894205457}
   ingredients:
   - {fileID: 2048221840}
   - {fileID: 456870552}
@@ -20412,7 +20415,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1722012505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b5f7fa015763a448a0bc24ea76d533, type: 3}
+  m_Script: {fileID: 11500000, guid: e767ed92b6943114692ed2d517f85851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   players: []
@@ -20424,7 +20427,6 @@ MonoBehaviour:
   - {fileID: 663152093}
   matchCompleted: 0
   victoryBanner: {fileID: 1831307887}
-  restartTimerObj: {fileID: 1352070543}
   deathEffect: {fileID: 2613681876558750632, guid: e51a8c24a4cf67d47839d710de38f415, type: 3}
 --- !u!4 &1722012507
 Transform:
@@ -21895,7 +21897,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 40dfbdc483f22644880800719430538d, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
