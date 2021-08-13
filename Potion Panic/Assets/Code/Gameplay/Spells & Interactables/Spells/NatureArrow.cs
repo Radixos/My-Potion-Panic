@@ -38,7 +38,7 @@ public class NatureArrow : SpellBehaviour
                 {
                     other.gameObject.GetComponent<PlayerController>().health = 0;
                     caster.kills += 1;
-                    SpellReset();
+                    //SpellReset();
                 }
             }
         }
