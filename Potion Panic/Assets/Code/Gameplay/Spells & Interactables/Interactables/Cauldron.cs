@@ -64,6 +64,9 @@ public class Cauldron : MonoBehaviour
     {
         if (Vector3.Distance(droppingIngredient.transform.position, cauldronCore.position) <= 0.3f)
         {
+
+            // MATT - Audio Call when ingredients are dropped into cauldron
+
             consumedIngredients.Add(droppingIngredient);
 
             if (consumedIngredients.Count >= 3)
