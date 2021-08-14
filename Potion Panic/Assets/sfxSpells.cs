@@ -27,4 +27,9 @@ public class sfxSpells : MonoBehaviour
     {
 
     }
+
+    void AOESpell()
+    {
+
+    }
 }

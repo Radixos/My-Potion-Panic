@@ -15,11 +15,11 @@ D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60482
+54524
 Successfully changed project path to: D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 D:/Manikandan/Documents/Repositories/Potion-Panic/Potion Panic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 316.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 242.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -36,608 +36,129 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001465 seconds.
+Registered in 0.001549 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 203.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 213.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.402 seconds
+- Completed reload, in  1.732 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014495 seconds.
+Registered in 0.011838 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 246.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 229.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  2.028 seconds
+- Completed reload, in  1.772 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.8 MB.
 System memory in use after: 88.0 MB.
 
 Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 3749.
-Total: 3.292000 ms (FindLiveObjects: 0.399200 ms CreateObjectMapping: 0.297500 ms MarkObjects: 2.458100 ms  DeleteObjects: 0.136000 ms)
+Total: 3.560400 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.172500 ms MarkObjects: 2.903600 ms  DeleteObjects: 0.144700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Data/Art/Custom Assets/Models/Cauldron/Cauldron_Low.fbx
-  artifactKey: Guid(07064f03638505042804cb2d087af435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/Custom Assets/Models/Cauldron/Cauldron_Low.fbx using Guid(07064f03638505042804cb2d087af435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7ee848f8da709edc030dfcaddd7455') in 0.766848 seconds
-  Import took 0.778691 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016580 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  2.179 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.8 MB.
-System memory in use after: 107.0 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3800.
-Total: 4.209700 ms (FindLiveObjects: 0.532800 ms CreateObjectMapping: 0.380900 ms MarkObjects: 3.239100 ms  DeleteObjects: 0.054900 ms)
+  path: Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+  artifactKey: Guid(679f429c585d1014f865f2705b8090d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset using Guid(679f429c585d1014f865f2705b8090d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da771297426ee75bf9081a02f184e611') in 0.077870 seconds
+  Import took 0.086911 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 129.717783 seconds.
-  path: Assets/Data/Scenes/Menu Scenes/Main Menu.unity
-  artifactKey: Guid(1f387208bea8baf42804f2b18f074c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Menu Scenes/Main Menu.unity using Guid(1f387208bea8baf42804f2b18f074c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24094291c82927ac9552f8df6650ded6') in 0.065852 seconds
-  Import took 0.076001 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  2.066 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.9 MB.
-System memory in use after: 107.1 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3803.
-Total: 4.210800 ms (FindLiveObjects: 0.364700 ms CreateObjectMapping: 0.267900 ms MarkObjects: 3.527700 ms  DeleteObjects: 0.048600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010312 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.40 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.545 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.9 MB.
-System memory in use after: 107.1 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3806.
-Total: 3.346600 ms (FindLiveObjects: 0.310900 ms CreateObjectMapping: 0.152800 ms MarkObjects: 2.780100 ms  DeleteObjects: 0.101700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011446 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.625 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 4.80 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.9 MB.
-System memory in use after: 107.1 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3809.
-Total: 4.160900 ms (FindLiveObjects: 0.412900 ms CreateObjectMapping: 0.268300 ms MarkObjects: 3.415800 ms  DeleteObjects: 0.062500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020362 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  2.031 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.9 MB.
-System memory in use after: 107.2 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3812.
-Total: 3.002200 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.155600 ms MarkObjects: 2.485700 ms  DeleteObjects: 0.062500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014957 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 4.39 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  2.169 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 4.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.9 MB.
-System memory in use after: 107.2 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3815.
-Total: 5.122800 ms (FindLiveObjects: 0.434700 ms CreateObjectMapping: 0.328000 ms MarkObjects: 4.298900 ms  DeleteObjects: 0.059900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011272 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.590 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.9 MB.
-System memory in use after: 107.2 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3818.
-Total: 3.461000 ms (FindLiveObjects: 0.309900 ms CreateObjectMapping: 0.159600 ms MarkObjects: 2.913300 ms  DeleteObjects: 0.077000 ms)
+  Time since last request: 13.965228 seconds.
+  path: Assets/Data/Audio/Potion Panic/Assets/Footsteps normal gravel 1.wav
+  artifactKey: Guid(1595095b6a7a61c4194f27eac15919fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic/Assets/Footsteps normal gravel 1.wav using Guid(1595095b6a7a61c4194f27eac15919fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b49776e04bcdde5854ca0dc0abf1c9') in 0.292194 seconds
+  Import took 0.299282 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 700.343318 seconds.
-  path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity
-  artifactKey: Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity using Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5663d14e7220d55fbef9b2883f0abad') in 0.423664 seconds
-  Import took 0.436186 seconds .
+  Time since last request: 0.187246 seconds.
+  path: Assets/Code/Audio/FootstepAudio.cs
+  artifactKey: Guid(b8608a943681ac14192eb59664cce8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Audio/FootstepAudio.cs using Guid(b8608a943681ac14192eb59664cce8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed6cbe20daf5af7e643d0d70f660fe9') in 0.015177 seconds
+  Import took 0.024333 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.620116 seconds.
-  path: Assets/Data/Animations/Running.fbx
-  artifactKey: Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animations/Running.fbx using Guid(ccdccc3502d745645ba1d893d1174204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82dc0e21235afa796ee42411075587e') in 0.660420 seconds
-  Import took 0.669263 seconds .
+  Time since last request: 2.250142 seconds.
+  path: Assets/Data/Audio/Potion Panic/Assets/Player Footsteps-001.wav
+  artifactKey: Guid(035bdada7790a804ca10e0f66ef4083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic/Assets/Player Footsteps-001.wav using Guid(035bdada7790a804ca10e0f66ef4083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e33d7414bb3ada0952bdaf7cfa2f0a') in 0.020592 seconds
+  Import took 0.028987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000835 seconds.
+  path: Assets/Data/Audio/Potion Panic/Assets/Player Footsteps-001.wav
+  artifactKey: Guid(035bdada7790a804ca10e0f66ef4083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic/Assets/Player Footsteps-001.wav using Guid(035bdada7790a804ca10e0f66ef4083d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e33d7414bb3ada0952bdaf7cfa2f0a') in 0.008985 seconds
+  Import took 0.017713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.510517 seconds.
+  path: Assets/Data/Audio/Potion Panic/Assets/Player Footsteps-003.wav
+  artifactKey: Guid(168b3f896fd93be498f9952e959923f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic/Assets/Player Footsteps-003.wav using Guid(168b3f896fd93be498f9952e959923f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daa48fd41df8b2f2f6322afe8bf6f5b') in 0.018278 seconds
+  Import took 0.026170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Data/Audio/Potion Panic/Assets/Player Footsteps-003.wav
+  artifactKey: Guid(168b3f896fd93be498f9952e959923f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Audio/Potion Panic/Assets/Player Footsteps-003.wav using Guid(168b3f896fd93be498f9952e959923f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daa48fd41df8b2f2f6322afe8bf6f5b') in 0.011904 seconds
+  Import took 0.022381 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010173 seconds.
+Registered in 0.010291 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.605 seconds
+- Completed reload, in  1.523 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.8 MB.
-System memory in use after: 121.1 MB.
+Unloading 796 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.9 MB.
+System memory in use after: 105.1 MB.
 
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3891.
-Total: 3.880500 ms (FindLiveObjects: 0.352400 ms CreateObjectMapping: 0.168400 ms MarkObjects: 3.317600 ms  DeleteObjects: 0.041000 ms)
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3761.
+Total: 3.290500 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.177300 ms MarkObjects: 2.774200 ms  DeleteObjects: 0.034100 ms)
 
 ========================================================================
 Received Prepare
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 23.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 25.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.8 MB.
-System memory in use after: 107.1 MB.
+System memory in use before: 90.5 MB.
+System memory in use after: 90.8 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3891.
-Total: 4.384300 ms (FindLiveObjects: 0.381500 ms CreateObjectMapping: 0.186100 ms MarkObjects: 3.763500 ms  DeleteObjects: 0.051900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010639 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.579 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.8 MB.
-System memory in use after: 121.1 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3894.
-Total: 4.546000 ms (FindLiveObjects: 0.766600 ms CreateObjectMapping: 0.360800 ms MarkObjects: 3.377200 ms  DeleteObjects: 0.040100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 591.345368 seconds.
-  path: Assets/Data/Animations/PlayerAnimController.controller
-  artifactKey: Guid(444d1d88a40b2ad4d8bf14d9c40c8171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animations/PlayerAnimController.controller using Guid(444d1d88a40b2ad4d8bf14d9c40c8171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922809cbde884145a21ecc20d3649700') in 0.218685 seconds
-  Import took 0.230859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.733087 seconds.
-  path: Assets/Data/Animations/Standing 2H Magic Area Attack 01.fbx
-  artifactKey: Guid(0483d2aab17758a46ac1a066ff0727df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Animations/Standing 2H Magic Area Attack 01.fbx using Guid(0483d2aab17758a46ac1a066ff0727df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996ec10c6bff5d977cb55532fe09ba89') in 1.230992 seconds
-  Import took 1.239577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.594372 seconds.
-  path: Assets/Data/Art/3D/CircleMesh2.fbx
-  artifactKey: Guid(e0a3b0524846b9b408f2835a36b40d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/CircleMesh2.fbx using Guid(e0a3b0524846b9b408f2835a36b40d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732973c5edacefa5f16e4d816c4de3cd') in 0.058424 seconds
-  Import took 0.068431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.170171 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeon_Material_01.mat
-  artifactKey: Guid(42b64fdb315e3054ea757d8d1c4bcfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeon_Material_01.mat using Guid(42b64fdb315e3054ea757d8d1c4bcfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936a30377a47d9a9d9c2d308b02b0246') in 0.070525 seconds
-  Import took 0.078585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000500 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_A.mat
-  artifactKey: Guid(7ac7f7ed4e4639c41b96b549364e3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_A.mat using Guid(7ac7f7ed4e4639c41b96b549364e3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5c35bbdb65e9cd6e801d5761324883') in 0.090413 seconds
-  Import took 0.097375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067900 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_B.mat
-  artifactKey: Guid(2f812bc7d2391f74095c870e8dea3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_B.mat using Guid(2f812bc7d2391f74095c870e8dea3e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3594c6314ea70ecc58bb2523e3471b6d') in 0.080853 seconds
-  Import took 0.088646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_A.mat
-  artifactKey: Guid(adbe0f4574273aa469f66a7c5f8d6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_A.mat using Guid(adbe0f4574273aa469f66a7c5f8d6876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ca95f9878c6430f8fa40b463790c7e') in 0.068910 seconds
-  Import took 0.078270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_C.mat
-  artifactKey: Guid(f470159569cddea4a947afe501e2d54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_C.mat using Guid(f470159569cddea4a947afe501e2d54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b8f4ff1bfe64c4a626a197f3b29331') in 0.114266 seconds
-  Import took 0.122972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeon_Material_02.mat
-  artifactKey: Guid(0574116a7188c654ab34fcd54a2d0ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeon_Material_02.mat using Guid(0574116a7188c654ab34fcd54a2d0ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd55786c4441950c021fe352dc9c9cb1') in 0.167934 seconds
-  Import took 0.176086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_D.mat
-  artifactKey: Guid(41eeaca2a327f424a968942f71105488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_D.mat using Guid(41eeaca2a327f424a968942f71105488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b17f26f9c3392c52a61f599d0603da') in 0.081109 seconds
-  Import took 0.088387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001121 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeon_Material_03.mat
-  artifactKey: Guid(54061fa668860e54a8e96694301d76a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeon_Material_03.mat using Guid(54061fa668860e54a8e96694301d76a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd442aecb2dfeb7435f453d1bbb77d2a') in 0.133335 seconds
-  Import took 0.140743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_A.mat
-  artifactKey: Guid(b1b83a452a77ed74d8bb75e5b8d0a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_A.mat using Guid(b1b83a452a77ed74d8bb75e5b8d0a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1553e774c476d084a75a2d9e551aac44') in 0.138473 seconds
-  Import took 0.146590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeon_Material_04.mat
-  artifactKey: Guid(e3023c0182312214e86398117753528d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeon_Material_04.mat using Guid(e3023c0182312214e86398117753528d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cd579d5699679681cbd72b0a3d068a') in 0.100219 seconds
-  Import took 0.106887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_A.mat
-  artifactKey: Guid(d1bae770b379c6e499b93122bbe784cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_A.mat using Guid(d1bae770b379c6e499b93122bbe784cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecff311c3d8acc6a4c0d7376e745d6cb') in 0.056022 seconds
-  Import took 0.065930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_D.mat
-  artifactKey: Guid(677c1b3a96d0442478c508f22f3dff23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_D.mat using Guid(677c1b3a96d0442478c508f22f3dff23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2173a6b2b9337a11b7e4a872be8c532b') in 0.044510 seconds
-  Import took 0.053008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Material_Ghost_Soft.mat
-  artifactKey: Guid(685714bc4595f7b4c8e75a582e09e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Material_Ghost_Soft.mat using Guid(685714bc4595f7b4c8e75a582e09e6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af46945d37514a7bd3fbba5be870cc6d') in 0.034192 seconds
-  Import took 0.043876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_Ice.mat
-  artifactKey: Guid(6f564942779400d418ee39582abb85a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_Ice.mat using Guid(6f564942779400d418ee39582abb85a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c44bede864c17fe9dd88334be26ff2') in 0.911174 seconds
-  Import took 0.918834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Models/Materials/Dungeons_Texture_01.mat
-  artifactKey: Guid(4a814d0c5dbba7545b8ddf112351b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Models/Materials/Dungeons_Texture_01.mat using Guid(4a814d0c5dbba7545b8ddf112351b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd176f29135914596f264bc1891f0d5ad') in 0.076672 seconds
-  Import took 0.084350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_TextureWalls.mat
-  artifactKey: Guid(e31fd59401aad3747990f06e06debc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_TextureWalls.mat using Guid(e31fd59401aad3747990f06e06debc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12431355247fbc852c6211367bfdb6aa') in 0.338993 seconds
-  Import took 0.358809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Texture_Ghost.mat
-  artifactKey: Guid(ea24e01b03f54464eadda8d044dc3d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Texture_Ghost.mat using Guid(ea24e01b03f54464eadda8d044dc3d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2115c392a0f135bbae1f3020056cff13') in 0.075796 seconds
-  Import took 0.083411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Models/Materials/Dungeons_Texture.mat
-  artifactKey: Guid(f9c13eb2007525e40a2877c77f3a75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Models/Materials/Dungeons_Texture.mat using Guid(f9c13eb2007525e40a2877c77f3a75d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225ccc850f5de1c11c4c1283e2bbebdf') in 0.034134 seconds
-  Import took 0.040932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Material_Emmision.mat
-  artifactKey: Guid(3566951063315b24e8e8316d214cf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Material_Emmision.mat using Guid(3566951063315b24e8e8316d214cf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593a8addeb070b4e482fbcf1fc7f3b5f') in 0.045379 seconds
-  Import took 0.052406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_CandleFlame.mat
-  artifactKey: Guid(169bd604eb7f4bf42bdb6c877f677c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/FX_CandleFlame.mat using Guid(169bd604eb7f4bf42bdb6c877f677c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56169f247494cb600d1801311ac42c86') in 0.033344 seconds
-  Import took 0.040128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Material_Dust_Soft.mat
-  artifactKey: Guid(16025479cbc59c145aed336aa4c0d776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Material_Dust_Soft.mat using Guid(16025479cbc59c145aed336aa4c0d776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218a640febddd7317f61217ae39074d7') in 0.072910 seconds
-  Import took 0.080310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_C.mat
-  artifactKey: Guid(5669cbb7e0eee7b469fe44c5a872d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_C.mat using Guid(5669cbb7e0eee7b469fe44c5a872d2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da38e74bd0d2172c4d69b0b0f048b11') in 0.072271 seconds
-  Import took 0.080744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeons_Material_Characters_01.mat
-  artifactKey: Guid(1a64cf0a23f83924f9debcb452685f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Dungeons_Material_Characters_01.mat using Guid(1a64cf0a23f83924f9debcb452685f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc316589852a81774f4ff439fbfed24') in 0.025918 seconds
-  Import took 0.033396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_D.mat
-  artifactKey: Guid(d69305a10055d7c44b8baada30303e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_D.mat using Guid(d69305a10055d7c44b8baada30303e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b4bf73ac5d8162eaa1d0d769399dc9') in 0.047885 seconds
-  Import took 0.056689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_C.mat
-  artifactKey: Guid(3fbade09b83e6684c85f132da96a79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_C.mat using Guid(3fbade09b83e6684c85f132da96a79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b1ce16808d2627e8cd09bfcb2dca29') in 0.050064 seconds
-  Import took 0.057789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_B.mat
-  artifactKey: Guid(dcf1c8ebc26cef840a13f1b3c0a50f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_B.mat using Guid(dcf1c8ebc26cef840a13f1b3c0a50f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9433a236ed772feba3a60876ce7f16e0') in 0.057493 seconds
-  Import took 0.064636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_C.mat
-  artifactKey: Guid(ec4e3847523bb844499342c7de73a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_C.mat using Guid(ec4e3847523bb844499342c7de73a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe12f3e58e844d35a1f41ae42a4744ea') in 0.066920 seconds
-  Import took 0.073195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_Snow.mat
-  artifactKey: Guid(275920581080ced43a750da785649059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_Snow.mat using Guid(275920581080ced43a750da785649059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55f753c873561d8ac96288dd6a972d9') in 0.043700 seconds
-  Import took 0.049791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_TextureFloor.mat
-  artifactKey: Guid(b64531222cca0504c89bf60a156a2157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_TextureFloor.mat using Guid(b64531222cca0504c89bf60a156a2157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b287ce9b72cb54daa2efb092e59f33') in 0.297988 seconds
-  Import took 0.305931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_Transparent.mat
-  artifactKey: Guid(e7578bbbb7085d042bf6a83f3507cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeon_Material_Transparent.mat using Guid(e7578bbbb7085d042bf6a83f3507cd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f542877019a91f47194ce1bf80d4c5') in 0.039973 seconds
-  Import took 0.046568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_B.mat
-  artifactKey: Guid(b8d4818780a648f43a3c6e2d9b7e0dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_B.mat using Guid(b8d4818780a648f43a3c6e2d9b7e0dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d0b984f843d67abb1f7775f57f542d') in 0.092204 seconds
-  Import took 0.098761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_D.mat
-  artifactKey: Guid(63b2458f634a82145935236ca002661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_D.mat using Guid(63b2458f634a82145935236ca002661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3389e80925e1f8d7baaa4595ab950813') in 0.060149 seconds
-  Import took 0.067488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Material_Lava.mat
-  artifactKey: Guid(10199ca4525d43e4a993510d83a06737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Misc/Dungeons_Material_Lava.mat using Guid(10199ca4525d43e4a993510d83a06737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334e0dd5e829ea3760b8ea1899230df5') in 0.028456 seconds
-  Import took 0.035076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_B.mat
-  artifactKey: Guid(dda89ebfddae0294dbbfc71c5556dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Art/3D/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_B.mat using Guid(dda89ebfddae0294dbbfc71c5556dd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d7d5a6c2d17fd60a90fd1b197b010c') in 0.075176 seconds
-  Import took 0.082555 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010139 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Mono: successfully reloaded assembly
-- Completed reload, in  1.610 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 779 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.2 MB.
-System memory in use after: 121.5 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3933.
-Total: 3.334600 ms (FindLiveObjects: 0.310500 ms CreateObjectMapping: 0.157500 ms MarkObjects: 2.816300 ms  DeleteObjects: 0.049200 ms)
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3761.
+Total: 3.581700 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.177900 ms MarkObjects: 2.857300 ms  DeleteObjects: 0.070200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
