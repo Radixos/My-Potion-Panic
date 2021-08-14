@@ -124,6 +124,9 @@ public class PlayerManager : MonoBehaviour
                 {
                     if (players[i].kills >= 3)
                     {
+
+                        // MATT - Audio Call for victory
+
                         OnMatchCompletedEvent?.Invoke();
                         victoryText = "Player " + (i + 1) + " Wins!";
 
@@ -144,6 +147,9 @@ public class PlayerManager : MonoBehaviour
 
                     if (players[i].health <= 0 && !players[i].isDead)
                     {
+
+                        // MATT - Audio Call when player dies
+
                         players[i].isDead = true;
                         players[i].PlayerReset();
 
