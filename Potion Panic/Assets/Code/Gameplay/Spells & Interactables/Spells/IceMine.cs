@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class IceMine : SpellBehaviour
 {
@@ -20,6 +21,7 @@ public class IceMine : SpellBehaviour
     private byte[] storedB = {214, 27, 13, 23};
     public ParticleSystem.EmissionModule emissionInterface;
     public ParticleSystem.MinMaxGradient colorInterface;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -91,6 +93,7 @@ public class IceMine : SpellBehaviour
                 case 0:
                     iceMineState++;
                     iceMineDetonatedPS.Play();
+                    RuntimeManager.PlayOneShot("event:/Potions/Ice Spell Activate", transform.position);
                     break;
                 case 2:
                     other.gameObject.GetComponent<PlayerController>().health--;

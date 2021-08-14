@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.AI;
+using FMODUnity;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -26,6 +27,9 @@ public class PlayerManager : MonoBehaviour
     public Text victoryBanner;
 
     public GameObject deathEffect;
+
+    //fmod
+    public EventReference deathSFXPath;
 
     // Start is called before the first frame update
     void Start()
@@ -149,6 +153,7 @@ public class PlayerManager : MonoBehaviour
                     {
 
                         // MATT - Audio Call when player dies
+                        RuntimeManager.PlayOneShot(deathSFXPath, transform.position);
 
                         players[i].isDead = true;
                         players[i].PlayerReset();

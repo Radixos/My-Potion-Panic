@@ -5002,6 +5002,34 @@ MonoBehaviour:
   hasSpell: 0
   spellUses: 0
   aimArrow: {fileID: 189142193262718162}
+  iceMinePath:
+    Guid:
+      Data1: -1526095268
+      Data2: 1330123421
+      Data3: -344586084
+      Data4: -54324160
+    Path: event:/Potions/Ice Spell Plant
+  volcanicBlastPath:
+    Guid:
+      Data1: -969757113
+      Data2: 1308619164
+      Data3: 964645540
+      Data4: -1011477298
+    Path: event:/Potions/Blast Spell
+  natureArrowPath:
+    Guid:
+      Data1: 916353625
+      Data2: 1295962882
+      Data3: 1196506755
+      Data4: -406151233
+    Path: event:/Potions/Arrow Spell
+  pickupPath:
+    Guid:
+      Data1: 548527260
+      Data2: 1291016377
+      Data3: -193573997
+      Data4: 1635350717
+    Path: event:/Environment/Items/Item Pickup
 --- !u!136 &5358881565660517975
 CapsuleCollider:
   m_ObjectHideFlags: 0

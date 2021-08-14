@@ -1910,6 +1910,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 963b2cf3828783b40922332bfd1a5281, type: 3}
   m_PrefabInstance: {fileID: 1377633293}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &148902617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148902616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1149879610
+      Data2: 1266625860
+      Data3: 1580053164
+      Data4: 1105752537
+    Path: event:/Environment/Items/Fountain
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &148902619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20451,6 +20481,13 @@ MonoBehaviour:
   matchCompleted: 0
   victoryBanner: {fileID: 1831307887}
   deathEffect: {fileID: 2613681876558750632, guid: e51a8c24a4cf67d47839d710de38f415, type: 3}
+  deathSFXPath:
+    Guid:
+      Data1: -838166877
+      Data2: 1159480209
+      Data3: 1402217090
+      Data4: -1347268927
+    Path: event:/Player/Death
 --- !u!4 &1722012507
 Transform:
   m_ObjectHideFlags: 0
