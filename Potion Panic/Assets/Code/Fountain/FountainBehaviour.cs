@@ -7,6 +7,7 @@ public class FountainBehaviour : MonoBehaviour
     [SerializeField] private int delay = 2;
     [SerializeField] private float minRandomSpawnDelay = 1.5f, maxRandomSpawnDelay = 2f;
     [SerializeField] private float minSpawnOff = 1.75f, maxSpawnOff = 3f;
+    [SerializeField] public float destroyDelay = 5f;
     [SerializeField] private AnimationCurve ac;
     [SerializeField] private List<GameObject> ingredients;
 
@@ -18,11 +19,6 @@ public class FountainBehaviour : MonoBehaviour
 
         playerManager = FindObjectOfType<PlayerManager>();
     }
-
-    //private void Update()
-    //{
-
-    //}
 
     private IEnumerator Fountain()
     {
