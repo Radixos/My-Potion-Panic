@@ -156,6 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredientInfo: {fileID: 11400000, guid: e18d6b5c31f4f1d4690be4697747f96a, type: 2}
   inputInfo: {fileID: 2566322691376502897}
+  boxCollider: {fileID: 0}
 --- !u!1 &7117259652040081157
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +322,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2914170876670673032}
     m_Modifications:
+    - target: {fileID: 2082404865986944265, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944266, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -340,6 +345,10 @@ PrefabInstance:
     - target: {fileID: 2082404865986944266, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082404865986944267, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2082404865986944267, guid: 26f871844511fca4aac6ec36ad7ac706, type: 3}
       propertyPath: m_Materials.Array.data[0]
