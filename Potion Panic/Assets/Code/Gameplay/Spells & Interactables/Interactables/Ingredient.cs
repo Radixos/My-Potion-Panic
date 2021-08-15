@@ -14,13 +14,14 @@ public class Ingredient : MonoBehaviour
     private LayerMask groundLayer;
 
     private bool onGround;
+    private bool playerInRange;
 
     [SerializeField] private float destroyDelay;
 
     // Start is called before the first frame update
     void Start()
     {
-        destroyDelay = GameObject.Find("Pool").GetComponent<FountainBehaviour>().destroyDelay;    //"" MUST contain the name of object to which "FountainBehaviour" script is attached!!!
+        destroyDelay = GameObject.Find("Fountain_1_Low").GetComponent<FountainBehaviour>().destroyDelay;    //"" MUST contain the name of object to which "FountainBehaviour" script is attached!!!
         groundLayer = 1 << 0;
     }
 
@@ -29,6 +30,9 @@ public class Ingredient : MonoBehaviour
     {
         if (target != null)
         {
+            CancelInvoke("DestroyIngredient");
+            playerInRange = false;
+
             transform.position = Vector3.MoveTowards(transform.position, target.position, 5 * Time.deltaTime);
 
             if (Vector3.Distance(transform.position, target.position) <= 0.2f)
@@ -54,7 +58,11 @@ public class Ingredient : MonoBehaviour
                 if (onGround)
                 {
                     GetComponent<SphereCollider>().enabled = true;
-                    Invoke("DestroyIngredient", destroyDelay);
+
+                    if (!playerInRange)
+                        Invoke("DestroyIngredient", destroyDelay);
+                    else
+                        CancelInvoke("DestroyIngredient");
                 }
                 else
                 {
@@ -86,6 +94,7 @@ public class Ingredient : MonoBehaviour
                 !other.gameObject.GetComponent<PlayerController>().hasSpell)
             {
                 SetInputInfoState(true);
+                playerInRange = true;
             }
         }
     }
@@ -95,6 +104,7 @@ public class Ingredient : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             SetInputInfoState(false);
+            playerInRange = false;
         }
     }
 
@@ -105,6 +115,6 @@ public class Ingredient : MonoBehaviour
 
     private void DestroyIngredient()
     {
-        Destroy(this);
+        Destroy(gameObject);
     }
 }
