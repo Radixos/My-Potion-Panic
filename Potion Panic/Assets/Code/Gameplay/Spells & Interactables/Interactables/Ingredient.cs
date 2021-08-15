@@ -13,9 +13,14 @@ public class Ingredient : MonoBehaviour
     public BoxCollider boxCollider;
     private LayerMask groundLayer;
 
+    private bool onGround;
+
+    [SerializeField] private float destroyDelay;
+
     // Start is called before the first frame update
     void Start()
     {
+        destroyDelay = GameObject.Find("Pool").GetComponent<FountainBehaviour>().destroyDelay;    //"" MUST contain the name of object to which "FountainBehaviour" script is attached!!!
         groundLayer = 1 << 0;
     }
 
@@ -44,10 +49,18 @@ public class Ingredient : MonoBehaviour
         {
             if (boxCollider.enabled) // A hack to know that it's not going to cauldron
             {
-                if (Physics.Raycast(boxCollider.gameObject.transform.position, -Vector3.up, 0.5f, groundLayer, QueryTriggerInteraction.Ignore))
+                onGround = Physics.Raycast(boxCollider.gameObject.transform.position, -Vector3.up, 0.5f, groundLayer, QueryTriggerInteraction.Ignore);
+
+                if (onGround)
+                {
                     GetComponent<SphereCollider>().enabled = true;
+                    Invoke("DestroyIngredient", destroyDelay);
+                }
                 else
+                {
                     GetComponent<SphereCollider>().enabled = false;
+                    CancelInvoke("DestroyIngredient");
+                }
             }
         }
     }
@@ -88,5 +101,10 @@ public class Ingredient : MonoBehaviour
     public void SetInputInfoState(bool state)
     {
         inputInfo.SetActive(state);
+    }
+
+    private void DestroyIngredient()
+    {
+        Destroy(this);
     }
 }
