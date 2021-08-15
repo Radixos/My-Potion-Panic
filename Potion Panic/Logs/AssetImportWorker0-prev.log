@@ -15,11 +15,11 @@ C:/Users/Jonathan/Documents/GitHub/Potion-Panic/Potion Panic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57401
+54985
 Successfully changed project path to: C:/Users/Jonathan/Documents/GitHub/Potion-Panic/Potion Panic
 C:/Users/Jonathan/Documents/GitHub/Potion-Panic/Potion Panic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 207.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 157.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,62 +36,318 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003047 seconds.
+Registered in 0.002753 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 182.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 192.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
+- Completed reload, in  1.346 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012113 seconds.
+Registered in 0.012222 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 166.60 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 181.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
+- Completed reload, in  1.340 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.8 MB.
-System memory in use after: 83.0 MB.
+System memory in use before: 82.9 MB.
+System memory in use after: 83.1 MB.
 
 Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 3748.
-Total: 3.022900 ms (FindLiveObjects: 0.388500 ms CreateObjectMapping: 0.114300 ms MarkObjects: 2.429000 ms  DeleteObjects: 0.090200 ms)
+Total: 2.493000 ms (FindLiveObjects: 0.323000 ms CreateObjectMapping: 0.153700 ms MarkObjects: 1.943800 ms  DeleteObjects: 0.072100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Data/Scenes/Demo Scenes/studio_small_06_4k.hdr
-  artifactKey: Guid(a1e1ec1d94cf86843ba0ec302e8bac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Demo Scenes/studio_small_06_4k.hdr using Guid(a1e1ec1d94cf86843ba0ec302e8bac89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899c86188176363f09cb9da7e444a645') in 0.081692 seconds
-  Import took 0.088429 seconds .
+  path: Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_Roughness.1001.png
+  artifactKey: Guid(3c2a110889c858a4395c80b3d506941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_Roughness.1001.png using Guid(3c2a110889c858a4395c80b3d506941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ef658cea206cbc606d1239bfdbba3c') in 0.110567 seconds
+  Import took 0.116266 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 146.653512 seconds.
-  path: Assets/Data/Scenes
-  artifactKey: Guid(d955f46576b8fda4bad7108e17ca906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes using Guid(d955f46576b8fda4bad7108e17ca906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8853766672a21d8efd6039998e66ae44') in 0.007006 seconds
-  Import took 0.013864 seconds .
+  Time since last request: 0.000173 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_Metallic.1001.png
+  artifactKey: Guid(a9634d899f87f3f47a7272492177073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_Metallic.1001.png using Guid(a9634d899f87f3f47a7272492177073e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1d5d7c3bb9b01a4624603ff3e1af4b') in 0.022111 seconds
+  Import took 0.027270 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.331450 seconds.
-  path: Assets/Data/Scenes/Demo Scenes
-  artifactKey: Guid(4b10ffc2c18a7cc42b73e0d7a2053188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/Scenes/Demo Scenes using Guid(4b10ffc2c18a7cc42b73e0d7a2053188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b408854a86e485c8ee93330f1a0830') in 0.008811 seconds
-  Import took 0.015407 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_Normal.1001.png
+  artifactKey: Guid(c2179361bb284aa4c89d1640f48c8a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_Normal.1001.png using Guid(c2179361bb284aa4c89d1640f48c8a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dc83a28da217de154a155854f6a881') in 0.031852 seconds
+  Import took 0.037015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_BaseColor.1001.png
+  artifactKey: Guid(01b740f2fe3b0ae45a5b82e170eb97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_BaseColor.1001.png using Guid(01b740f2fe3b0ae45a5b82e170eb97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f533705c0069cb72a48eee1f86d4bcb') in 0.014037 seconds
+  Import took 0.019118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_Height.1001.png
+  artifactKey: Guid(3ae469e1edea0ca42933270f67fb210e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/Custom Assets/Models/Lantern/Lantern/Lantern_Low_Main_Height.1001.png using Guid(3ae469e1edea0ca42933270f67fb210e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab0a14a91ee4d1e19e8709ada1d2ffc') in 0.013985 seconds
+  Import took 0.019449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1361.012390 seconds.
+  path: Assets/Data/Art/3D
+  artifactKey: Guid(bf1efddadec29154ba7f3e50afb8271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D using Guid(bf1efddadec29154ba7f3e50afb8271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f5f06ba5483be51e90707478dc424b') in 0.005131 seconds
+  Import took 0.011023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074067 seconds.
+  path: Assets/Data/Art/3D/CircleMesh.blend
+  artifactKey: Guid(2315f02530c2e2b49a46fdfff07927fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/CircleMesh.blend using Guid(2315f02530c2e2b49a46fdfff07927fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8db69e41fad0f9633f3bf0c68b963a1') in 0.158463 seconds
+  Import took 0.163642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Data/Art/3D/CircleMesh2.fbx
+  artifactKey: Guid(e0a3b0524846b9b408f2835a36b40d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/CircleMesh2.fbx using Guid(e0a3b0524846b9b408f2835a36b40d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732973c5edacefa5f16e4d816c4de3cd') in 0.037914 seconds
+  Import took 0.042331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.018516 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon
+  artifactKey: Guid(8e973aadcd8a2164fb6d9198e05fa3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon using Guid(8e973aadcd8a2164fb6d9198e05fa3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edca36bb1d2194e4da28f49296c5be56') in 0.005520 seconds
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.071411 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs
+  artifactKey: Guid(de52800a5cd509f419111e8ebdfb223f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs using Guid(de52800a5cd509f419111e8ebdfb223f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f8f18026c6736ed108a8d6af633098') in 0.002432 seconds
+  Import took 0.007952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.664010 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items
+  artifactKey: Guid(861628578b56d2d438b61ecc241c74d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items using Guid(861628578b56d2d438b61ecc241c74d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523cd0e2657dd1ec918400cda4d10572') in 0.005837 seconds
+  Import took 0.011621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070186 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Arrow_01.prefab
+  artifactKey: Guid(3328d5d74c357064087a925505b79caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Arrow_01.prefab using Guid(3328d5d74c357064087a925505b79caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9da436c1994855fa60371f8df7cfc04') in 0.043021 seconds
+  Import took 0.048602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_03.prefab
+  artifactKey: Guid(03eb254be55316240929244bd19caa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_03.prefab using Guid(03eb254be55316240929244bd19caa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf20d091edf3e3d677d5104651d061d7') in 0.031805 seconds
+  Import took 0.036816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Vial_01.prefab
+  artifactKey: Guid(641cb1a9114eb0640b236cf37c4dd5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Vial_01.prefab using Guid(641cb1a9114eb0640b236cf37c4dd5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3bf64eeb3acee88f1f3633fe582d07') in 0.032075 seconds
+  Import took 0.037354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Scale_01.prefab
+  artifactKey: Guid(9f78e8c3007d3dd46a0681fc1a4330da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Scale_01.prefab using Guid(9f78e8c3007d3dd46a0681fc1a4330da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a7ced4882994e187a101412ed703bf') in 0.030198 seconds
+  Import took 0.034926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Vial_02.prefab
+  artifactKey: Guid(95bebeaa9802c994c8ea3a0ce43f9236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Vial_02.prefab using Guid(95bebeaa9802c994c8ea3a0ce43f9236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52015cd23487b2dbb7726c42aeb2a408') in 0.029515 seconds
+  Import took 0.034452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Coins_03.prefab
+  artifactKey: Guid(2c70562ca10765c42a41667567224154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Coins_03.prefab using Guid(2c70562ca10765c42a41667567224154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb775f4aba0195024ff291ae9afd860') in 0.028589 seconds
+  Import took 0.033182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Coins_04.prefab
+  artifactKey: Guid(b3d78aa56c0f0094b86a6d788e1864e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Coins_04.prefab using Guid(b3d78aa56c0f0094b86a6d788e1864e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54cdca0eccbd3fdac23bb36dc85b621') in 0.031465 seconds
+  Import took 0.036338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Vial_03.prefab
+  artifactKey: Guid(b674cb11b6548924ab5a2c9f3d632ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Vial_03.prefab using Guid(b674cb11b6548924ab5a2c9f3d632ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd61d8727b73af019c87a55b5548080') in 0.029531 seconds
+  Import took 0.034328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_07.prefab
+  artifactKey: Guid(3ecd2fd629479b147a201300bfddd022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_07.prefab using Guid(3ecd2fd629479b147a201300bfddd022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e351353baee9adfca8a0091c4fec52b9') in 0.030761 seconds
+  Import took 0.035521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_06.prefab
+  artifactKey: Guid(c0391bc2170c2054ebb26f1f425004b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_06.prefab using Guid(c0391bc2170c2054ebb26f1f425004b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d3b9fa531834755d1dea3f3d9e73b6') in 0.029002 seconds
+  Import took 0.033684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_02.prefab
+  artifactKey: Guid(e84aea44c2b0d9149900b297dcc438d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_02.prefab using Guid(e84aea44c2b0d9149900b297dcc438d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6138ce3cec945c4e6feedb4344107116') in 0.032817 seconds
+  Import took 0.038135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_04.prefab
+  artifactKey: Guid(3d46dd40c8a0b11449b521ae928abf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_04.prefab using Guid(3d46dd40c8a0b11449b521ae928abf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb5acb0085a74dddc8d3c3c462b25c9') in 0.033257 seconds
+  Import took 0.038629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_09.prefab
+  artifactKey: Guid(973e05b9f0f54c340a1c4591b29e5f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_09.prefab using Guid(973e05b9f0f54c340a1c4591b29e5f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f2b5f8012c6532db3390e615aa2496') in 0.033880 seconds
+  Import took 0.039084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Book_01.prefab
+  artifactKey: Guid(432e90641b77e1641bbe326c4647207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Book_01.prefab using Guid(432e90641b77e1641bbe326c4647207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c96bbecb74aa06c70066d8bec368149') in 0.032841 seconds
+  Import took 0.038532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_05.prefab
+  artifactKey: Guid(718f025779715b842b882fa03cc33d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_05.prefab using Guid(718f025779715b842b882fa03cc33d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c1bced5eeab3eef546b31b4f7611d2') in 0.033422 seconds
+  Import took 0.038738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_08.prefab
+  artifactKey: Guid(646a1e440e08cad47a7f0d73fb699ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_08.prefab using Guid(646a1e440e08cad47a7f0d73fb699ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5c688a1a9c62fecf79473edbc8b3ad') in 0.031397 seconds
+  Import took 0.036513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Jar_02.prefab
+  artifactKey: Guid(859784fe42032104996e218e8142dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Jar_02.prefab using Guid(859784fe42032104996e218e8142dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6690fbc153e12d9b92616fb25922c2d') in 0.042364 seconds
+  Import took 0.048120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Jar_01.prefab
+  artifactKey: Guid(fd4d597a58050a1499656d04f83150c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Jar_01.prefab using Guid(fd4d597a58050a1499656d04f83150c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd20de1924d15a8098cb4b4ee44a6234') in 0.035421 seconds
+  Import took 0.040809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Coins_01.prefab
+  artifactKey: Guid(5e966a5749f9b264a9eee5c9fffdfde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Coins_01.prefab using Guid(5e966a5749f9b264a9eee5c9fffdfde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1532ab914085e95d59b86afd1a0248') in 0.033025 seconds
+  Import took 0.038802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_Pole_01.prefab
+  artifactKey: Guid(0791c641554147b49bb514b3d368f400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_Pole_01.prefab using Guid(0791c641554147b49bb514b3d368f400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2925223bcff78e563513d798d4a8e') in 0.034456 seconds
+  Import took 0.039997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_01.prefab
+  artifactKey: Guid(c341d70d4dd30454881fcc7fa6d0baa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Potion_01.prefab using Guid(c341d70d4dd30454881fcc7fa6d0baa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694a39d15768cb79bb175a785870fac3') in 0.033664 seconds
+  Import took 0.039130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_BookPile_01.prefab
+  artifactKey: Guid(bb363b36c456a3f4cb13db09784df636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_BookPile_01.prefab using Guid(bb363b36c456a3f4cb13db09784df636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67c83d4762b4002306a45a5c12080b6') in 0.034404 seconds
+  Import took 0.039974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Coins_02.prefab
+  artifactKey: Guid(20b7b23b86efa8e46a703fab1a8a1058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Coins_02.prefab using Guid(20b7b23b86efa8e46a703fab1a8a1058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5028de832798fa80cc29fee58d14624') in 0.035188 seconds
+  Import took 0.041527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Inkwell_01.prefab
+  artifactKey: Guid(67e9d0b0d7ee4da4d82f258ee2471dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Art/3D/PolygonDungeon/Prefabs/Items/SM_Item_Inkwell_01.prefab using Guid(67e9d0b0d7ee4da4d82f258ee2471dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334571d982f0068cca3d5a15764ea429') in 0.034335 seconds
+  Import took 0.039838 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
