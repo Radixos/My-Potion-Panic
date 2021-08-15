@@ -1716,14 +1716,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1619732169}
-  - {fileID: 1597170727}
-  - {fileID: 834351392}
-  - {fileID: 2131281888}
-  - {fileID: 1893276610}
-  - {fileID: 911844301}
-  - {fileID: 1169814042}
-  - {fileID: 1323511647}
-  - {fileID: 1443435168}
   m_Father: {fileID: 479712611}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10672,7 +10664,7 @@ GameObject:
   - component: {fileID: 834351392}
   - component: {fileID: 834351393}
   m_Layer: 0
-  m_Name: Red Cauldron
+  m_Name: Lighting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10686,12 +10678,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834351391}
   m_LocalRotation: {x: 0.21949817, y: -0.7567979, z: 0.5299155, w: 0.31347594}
-  m_LocalPosition: {x: 7.55, y: 6.15, z: 5}
+  m_LocalPosition: {x: -1.25, y: 5.428, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 76571647}
-  m_Father: {fileID: 119786972}
-  m_RootOrder: 2
+  - {fileID: 1323511647}
+  m_Father: {fileID: 132872272}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 70, y: -135, z: 0}
 --- !u!108 &834351393
 Light:
@@ -11324,12 +11317,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911844300}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.748, y: 0.44, z: -4.986}
+  m_LocalRotation: {x: -0.21949817, y: -0.7567979, z: 0.5299155, w: 0.31347594}
+  m_LocalPosition: {x: 0.978636, y: -0.5389581, z: 5.8802915}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 119786972}
-  m_RootOrder: 5
+  m_Father: {fileID: 2131281888}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &911844302
 Light:
@@ -14625,12 +14618,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169814041}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.748, y: 0.444, z: 4.884}
+  m_LocalRotation: {x: -0.21949817, y: -0.7567979, z: 0.5299155, w: 0.31347594}
+  m_LocalPosition: {x: 0.16546306, y: -1.4611936, z: 5.540368}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 119786972}
-  m_RootOrder: 6
+  m_Father: {fileID: 1597170727}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1169814043
 Light:
@@ -17629,12 +17622,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323511646}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.881, y: 0.444, z: 4.884}
+  m_LocalRotation: {x: -0.21949817, y: 0.7567979, z: -0.5299155, w: 0.31347594}
+  m_LocalPosition: {x: -1.0231836, y: -2.7588892, z: 5.068045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 119786972}
-  m_RootOrder: 7
+  m_Father: {fileID: 834351392}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1323511648
 Light:
@@ -18811,12 +18804,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443435167}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.801, y: 0.444, z: -5.065}
+  m_LocalRotation: {x: -0.21949817, y: 0.7567979, z: -0.5299155, w: 0.31347594}
+  m_LocalPosition: {x: -2.429619, y: -0.86583424, z: 5.757062}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 119786972}
-  m_RootOrder: 8
+  m_Father: {fileID: 1893276610}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1443435169
 Light:
@@ -20060,7 +20053,7 @@ GameObject:
   - component: {fileID: 1597170727}
   - component: {fileID: 1597170728}
   m_Layer: 0
-  m_Name: Blue Cauldron
+  m_Name: Lighting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20074,12 +20067,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597170726}
   m_LocalRotation: {x: 0.21949817, y: 0.7567979, z: -0.5299155, w: 0.31347594}
-  m_LocalPosition: {x: -9, y: 6.15, z: 5.37}
+  m_LocalPosition: {x: -0.19999981, y: 5.428, z: 0.3699999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 469650271}
-  m_Father: {fileID: 119786972}
-  m_RootOrder: 1
+  - {fileID: 1169814042}
+  m_Father: {fileID: 543450652701210518}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 70, y: 135, z: 0}
 --- !u!108 &1597170728
 Light:
@@ -22450,7 +22444,7 @@ GameObject:
   - component: {fileID: 1893276610}
   - component: {fileID: 1893276611}
   m_Layer: 0
-  m_Name: Yellow Cauldron
+  m_Name: Lighting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22464,11 +22458,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893276609}
   m_LocalRotation: {x: 0.21949817, y: -0.7567979, z: 0.5299155, w: 0.31347594}
-  m_LocalPosition: {x: 7.9, y: 6.15, z: -2.53}
+  m_LocalPosition: {x: -0.9000001, y: 5.428, z: 2.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 859782603}
-  m_Father: {fileID: 119786972}
+  - {fileID: 1443435168}
+  m_Father: {fileID: 248980194}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 70, y: -135, z: 0}
 --- !u!108 &1893276611
@@ -26020,7 +26015,7 @@ GameObject:
   - component: {fileID: 2131281888}
   - component: {fileID: 2131281889}
   m_Layer: 0
-  m_Name: Green Cauldron
+  m_Name: Lighting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26034,12 +26029,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131281887}
   m_LocalRotation: {x: 0.21949817, y: 0.7567979, z: -0.5299155, w: 0.31347594}
-  m_LocalPosition: {x: -9.12, y: 6.15, z: -3.23}
+  m_LocalPosition: {x: -0.3199997, y: 5.428, z: 1.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 369225596}
-  m_Father: {fileID: 119786972}
-  m_RootOrder: 3
+  - {fileID: 911844301}
+  m_Father: {fileID: 863323977}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 70, y: 135, z: 0}
 --- !u!108 &2131281889
 Light:
@@ -26748,6 +26744,10 @@ PrefabInstance:
     - target: {fileID: 5086176764669094290, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_Name
       value: Player 1 Cauldron
+      objectReference: {fileID: 0}
+    - target: {fileID: 5086176764669094290, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5086176764669094290, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_NavMeshLayer
