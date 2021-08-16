@@ -1549,7 +1549,7 @@ PrefabInstance:
     - target: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: cauldronOwner
       value: 
-      objectReference: {fileID: 1667070122}
+      objectReference: {fileID: 0}
     - target: {fileID: 4887578199384711400, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1830,7 +1830,7 @@ PrefabInstance:
     - target: {fileID: 1000194851186930790, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: cauldronOwner
       value: 
-      objectReference: {fileID: 1440782396}
+      objectReference: {fileID: 0}
     - target: {fileID: 1162052721587685105, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.695
@@ -2052,6 +2052,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 963b2cf3828783b40922332bfd1a5281, type: 3}
   m_PrefabInstance: {fileID: 1377633293}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &148902617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148902616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1149879610
+      Data2: 1266625860
+      Data3: 1580053164
+      Data4: 1105752537
+    Path: event:/Environment/Items/Fountain
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &148902619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8766,17 +8796,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4e522a79e5327a14593fdeb9374207f5, type: 3}
   m_PrefabInstance: {fileID: 690434531}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &691165210 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
-  m_PrefabInstance: {fileID: 1304393114}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &696638092
 GameObject:
   m_ObjectHideFlags: 0
@@ -9896,6 +9915,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1020793745}
     - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerSkin
+      value: 
+      objectReference: {fileID: 1622282104}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerID
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: myCauldron
+      value: 
+      objectReference: {fileID: 1020793745}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: playerSkin
       value: 
       objectReference: {fileID: 1622282104}
@@ -12174,6 +12205,18 @@ PrefabInstance:
       propertyPath: playerSkin
       value: 
       objectReference: {fileID: 1135093860}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerID
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: myCauldron
+      value: 
+      objectReference: {fileID: 1229119342}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerSkin
+      value: 
+      objectReference: {fileID: 1135093860}
     - target: {fileID: 6443154972224207384, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13447,6 +13490,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 919132148978806062}
     - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerSkin
+      value: 
+      objectReference: {fileID: 1107530786}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: speed
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: myCauldron
+      value: 
+      objectReference: {fileID: 919132148978806062}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: playerSkin
       value: 
       objectReference: {fileID: 1107530786}
@@ -15855,7 +15918,7 @@ PrefabInstance:
     - target: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: cauldronOwner
       value: 
-      objectReference: {fileID: 691165210}
+      objectReference: {fileID: 0}
     - target: {fileID: 4887578199384711400, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -17540,6 +17603,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 901719615}
     - target: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerSkin
+      value: 
+      objectReference: {fileID: 1008535783}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: playerID
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
+      propertyPath: myCauldron
+      value: 
+      objectReference: {fileID: 901719615}
+    - target: {fileID: 4058236840891478304, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
       propertyPath: playerSkin
       value: 
       objectReference: {fileID: 1008535783}
@@ -20061,7 +20136,7 @@ PrefabInstance:
     - target: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: cauldronOwner
       value: 
-      objectReference: {fileID: 1440782396}
+      objectReference: {fileID: 0}
     - target: {fileID: 6978702856132501971, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -20870,17 +20945,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 116753738058635989, guid: 233416d8cbe8a3a428150540e6e6f7c3, type: 3}
   m_PrefabInstance: {fileID: 1132170296}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1667070122 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
-  m_PrefabInstance: {fileID: 723074501}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1671295226
 GameObject:
   m_ObjectHideFlags: 0
@@ -21305,6 +21369,13 @@ MonoBehaviour:
   matchCompleted: 0
   victoryBanner: {fileID: 1831307887}
   deathEffect: {fileID: 2613681876558750632, guid: e51a8c24a4cf67d47839d710de38f415, type: 3}
+  deathSFXPath:
+    Guid:
+      Data1: -838166877
+      Data2: 1159480209
+      Data3: 1402217090
+      Data4: -1347268927
+    Path: event:/Player/Death
 --- !u!4 &1722012507
 Transform:
   m_ObjectHideFlags: 0
@@ -24838,7 +24909,7 @@ PrefabInstance:
     - target: {fileID: 2946702858002404026, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: cauldronOwner
       value: 
-      objectReference: {fileID: 2112187491}
+      objectReference: {fileID: 0}
     - target: {fileID: 3134385673614051748, guid: 91be741fc58ce0746ad56d17a1404e59, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -25671,17 +25742,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096554089}
   m_CullTransparentMesh: 1
---- !u!114 &2112187491 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1366322311610185089, guid: e0331453113676149a9c0b2bc03e60de, type: 3}
-  m_PrefabInstance: {fileID: 1077844439}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2114130706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26858,7 +26918,7 @@ PrefabInstance:
     - target: {fileID: 1000194851186930790, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: cauldronOwner
       value: 
-      objectReference: {fileID: 2112187491}
+      objectReference: {fileID: 0}
     - target: {fileID: 5086176764669094290, guid: 88c66c6cc6c2cf0429111ccf90b29e6a, type: 3}
       propertyPath: m_Name
       value: Player 1 Cauldron

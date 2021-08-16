@@ -734,6 +734,13 @@ MonoBehaviour:
   - {fileID: 2642216185393759687}
   - {fileID: 3123004145149557455}
   - {fileID: 1723959198856693869}
+  spellCraftedPath:
+    Guid:
+      Data1: 1011518956
+      Data2: 1336680446
+      Data3: 1152389276
+      Data4: 1103048264
+    Path: event:/Environment/Items/Potion Made
 --- !u!65 &4839555916031873066
 BoxCollider:
   m_ObjectHideFlags: 0

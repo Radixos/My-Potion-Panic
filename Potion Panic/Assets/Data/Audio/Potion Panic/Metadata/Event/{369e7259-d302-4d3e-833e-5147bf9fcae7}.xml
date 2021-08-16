@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{b53c770b-6a2d-40c0-a95a-32059597f904}" />
 	<object class="MarkerTrack" id="{2104e507-3cc5-445f-a4a9-5f4c47f0bd12}" />
 	<object class="GroupTrack" id="{b87b776e-e31a-4026-8982-461df140d490}">
+		<relationship name="modules">
+			<destination>{6f3ef099-fe78-4022-b998-e1ffbf00f01c}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{7a146528-9937-4e09-aeb4-1283d7805991}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{3955507b-dfd8-4424-aaa6-dbe89b98552c}" />
+	<object class="Timeline" id="{3955507b-dfd8-4424-aaa6-dbe89b98552c}">
+		<relationship name="modules">
+			<destination>{6f3ef099-fe78-4022-b998-e1ffbf00f01c}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{771d5249-0a66-40cd-bbff-449e919a8232}">
 		<relationship name="effectChain">
 			<destination>{ca93ffc1-405c-4802-a5c2-632149056f95}</destination>
@@ -81,6 +88,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ec19a449-23a7-4424-82f4-268371ddf6cf}" />
+	<object class="SingleSound" id="{6f3ef099-fe78-4022-b998-e1ffbf00f01c}">
+		<property name="length">
+			<value>3.5596598639455781</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{6b52a42b-1d9e-4acf-9991-c84725646391}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{7a146528-9937-4e09-aeb4-1283d7805991}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -110,6 +125,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{82d0a918-2505-49cc-b441-69bcded041ca}" />
 	<object class="MixerBusFader" id="{8d7c648d-2c49-47f2-a544-a54b39c07044}" />
-	<object class="SpatialiserEffect" id="{53ab620f-b8f3-4668-b4fe-203ec0d8614b}" />
+	<object class="SpatialiserEffect" id="{53ab620f-b8f3-4668-b4fe-203ec0d8614b}">
+		<property name="minimumDistance">
+			<value>5</value>
+		</property>
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c55325f3-e92c-491d-b610-bf1fdde2179c}" />
 </objects>

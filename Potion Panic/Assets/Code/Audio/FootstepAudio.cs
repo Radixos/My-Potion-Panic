@@ -9,6 +9,6 @@ public class FootstepAudio : MonoBehaviour
     private EventReference footstepPath;
     void PlayFootstep()
     {
-        //RuntimeManager.PlayOneShotAttached(footstepPath.Path, gameObject);
+        RuntimeManager.PlayOneShotAttached(footstepPath.Path, gameObject);
     }
 }
