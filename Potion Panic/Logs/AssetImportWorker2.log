@@ -1,0 +1,135 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16316 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\UnityEditor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/Repository/Potion_Panic/Potion-Panic/Potion Panic
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61996
+Successfully changed project path to: E:/Repository/Potion_Panic/Potion-Panic/Potion Panic
+E:/Repository/Potion_Panic/Potion-Panic/Potion Panic
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 156.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path D:/UnityEditor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Repository/Potion_Panic/Potion-Panic/Potion Panic/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6192
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/UnityEditor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityEditor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityEditor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001423 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 160.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 155.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.689 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.5 MB.
+System memory in use after: 148.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3669.
+Total: 2.250900 ms (FindLiveObjects: 0.274600 ms CreateObjectMapping: 0.144500 ms MarkObjects: 1.758100 ms  DeleteObjects: 0.072800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani
+  artifactKey: Guid(3a0cdde3fb656134b862deed6c80d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani using Guid(3a0cdde3fb656134b862deed6c80d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3ced7fbe56bf1e3fbf5bfe0a17f197') in 0.041649 seconds
+  Import took 0.095174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000716 seconds.
+  path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani/NavMesh.asset
+  artifactKey: Guid(ad0640bf5273bab4aab6700169cf323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani/NavMesh.asset using Guid(ad0640bf5273bab4aab6700169cf323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6672503c2e6e35ce9af8d5852c3485b') in 0.137277 seconds
+  Import took 0.221109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Data/Scenes/Demo Scenes/ManiScene.unity
+  artifactKey: Guid(f5730e2beb6bce4438c997f2a5c6c06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Demo Scenes/ManiScene.unity using Guid(f5730e2beb6bce4438c997f2a5c6c06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73dd390a052cc2153cc85c9ad396456') in 0.007851 seconds
+  Import took 0.092482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_01.unity
+  artifactKey: Guid(dc28f92cdb0232043955dcb55e148056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_01.unity using Guid(dc28f92cdb0232043955dcb55e148056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f95419b47c2a46a72cd654256c5b95e') in 0.008362 seconds
+  Import took 0.058569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Data/Scenes/Scene Templates
+  artifactKey: Guid(1c8ce214e286e2a4a891b9e8f0a5044b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Scene Templates using Guid(1c8ce214e286e2a4a891b9e8f0a5044b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b370b0942b2018be85485eb08e7fe58') in 0.008556 seconds
+  Import took 0.014913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity
+  artifactKey: Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity using Guid(685dbe328643e1747aa0ef9e11dd93ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145ac73597412e97ae43ff431e75be6e') in 0.042497 seconds
+  Import took 0.049150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_01/Global Volume Profile.asset
+  artifactKey: Guid(9639e6e1f801c81488ec5e4604d5f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Demo Scenes/Scene_Mockup_01/Global Volume Profile.asset using Guid(9639e6e1f801c81488ec5e4604d5f130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aab5d5876ee794461e351fcd1289239') in 0.017438 seconds
+  Import took 0.069655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Data/Scenes/Levels
+  artifactKey: Guid(c3241368f022737408e3dd5c4416d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Scenes/Levels using Guid(c3241368f022737408e3dd5c4416d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9e253748f15498831c96cb47696623') in 0.007918 seconds
+  Import took 0.012901 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
