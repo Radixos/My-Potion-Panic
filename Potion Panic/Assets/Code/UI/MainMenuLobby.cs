@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
 
 public class MainMenuLobby : MonoBehaviour
 {
@@ -47,6 +48,7 @@ public class MainMenuLobby : MonoBehaviour
                 if (Input.GetButtonDown("OK " + controllerType + " " + playerID.ToString()))
                 {
                     // MATT - Audio Call for SFX after pressing Cross/A to Ready
+                    RuntimeManager.PlayOneShot("event:/UI/Menu/Move");
 
                     mainMenu.playersReady++;
 
