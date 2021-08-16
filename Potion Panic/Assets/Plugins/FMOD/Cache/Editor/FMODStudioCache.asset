@@ -24,6 +24,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-9136159528363438276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Drop/In Cauldron
+  m_EditorClassIdentifier: 
+  Name: In Cauldron
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-9126127153387338045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,6 +184,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8203222205787171098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Cauldron Mix
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Cauldron Mix
+  Guid:
+    Data1: -441993306
+    Data2: 1274694323
+    Data3: -1263602037
+    Data4: 2043711937
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8061002605566971265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +282,25 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &-7673829345769753565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637645478201371924
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &-7641732656026357356
 MonoBehaviour:
@@ -307,6 +377,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-7047454286793749457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Ice Spell Plant
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Ice Spell Plant
+  Guid:
+    Data1: -1526095268
+    Data2: 1330123421
+    Data3: -344586084
+    Data4: -54324160
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &-6931073324810277345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Cauldron Mix
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Cauldron Mix
+  Guid:
+    Data1: -441993306
+    Data2: 1274694323
+    Data3: -1263602037
+    Data4: 2043711937
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-6930383299305879423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,6 +477,25 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1001
+--- !u!114 &-6448133330868285419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Menu.bank
+  Name: Menu
+  StudioPath: bank:/Menu
+  lastModified: 637645478202662146
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6104241563008241979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -404,6 +547,54 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-5857744353132850948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637645478201411930
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 1858
+  Exists: 1
+--- !u!114 &-5732640446551299829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Menu/Select
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Menu/Select
+  Guid:
+    Data1: 773403584
+    Data2: 1255664000
+    Data3: 757001380
+    Data4: 508282818
+  Banks:
+  - {fileID: -6448133330868285419}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &-5666569380772280090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,6 +622,25 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5474173339026178872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637645478201371924
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5459947671018366741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,6 +722,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2500
+--- !u!114 &-5218124885765785306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Item Pickup
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Item Pickup
+  Guid:
+    Data1: 548527260
+    Data2: 1291016377
+    Data3: -193573997
+    Data4: 1635350717
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &-5130831782972501919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,6 +777,27 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 3559
 --- !u!114 &-5116882022165948487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637645478201411930
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 1858
+  Exists: 1
+--- !u!114 &-5046844226823703504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -665,6 +923,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4544464218799337426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Arrow Aim
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Arrow Aim
+  Guid:
+    Data1: 453274993
+    Data2: 1188181934
+    Data3: 956834432
+    Data4: -593788549
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1001
 --- !u!114 &-4406856780550603631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,6 +969,60 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-4216008267686073792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Charge Spell
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Charge Spell
+  Guid:
+    Data1: -328514816
+    Data2: 1131537122
+    Data3: -1530616416
+    Data4: 571271477
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4203436863024197713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Item Appear
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Item Appear
+  Guid:
+    Data1: -995911830
+    Data2: 1314120126
+    Data3: -496988013
+    Data4: 1143843543
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4034714717986424169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,6 +1044,33 @@ MonoBehaviour:
   - Name: 
     Value: 1776
   Exists: 1
+--- !u!114 &-3979531046941136053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Fountain
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Fountain
+  Guid:
+    Data1: 1149879610
+    Data2: 1266625860
+    Data3: 1580053164
+    Data4: 1105752537
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19468
 --- !u!114 &-3872626611527752746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,6 +1206,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3604510326109495073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Blast Spell
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Blast Spell
+  Guid:
+    Data1: -969757113
+    Data2: 1308619164
+    Data3: 964645540
+    Data4: -1011477298
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4295
 --- !u!114 &-3546519179257678619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -912,6 +1305,110 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &-3470292113192733854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Potion Made
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Potion Made
+  Guid:
+    Data1: 1011518956
+    Data2: 1336680446
+    Data3: 1152389276
+    Data4: 1103048264
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3404410832311400448}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4006
+--- !u!114 &-3404410832311400448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Potion Made/Success
+  m_EditorClassIdentifier: 
+  Name: Success
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3368671059619958783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Item Drop
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Item Drop
+  Guid:
+    Data1: -763618078
+    Data2: 1268706101
+    Data3: -411169119
+    Data4: -2084238789
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -9136159528363438276}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2430883938037671190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Item Drop/In Cauldron
+  m_EditorClassIdentifier: 
+  Name: In Cauldron
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1898311273292518656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -957,6 +1454,60 @@ MonoBehaviour:
   - Name: Desktop
     Value: 450176
   Exists: 1
+--- !u!114 &-1780015518182684950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Charge Spell
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Charge Spell
+  Guid:
+    Data1: -328514816
+    Data2: 1131537122
+    Data3: -1530616416
+    Data4: 571271477
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1643947623868208975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Arrow Spell
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Arrow Spell
+  Guid:
+    Data1: 916353625
+    Data2: 1295962882
+    Data3: 1196506755
+    Data4: -406151233
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3559
 --- !u!114 &-1605907156424730325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,6 +1535,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1531052840229894298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Ice Spell Activate
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Ice Spell Activate
+  Guid:
+    Data1: 1317016626
+    Data2: 1272612215
+    Data3: -1079646291
+    Data4: 289684600
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11757
 --- !u!114 &-1491313582336987323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1033,6 +1611,33 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 3840280393372946673}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1367381519581040376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Menu/Return
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Menu/Return
+  Guid:
+    Data1: 1284725565
+    Data2: 1205136624
+    Data3: 518619829
+    Data4: 586761858
+  Banks:
+  - {fileID: -6448133330868285419}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1090,6 +1695,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4295
+--- !u!114 &-1078399735177083392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Item Appear
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Item Appear
+  Guid:
+    Data1: -995911830
+    Data2: 1314120126
+    Data3: -496988013
+    Data4: 1143843543
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-908847094557267682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Ice Spell Activate
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Ice Spell Activate
+  Guid:
+    Data1: 1317016626
+    Data2: 1272612215
+    Data3: -1079646291
+    Data4: 289684600
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11757
+--- !u!114 &-331905122779430461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footstep
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footstep
+  Guid:
+    Data1: -2109949176
+    Data2: 1302120034
+    Data3: -1295522888
+    Data4: 1614849479
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3.4
+  MaxDistance: 35
+  Length: 1374
 --- !u!114 &-134765375935341391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,36 +1813,36 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -5116882022165948487}
-  - {fileID: 7934821222208464536}
-  - {fileID: 939161229958425665}
-  - {fileID: -6930383299305879423}
+  - {fileID: -5046844226823703504}
+  - {fileID: 7710826288717254106}
+  - {fileID: -5474173339026178872}
+  - {fileID: -6448133330868285419}
   EditorEvents:
-  - {fileID: 6499426039451519682}
-  - {fileID: 357304048135216743}
-  - {fileID: 5545102857555536845}
-  - {fileID: -3872626611527752746}
-  - {fileID: -1131421903041162773}
-  - {fileID: -5130831782972501919}
-  - {fileID: -8970813903966640999}
-  - {fileID: 1377373836587175155}
-  - {fileID: -3825001446057450723}
-  - {fileID: -8431438979391572174}
-  - {fileID: 717346550689995075}
-  - {fileID: 2659201859131665461}
-  - {fileID: 8614145468158796965}
-  - {fileID: 1730788674311621209}
-  - {fileID: -9080372833537458518}
-  - {fileID: -1132143688438565567}
-  - {fileID: 8259016613953975625}
-  - {fileID: 4484333015739384448}
-  - {fileID: -6448623321868245625}
-  - {fileID: -5283179857129831106}
+  - {fileID: -4216008267686073792}
+  - {fileID: 309363538223058862}
+  - {fileID: -1531052840229894298}
+  - {fileID: 2734731729628079250}
+  - {fileID: 1446840715321564665}
+  - {fileID: -1643947623868208975}
+  - {fileID: 2620877991780843462}
+  - {fileID: -1078399735177083392}
+  - {fileID: 2135895833817072256}
+  - {fileID: 4531878652090608232}
+  - {fileID: 2492904249330218167}
+  - {fileID: 4641993866217325271}
+  - {fileID: -8203222205787171098}
+  - {fileID: 6809942675652411894}
+  - {fileID: 9027973399968687578}
+  - {fileID: 564677226494786892}
+  - {fileID: -3470292113192733854}
+  - {fileID: -1367381519581040376}
+  - {fileID: 7833369537936386926}
+  - {fileID: -5732640446551299829}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 939161229958425665}
+  - {fileID: -5474173339026178872}
   StringsBanks:
-  - {fileID: -5116882022165948487}
+  - {fileID: -5046844226823703504}
   stringsBankWriteTime: 637645478201411930
   cacheVersion: 9
 --- !u!114 &289091193462202304
@@ -1183,6 +1869,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &308041966044321456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Cauldron
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Cauldron
+  Guid:
+    Data1: -479803790
+    Data2: 1272006567
+    Data3: -257292128
+    Data4: -1146284884
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &309363538223058862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footstep
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footstep
+  Guid:
+    Data1: -2109949176
+    Data2: 1302120034
+    Data3: -1295522888
+    Data4: 1614849479
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3.4
+  MaxDistance: 35
+  Length: 1374
 --- !u!114 &357304048135216743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1290,6 +2030,34 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: -7476339976027476676}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &564677226494786892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Item Drop
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Item Drop
+  Guid:
+    Data1: -763618078
+    Data2: 1268706101
+    Data3: -411169119
+    Data4: -2084238789
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2430883938037671190}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1463,6 +2231,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1446840715321564665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Blast Spell
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Blast Spell
+  Guid:
+    Data1: -969757113
+    Data2: 1308619164
+    Data3: 964645540
+    Data4: -1011477298
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4295
 --- !u!114 &1730788674311621209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1542,6 +2337,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &2135895833817072256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Arrow Aim
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Arrow Aim
+  Guid:
+    Data1: 453274993
+    Data2: 1188181934
+    Data3: 956834432
+    Data4: -593788549
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1001
 --- !u!114 &2249714532355270591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1641,6 +2463,114 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2494
   Exists: 1
+--- !u!114 &2347886531777749964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Death
+  Guid:
+    Data1: -838166877
+    Data2: 1159480209
+    Data3: 1402217090
+    Data4: -1347268927
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &2492904249330218167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Item Pickup
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Item Pickup
+  Guid:
+    Data1: 548527260
+    Data2: 1291016377
+    Data3: -193573997
+    Data4: 1635350717
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &2620877991780843462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Ice Spell Plant
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Ice Spell Plant
+  Guid:
+    Data1: -1526095268
+    Data2: 1330123421
+    Data3: -344586084
+    Data4: -54324160
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &2633523090605707222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Menu/Return
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Menu/Return
+  Guid:
+    Data1: 1284725565
+    Data2: 1205136624
+    Data3: 518619829
+    Data4: 586761858
+  Banks:
+  - {fileID: 4788780621498431983}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2659201859131665461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1668,6 +2598,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2734731729628079250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Fountain
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Fountain
+  Guid:
+    Data1: 1149879610
+    Data2: 1266625860
+    Data3: 1580053164
+    Data4: 1105752537
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19468
 --- !u!114 &2739546593107266884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1924,6 +2881,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &4440817947930966392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Potion Made/Success
+  m_EditorClassIdentifier: 
+  Name: Success
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &4484333015739384448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1951,6 +2932,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1500
+--- !u!114 &4531878652090608232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Cauldron
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Cauldron
+  Guid:
+    Data1: -479803790
+    Data2: 1272006567
+    Data3: -257292128
+    Data4: -1146284884
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4641993866217325271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Death
+  Guid:
+    Data1: -838166877
+    Data2: 1159480209
+    Data3: 1402217090
+    Data4: -1347268927
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &4703372263852125216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1975,6 +3010,25 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 0
+--- !u!114 &4788780621498431983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Menu.bank
+  Name: Menu
+  StudioPath: bank:/Menu
+  lastModified: 637645478202662146
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4928585915781559703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2123,6 +3177,80 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6042340029948862866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Level.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Level.bank
+  Name: Level
+  StudioPath: bank:/Level
+  lastModified: 637645478201306913
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6105778690017355789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Items/Potion Made
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Items/Potion Made
+  Guid:
+    Data1: 1011518956
+    Data2: 1336680446
+    Data3: 1152389276
+    Data4: 1103048264
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4440817947930966392}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4006
+--- !u!114 &6328640836155424326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Damage
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Damage
+  Guid:
+    Data1: 1600866773
+    Data2: 1150392266
+    Data3: -1730668928
+    Data4: 1647673591
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6499426039451519682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2150,6 +3278,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6718436586672026054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Arrow Spell
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Arrow Spell
+  Guid:
+    Data1: 916353625
+    Data2: 1295962882
+    Data3: 1196506755
+    Data4: -406151233
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3559
 --- !u!114 &6785865619107378285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2177,6 +3332,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6809942675652411894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Arrow Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Arrow Impact
+  Guid:
+    Data1: -949567028
+    Data2: 1276507715
+    Data3: -878221665
+    Data4: 884599390
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
+--- !u!114 &6865758471371292445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Menu/Move
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Menu/Move
+  Guid:
+    Data1: -1754502007
+    Data2: 1251278052
+    Data3: -1574311802
+    Data4: 2139853286
+  Banks:
+  - {fileID: 4788780621498431983}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1301
 --- !u!114 &6986059981061708475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2231,6 +3440,52 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7710826288717254106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Level.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Data/Audio/Potion Panic/Banks/Desktop/Level.bank
+  Name: Level
+  StudioPath: bank:/Level
+  lastModified: 637645478201306913
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7833369537936386926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Menu/Move
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Menu/Move
+  Guid:
+    Data1: -1754502007
+    Data2: 1251278052
+    Data3: -1574311802
+    Data4: 2139853286
+  Banks:
+  - {fileID: -6448133330868285419}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1301
 --- !u!114 &7934821222208464536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2301,6 +3556,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
+--- !u!114 &8168848408349190435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Menu/Select
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Menu/Select
+  Guid:
+    Data1: 773403584
+    Data2: 1255664000
+    Data3: 757001380
+    Data4: 508282818
+  Banks:
+  - {fileID: 4788780621498431983}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &8259016613953975625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2403,6 +3685,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &9027973399968687578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Damage
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Damage
+  Guid:
+    Data1: 1600866773
+    Data2: 1150392266
+    Data3: -1730668928
+    Data4: 1647673591
+  Banks:
+  - {fileID: 7710826288717254106}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9033449614358389974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Potions/Arrow Impact
+  m_EditorClassIdentifier: 
+  Path: event:/Potions/Arrow Impact
+  Guid:
+    Data1: -949567028
+    Data2: 1276507715
+    Data3: -878221665
+    Data4: 884599390
+  Banks:
+  - {fileID: 6042340029948862866}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
 --- !u!114 &9185106612781540748
 MonoBehaviour:
   m_ObjectHideFlags: 0
