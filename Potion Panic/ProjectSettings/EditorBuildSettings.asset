@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Data/Scenes/Demo Scenes/Scene_Mockup_Mani.unity
-    guid: 685dbe328643e1747aa0ef9e11dd93ba
+    path: Assets/Data/Scenes/Menu Scenes/Main Menu.unity
+    guid: 1f387208bea8baf42804f2b18f074c36
+  - enabled: 1
+    path: Assets/Data/Scenes/Menu Scenes/Loading Scene.unity
+    guid: 89b076beb2b2f894f9ae15d2494b3a22
+  - enabled: 1
+    path: Assets/Data/Scenes/Demo Scenes/MainGameScene.unity
+    guid: 124237bc78021b34595e0f0b431869ae
   m_configObjects: {}

@@ -4904,9 +4904,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4372348789597376}
   - component: {fileID: 95328103556620382}
-  - component: {fileID: 1366322311610185089}
+  - component: {fileID: 4058236840891478304}
   - component: {fileID: 5358881565660517975}
   - component: {fileID: 9204741375443034325}
+  - component: {fileID: 3281902972976709609}
   m_Layer: 6
   m_Name: SM_Chr_Mage_01
   m_TagString: Player
@@ -4973,7 +4974,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1366322311610185089
+--- !u!114 &4058236840891478304
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4982,10 +4983,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1996767962855262}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 129beda65451a8745b9257b66365f5eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 39bdc0d310ee7004395d2b2f7a4ffed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 5.5
   health: 100
   isDead: 0
   kills: 0
@@ -4996,11 +4997,39 @@ MonoBehaviour:
   holdIngredient: 0
   myCauldron: {fileID: 0}
   deadZone: 0.19
-  playerID: 0
+  playerID: 1
   spellInfo: {fileID: 0}
   hasSpell: 0
   spellUses: 0
   aimArrow: {fileID: 189142193262718162}
+  iceMinePath:
+    Guid:
+      Data1: -1526095268
+      Data2: 1330123421
+      Data3: -344586084
+      Data4: -54324160
+    Path: event:/Potions/Ice Spell Plant
+  volcanicBlastPath:
+    Guid:
+      Data1: -969757113
+      Data2: 1308619164
+      Data3: 964645540
+      Data4: -1011477298
+    Path: event:/Potions/Blast Spell
+  natureArrowPath:
+    Guid:
+      Data1: 916353625
+      Data2: 1295962882
+      Data3: 1196506755
+      Data4: -406151233
+    Path: event:/Potions/Arrow Spell
+  pickupPath:
+    Guid:
+      Data1: 548527260
+      Data2: 1291016377
+      Data3: -193573997
+      Data4: 1635350717
+    Path: event:/Environment/Items/Item Pickup
 --- !u!136 &5358881565660517975
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5031,6 +5060,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &3281902972976709609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996767962855262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8608a943681ac14192eb59664cce8c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepPath:
+    Guid:
+      Data1: -2109949176
+      Data2: 1302120034
+      Data3: -1295522888
+      Data4: 1614849479
+    Path: event:/Player/Footstep
 --- !u!1 &1998894919796312
 GameObject:
   m_ObjectHideFlags: 0
@@ -5294,7 +5342,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e0a3b0524846b9b408f2835a36b40d83, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3164d1f3422b004448bd8e9e3b86ea42, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e0a3b0524846b9b408f2835a36b40d83, type: 3}
       propertyPath: m_Name
       value: CircleMesh2

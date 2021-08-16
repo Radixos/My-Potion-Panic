@@ -36,9 +36,12 @@ public class NatureArrow : SpellBehaviour
             {
                 if (!other.gameObject.GetComponent<PlayerController>().isBlinking)
                 {
+                    
+                    // MATT - Audio Call for impact of arrow
+
                     other.gameObject.GetComponent<PlayerController>().health = 0;
                     caster.kills += 1;
-                    SpellReset();
+                    //SpellReset();
                 }
             }
         }

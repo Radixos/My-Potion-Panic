@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
 
 public class Cauldron : MonoBehaviour
 {
@@ -35,6 +36,9 @@ public class Cauldron : MonoBehaviour
     public List<GameObject> ingredientIconMasks; // Circle Mask
     public List<GameObject> ingredientIcons; // Actual Image
 
+    //FMOD
+    public EventReference spellCraftedPath;
+
     // Start is called before the first frame update
     //void Start()
     //{
@@ -64,6 +68,9 @@ public class Cauldron : MonoBehaviour
     {
         if (Vector3.Distance(droppingIngredient.transform.position, cauldronCore.position) <= 0.3f)
         {
+
+            // MATT - Audio Call when ingredients are dropped into cauldron
+
             consumedIngredients.Add(droppingIngredient);
 
             if (consumedIngredients.Count >= 3)
@@ -84,15 +91,16 @@ public class Cauldron : MonoBehaviour
         {
             List<Ingredient_SO> updatedRequiredIngredients = new List<Ingredient_SO>();
 
-            for (int k = 0; k < spellPool[i].requiredIngredients.Count; k++)
-                updatedRequiredIngredients.Add(spellPool[i].requiredIngredients[k]);
+            // To remove added ingredients from the main list
+            for (int j = 0; j < spellPool[i].requiredIngredients.Count; j++)
+                updatedRequiredIngredients.Add(spellPool[i].requiredIngredients[j]); 
 
-            for (int j = 0; j < consumedIngredients.Count; j++) // Looping through every ingredient of a spell
+            for (int k = 0; k < consumedIngredients.Count; k++) // Looping through every ingredient of a spell
             {
-                if (updatedRequiredIngredients.Contains(consumedIngredients[j].ingredientInfo))
+                if (updatedRequiredIngredients.Contains(consumedIngredients[k].ingredientInfo))
                 {
-                    correctIngredients.Add(consumedIngredients[j]);
-                    updatedRequiredIngredients.Remove(consumedIngredients[j].ingredientInfo);
+                    correctIngredients.Add(consumedIngredients[k]);
+                    updatedRequiredIngredients.Remove(consumedIngredients[k].ingredientInfo);
 
                     if (correctIngredients.Count >= 3)
                     {
@@ -107,13 +115,15 @@ public class Cauldron : MonoBehaviour
             correctIngredients.Clear();
 
             if (spellBrewed)
+            {
+                RuntimeManager.PlayOneShot(spellCraftedPath, transform.position);
                 break;
+            }
         }
 
         if (!spellBrewed)
-        {
             OnFailureEvent?.Invoke();
-        }
+        
 
         // Reset Cauldron
         ingredientLimitReached = false;
