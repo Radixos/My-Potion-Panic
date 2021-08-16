@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
 
 public class Cauldron : MonoBehaviour
 {
@@ -34,6 +35,9 @@ public class Cauldron : MonoBehaviour
     // UI
     public List<GameObject> ingredientIconMasks; // Circle Mask
     public List<GameObject> ingredientIcons; // Actual Image
+
+    //FMOD
+    public EventReference spellCraftedPath;
 
     // Start is called before the first frame update
     //void Start()
@@ -111,7 +115,10 @@ public class Cauldron : MonoBehaviour
             correctIngredients.Clear();
 
             if (spellBrewed)
+            {
+                RuntimeManager.PlayOneShot(spellCraftedPath, transform.position);
                 break;
+            }
         }
 
         if (!spellBrewed)

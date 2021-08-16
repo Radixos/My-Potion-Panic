@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using FMODUnity;
 
 public class PlayerController : MonoBehaviour
 {
@@ -67,6 +68,11 @@ public class PlayerController : MonoBehaviour
     public Transform aimArrow;
 
     private PlayerManager playerManager;
+
+    //FMOD Events
+    [Header("-SFX-")]
+    public EventReference iceMinePath;
+    public EventReference volcanicBlastPath, natureArrowPath, pickupPath;
 
     // Start is called before the first frame update
     void Start()
@@ -187,18 +193,6 @@ public class PlayerController : MonoBehaviour
                     }
                     else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.5 && !spellCasted)
                     {
-                        switch (spellInfo.Name)
-                        {
-                            case "Volcanic Blast":
-                                // MATT - Audio Call for Volcanic Blast start up
-
-                                break;
-                            case "Ice Mine":
-                                // MATT - Audio Call for Ice Mine start up
-
-                                break;
-                        }
-
                         GameObject obj = spellPool.GetPooledObject();
                         obj.transform.position = transform.position + transform.up;
                         obj.SetActive(true);
@@ -225,6 +219,7 @@ public class PlayerController : MonoBehaviour
                     {
                         // MATT - Audio Call for Projectile Type Spells
                         // Only Nature's Arrow gets used here. So play start up sound here
+                        RuntimeManager.PlayOneShot(natureArrowPath, transform.position);
 
                         GameObject obj = spellPool.GetPooledObject();
                         obj.transform.position = transform.position + transform.up;
@@ -341,6 +336,19 @@ public class PlayerController : MonoBehaviour
                 {
                     ResetAnimationToIdle();
                     SetAnimationActive("castedAreaMagic");
+                    switch (spellInfo.Name)
+                    {
+                        case "Volcanic Blast":
+                            // MATT - Audio Call for Volcanic Blast start up
+                            RuntimeManager.PlayOneShot(volcanicBlastPath, transform.position);
+
+                            break;
+                        case "Ice Mine":
+                            // MATT - Audio Call for Ice Mine start up
+                            RuntimeManager.PlayOneShot(iceMinePath, transform.position);
+
+                            break;
+                    }
                     inSpellAnim = true;
                     spellCasted = false;
 
@@ -361,6 +369,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetButtonUp("Cast " + playerID.ToString()))
                 {
                     SetAnimationActive("castedProjectileMagic");
+                    RuntimeManager.PlayOneShot(natureArrowPath, transform.position);
                     inSpellAnim = true;
                     spellCasted = false;
                     aimArrow.gameObject.SetActive(false);
@@ -440,6 +449,7 @@ public class PlayerController : MonoBehaviour
             {
 
                 // MATT - Audio Call for picking up ingredients
+                RuntimeManager.PlayOneShot(pickupPath, transform.position);
 
                 carryingIngredient = collidingIngredient;
                 carryingIngredient.transform.parent = transform;
