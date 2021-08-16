@@ -43,7 +43,7 @@ public class LoadingScreen : MonoBehaviour
                 else
                 {
                     GetComponent<AudioSource>().volume = 0;
-                    SceneManager.LoadScene("Scene_Mockup_Mani");
+                    SceneManager.LoadScene("MainGameScene");
                 }
             }
         }
