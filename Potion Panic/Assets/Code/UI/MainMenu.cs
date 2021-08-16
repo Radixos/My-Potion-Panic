@@ -43,7 +43,7 @@ public class MainMenu : MonoBehaviour
             if (BG.color.a >= 1)
             {
                 GetComponent<AudioSource>().volume = 0;
-                SceneManager.LoadScene("LoadingScene");
+                SceneManager.LoadScene("Loading Scene");
             }
         }
         else // Before entering Menu

@@ -13,9 +13,15 @@ public class Ingredient : MonoBehaviour
     public BoxCollider boxCollider;
     private LayerMask groundLayer;
 
+    private bool onGround;
+    private bool playerInRange;
+
+    [SerializeField] private float destroyDelay;
+
     // Start is called before the first frame update
     void Start()
     {
+        destroyDelay = GameObject.Find("Fountain_1_Low").GetComponent<FountainBehaviour>().destroyDelay;    //"" MUST contain the name of object to which "FountainBehaviour" script is attached!!!
         groundLayer = 1 << 0;
     }
 
@@ -24,6 +30,9 @@ public class Ingredient : MonoBehaviour
     {
         if (target != null)
         {
+            CancelInvoke("DestroyIngredient");
+            playerInRange = false;
+
             transform.position = Vector3.MoveTowards(transform.position, target.position, 5 * Time.deltaTime);
 
             if (Vector3.Distance(transform.position, target.position) <= 0.2f)
@@ -44,10 +53,22 @@ public class Ingredient : MonoBehaviour
         {
             if (boxCollider.enabled) // A hack to know that it's not going to cauldron
             {
-                if (Physics.Raycast(boxCollider.gameObject.transform.position, -Vector3.up, 0.5f, groundLayer, QueryTriggerInteraction.Ignore))
+                onGround = Physics.Raycast(boxCollider.gameObject.transform.position, -Vector3.up, 0.5f, groundLayer, QueryTriggerInteraction.Ignore);
+
+                if (onGround)
+                {
                     GetComponent<SphereCollider>().enabled = true;
+
+                    if (!playerInRange)
+                        Invoke("DestroyIngredient", destroyDelay);
+                    else
+                        CancelInvoke("DestroyIngredient");
+                }
                 else
+                {
                     GetComponent<SphereCollider>().enabled = false;
+                    CancelInvoke("DestroyIngredient");
+                }
             }
         }
     }
@@ -73,6 +94,7 @@ public class Ingredient : MonoBehaviour
                 !other.gameObject.GetComponent<PlayerController>().hasSpell)
             {
                 SetInputInfoState(true);
+                playerInRange = true;
             }
         }
     }
@@ -82,11 +104,17 @@ public class Ingredient : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             SetInputInfoState(false);
+            playerInRange = false;
         }
     }
 
     public void SetInputInfoState(bool state)
     {
         inputInfo.SetActive(state);
+    }
+
+    private void DestroyIngredient()
+    {
+        Destroy(gameObject);
     }
 }

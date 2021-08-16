@@ -49,25 +49,25 @@ VisualEffect:
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 50
+      - m_Value: 30
         m_Name: ParticlesRate
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 0.75
         m_Name: FlareRate
         m_Overridden: 1
-      - m_Value: 0.03
+      - m_Value: 0.02
         m_Name: ParticlesUpSpeed
         m_Overridden: 1
-      - m_Value: 1
+      - m_Value: 0.75
         m_Name: CircleMeshRate
         m_Overridden: 1
-      - m_Value: 2
+      - m_Value: 0.75
         m_Name: GlowSize
         m_Overridden: 1
-      - m_Value: 3
+      - m_Value: 2
         m_Name: GlowGroundSize
         m_Overridden: 1
-      - m_Value: 0.8
+      - m_Value: 0.7
         m_Name: CircleMeshSize
         m_Overridden: 1
       - m_Value: 0.002
@@ -77,7 +77,7 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 0.5, y: 0.1, z: 0.6}
+      - m_Value: {x: 0.35, y: 0.35, z: 0.45}
         m_Name: FlareSize
         m_Overridden: 1
     m_Vector4f:
