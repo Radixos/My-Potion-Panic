@@ -22,6 +22,8 @@ public class MainMenu : MonoBehaviour
             if (!(Input.GetJoystickNames()[i] == ""))
                 ++numOfPlayers;
         }
+
+        Cursor.visible = false;
     }
 
     // Update is called once per frame

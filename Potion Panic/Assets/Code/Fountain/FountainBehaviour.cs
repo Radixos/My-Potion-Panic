@@ -32,7 +32,7 @@ public class FountainBehaviour : MonoBehaviour
             if (noOfIngredientsOfType > 0)
             {
                 Vector3 center = gameObject.GetComponent<Renderer>().bounds.center;
-                center.y -= 1f;
+                center.y += 0.5f;
 
                 Vector3 pos = RandomCircle(center, Random.Range(minSpawnOff, maxSpawnOff));
                 Debug.Log(pos);

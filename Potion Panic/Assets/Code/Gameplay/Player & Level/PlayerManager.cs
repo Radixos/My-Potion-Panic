@@ -39,6 +39,8 @@ public class PlayerManager : MonoBehaviour
         EstablishLevel();
 
         StartCoroutine(ManagePlayers());
+
+        Cursor.visible = false;
     }
 
     // Update is called once per frame

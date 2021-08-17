@@ -109,8 +109,6 @@ public class PlayerController : MonoBehaviour
 
     private void MyCauldron_OnSuccessEvent(Spell_SO brewedSpell)
     {
-        Debug.Log("Success! Brewed " + brewedSpell.Name);
-
         spellInfo = brewedSpell;
         spellUses = brewedSpell.NumberOfUses;
         spellPool = GameObject.Find("Player " + playerID.ToString() +
@@ -121,36 +119,52 @@ public class PlayerController : MonoBehaviour
 
     private void MyCauldron_OnFailureEvent()
     {
-        Debug.Log("Failure! Player " + playerID.ToString() + " died!");
         health = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (isPushed)
         {
             float dist = Vector3.Distance(transform.position, newPushLocation);
+            Vector3 dir = (newPushLocation - transform.position).normalized;
 
-            transform.position = Vector3.MoveTowards(transform.position, newPushLocation,
-                dist / pushDistance * 10 * Time.deltaTime);
+            Vector3 newPosition = transform.position + dir.normalized * dist / pushDistance * 10 * Time.deltaTime;
+            NavMeshHit hit;
+            bool isValid = NavMesh.SamplePosition(newPosition, out hit, 0.3f, NavMesh.AllAreas);
 
-            if (dist <= 0.2f)
+            // This check is so that the player does not clip into static objects
+            if (isValid)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, newPushLocation, dist / pushDistance * 10 * Time.deltaTime);
+
+                if (dist <= 0.2f)
+                {
+                    isPushed = false;
+                    newPushLocation = Vector3.zero;
+                }
+            }
+            else
             {
                 isPushed = false;
                 newPushLocation = Vector3.zero;
             }
+
         }
         else
         {
+            // Cancel any external forces acting on the Player
             GetComponent<Rigidbody>().velocity = Vector3.zero;
 
+            // Invulnerability
             if (isBlinking)
                 BlinkPlayer();
 
+            // If not in a spell animation, has controller connected and if the match isn't over, then proceed
             if (!inSpellAnim && !(controllerType == "") && !playerManager.matchCompleted)
             {
+                // This is a specific block when using projectile type spells
                 if (!isCasting)
                 {
                     Move();
@@ -180,6 +194,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (anim.GetCurrentAnimatorStateInfo(0).IsName("Area Magic"))
                 {
+                    // When the animation is about to end
                     if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9)
                     {
                         inSpellAnim = false;
@@ -191,12 +206,15 @@ public class PlayerController : MonoBehaviour
                             spellInfo = null;
                         }
                     }
+                    // when the animation is halfway through and execute this one time
                     else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.5 && !spellCasted)
                     {
+                        // Using a pooled spell object
                         GameObject obj = spellPool.GetPooledObject();
                         obj.transform.position = transform.position + transform.up;
                         obj.SetActive(true);
 
+                        // Setting the caster as this to increment kills
                         obj.GetComponent<SpellBehaviour>().caster = this;
                         spellCasted = true;
                     }
@@ -214,11 +232,9 @@ public class PlayerController : MonoBehaviour
                             hasSpell = false;
                             spellInfo = null;
                         }
-                    }
+                    } 
                     else if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.7 && !spellCasted)
                     {
-                        // MATT - Audio Call for Projectile Type Spells
-                        // Only Nature's Arrow gets used here. So play start up sound here
                         RuntimeManager.PlayOneShot(natureArrowPath, transform.position);
 
                         GameObject obj = spellPool.GetPooledObject();
@@ -239,6 +255,8 @@ public class PlayerController : MonoBehaviour
     {
         if (blinkDuration > 0)
         {
+            // Oscillate between the active states of the mesh
+            // to indicate invulnerability
             if (blinkDelay <= 0)
             {
                 // Subjected to change once final models are in
@@ -261,6 +279,7 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
+        // For resetting animation purposes
         previousPosition = transform.position;
 
         float inputLeftX = Input.GetAxisRaw("Horizontal Left " + playerID.ToString());
@@ -272,11 +291,12 @@ public class PlayerController : MonoBehaviour
 
         if (magnitude > deadZone)
         {
+            // If the new location is within the NavMesh area, then move player
             Vector3 newPosition = transform.position + dir.normalized * Time.deltaTime * speed * speedMultiplier;
             NavMeshHit hit;
             bool isValid = NavMesh.SamplePosition(newPosition, out hit, 0.3f, NavMesh.AllAreas);
 
-            // To avoid oscillation with hard colliders
+            // To avoid constant flicker with hard colliders
             RaycastHit rayHit;
             LayerMask wallLayer = 1 << 0;
             bool isFreeSpace = !Physics.Raycast(transform.position + (0.25f * Vector3.up),
@@ -293,6 +313,8 @@ public class PlayerController : MonoBehaviour
 
         if (faceDir.magnitude > 0.01f)
         {
+            // Making the player rotate face forward in the direction of movement
+            // Also rotate towards the new direction to make it look smoother
             Quaternion lookRotation = Quaternion.LookRotation(faceDir, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, 1800 * Time.deltaTime);
         }
@@ -303,6 +325,7 @@ public class PlayerController : MonoBehaviour
             carryingIngredient.transform.rotation = Quaternion.Euler(carryingIngredient.transform.rotation.x,
                 0, carryingIngredient.transform.rotation.z);
 
+            // Limiting speed to favour spell casters
             speedMultiplier = 0.75f;
         }
         else
@@ -317,6 +340,7 @@ public class PlayerController : MonoBehaviour
 
         Vector3 faceDir = new Vector3(inputRightX, 0, inputRightY);
 
+        // Like movement, making aim also rotate towards the intended direction to make it smoother
         if (faceDir.magnitude > deadZone)
         {
             Quaternion lookRotation = Quaternion.LookRotation(faceDir, Vector3.up);
@@ -336,19 +360,17 @@ public class PlayerController : MonoBehaviour
                 {
                     ResetAnimationToIdle();
                     SetAnimationActive("castedAreaMagic");
+
                     switch (spellInfo.Name)
                     {
                         case "Volcanic Blast":
-                            // MATT - Audio Call for Volcanic Blast start up
                             RuntimeManager.PlayOneShot(volcanicBlastPath, transform.position);
-
                             break;
                         case "Ice Mine":
-                            // MATT - Audio Call for Ice Mine start up
                             RuntimeManager.PlayOneShot(iceMinePath, transform.position);
-
                             break;
                     }
+
                     inSpellAnim = true;
                     spellCasted = false;
 
@@ -357,6 +379,7 @@ public class PlayerController : MonoBehaviour
             }
             else if (type == SpellType.PROJECTILE)
             {
+                // Enter aiming as long as the button is held
                 if (Input.GetButton("Cast " + playerID.ToString()))
                 {
                     aimArrow.gameObject.SetActive(true);
@@ -366,6 +389,7 @@ public class PlayerController : MonoBehaviour
                     aimArrow.rotation = transform.rotation;
                 }
 
+                // Cast the spell when the button is released
                 if (Input.GetButtonUp("Cast " + playerID.ToString()))
                 {
                     SetAnimationActive("castedProjectileMagic");
@@ -447,8 +471,6 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetButtonDown("Interact " + controllerType + " " + playerID.ToString()))
             {
-
-                // MATT - Audio Call for picking up ingredients
                 RuntimeManager.PlayOneShot(pickupPath, transform.position);
 
                 carryingIngredient = collidingIngredient;

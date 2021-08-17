@@ -19,6 +19,8 @@ public class LoadingScreen : MonoBehaviour
     {
         displayTimers.Add(5.0f);
         displayTimers.Add(15.0f);
+
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
