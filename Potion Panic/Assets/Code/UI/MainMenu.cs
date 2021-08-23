@@ -40,11 +40,8 @@ public class MainMenu : MonoBehaviour
         {
             BG.color += new Color(0, 0, 0, Time.deltaTime);
 
-            GetComponent<AudioSource>().volume -= Time.deltaTime;
-
             if (BG.color.a >= 1)
             {
-                GetComponent<AudioSource>().volume = 0;
                 SceneManager.LoadScene("Loading Scene");
             }
         }

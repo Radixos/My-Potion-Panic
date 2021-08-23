@@ -611,11 +611,12 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: TemplateLightweight
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: D:\Manikandan\Documents\Repositories\Potion-Panic\Potion
+    Panic\Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 809f0a4743b7d801
   metroApplicationDescription: Template_Lightweight
   wsaImages: {}
   metroTileShortName: Potion Panic
